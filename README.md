@@ -14,4 +14,5 @@ Daijishō is currently closed-source. However you can still report issues or sub
 
 # TODO
 - Able to share platforms
+- More easier way import platforms 
 - Allow user to set custom BoxArts
