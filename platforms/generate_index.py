@@ -27,8 +27,9 @@ for f in files:
 
 for d in devices:
     deviceDir = devicesDir+'/'+d
-    files = [f for f in os.listdir(deviceDir) if os.path.isfile(f)]
+    files = [f for f in os.listdir(deviceDir) if os.path.isfile(deviceDir+'/'+f)]
     files.sort()
+    
     for f in files:
         if regex.match(f) and f != indexFilename:
             f = deviceDir+'/'+f
