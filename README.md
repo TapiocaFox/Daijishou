@@ -21,3 +21,8 @@ Daijishō is currently closed-source. However you can still report issues or sub
 - Easier way import platforms
 - Allow user to set custom BoxArts
 - Explore Page
+- Easter egg
+
+# Resources
+[![Gamer Shortcut US](https://img.youtube.com/vi/c2gLY5eiFWY/0.jpg)](https://www.youtube.com/watch?v=c2gLY5eiFWY)
+YouTube video from **"Gamer Shortcut US"**
