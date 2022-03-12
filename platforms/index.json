@@ -1,4 +1,5 @@
 {
+  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
   "platformList": [
     {
       "filename": "Dreamcast.json",

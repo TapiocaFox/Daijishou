@@ -3,7 +3,8 @@ indexFilename = "index.json"
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 files.sort()
 index = {
-    'platformList': []
+    "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
+    "platformList": []
 }
 for f in files:
     regex = re.compile("^(?!(?:\._|\.).*).*\.json$")
