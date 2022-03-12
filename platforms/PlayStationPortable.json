@@ -3,24 +3,37 @@
     "platform": {
         "name": "PlayStation Portable",
         "shortname": "psp",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
             "LIBRETRO:Sony - PlayStation Portable"
         ],
         "boxArtAspectRatioId": 5,
-        "screenAspectRatioId": 4
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 4,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
     },
     "playerList": [
         {
             "name": "psp - PPSSPP",
             "description": "Supported extensions: cso, elf, iso, pbp, prx.",
             "acceptedFilenameRegex": "^(.*)\\.(?:cso|elf|iso|pbp|prx)$",
-            "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"\n  --activity-clear-task"
+            "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"\n  --activity-clear-task",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
         },
         {
             "name": "psp - PPSSPP Gold",
             "description": "Supported extensions: cso, elf, iso, pbp, prx.",
             "acceptedFilenameRegex": "^(.*)\\.(?:cso|elf|iso|pbp|prx)$",
-            "amStartArguments": "-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\""
+            "amStartArguments": "-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
         }
     ]
 }
