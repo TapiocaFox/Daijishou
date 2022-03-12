@@ -1,0 +1,26 @@
+{
+    "databaseVersion": 3,
+    "platform": {
+        "name": "PlayStation Portable",
+        "shortname": "psp",
+        "scraperSourceList": [
+            "LIBRETRO:Sony - PlayStation Portable"
+        ],
+        "boxArtAspectRatioId": 5,
+        "screenAspectRatioId": 4
+    },
+    "playerList": [
+        {
+            "name": "psp - PPSSPP",
+            "description": "Imported from pegasus. Support extensions: cso, elf, iso, pbp, prx.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:cso|elf|iso|pbp|prx)$",
+            "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"\n  --activity-clear-task"
+        },
+        {
+            "name": "psp - PPSSPP Gold",
+            "description": "Imported from pegasus. Support extensions: cso, elf, iso, pbp, prx.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:cso|elf|iso|pbp|prx)$",
+            "amStartArguments": "-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\""
+        }
+    ]
+}
