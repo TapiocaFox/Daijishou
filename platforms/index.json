@@ -1,0 +1,34 @@
+{
+  "platformList": [
+    {
+      "filename": "PlayStationPortable.json",
+      "platformName": "PlayStation Portable",
+      "platformShortname": "psp"
+    },
+    {
+      "filename": "SonyPlayStation2.json",
+      "platformName": "Sony PlayStation 2",
+      "platformShortname": "ps2"
+    },
+    {
+      "filename": "Dreamcast.json",
+      "platformName": "Dreamcast",
+      "platformShortname": "dreamcast"
+    },
+    {
+      "filename": "GameCube.json",
+      "platformName": "GameCube",
+      "platformShortname": "gc"
+    },
+    {
+      "filename": "Nintendo64.json",
+      "platformName": "Nintendo 64",
+      "platformShortname": "n64"
+    },
+    {
+      "filename": "NintendoDS.json",
+      "platformName": "Nintendo DS",
+      "platformShortname": "nds"
+    }
+  ]
+}
