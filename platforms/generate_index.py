@@ -1,6 +1,7 @@
 import os, re, json
 indexFilename = "index.json"
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
+files.sort()
 index = {
     'platformList': []
 }
@@ -17,4 +18,4 @@ for f in files:
             })
 
 with open(indexFilename, 'w') as outfile:
-    json.dump(index, outfile, indent=2)
+    json.dump(index, outfile, indent=2, sort_keys=True)

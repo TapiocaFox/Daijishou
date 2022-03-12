@@ -1,16 +1,6 @@
 {
   "platformList": [
     {
-      "filename": "PlayStationPortable.json",
-      "platformName": "PlayStation Portable",
-      "platformShortname": "psp"
-    },
-    {
-      "filename": "SonyPlayStation2.json",
-      "platformName": "Sony PlayStation 2",
-      "platformShortname": "ps2"
-    },
-    {
       "filename": "Dreamcast.json",
       "platformName": "Dreamcast",
       "platformShortname": "dreamcast"
@@ -29,6 +19,16 @@
       "filename": "NintendoDS.json",
       "platformName": "Nintendo DS",
       "platformShortname": "nds"
+    },
+    {
+      "filename": "PlayStationPortable.json",
+      "platformName": "PlayStation Portable",
+      "platformShortname": "psp"
+    },
+    {
+      "filename": "SonyPlayStation2.json",
+      "platformName": "Sony PlayStation 2",
+      "platformShortname": "ps2"
     }
   ]
 }
