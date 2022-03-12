@@ -30,6 +30,11 @@
       "filename": "SonyPlayStation2.json",
       "platformName": "Sony PlayStation 2",
       "platformShortname": "ps2"
+    },
+    {
+      "filename": "./devices/rp2_plus/Dreamcast.json",
+      "platformName": "rp2_plus - Dreamcast",
+      "platformShortname": "dreamcast"
     }
   ]
 }
