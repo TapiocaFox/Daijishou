@@ -16,6 +16,8 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" actually stands for
 # About this Repository
 Daijishō is currently closed-source. However you can still report issues or submit suggestions here.
 
+# Q&A
+
 # TODO
 - Able to share platforms
 - Easier way import platforms
