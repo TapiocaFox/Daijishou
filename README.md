@@ -29,7 +29,10 @@ Daijishō is currently closed-source. However you can still report issues or sub
 - Allow user to set custom BoxArts
 - Explore Page
 - More scraper sources
+- Custom index uri
 - Easter egg
+- Localization (Japanese, Chinese(Taiwan), Taiwanese)
+
 
 # Resources
 [![Gamer Shortcut US](https://img.youtube.com/vi/c2gLY5eiFWY/0.jpg)](https://www.youtube.com/watch?v=c2gLY5eiFWY)
