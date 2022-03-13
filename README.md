@@ -1,3 +1,7 @@
+# This is a fork to share and save files about Daijisho .
+
+ Credit to Orginal Developers. 
+
 # Daijishō (Emulator frontend)
 ![](/imgs/cover.png)
 
