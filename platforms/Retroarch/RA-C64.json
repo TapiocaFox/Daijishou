@@ -1,0 +1,92 @@
+{
+    "databaseVersion": 3,
+    "platform": {
+        "name": "C64",
+        "shortname": "c64",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "scraperSourceList": [
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "c64 - RetroArch - frodo",
+            "description": "Imported from pegasus. Supported extensions: d64, lnx, p00, t64, x64, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:d64|lnx|p00|t64|x64|zip)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/frodo_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "c64 - RetroArch 64 - frodo",
+            "description": "Imported from pegasus. Supported extensions: d64, lnx, p00, t64, x64, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:d64|lnx|p00|t64|x64|zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/frodo_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "c64 - RetroArch - x64sdl",
+            "description": "Imported from pegasus. Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, p00, prg, t64, tap, x64, x6z, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|p00|prg|t64|tap|x64|x6z|zip)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/x64sdl_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "c64 - RetroArch 64 - x64sdl",
+            "description": "Imported from pegasus. Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, p00, prg, t64, tap, x64, x6z, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|p00|prg|t64|tap|x64|x6z|zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/x64sdl_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "commodore_c64 - RetroArch - vice_x64",
+            "description": "Imported from pegasus. Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/vice_x64_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "commodore_c64 - RetroArch 64 - vice_x64",
+            "description": "Imported from pegasus. Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_x64_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "commodore_c64 - RetroArch - vice_x64sc",
+            "description": "Imported from pegasus. Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/vice_x64sc_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "commodore_c64 - RetroArch 64 - vice_x64sc",
+            "description": "Imported from pegasus. Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_x64sc_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        }
+    ]
+}
