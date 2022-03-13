@@ -1,0 +1,38 @@
+{
+    "databaseVersion": 3,
+    "platform": {
+        "name": "Jaguar",
+        "shortname": "atarijaguar",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "scraperSourceList": [
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "atarijaguar - RetroArch - virtualjaguar",
+            "description": "Imported from pegasus. Supported extensions: abs, bin, cof, j64, jag, prg, rom.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:abs|bin|cof|j64|jag|prg|rom)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/virtualjaguar_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "atarijaguar - RetroArch 64 - virtualjaguar",
+            "description": "Imported from pegasus. Supported extensions: abs, bin, cof, j64, jag, prg, rom.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:abs|bin|cof|j64|jag|prg|rom)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/virtualjaguar_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        }
+    ]
+}

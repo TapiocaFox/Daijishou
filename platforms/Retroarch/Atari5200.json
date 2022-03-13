@@ -1,0 +1,56 @@
+{
+    "databaseVersion": 3,
+    "platform": {
+        "name": "Atari 5200",
+        "shortname": "atari5200",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "scraperSourceList": [
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "atari5200 - RetroArch - atari800",
+            "description": "Imported from pegasus. Supported extensions: a52, atr, atx, bin, car, cas, cdm, com, rom, xex, xfd, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:a52|atr|atx|bin|car|cas|cdm|com|rom|xex|xfd|zip)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/atari800_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "atari5200 - RetroArch 64 - atari800",
+            "description": "Imported from pegasus. Supported extensions: a52, atr, atx, bin, car, cas, cdm, com, rom, xex, xfd, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:a52|atr|atx|bin|car|cas|cdm|com|rom|xex|xfd|zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/atari800_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "atari5200 - RetroArch - a5200",
+            "description": "Imported from pegasus. Supported extensions: a52, bin.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:a52|bin)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/a5200_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "atari5200 - RetroArch 64 - a5200",
+            "description": "Imported from pegasus. Supported extensions: a52, bin.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:a52|bin)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/a5200_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        }
+    ]
+}
