@@ -7,6 +7,11 @@
       "platformShortname": "dreamcast"
     },
     {
+      "filename": "GameBoyAdvance.json",
+      "platformName": "Game Boy Advance",
+      "platformShortname": "gba"
+    },
+    {
       "filename": "GameCube.json",
       "platformName": "GameCube",
       "platformShortname": "gc"
