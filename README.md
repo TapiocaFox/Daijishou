@@ -30,6 +30,7 @@ Daijishō is currently closed-source. However you can still report issues or sub
 - Explore Page
 - More scraper sources
 - Custom index uri
+- Export database
 - Easter egg
 - Localization (Japanese, Chinese(Taiwan), Taiwanese)
 
