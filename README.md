@@ -30,7 +30,6 @@ Daijishō is currently closed-source. However you can still report issues or sub
 - Allow user to set custom BoxArts
 - Explore Page
 - More scraper sources
-- Custom index uri
 - Better applications page
 - Export database
 - Easter egg
