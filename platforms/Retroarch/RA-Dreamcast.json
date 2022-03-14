@@ -1,0 +1,74 @@
+{
+    "databaseVersion": 3,
+    "platform": {
+        "name": "Sega Dreamcast",
+        "shortname": "dreamcast",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "scraperSourceList": [
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "dreamcast - RetroArch 64 - flycast",
+            "description": "Imported from pegasus. Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, lst, m3u, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|lst|m3u|zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "dreamcast - RetroArch 64 - retrodream",
+            "description": "Imported from pegasus. Supported extensions: cdi, chd, gdi.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:cdi|chd|gdi)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/retrodream_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "dreamcast - RetroArch - flycast_gles2",
+            "description": "Imported from pegasus. Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/flycast_gles2_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "dreamcast - RetroArch 64 - flycast_gles2",
+            "description": "Imported from pegasus. Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/flycast_gles2_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "dreamcast - RetroArch - flycast",
+            "description": "Imported from pegasus. Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, lst, m3u, zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|lst|m3u|zip)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "dreamcast - RetroArch - retrodream",
+            "description": "Imported from pegasus. Supported extensions: cdi, chd, gdi.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:cdi|chd|gdi)$",
+            "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/retrodream_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        }
+    ]
+}
