@@ -133,15 +133,6 @@
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
-        },
-        {
-            "name": "gba - com.fastemulator.gbafree",
-            "description": "Supported extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
-            "amStartArguments": "-n com.fastemulator.gbafree/com.fastemulator.gba.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": true,
-            "extra": ""
         }
     ]
 }

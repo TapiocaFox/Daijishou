@@ -28,6 +28,15 @@
             "extra": ""
         },
         {
+            "name": "nds - MelonDS",
+            "description": null,
+            "acceptedFilenameRegex": "^(.*).(?:nds)$",
+            "amStartArguments": "-a android.intent.action.VIEW\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e PATH \"{file.path}\"",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": false,
+            "extra": ""
+        },
+        {
             "name": "nds - RetroArch 64 - melonds",
             "description": "Supported extensions: nds.",
             "acceptedFilenameRegex": "^(.*)\\.(?:nds)$",
@@ -43,15 +52,6 @@
             "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/melonds_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-        {
-            "name": "MelonDS",
-            "description": null,
-            "acceptedFilenameRegex": "^(.*).(?:nds)$",
-            "amStartArguments": "-a android.intent.action.VIEW\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e PATH \"{file.path}\"",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": false,
             "extra": ""
         }
     ]
