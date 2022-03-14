@@ -1,8 +1,9 @@
 # Daijishō (Emulator frontend)
 ![](/imgs/cover.png)
+<a href='https://play.google.com/store/apps/details?id=com.magneticchen.daijishou'><img alt='Get it on Google Play' src='https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg' height='80px'/></a>
 
-# Links
-[Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou)
+# Related links
+<!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
 
 [Telegram Group](https://t.me/daijishou)
 
