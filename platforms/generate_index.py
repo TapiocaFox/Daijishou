@@ -1,14 +1,14 @@
 import os, re, json
 indexFilename = "index.json"
-devicesDir = "./devices"
+categoriesDir = "./categories"
 regex = re.compile("^(?!(?:\._|\.).*).*\.json$")
 
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 files.sort()
 
-# devices = [f for f in os.listdir(devicesDir) if os.path.isdir(f)]
-devices = [f for f in os.listdir(devicesDir)]
-devices.sort()
+# categories = [f for f in os.listdir(categoriesDir) if os.path.isdir(f)]
+categories = [f for f in os.listdir(categoriesDir)]
+categories.sort()
 
 index = {
     "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
@@ -25,14 +25,14 @@ for f in files:
                 "platformShortname": platformEntityPortable['shortname']
             })
 
-for d in devices:
-    deviceDir = devicesDir+'/'+d
-    files = [f for f in os.listdir(deviceDir) if os.path.isfile(deviceDir+'/'+f)]
+for d in categories:
+    categoryDir = categoriesDir+'/'+d
+    files = [f for f in os.listdir(categoryDir) if os.path.isfile(categoryDir+'/'+f)]
     files.sort()
-    
+
     for f in files:
         if regex.match(f) and f != indexFilename:
-            f = deviceDir+'/'+f
+            f = categoryDir+'/'+f
             with open(f) as jsonFile:
                 platformSharable = json.load(jsonFile)
                 platformEntityPortable = platformSharable['platform']

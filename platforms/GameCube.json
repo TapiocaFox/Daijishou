@@ -18,7 +18,7 @@
     },
     "playerList": [
         {
-            "name": "Dolphin mmjr",
+            "name": "gc - Dolphin mmjr",
             "description": null,
             "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
             "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.path}\"",
