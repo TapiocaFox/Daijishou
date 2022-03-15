@@ -1,13 +1,12 @@
 {
     "databaseVersion": 3,
     "platform": {
-        "name": "Game Boy/Game Boy Color",
+        "name": "Game Boy",
         "shortname": "gb",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
-            "LIBRETRO:Nintendo - Game Boy",
-            "LIBRETRO:Nintendo - Game Boy Color"
+            "LIBRETRO:Nintendo - Game Boy"
         ],
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": false,
