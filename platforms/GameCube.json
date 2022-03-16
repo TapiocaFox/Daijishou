@@ -21,7 +21,7 @@
             "name": "gc - Dolphin mmjr",
             "description": null,
             "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
-            "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.path}\"",
+            "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": false,
             "extra": ""
@@ -30,7 +30,7 @@
             "name": "gc - org.dolphinemu.dolphinemu",
             "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs.",
             "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
-            "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.path}\"",
+            "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
