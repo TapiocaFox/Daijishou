@@ -27,9 +27,19 @@
       "platformShortname": "nds"
     },
     {
+      "filename": "NintendoWii.json",
+      "platformName": "Nintendo Wii",
+      "platformShortname": "wii"
+    },
+    {
       "filename": "PlayStationPortable.json",
       "platformName": "PlayStation Portable",
       "platformShortname": "psp"
+    },
+    {
+      "filename": "SonyPlayStation.json",
+      "platformName": "Sony PlayStation",
+      "platformShortname": "psx"
     },
     {
       "filename": "SonyPlayStation2.json",
@@ -37,13 +47,18 @@
       "platformShortname": "ps2"
     },
     {
+      "filename": "./categories/rp2_plus/GameBoy.json",
+      "platformName": "rp2_plus - Game Boy Color",
+      "platformShortname": "gbc"
+    },
+    {
       "filename": "./categories/rp2_plus/GameBoyAdvance.json",
       "platformName": "rp2_plus - Game Boy Advance",
       "platformShortname": "gba"
     },
     {
-      "filename": "./categories/rp2_plus/GameBoyGameBoyColor.json",
-      "platformName": "rp2_plus - Game Boy/Game Boy Color",
+      "filename": "./categories/rp2_plus/GameBoyColor.json",
+      "platformName": "rp2_plus - Game Boy",
       "platformShortname": "gb"
     },
     {
