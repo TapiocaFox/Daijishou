@@ -21,7 +21,7 @@
             "name": "n64 - org.mupen64plusae.v3.fzurita",
             "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
-            "amStartArguments": "-n org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
+            "amStartArguments": "-n org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d \"{file.uri}\"",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -138,7 +138,7 @@
             "name": "n64 - org.mupen64plusae.v3.fzurita.pro",
             "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
-            "amStartArguments": "-n org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
+            "amStartArguments": "-n org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d \"{file.uri}\"",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

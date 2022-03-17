@@ -1,8 +1,8 @@
 {
     "databaseVersion": 3,
     "platform": {
-        "name": "Game Boy Color",
-        "shortname": "gbc",
+        "name": "Game Boy",
+        "shortname": "gb",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [

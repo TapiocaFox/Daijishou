@@ -113,7 +113,7 @@
             "name": "psx - Duckstation",
             "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
             "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
-            "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath \"{file.path}\" \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n --activity-no-history",
+            "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath \"{file.uri}\" \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n --activity-no-history",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

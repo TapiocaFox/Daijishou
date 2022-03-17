@@ -36,6 +36,11 @@
       "platformName": "PlayStation Portable",
       "platformShortname": "psp"
     },
+       {
+      "filename": "SegaSaturn.json",
+      "platformName": "Sega Saturn",
+      "platformShortname": "saturn"
+    },
     {
       "filename": "SonyPlayStation.json",
       "platformName": "Sony PlayStation",
