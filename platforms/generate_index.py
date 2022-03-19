@@ -17,13 +17,17 @@ index = {
 for f in files:
     if regex.match(f) and f != indexFilename:
         with open(f) as jsonFile:
-            platformSharable = json.load(jsonFile)
-            platformEntityPortable = platformSharable['platform']
-            index['platformList'].append({
-                "filename": f,
-                "platformName": platformEntityPortable['name'],
-                "platformShortname": platformEntityPortable['shortname']
-            })
+            try:
+                platformSharable = json.load(jsonFile)
+                platformEntityPortable = platformSharable['platform']
+                index['platformList'].append({
+                    "filename": f,
+                    "platformName": platformEntityPortable['name'],
+                    "platformShortname": platformEntityPortable['shortname']
+                })
+            except Exception as e:
+                print(e)
+                print(f)
 
 for d in categories:
     categoryDir = categoriesDir+'/'+d

@@ -36,7 +36,7 @@
       "platformName": "PlayStation Portable",
       "platformShortname": "psp"
     },
-       {
+    {
       "filename": "SegaSaturn.json",
       "platformName": "Sega Saturn",
       "platformShortname": "saturn"
@@ -53,8 +53,8 @@
     },
     {
       "filename": "./categories/rp2_plus/GameBoy.json",
-      "platformName": "rp2_plus - Game Boy Color",
-      "platformShortname": "gbc"
+      "platformName": "rp2_plus - Game Boy",
+      "platformShortname": "gb"
     },
     {
       "filename": "./categories/rp2_plus/GameBoyAdvance.json",
@@ -63,8 +63,8 @@
     },
     {
       "filename": "./categories/rp2_plus/GameBoyColor.json",
-      "platformName": "rp2_plus - Game Boy",
-      "platformShortname": "gb"
+      "platformName": "rp2_plus - Game Boy Color",
+      "platformShortname": "gbc"
     },
     {
       "filename": "./categories/rp2_plus/NintendoEntertainmentSystem.json",
