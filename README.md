@@ -38,4 +38,6 @@ Daijishō is currently closed-source. However you can still report issues or sub
 
 # Resources
 [![Gamer Shortcut US](https://img.youtube.com/vi/c2gLY5eiFWY/0.jpg)](https://www.youtube.com/watch?v=c2gLY5eiFWY)
-- YouTube video from **"Gamer Shortcut US"**
+
+[![Gamer Shortcut US](https://img.youtube.com/vi/MWz_x2lCVN4/0.jpg)](https://www.youtube.com/watch?v=MWz_x2lCVN4)
+- YouTube videos from **"Gamer Shortcut US"**
