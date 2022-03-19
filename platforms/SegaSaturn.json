@@ -21,7 +21,7 @@
             "name": "saturn - YabaSanshiro 2 Pro",
             "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|toc|zip)$",
-            "amStartArguments": " -n org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause\n -a android.intent.action.VIEW\n -e org.uoyabause.android.FileNameEx "{file.path}"\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+            "amStartArguments": " -n org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause\n -a android.intent.action.VIEW\n -e org.uoyabause.android.FileNameEx \"{file.path}\"\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
