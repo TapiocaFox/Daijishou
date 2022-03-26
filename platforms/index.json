@@ -12,9 +12,19 @@
       "platformShortname": "gba"
     },
     {
+      "filename": "GameBoyColor.json",
+      "platformName": "Game Boy Color",
+      "platformShortname": "gbc"
+    },
+    {
       "filename": "GameCube.json",
       "platformName": "GameCube",
       "platformShortname": "gc"
+    },
+    {
+      "filename": "Nintendo3DS.json",
+      "platformName": "Nintendo 3DS",
+      "platformShortname": "3ds"
     },
     {
       "filename": "Nintendo64.json",
@@ -25,6 +35,11 @@
       "filename": "NintendoDS.json",
       "platformName": "Nintendo DS",
       "platformShortname": "nds"
+    },
+    {
+      "filename": "NintendoEntertainmentSystem.json",
+      "platformName": "Nintendo Entertainment System",
+      "platformShortname": "nes"
     },
     {
       "filename": "NintendoWii.json",
@@ -50,6 +65,11 @@
       "filename": "SonyPlayStation2.json",
       "platformName": "Sony PlayStation 2",
       "platformShortname": "ps2"
+    },
+    {
+      "filename": "SuperNintendoEntertainmentSystem.json",
+      "platformName": "Super Nintendo Entertainment System",
+      "platformShortname": "snes"
     },
     {
       "filename": "./categories/rp2_plus/GameBoy.json",
