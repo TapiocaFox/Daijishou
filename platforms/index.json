@@ -7,6 +7,11 @@
       "platformShortname": "dreamcast"
     },
     {
+      "filename": "GameBoy.json",
+      "platformName": "Game Boy",
+      "platformShortname": "gb"
+    },
+    {
       "filename": "GameBoyAdvance.json",
       "platformName": "Game Boy Advance",
       "platformShortname": "gba"
@@ -70,6 +75,11 @@
       "filename": "SuperNintendoEntertainmentSystem.json",
       "platformName": "Super Nintendo Entertainment System",
       "platformShortname": "snes"
+    },
+    {
+      "filename": "TIC80.json",
+      "platformName": "TIC-80",
+      "platformShortname": "tic80"
     },
     {
       "filename": "./categories/rp2_plus/GameBoy.json",
