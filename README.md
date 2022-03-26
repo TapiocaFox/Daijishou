@@ -27,7 +27,6 @@ Daijishō is currently closed-source. However you can still report issues or sub
 ### What can you do to show author your support? -->
 
 # TODO
-- Allow user to set custom BoxArts
 - Explore Page
 - More scraper sources
 - Better applications page
