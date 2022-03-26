@@ -22,7 +22,7 @@
       "name": "3ds - org.citra.emu",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n org.citra.emu/.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e GamePath \"{file.path}\"\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history\n",
+      "amStartArguments": "-n org.citra.emu/.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath \"{file.path}\"",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
