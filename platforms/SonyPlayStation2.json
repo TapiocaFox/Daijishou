@@ -20,7 +20,7 @@
         {
             "name": "ps2 - Aethersx2",
             "description": "Player description.",
-            "acceptedFilenameRegex": "^(.*).(?:iso)$",
+            "acceptedFilenameRegex": "^(.*).(?:iso|chd)$",
             "amStartArguments": " -n xyz.aethersx2.android/.EmulationActivity\n -a android.intent.action.MAIN\n -e bootPath \"{file.uri}\"",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": false,
