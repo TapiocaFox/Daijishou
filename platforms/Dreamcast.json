@@ -4,7 +4,7 @@
         "name": "Dreamcast",
         "shortname": "dreamcast",
         "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
         "scraperSourceList": [
             "LIBRETRO:Sega - Dreamcast"
         ],
