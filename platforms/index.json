@@ -2,6 +2,11 @@
   "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
   "platformList": [
     {
+      "filename": "DOOMGameEngine.json",
+      "platformName": "DOOM Game Engine",
+      "platformShortname": "doom"
+    },
+    {
       "filename": "Dreamcast.json",
       "platformName": "Dreamcast",
       "platformShortname": "dreamcast"
