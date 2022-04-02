@@ -8,10 +8,10 @@
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation"
     ],
-    "boxArtAspectRatioId": 2,
+    "boxArtAspectRatioId": 0,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
-    "screenAspectRatioId": 0,
+    "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "extra": ""
