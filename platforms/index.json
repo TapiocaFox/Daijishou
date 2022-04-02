@@ -2,6 +2,11 @@
   "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
   "platformList": [
     {
+      "filename": "Atari2600.json",
+      "platformName": "Atari 2600",
+      "platformShortname": "atari2600"
+    },
+    {
       "filename": "DOOMGameEngine.json",
       "platformName": "DOOM Game Engine",
       "platformShortname": "doom"
