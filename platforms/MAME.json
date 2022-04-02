@@ -5,7 +5,7 @@
     "shortname": "mame",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-    "scraperSourceList": [],
+    "scraperSourceList": ["LIBRETRO:MAME"],
     "boxArtAspectRatioId": 0,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
