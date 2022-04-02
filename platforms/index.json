@@ -27,6 +27,11 @@
       "platformShortname": "gc"
     },
     {
+      "filename": "MAME.json",
+      "platformName": "Arcade (MAME)",
+      "platformShortname": "mame"
+    },
+    {
       "filename": "Nintendo3DS.json",
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds"
