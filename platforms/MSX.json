@@ -1,0 +1,67 @@
+{
+  "databaseVersion": 4,
+  "platform": {
+    "name": "MSX",
+    "shortname": "msx",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Microsoft - MSX",
+      "LIBRETRO:Microsoft - MSX2"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "msx - com.explusalpha.MsxEmu",
+      "description": "Supported extensions: cas, col, dsk, fdi, m3u, mx1, mx2, ri, rom, sc, sg.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|fdi|m3u|mx1|mx2|ri|rom|sc|sg)$",
+      "amStartArguments": "-n com.explusalpha.MsxEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "msx - RetroArch - fmsx",
+      "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom)$",
+      "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/fmsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "msx - RetroArch 64 - fmsx",
+      "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/fmsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "msx - RetroArch - bluemsx",
+      "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg)$",
+      "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bluemsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "msx - RetroArch 64 - bluemsx",
+      "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bluemsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
