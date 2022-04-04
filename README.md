@@ -19,7 +19,7 @@ Player is a set of arguments can be configured to execute playable files filtere
 ### What is "platform"
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
-![](/imgs/platform_gba.png)
+![](/imgs/platform_gba_light.png)
 ![](/imgs/platform_gc.png)
 
 ### How to add platforms and players
