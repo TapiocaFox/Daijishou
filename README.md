@@ -19,27 +19,28 @@ Player is a set of arguments can be configured to execute playable files filtere
 ### Q&A(2/7): What is "platform"
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
-![](/imgs/platform_gba_light.png)
-![](/imgs/platform_gc.png)
+<!-- ![](/imgs/platform_gba_light.png) -->
+![](/imgs/platform.gif)
 
 ### Q&A(3/7): How to add platforms and players
-You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend config generatro or other person's  configured platform JSON files. Also you can manually added players then create platform from those players.
+You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ![](/imgs/import_platform.png)
 ![](/imgs/no_platform.png)
 
 
 ### Q&A(4/7): How does highlight page work
-Highlight page arrange you items by your favorite, recent played and newly added items. You can long click items to review details.
+Highlight page arrange you items by you favorite, recent played and newly added items. You can long click items to review details.
 
-![](/imgs/highlight_favorite.png)
-![](/imgs/highlight_recent.png)
+<!-- ![](/imgs/highlight_favorite.png)
+![](/imgs/highlight_recent.png) -->
+![](/imgs/highlight.gif)
 
 ### Q&A(5/7): What about other features
-Daijishō also allow you to manage apps, search games, hotkeys, provide detail page, play button sounds, video background and theme-color etc.
+Daijishō also allow you to manage apps, search games, hotkeys, provide detail page, playing button sounds, video background and theme-color etc.
 
 ![](/imgs/apps.png)
-![](/imgs/game_detail.png)
+![](/imgs/game_detail.gif)
 
 ### Q&A(6/7): How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
