@@ -26,6 +26,8 @@ Platform contains players added in Daijishō that accepted various files from se
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ![](/imgs/import_platform.png)
+![](/imgs/no_platform.png)
+
 
 ### How does highlight page work
 Highlight page arrange you items by you favorite, recent played and newly added items. You can long click items to review details.
