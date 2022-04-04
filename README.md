@@ -21,7 +21,7 @@ Platform contains players added in Daijishō that accepted various files from se
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ### How much efforts does the author put on this project?
-This is mine side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
+This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
 
 ### What can you do to show author your support?
 You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or updating platform list in this GitHub page.
