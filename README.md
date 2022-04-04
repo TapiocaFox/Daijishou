@@ -14,11 +14,24 @@ Daijishō is currently closed-source. However you can still report issues or sub
 ### What is "player"
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
+![](/imgs/player.png)
+
 ### What is "platform"
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
+![](/imgs/platform_gba.png)
+![](/imgs/platform_gc.png)
+
 ### How to add platforms and players
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
+
+![](/imgs/import_platform.png)
+
+### How does highlight page work
+Highlight page arrange you items by you favorite, recent played and newly added items. You can long click items to review details.
+
+![](/imgs/highlight_favorite.png)
+![](/imgs/hightlight_recent.png)
 
 ### How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
