@@ -31,7 +31,7 @@ You can download from this GitHub page which is available in the Daijishō's set
 Highlight page arrange you items by you favorite, recent played and newly added items. You can long click items to review details.
 
 ![](/imgs/highlight_favorite.png)
-![](/imgs/hightlight_recent.png)
+![](/imgs/highlight_recent.png)
 
 ### How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
