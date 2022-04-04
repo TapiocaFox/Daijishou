@@ -23,7 +23,7 @@ You can download from this GitHub page which is available in the Daijishō's set
 ### How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
 
-### What can you do to show author your support?
+### What can you do to support?
 You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or updating platform list in this GitHub page.
 
 # Related links
