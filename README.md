@@ -10,6 +10,22 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじし�
 ### About this Repository
 Daijishō is currently closed-source. However you can still report issues or submit suggestions here.
 
+# Q&A
+### What is "player"
+Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
+
+### What is "platform"
+Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
+
+### How to add platforms and players
+You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files.
+
+### How much efforts does the author put on this project?
+This is mine side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
+
+### What can you do to show author your support?
+You can star this GitHub page, summit your problems and ideas or updating platform list in this GitHub page.
+
 # Related links
 <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
 
@@ -17,14 +33,10 @@ Daijishō is currently closed-source. However you can still report issues or sub
 
 [Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 
-<!-- [Patreon Donation](https://www.patreon.com/magneticchen) -->
 
-<!-- # Q&A
-### What is "player"
-### What is "platforms"
-### How to add platforms and players
-### How much efforts does the author put on this project?
-### What can you do to show author your support? -->
+# Donation
+[PayPal](https://paypal.me/magneticchen)
+[Patreon](https://www.patreon.com/magneticchen)
 
 # TODO
 - Explore Page
