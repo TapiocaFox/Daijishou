@@ -36,7 +36,7 @@ Highlight page arrange you items by you favorite, recent played and newly added 
 ![](/imgs/highlight_recent.png)
 
 ### Q&A(5/7): What about other features
-Daijishō also allow you to manage apps, provide detail page, playing button sounds, video background and theme-color etc.
+Daijishō also allow you to manage apps, search games, hotkeys, provide detail page, playing button sounds, video background and theme-color etc.
 
 ![](/imgs/apps.png)
 ![](/imgs/game_detail.png)
