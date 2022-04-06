@@ -30,7 +30,7 @@ You can download from this GitHub page which is available in the Daijishō's set
 
 
 ### Q&A(4/7): How does highlight page work
-Highlight page arrange you items by you favorite, recent played and newly added items. You can long click items to review details.
+Highlight page arrange your items by favorite, recent played and newly added items. You can long click items to review details.
 
 <!-- ![](/imgs/highlight_favorite.png)
 ![](/imgs/highlight_recent.png) -->
