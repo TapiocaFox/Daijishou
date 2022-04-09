@@ -22,8 +22,8 @@
             "description": "Player description.",
             "acceptedFilenameRegex": "^(.*).(?:iso|chd)$",
             "amStartArguments": " -n xyz.aethersx2.android/.EmulationActivity\n -a android.intent.action.MAIN\n -e bootPath \"{file.uri}\"",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": false,
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
             "extra": ""
         },
         {
