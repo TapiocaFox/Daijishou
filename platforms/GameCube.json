@@ -21,7 +21,7 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
-      "killPackageProcesses": true,
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
@@ -30,7 +30,7 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
-      "killPackageProcesses": true,
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     },
@@ -39,9 +39,10 @@
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
-      "killPackageProcesses": true,
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
   ]
 }
+watashihawaruisakana1.
