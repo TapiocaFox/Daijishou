@@ -14,6 +14,18 @@
     },
     {
       "title": "Test",
+      "message": "belowVersion 82",
+      "acknowledgmentText": "Ok",
+      "acknowledgmentLink": "https://127.0.0.1",
+      "cancelText": "Cancel",
+      "cancelLink": null,
+      "neutralText": "neutral",
+      "neutralLink": "https://127.0.0.1",
+      "targetVersion": null,
+      "belowVersion": 82
+    },
+    {
+      "title": "Test",
       "message": "belowVersion 999999",
       "acknowledgmentText": "Ok",
       "acknowledgmentLink": "https://127.0.0.1",
@@ -32,6 +44,18 @@
       "cancelText": "Cancel",
       "cancelLink": null,
       "neutralText": "neutral",
+      "neutralLink": "https://127.0.0.1",
+      "targetVersion": 83,
+      "belowVersion": null
+    },
+    {
+      "title": "Test",
+      "message": "targetVersion 83",
+      "acknowledgmentText": "Ok",
+      "acknowledgmentLink": "https://127.0.0.1",
+      "cancelText": null,
+      "cancelLink": null,
+      "neutralText": null,
       "neutralLink": "https://127.0.0.1",
       "targetVersion": 83,
       "belowVersion": null
