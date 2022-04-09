@@ -19,7 +19,7 @@
       "acknowledgmentLink": null,
       "cancelText": null,
       "cancelLink": null,
-      "neutralText": "neutral",
+      "neutralText": "Upgrade",
       "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
       "targetVersion": null,
       "belowVersion": 84
