@@ -37,7 +37,7 @@ Highlight page arrange your items by favorite, recent played and newly added ite
 ![](/imgs/highlight.gif)
 
 ### Q&A(5/7): What about other features
-Daijishō also allow you to manage apps, search games, hotkeys, provide detail page, playing button sounds, video background and theme-color etc.
+Daijishō also allow you to manage apps, search games, hotkeys, provide detail page, play button sounds, video background and theme-color etc.
 
 ![](/imgs/apps.png)
 ![](/imgs/game_detail.gif)
@@ -46,7 +46,7 @@ Daijishō also allow you to manage apps, search games, hotkeys, provide detail p
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
 
 ### Q&A(7/7): What can you do to support?
-You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or updating platform list in this GitHub page.
+You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or update platform list in this GitHub page.
 
 # Related links
 <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
