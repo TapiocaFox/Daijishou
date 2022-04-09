@@ -14,7 +14,7 @@
     },
     {
       "title": "Upgrade",
-      "message": "Version 87 (1.1.61) is now available on google play store.",
+      "message": "Version 88 (1.1.62) is now available on google play store.",
       "acknowledgmentText": "Ok",
       "acknowledgmentLink": null,
       "cancelText": null,
@@ -22,7 +22,7 @@
       "neutralText": "Upgrade",
       "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
       "targetVersion": null,
-      "belowVersion": 87
+      "belowVersion": 88
     }
   ]
 }
