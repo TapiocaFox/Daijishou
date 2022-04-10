@@ -63,7 +63,6 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 # TODO
 - Explore Page
 - More scraper sources
-- Better applications page
 - Export database
 - Easter egg
 - Localization (Japanese, Chinese(Taiwan), Taiwanese)
