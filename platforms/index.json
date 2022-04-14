@@ -1,5 +1,5 @@
 {
-  "baseUri": "https://raw.githubusercontent.com/Retro-Devils/Daijishou/main/platforms/",
+  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
   "platformList": [
     {
       "filename": "Atari2600.json",
