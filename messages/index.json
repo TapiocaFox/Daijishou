@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "title": "Title",
+      "message": "message",
+      "acknowledgmentText": "Ok",
+      "acknowledgmentLink": "https://127.0.0.1",
+      "cancelText": "Cancel",
+      "cancelLink": null,
+      "neutralText": "neutral",
+      "neutralLink": "https://127.0.0.1",
+      "targetVersion": null,
+      "belowVersion": null
+    },
+    {
+      "title": "Upgrade available",
+      "message": "Version 97 (1.1.71) is now available on google play store.\nThe update fixes ability to set preview media.",
+      "acknowledgmentText": "Ok",
+      "acknowledgmentLink": null,
+      "cancelText": null,
+      "cancelLink": null,
+      "neutralText": "Upgrade",
+      "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
+      "targetVersion": null,
+      "belowVersion": 96
+    }
+  ]
+}

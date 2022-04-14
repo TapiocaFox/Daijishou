@@ -2,9 +2,24 @@
   "baseUri": "https://raw.githubusercontent.com/Retro-Devils/Daijishou/main/platforms/",
   "platformList": [
     {
+      "filename": "Atari2600.json",
+      "platformName": "Atari 2600",
+      "platformShortname": "atari2600"
+    },
+    {
+      "filename": "DOOMGameEngine.json",
+      "platformName": "DOOM Game Engine",
+      "platformShortname": "doom"
+    },
+    {
       "filename": "Dreamcast.json",
       "platformName": "Dreamcast",
       "platformShortname": "dreamcast"
+    },
+    {
+      "filename": "GameBoy.json",
+      "platformName": "Game Boy",
+      "platformShortname": "gb"
     },
     {
       "filename": "GameBoyAdvance.json",
@@ -12,9 +27,29 @@
       "platformShortname": "gba"
     },
     {
+      "filename": "GameBoyColor.json",
+      "platformName": "Game Boy Color",
+      "platformShortname": "gbc"
+    },
+    {
       "filename": "GameCube.json",
       "platformName": "GameCube",
       "platformShortname": "gc"
+    },
+    {
+      "filename": "MAME.json",
+      "platformName": "Arcade (MAME)",
+      "platformShortname": "mame"
+    },
+    {
+      "filename": "MSX.json",
+      "platformName": "MSX",
+      "platformShortname": "msx"
+    },
+    {
+      "filename": "Nintendo3DS.json",
+      "platformName": "Nintendo 3DS",
+      "platformShortname": "3ds"
     },
     {
       "filename": "Nintendo64.json",
@@ -27,14 +62,29 @@
       "platformShortname": "nds"
     },
     {
+      "filename": "NintendoEntertainmentSystem.json",
+      "platformName": "Nintendo Entertainment System",
+      "platformShortname": "nes"
+    },
+    {
       "filename": "NintendoWii.json",
       "platformName": "Nintendo Wii",
       "platformShortname": "wii"
     },
     {
+      "filename": "PICO8.json",
+      "platformName": "PICO-8",
+      "platformShortname": "pico8"
+    },
+    {
       "filename": "PlayStationPortable.json",
       "platformName": "PlayStation Portable",
       "platformShortname": "psp"
+    },
+    {
+      "filename": "SegaSaturn.json",
+      "platformName": "Sega Saturn",
+      "platformShortname": "saturn"
     },
     {
       "filename": "SonyPlayStation.json",
@@ -47,38 +97,48 @@
       "platformShortname": "ps2"
     },
     {
+      "filename": "SuperNintendoEntertainmentSystem.json",
+      "platformName": "Super Nintendo Entertainment System",
+      "platformShortname": "snes"
+    },
+    {
+      "filename": "TIC80.json",
+      "platformName": "TIC-80",
+      "platformShortname": "tic80"
+    },
+    {
       "filename": "./categories/rp2_plus/GameBoy.json",
-      "platformName": "rp2_plus - Game Boy Color",
-      "platformShortname": "gbc"
+      "platformName": "[RP2+] Game Boy",
+      "platformShortname": "gb"
     },
     {
       "filename": "./categories/rp2_plus/GameBoyAdvance.json",
-      "platformName": "rp2_plus - Game Boy Advance",
+      "platformName": "[RP2+] Game Boy Advance",
       "platformShortname": "gba"
     },
     {
       "filename": "./categories/rp2_plus/GameBoyColor.json",
-      "platformName": "rp2_plus - Game Boy",
-      "platformShortname": "gb"
+      "platformName": "[RP2+] Game Boy Color",
+      "platformShortname": "gbc"
     },
     {
       "filename": "./categories/rp2_plus/NintendoEntertainmentSystem.json",
-      "platformName": "rp2_plus - Nintendo Entertainment System",
+      "platformName": "[RP2+] Nintendo Entertainment System",
       "platformShortname": "nes"
     },
     {
       "filename": "./categories/rp2_plus/SegaGenesis.json",
-      "platformName": "rp2_plus - Sega Genesis",
+      "platformName": "[RP2+] Sega Genesis",
       "platformShortname": "megadrive"
     },
     {
       "filename": "./categories/rp2_plus/SuperNintendoEntertainmentSystem.json",
-      "platformName": "rp2_plus - Super Nintendo Entertainment System",
+      "platformName": "[RP2+] Super Nintendo Entertainment System",
       "platformShortname": "snes"
     },
     {
       "filename": "./categories/rp2_plus/TIC80.json",
-      "platformName": "rp2_plus - TIC-80",
+      "platformName": "[RP2+] TIC-80",
       "platformShortname": "tic80"
     }
   ]

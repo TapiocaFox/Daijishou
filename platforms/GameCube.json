@@ -1,39 +1,48 @@
 {
-    "databaseVersion": 3,
-    "platform": {
-        "name": "GameCube",
-        "shortname": "gc",
-        "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-        "scraperSourceList": [
-            "LIBRETRO:Nintendo - GameCube"
-        ],
-        "boxArtAspectRatioId": 2,
-        "useCustomBoxArtAspectRatio": false,
-        "customBoxArtAspectRatio": null,
-        "screenAspectRatioId": 1,
-        "useCustomScreenAspectRatio": false,
-        "customScreenAspectRatio": null,
-        "extra": ""
+  "databaseVersion": 3,
+  "platform": {
+    "name": "GameCube",
+    "shortname": "gc",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Nintendo - GameCube"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "extra": ""
+  },
+  "playerList": [{
+      "name": "gc - Dolphin handheld",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     },
-    "playerList": [
-        {
-            "name": "gc - Dolphin mmjr",
-            "description": null,
-            "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
-            "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.path}\"",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": false,
-            "extra": ""
-        },
-        {
-            "name": "gc - org.dolphinemu.dolphinemu",
-            "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
-            "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.path}\"",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        }
-    ]
+    {
+      "name": "gc - Dolphin mmjr",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gc - Dolphin",
+      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
 }
+watashihawaruisakana1.
