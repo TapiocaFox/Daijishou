@@ -24,6 +24,24 @@
       "extra": ""
     },
     {
+      "name": "mame - RetroArch - mame2003_plus",
+      "description": "Supported extensions: zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+      "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mame2003_plus_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "mame - RetroArch 64 - mame2003_plus",
+      "description": "Supported extensions: zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2003_plus_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "mame - RetroArch - mame",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
@@ -109,24 +127,6 @@
       "description": "Supported extensions: zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2003_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch - mame2003_plus",
-      "description": "Supported extensions: zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mame2003_plus_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch 64 - mame2003_plus",
-      "description": "Supported extensions: zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2003_plus_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
