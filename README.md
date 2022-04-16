@@ -21,6 +21,7 @@ Platform contains players added in Daijishō that accepted various files from se
 
 ![](/imgs/platform.gif)
 ![](/imgs/platform_n64.png)
+
 [wallpaper source](https://cutewallpaper.org/download.php?file=/21/n64-wallpapers/Super-Smash-Bros-N64-Phone-Wallpaper-Ryanmartinproductions.com.jpg)
 
 ### Q&A(3/7): How to add platforms and players
