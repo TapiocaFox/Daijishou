@@ -7,6 +7,16 @@
       "platformShortname": "atari2600"
     },
     {
+      "filename": "Atari5200.json",
+      "platformName": "Atari 5200",
+      "platformShortname": "atari5200"
+    },
+    {
+      "filename": "Atari7800.json",
+      "platformName": "Atari 7800",
+      "platformShortname": "atari7800"
+    },
+    {
       "filename": "DOOMGameEngine.json",
       "platformName": "DOOM Game Engine",
       "platformShortname": "doom"
