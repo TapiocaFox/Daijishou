@@ -19,8 +19,9 @@ Player is a set of arguments can be configured to execute playable files filtere
 ### Q&A(2/7): What is "platform"
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
-<!-- ![](/imgs/platform_gba_light.png) -->
 ![](/imgs/platform.gif)
+![](/imgs/platform_n64.png)
+[wallpaper source](https://cutewallpaper.org/download.php?file=/21/n64-wallpapers/Super-Smash-Bros-N64-Phone-Wallpaper-Ryanmartinproductions.com.jpg)
 
 ### Q&A(3/7): How to add platforms and players
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
