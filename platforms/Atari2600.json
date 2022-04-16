@@ -8,10 +8,10 @@
     "scraperSourceList": [
       "LIBRETRO:Atari - 2600"
     ],
-    "boxArtAspectRatioId": 0,
+    "boxArtAspectRatioId": 2,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
-    "screenAspectRatioId": 0,
+    "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "extra": ""
