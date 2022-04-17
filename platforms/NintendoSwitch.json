@@ -18,7 +18,7 @@
     "playerList": [
         {
             "name": "ns - Skyline",
-            "description": null,
+            "description": "Supported extensions: nro, nso, nca, xci, nsp.",
             "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
             "amStartArguments": "-n skyline.emu/emu.skyline.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
             "killPackageProcesses": false,
