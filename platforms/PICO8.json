@@ -6,10 +6,11 @@
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
+          "RAW: PICO-8"
         ],
         "boxArtAspectRatioId": 0,
-        "useCustomBoxArtAspectRatio": false,
-        "customBoxArtAspectRatio": null,
+        "useCustomBoxArtAspectRatio": true,
+        "customBoxArtAspectRatio": "32:41",
         "screenAspectRatioId": 0,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
