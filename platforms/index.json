@@ -77,6 +77,11 @@
       "platformShortname": "nes"
     },
     {
+      "filename": "NintendoSwitch.json",
+      "platformName": "Nintendo Switch",
+      "platformShortname": "ns"
+    },
+    {
       "filename": "NintendoWii.json",
       "platformName": "Nintendo Wii",
       "platformShortname": "wii"

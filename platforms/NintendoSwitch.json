@@ -1,0 +1,29 @@
+{
+    "databaseVersion": 4,
+    "platform": {
+        "name": "Nintendo Switch",
+        "shortname": "ns",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "scraperSourceList": [
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "ns - Skyline",
+            "description": null,
+            "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+            "amStartArguments": "-n skyline.emu/emu.skyline.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": false,
+            "extra": ""
+        }
+    ]
+}
