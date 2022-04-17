@@ -6,7 +6,7 @@
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
-          "RAW: PICO-8"
+          "RAW:PICO-8"
         ],
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": true,
