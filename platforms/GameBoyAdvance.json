@@ -48,8 +48,8 @@
 
         {
             "name": "gba - RetroArch 64 - vba_next",
-            "description": "Supported extensions: gba.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:gba)$",
+            "description": "Supported extensions: gba, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
             "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/vba_next_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -66,8 +66,8 @@
         },
         {
             "name": "gba - RetroArch 64 - mgba",
-            "description": "Supported extensions: gb, gba, gbc.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gba|gbc)$",
+            "description": "Supported extensions: gb, gba, gbc, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gba|gbc|zip|7z)$",
             "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mgba_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -93,8 +93,8 @@
         },
         {
             "name": "gba - RetroArch 64 - gpsp",
-            "description": "Supported extensions: bin, gba.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba)$",
+            "description": "Supported extensions: bin, gba, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
             "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/gpsp_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -113,8 +113,8 @@
 
         {
             "name": "gba - RetroArch - vba_next",
-            "description": "Supported extensions: gba.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:gba)$",
+            "description": "Supported extensions: gba, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip|7z)$",
             "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/vba_next_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -131,8 +131,8 @@
         },
         {
             "name": "gba - RetroArch - mgba",
-            "description": "Supported extensions: gb, gba, gbc.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gba|gbc)$",
+            "description": "Supported extensions: gb, gba, gbc, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gba|gbc|zip|7z)$",
             "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mgba_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -149,8 +149,8 @@
         },
         {
             "name": "gba - RetroArch - gpsp",
-            "description": "Supported extensions: bin, gba.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba)$",
+            "description": "Supported extensions: bin, gba, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
             "amStartArguments": "-n com.retroarch/.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/gpsp_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
