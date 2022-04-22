@@ -120,41 +120,6 @@
       "filename": "TIC80.json",
       "platformName": "TIC-80",
       "platformShortname": "tic80"
-    },
-    {
-      "filename": "./categories/rp2_plus/GameBoy.json",
-      "platformName": "[RP2+] Game Boy",
-      "platformShortname": "gb"
-    },
-    {
-      "filename": "./categories/rp2_plus/GameBoyAdvance.json",
-      "platformName": "[RP2+] Game Boy Advance",
-      "platformShortname": "gba"
-    },
-    {
-      "filename": "./categories/rp2_plus/GameBoyColor.json",
-      "platformName": "[RP2+] Game Boy Color",
-      "platformShortname": "gbc"
-    },
-    {
-      "filename": "./categories/rp2_plus/NintendoEntertainmentSystem.json",
-      "platformName": "[RP2+] Nintendo Entertainment System",
-      "platformShortname": "nes"
-    },
-    {
-      "filename": "./categories/rp2_plus/SegaGenesis.json",
-      "platformName": "[RP2+] Sega Genesis",
-      "platformShortname": "megadrive"
-    },
-    {
-      "filename": "./categories/rp2_plus/SuperNintendoEntertainmentSystem.json",
-      "platformName": "[RP2+] Super Nintendo Entertainment System",
-      "platformShortname": "snes"
-    },
-    {
-      "filename": "./categories/rp2_plus/TIC80.json",
-      "platformName": "[RP2+] TIC-80",
-      "platformShortname": "tic80"
     }
   ]
 }
