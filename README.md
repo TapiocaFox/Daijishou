@@ -54,6 +54,8 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 # Related links
 <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
 
+[Discord](https://discord.gg/7WbMMhn6)
+
 [Telegram Group](https://t.me/daijishou)
 
 [Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
