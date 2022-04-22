@@ -97,6 +97,11 @@
       "platformShortname": "psp"
     },
     {
+      "filename": "SegaGenesis.json",
+      "platformName": "Sega Genesis",
+      "platformShortname": "megadrive"
+    },
+    {
       "filename": "SegaSaturn.json",
       "platformName": "Sega Saturn",
       "platformShortname": "saturn"
