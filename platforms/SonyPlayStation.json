@@ -1,10 +1,10 @@
 {
-  "databaseVersion": 3,
+  "databaseVersion": 5,
   "platform": {
     "name": "Sony PlayStation",
     "shortname": "psx",
     "description": null,
-    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?:chd|cue)$",
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation"
     ],
