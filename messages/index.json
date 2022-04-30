@@ -14,7 +14,7 @@
     },
     {
       "title": "Upgrade available",
-      "message": "Version 116 (1.1.90) is now available on google play store.\nThis update contains scrapers improvements especially for MAME platform.",
+      "message": "Version 118 (1.1.92) is now available on google play store.\nThis update contains RetroAchievements and scrapers improvements especially for MAME platform.",
       "acknowledgmentText": "Ok",
       "acknowledgmentLink": null,
       "cancelText": null,
@@ -22,7 +22,7 @@
       "neutralText": "Upgrade",
       "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
       "targetVersion": null,
-      "belowVersion": 116
+      "belowVersion": 118
     }
   ]
 }
