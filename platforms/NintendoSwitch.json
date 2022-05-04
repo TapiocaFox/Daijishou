@@ -6,6 +6,7 @@
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
+          "RAW: Nintendo - Switch"
         ],
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": false,
