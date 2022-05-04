@@ -2,6 +2,11 @@
   "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
   "platformList": [
     {
+      "filename": "3DO.json",
+      "platformName": "3DO",
+      "platformShortname": "3do"
+    },
+    {
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600"
@@ -15,6 +20,16 @@
       "filename": "Atari7800.json",
       "platformName": "Atari 7800",
       "platformShortname": "atari7800"
+    },
+    {
+      "filename": "Commodore64.json",
+      "platformName": "Commodore 64",
+      "platformShortname": "c64"
+    },
+    {
+      "filename": "CommodoreAmiga.json",
+      "platformName": "Commodore Amiga",
+      "platformShortname": "amiga"
     },
     {
       "filename": "DOOMGameEngine.json",
