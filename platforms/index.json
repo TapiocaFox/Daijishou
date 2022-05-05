@@ -112,6 +112,11 @@
       "platformShortname": "psp"
     },
     {
+      "filename": "PokemonMini.json",
+      "platformName": "Pokemon Mini",
+      "platformShortname": "pokemini"
+    },
+    {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "megadrive"
