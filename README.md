@@ -11,6 +11,8 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじし�
 Daijishō is currently closed-source. However you can still report issues or submit suggestions here.
 
 # Q&A
+### Q&A(0/7): Is Daijishō a Pegasus fork?
+No
 ### Q&A(1/7): What is "player"
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
