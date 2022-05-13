@@ -27,21 +27,30 @@
       "extra": ""
     },
     {
+      "name": "wii - Dolphin org.mm.jr fork",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin org.mm.j fork",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.path}\"",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "wii - Dolphin mmjr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.uri}\"",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
-      "extra": ""
-    },
-    {
-      "name": "wii - Dolphin mmjr fork",
-      "description": null,
-      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
-      "amStartArguments": "-n org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile \"{file.path}\"",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
