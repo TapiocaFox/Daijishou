@@ -44,8 +44,10 @@ Highlight page arrange your items by favorite, recent played and newly added ite
 ### Q&A(5/7): What about other features
 Daijishō also allow you to manage apps, search games, support RetroAchievements, hotkeys, theme-color, video background, provide detail page and play button sounds etc.
 
-![](/imgs/apps.png)
+
 ![](/imgs/game_detail.gif)
+![](/imgs/platform_library.png)
+![](/imgs/apps.png)
 ![](/imgs/achievement_1.png)
 ![](/imgs/achievement_2.png)
 
