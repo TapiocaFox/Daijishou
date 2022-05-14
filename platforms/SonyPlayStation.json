@@ -101,6 +101,54 @@
       "extra": ""
     },
 
+
+    {
+      "name": "psx - Retroarch 32 - beetle psx hw",
+      "description": "Player description.",
+      "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
+      "amStartArguments": " -n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_psx_hw_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n -e QUITFOCUS\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "psx - Retroarch 32 - beetle psx",
+      "description": "Player description.",
+      "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_psx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n -e QUITFOCUS \n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "psx - RetroArch 32 - duckstation",
+      "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
+      "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/duckstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "psx - RetroArch 32 - pcsx_rearmed",
+      "description": "Supported extensions: bin, cbn, ccd, chd, cue, img, m3u, mdf, pbp, toc.",
+      "acceptedFilenameRegex": "^(.*).(?:bin|cbn|ccd|chd|cue|img|m3u|mdf|pbp|toc)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/pcsx_rearmed_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "psx - RetroArch 32 - swanstation",
+      "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
+      "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/swanstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    
+
     {
       "name": "psx - Retroarch - beetle psx hw",
       "description": "Player description.",

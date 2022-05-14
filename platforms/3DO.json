@@ -36,6 +36,24 @@
             "extra": ""
         },
         {
+            "name": "3do - RetroArch 32 - 4do",
+            "description": "Supported extensions: bin, chd, cue, iso.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cue|iso)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/4do_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "3do - RetroArch 32 - opera",
+            "description": "Supported extensions: bin, chd, cue, iso.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cue|iso)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/opera_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
             "name": "3do - RetroArch - 4do",
             "description": "Supported extensions: bin, chd, cue, iso.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|chd|cue|iso)$",

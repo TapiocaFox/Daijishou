@@ -51,6 +51,26 @@
 
 
     {
+      "name": "msx - RetroArch 32 - fmsx",
+      "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fmsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "msx - RetroArch 32 - bluemsx",
+      "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bluemsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+
+
+    {
       "name": "msx - RetroArch - fmsx",
       "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom)$",

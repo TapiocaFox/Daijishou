@@ -83,6 +83,71 @@
 
 
         {
+            "name": "nes - RetroArch 32 - nestopia",
+            "description": "Supported extensions: fds, nes, unf, unif, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/nestopia_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "nes - RetroArch 32 - emux_nes",
+            "description": "Supported extensions: bin, nes, rom.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|nes|rom)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/emux_nes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "nes - RetroArch 32 - fceumm",
+            "description": "Supported extensions: fds, nes, unf, unif.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fceumm_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "nes - RetroArch 32 - mesen",
+            "description": "Supported extensions: fds, nes, unf, unif.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mesen_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "nes - RetroArch 32 - quicknes",
+            "description": "Supported extensions: nes.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:nes)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/quicknes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "nes - RetroArch 32 - bnes",
+            "description": "Supported extensions: nes.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:nes)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bnes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "nes - RetroArch 32 - fixnes",
+            "description": "Supported extensions: fds, nes, nsf, qd.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|nsf|qd)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fixnes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+
+
+        {
             "name": "nes - RetroArch - nestopia",
             "description": "Supported extensions: fds, nes, unf, unif, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:fds|nes|unf|unif|zip|7z)$",

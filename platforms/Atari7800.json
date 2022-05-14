@@ -29,6 +29,17 @@
 
 
     {
+      "name": "atari7800 - RetroArch 32 - prosystem",
+      "description": "Supported extensions: a78, bin, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:a78|bin|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/prosystem_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e QUITFOCUS\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+
+
+    {
       "name": "atari7800 - RetroArch - prosystem",
       "description": "Supported extensions: a78, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a78|bin|zip|7z)$",
