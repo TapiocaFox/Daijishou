@@ -3,6 +3,7 @@
     "platform": {
         "name": "3DO",
         "shortname": "3do",
+        "stringId": "3do",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
