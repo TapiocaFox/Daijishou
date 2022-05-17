@@ -10,8 +10,8 @@
       "LIBRETRO:Nintendo - Nintendo 3DS (Digital)"
     ],
     "boxArtAspectRatioId": 0,
-    "useCustomBoxArtAspectRatio": false,
-    "customBoxArtAspectRatio": null,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "8:7",
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,

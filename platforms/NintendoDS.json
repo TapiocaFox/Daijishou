@@ -10,8 +10,8 @@
             "LIBRETRO:Nintendo - Nintendo DSi"
         ],
         "boxArtAspectRatioId": 0,
-        "useCustomBoxArtAspectRatio": false,
-        "customBoxArtAspectRatio": null,
+        "useCustomBoxArtAspectRatio": true,
+        "customBoxArtAspectRatio": "8:7",
         "screenAspectRatioId": 5,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
