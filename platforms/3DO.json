@@ -2,8 +2,8 @@
     "databaseVersion": 6,
     "platform": {
         "name": "3DO",
-        "shortname": "3do",
         "stringId": "3do",
+        "shortname": "3do",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
