@@ -127,6 +127,11 @@
       "platformShortname": "32x"
     },
     {
+      "filename": "SegaGameGear.json",
+      "platformName": "Sega 32X",
+      "platformShortname": "gg"
+    },
+    {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "megadrive"
