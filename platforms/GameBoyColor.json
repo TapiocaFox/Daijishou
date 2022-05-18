@@ -21,7 +21,7 @@
             "name": "gbc - Pizza Boy Basic",
             "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
-            "amStartArguments": "-n it.dbtecno.pizzaboygba/it.dbtecno.pizzaboygba.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+            "amStartArguments": "-n it.dbtecno.pizzaboy/it.dbtecno.pizzaboygba.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
