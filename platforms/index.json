@@ -62,6 +62,11 @@
       "platformShortname": "gc"
     },
     {
+      "filename": "JavaMe.json",
+      "platformName": "Java Me",
+      "platformShortname": "j2me"
+    },
+    {
       "filename": "MAME.json",
       "platformName": "Arcade (MAME)",
       "platformShortname": "mame"
