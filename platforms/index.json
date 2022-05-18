@@ -122,6 +122,11 @@
       "platformShortname": "pokemini"
     },
     {
+      "filename": "Sega32X.json",
+      "platformName": "Sega 32X",
+      "platformShortname": "32x"
+    },
+    {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "megadrive"

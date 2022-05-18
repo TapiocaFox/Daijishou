@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 3,
+    "databaseVersion": 6,
     "platform": {
         "name": "TIC-80",
         "shortname": "tic80",
