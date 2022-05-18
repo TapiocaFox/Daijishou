@@ -21,7 +21,7 @@
             "name": "gbc - Pizza Boy Basic",
             "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
-            "amStartArguments": "-n id.dbtecno.pizzaboy/id.dbtecno.pizzaboy.MainActivity\n  -e ROM {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+            "amStartArguments": "-n it.dbtecno.pizzaboy/it.dbtecno.pizzaboy.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -30,7 +30,7 @@
             "name": "gbc - Pizza Boy Pro",
             "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
-            "amStartArguments": "-n id.dbtecno.pizzaboypro/id.dbtecno.pizzaboypro.MainActivity\n  -e ROM {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+            "amStartArguments": "-n it.dbtecno.pizzaboypro/it.dbtecno.pizzaboypro.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
