@@ -18,6 +18,24 @@
     },
     "playerList": [
         {
+            "name": "gb - Pizza Boy Basic",
+            "description": "Supported extensions: gb, gbc, gbs.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
+            "amStartArguments": "-n id.dbtecno.pizzaboy/id.dbtecno.pizzaboy.MainActivity\n  -e ROM {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "gb - Pizza Boy Pro",
+            "description": "Supported extensions: gb, gbc, gbs.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
+            "amStartArguments": "-n id.dbtecno.pizzaboypro/id.dbtecno.pizzaboypro.MainActivity\n  -e ROM {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
             "name": "gb - RetroArch 64 - gambatte",
             "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
@@ -179,24 +197,6 @@
             "description": "Supported extensions: gb, gbc, gbs.",
             "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
             "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/fixgb_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-		{
-            "name": "gb - Pizza Boy Basic",
-            "description": "Supported extensions: gb, gbc, gbs.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
-            "amStartArguments": "-n id.dbtecno.pizzaboy/id.dbtecno.pizzaboy.MainActivity\n  -e ROM {file.path}\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-		{
-            "name": "gb - Pizza Boy Pro",
-            "description": "Supported extensions: gb, gbc, gbs.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
-            "amStartArguments": "-n id.dbtecno.pizzaboypro/id.dbtecno.pizzaboypro.MainActivity\n  -e ROM {file.path}\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
