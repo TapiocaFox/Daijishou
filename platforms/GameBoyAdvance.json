@@ -22,7 +22,7 @@
             "description": "Supported extensions: bin, gba, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
             "amStartArguments": "-n it.dbtecno.pizzaboygba/it.dbtecno.pizzaboygba.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
+            "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
         },
@@ -31,7 +31,7 @@
             "description": "Supported extensions: gb, gbc, gbs.",
             "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
             "amStartArguments": "-n it.dbtecno.pizzaboygbapro/it.dbtecno.pizzaboygbapro.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
+            "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
         },
