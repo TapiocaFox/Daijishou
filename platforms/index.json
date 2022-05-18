@@ -145,6 +145,11 @@
       "filename": "TIC80.json",
       "platformName": "TIC-80",
       "platformShortname": "tic80"
+    },
+    {
+      "filename": "WataraSupervision.json",
+      "platformName": "Watara Supervision",
+      "platformShortname": "supervision"
     }
   ]
 }
