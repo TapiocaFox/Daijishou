@@ -1,24 +1,24 @@
 {
     "databaseVersion": 6,
     "platform": {
-        "name": "Sega Game Gear",
-        "shortname": "gamegear",
+        "name": "Sega Master System",
+        "shortname": "ms",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
-            "LIBRETRO:Sega - Game Gear"
+            "LIBRETRO:Sega - Master System - Mark III"
         ],
         "boxArtAspectRatioId": 2,
         "useCustomBoxArtAspectRatio": false,
         "customBoxArtAspectRatio": null,
-        "screenAspectRatioId": 0,
-        "useCustomScreenAspectRatio": true,
-        "customScreenAspectRatio": "10:9",
+        "screenAspectRatioId": 1,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
         "extra": ""
     },
     "playerList": [
         {
-            "name": "gamegear - RetroArch 64 - picodrive",
+            "name": "ms - RetroArch 64 - picodrive",
             "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
             "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/picodrive_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -27,7 +27,7 @@
             "extra": ""
         },
         {
-            "name": "gamegear - RetroArch 32 - picodrive",
+            "name": "ms - RetroArch 32 - picodrive",
             "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
             "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/picodrive_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -36,7 +36,7 @@
             "extra": ""
         },
         {
-            "name": "gamegear - RetroArch - picodrive",
+            "name": "ms - RetroArch - picodrive",
             "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, m3u, md, pco, sgd, smd, sms, 7z, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
             "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/picodrive_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
