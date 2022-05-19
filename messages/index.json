@@ -14,7 +14,7 @@
     },
     {
       "title": "Upgrade available",
-      "message": "Version 142 (1.1.116) is now available.\n You can either update from google play store or checkout releases page on GitHub.",
+      "message": "Version 142 (1.1.116) is now available.\n You can either upgrade from google play store or checkout releases page on GitHub.",
       "acknowledgmentText": "Ok",
       "acknowledgmentLink": null,
       "cancelText": "GitHub",
