@@ -14,15 +14,15 @@
     },
     {
       "title": "Upgrade available",
-      "message": "Version 127 (1.1.101) is now available on google play store.\n",
+      "message": "Version 142 (1.1.116) is now available\n You can update from google play store. Or checkout releases page on GitHub.",
       "acknowledgmentText": "Ok",
       "acknowledgmentLink": null,
-      "cancelText": null,
-      "cancelLink": null,
+      "cancelText": "GitHub",
+      "cancelLink": "https://github.com/magneticchen/Daijishou/releases",
       "neutralText": "Upgrade",
       "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
       "targetVersion": null,
-      "belowVersion": 123
+      "belowVersion": 142
     }
   ]
 }
