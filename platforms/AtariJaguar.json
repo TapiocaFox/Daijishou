@@ -8,7 +8,7 @@
     "scraperSourceList": [
       "LIBRETRO:Atari - Jaguar"
     ],
-    "boxArtAspectRatioId": 4,
+    "boxArtAspectRatioId": 2,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
     "screenAspectRatioId": 1,
