@@ -21,6 +21,11 @@
       "platformName": "Atari 7800",
       "platformShortname": "atari7800"
     },
+	{
+      "filename": "AtariJaguar.json",
+      "platformName": "Atari Jaguar",
+      "platformShortname": "jaguar"
+    },
     {
       "filename": "Commodore64.json",
       "platformName": "Commodore 64",
