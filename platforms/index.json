@@ -87,6 +87,11 @@
       "platformShortname": "neogeo"
     },
     {
+      "filename": "NeoGeoCD.json",
+      "platformName": "Neo Geo CD",
+      "platformShortname": "neogeocd"
+    },
+    {
       "filename": "Nintendo3DS.json",
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds"
@@ -109,7 +114,7 @@
     {
       "filename": "NintendoSwitch.json",
       "platformName": "Nintendo Switch",
-      "platformShortname": "ns"
+      "platformShortname": "switch"
     },
     {
       "filename": "NintendoWii.json",
