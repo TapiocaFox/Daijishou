@@ -6,11 +6,11 @@
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.|zip).*).*$",
         "scraperSourceList": [
-            "LIBRETRO:FBNeo - Arcade Games",
             "LIBRETRO:SNK - Neo Geo",
-            "ARCADE_ITALIA:MAME",
-            "LIBRETRO:MAME",
             "LIBRETRO:SNK - Neo Geo CD"
+            "ARCADE_ITALIA:MAME",
+            "LIBRETRO:FBNeo - Arcade Games",
+            "LIBRETRO:MAME",
         ],
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": false,
