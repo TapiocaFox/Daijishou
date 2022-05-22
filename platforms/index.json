@@ -42,6 +42,11 @@
       "platformShortname": "doom"
     },
     {
+      "filename": "DOS.json",
+      "platformName": "DOS",
+      "platformShortname": "dos"
+    },
+    {
       "filename": "Dreamcast.json",
       "platformName": "Dreamcast",
       "platformShortname": "dreamcast"
