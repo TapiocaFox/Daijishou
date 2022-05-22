@@ -82,6 +82,11 @@
       "platformShortname": "msx"
     },
     {
+      "filename": "NeoGeo.json",
+      "platformName": "Neo Geo",
+      "platformShortname": "neogeo"
+    },
+    {
       "filename": "Nintendo3DS.json",
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds"
