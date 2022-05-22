@@ -27,6 +27,11 @@
       "platformShortname": "jaguar"
     },
     {
+      "filename": "AtariST.json",
+      "platformName": "Atari ST",
+      "platformShortname": "atarist"
+    },
+    {
       "filename": "Commodore64.json",
       "platformName": "Commodore 64",
       "platformShortname": "c64"
