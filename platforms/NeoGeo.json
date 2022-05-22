@@ -1,0 +1,52 @@
+{
+    "databaseVersion": 6,
+    "platform": {
+        "name": "Neo Geo",
+        "shortname": "neogeo",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.|zip).*).*$",
+        "scraperSourceList": [
+            "LIBRETRO:FBNeo - Arcade Games",
+            "LIBRETRO:SNK - Neo Geo",
+            "ARCADE_ITALIA:MAME",
+            "LIBRETRO:MAME",
+            "LIBRETRO:SNK - Neo Geo CD"
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "neogeo - RetroArch 64 - fbneo",
+            "description": "Supported extensions: zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch.aarch64\r\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\r",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "neogeo - RetroArch 32 - fbneo",
+            "description": "Supported extensions: zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch.ra32\r\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\r",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "neogeo - RetroArch 64 - fbneo",
+            "description": "Supported extensions: zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+            "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch\r\n  -e APK /data/app/com.retroarch-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        }
+    ]
+}
