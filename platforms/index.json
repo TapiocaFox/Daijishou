@@ -7,6 +7,11 @@
       "platformShortname": "3do"
     },
     {
+      "filename": "AmstradCPC.json",
+      "platformName": "Amstrad CPC",
+      "platformShortname": "cpc"
+    },
+    {
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600"
