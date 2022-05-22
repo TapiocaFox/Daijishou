@@ -25,7 +25,7 @@
             "name": "neogeo - RetroArch 64 - fbneo",
             "description": "Supported extensions: zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch.aarch64\r\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\r",
+            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch.aarch64\r\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -34,7 +34,7 @@
             "name": "neogeo - RetroArch 32 - fbneo",
             "description": "Supported extensions: zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
-            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch.ra32\r\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\r",
+            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch.ra32\r\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
