@@ -2,7 +2,7 @@
     "databaseVersion": 4,
     "platform": {
         "name": "Nintendo Switch",
-        "shortname": "ns",
+        "shortname": "switch",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
@@ -18,7 +18,7 @@
     },
     "playerList": [
         {
-            "name": "ns - Skyline",
+            "name": "switch - Skyline",
             "description": "Supported extensions: nro, nso, nca, xci, nsp.",
             "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
             "amStartArguments": "-n skyline.emu/emu.skyline.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
