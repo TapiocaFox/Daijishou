@@ -40,7 +40,7 @@
             "extra": ""
         },
         {
-            "name": "neogeo - RetroArch 64 - fbneo",
+            "name": "neogeo - RetroArch - fbneo",
             "description": "Supported extensions: zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
             "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\r\n  -e ROM {file.path}\r\n  -e LIBRETRO /data/data/com.retroarch/cores/fbneo_libretro_android.so\r\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\r\n  -e IME com.android.inputmethod.latin/.LatinIME\r\n  -e DATADIR /data/data/com.retroarch\r\n  -e APK /data/app/com.retroarch-1/base.apk\r\n  -e SDCARD /storage/emulated/0\r\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
