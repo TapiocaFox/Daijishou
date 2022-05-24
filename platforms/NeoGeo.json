@@ -46,6 +46,15 @@
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
+        },
+		{
+            "name": "neogeo - NEO.EMU",
+            "description": "Supported extensions: zip.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
+            "amStartArguments": "-n com.explusalpha.neoemu/com.imagine.BaseActivity\r\n  -d {file.path}\r\n",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": false,
+            "extra": ""
         }
     ]
 }
