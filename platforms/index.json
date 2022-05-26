@@ -156,6 +156,11 @@
       "platformName": "Sega 32X",
       "platformShortname": "32x"
     },
+	{
+      "filename": "SegaCD.json",
+      "platformName": "Sega CD",
+      "platformShortname": "segacd"
+    },
     {
       "filename": "SegaGameGear.json",
       "platformName": "Sega Game Gear",
