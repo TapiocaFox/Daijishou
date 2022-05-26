@@ -37,6 +37,21 @@
       "platformShortname": "atarist"
     },
     {
+      "filename": "CPS1.json",
+      "platformName": "CP System I",
+      "platformShortname": "cps1"
+    },
+    {
+      "filename": "CPS2.json",
+      "platformName": "CP System II",
+      "platformShortname": "cps2"
+    },
+    {
+      "filename": "CPS3.json",
+      "platformName": "CP System II",
+      "platformShortname": "cps3"
+    },
+    {
       "filename": "Commodore64.json",
       "platformName": "Commodore 64",
       "platformShortname": "c64"
