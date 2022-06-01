@@ -85,3 +85,6 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 [![Gamer Shortcut US](https://img.youtube.com/vi/MWz_x2lCVN4/0.jpg)](https://www.youtube.com/watch?v=MWz_x2lCVN4)
 - YouTube videos from **"Gamer Shortcut US"**
+
+[![Gamer Shortcut US](https://img.youtube.com/vi/KI3R9BNM9ss/0.jpg)](https://www.youtube.com/watch?v=KI3R9BNM9ss)
+- YouTube videos from **"Retro Devils"**
