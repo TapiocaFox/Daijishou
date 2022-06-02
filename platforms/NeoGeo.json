@@ -11,10 +11,10 @@
             "LIBRETRO:FBNeo - Arcade Games",
             "LIBRETRO:MAME"
         ],
-        "boxArtAspectRatioId": 0,
+        "boxArtAspectRatioId": 2,
         "useCustomBoxArtAspectRatio": false,
         "customBoxArtAspectRatio": null,
-        "screenAspectRatioId": 0,
+        "screenAspectRatioId": 2,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
         "extra": ""

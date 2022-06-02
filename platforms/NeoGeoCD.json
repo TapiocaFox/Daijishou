@@ -14,7 +14,7 @@
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": false,
         "customBoxArtAspectRatio": null,
-        "screenAspectRatioId": 0,
+        "screenAspectRatioId": 2,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
         "extra": ""
