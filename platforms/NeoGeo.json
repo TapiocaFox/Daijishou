@@ -4,7 +4,7 @@
         "name": "Neo Geo",
         "shortname": "neogeo",
         "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.|zip).*).*$",
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
             "LIBRETRO:SNK - Neo Geo",
             "ARCADE_ITALIA:MAME",
@@ -26,7 +26,7 @@
             "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
             "amStartArguments": "-n com.explusalpha.neoemu/com.imagine.BaseActivity\n  -d {file.path}\n",
             "killPackageProcesses": false,
-            "killPackageProcessesWarning": false,
+            "killPackageProcessesWarning": true,
             "extra": ""
         },
         {

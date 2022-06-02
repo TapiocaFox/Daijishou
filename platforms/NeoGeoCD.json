@@ -4,7 +4,7 @@
         "name": "Neo Geo CD",
         "shortname": "neogeocd",
         "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.|zip).*).*$",
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
             "LIBRETRO:SNK - Neo Geo CD",
             "ARCADE_ITALIA:MAME",

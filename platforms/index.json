@@ -117,14 +117,19 @@
       "platformShortname": "neogeo"
     },
     {
-      "filename": "NeoGeo Pocket.json",
-      "platformName": "Neo Geo Pocket / Color",
-      "platformShortname": "ngp"
-    },
-    {
       "filename": "NeoGeoCD.json",
       "platformName": "Neo Geo CD",
       "platformShortname": "neogeocd"
+    },
+    {
+      "filename": "NeoGeoPocket.json",
+      "platformName": "NeoGeo Pocket",
+      "platformShortname": "ngp"
+    },
+    {
+      "filename": "NeoGeoPocketColor.json",
+      "platformName": "NeoGeo Pocket Color",
+      "platformShortname": "ngpc"
     },
     {
       "filename": "Nintendo3DS.json",
@@ -226,10 +231,15 @@
       "platformName": "Watara Supervision",
       "platformShortname": "supervision"
     },
-	{
+    {
       "filename": "WonderSwan.json",
       "platformName": "WonderSwan",
-      "platformShortname": "wonderswan"
+      "platformShortname": "ws"
+    },
+    {
+      "filename": "WonderSwanColor.json",
+      "platformName": "WonderSwan Color",
+      "platformShortname": "wsc"
     }
   ]
 }
