@@ -8,9 +8,9 @@
     "scraperSourceList": [
       "LIBRETRO:Bandai - WonderSwan"
     ],
-    "boxArtAspectRatioId": 2,
-    "useCustomBoxArtAspectRatio": false,
-    "customBoxArtAspectRatio": null,
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "5:6",
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
