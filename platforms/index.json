@@ -177,6 +177,11 @@
       "platformShortname": "pokemini"
     },
     {
+      "filename": "ScummVM.json",
+      "platformName": "ScummVM",
+      "platformShortname": "scummvm"
+    },
+    {
       "filename": "Sega32X.json",
       "platformName": "Sega 32X",
       "platformShortname": "32x"
