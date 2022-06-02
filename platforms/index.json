@@ -117,6 +117,11 @@
       "platformShortname": "neogeo"
     },
     {
+      "filename": "NeoGeo Pocket.json",
+      "platformName": "Neo Geo Pocket / Color",
+      "platformShortname": "ngp"
+    },
+    {
       "filename": "NeoGeoCD.json",
       "platformName": "Neo Geo CD",
       "platformShortname": "neogeocd"
@@ -220,6 +225,11 @@
       "filename": "WataraSupervision.json",
       "platformName": "Watara Supervision",
       "platformShortname": "supervision"
+    },
+	{
+      "filename": "WonderSwan.json",
+      "platformName": "WonderSwan",
+      "platformShortname": "wonderswan"
     }
   ]
 }
