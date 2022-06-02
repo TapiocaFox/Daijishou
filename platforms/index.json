@@ -220,6 +220,11 @@
       "filename": "WataraSupervision.json",
       "platformName": "Watara Supervision",
       "platformShortname": "supervision"
+    },
+	{
+      "filename": "WonderSwan.json",
+      "platformName": "WonderSwan",
+      "platformShortname": "wonderswan"
     }
   ]
 }
