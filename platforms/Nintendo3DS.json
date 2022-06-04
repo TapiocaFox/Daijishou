@@ -22,7 +22,7 @@
       "name": "3ds - org.gamerytb.citra_emu",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n org.gamerytb.citra_emu/.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath \"{file.path}\"",
+      "amStartArguments": "-n org.gamerytb.citra_emu/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath \"{file.path}\"",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -31,7 +31,7 @@
       "name": "3ds - org.citra.citra_em",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n org.citra.citra_em/.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath \"{file.path}\"",
+      "amStartArguments": "-n org.citra.citra_emu/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath \"{file.path}\"",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
