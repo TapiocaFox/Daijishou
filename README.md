@@ -81,6 +81,9 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 
 # Resources
+
+[Wiki](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou) from Jetup13
+
 [![Gamer Shortcut US](https://img.youtube.com/vi/c2gLY5eiFWY/0.jpg)](https://www.youtube.com/watch?v=c2gLY5eiFWY)
 
 [![Gamer Shortcut US](https://img.youtube.com/vi/MWz_x2lCVN4/0.jpg)](https://www.youtube.com/watch?v=MWz_x2lCVN4)
