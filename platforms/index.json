@@ -32,6 +32,11 @@
       "platformShortname": "jaguar"
     },
     {
+      "filename": "AtariLynx.json",
+      "platformName": "Atari Lynx",
+      "platformShortname": "lynx"
+    },
+    {
       "filename": "AtariST.json",
       "platformName": "Atari ST",
       "platformShortname": "atarist"
