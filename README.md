@@ -65,6 +65,8 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 [Telegram Group](https://t.me/daijishou)
 
+[Wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou) 
+
 [Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 ### Donation
 [PayPal](https://paypal.me/magneticchen)
@@ -81,8 +83,6 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 
 # Resources
-
-[Wiki](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou) from Jetup13
 
 [![Gamer Shortcut US](https://img.youtube.com/vi/c2gLY5eiFWY/0.jpg)](https://www.youtube.com/watch?v=c2gLY5eiFWY)
 
