@@ -45,6 +45,24 @@
             "extra": ""
         },
         {
+            "name": "gb - com.fastemulator.gbcfree",
+            "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
+            "amStartArguments": "-n com.fastemulator.gbcfree/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "gb - com.fastemulator.gbc",
+            "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
+            "amStartArguments": "-n com.fastemulator.gbc/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
             "name": "gb - RetroArch 64 - gambatte",
             "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
