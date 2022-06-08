@@ -167,6 +167,11 @@
       "platformShortname": "wii"
     },
     {
+      "filename": "PCFX.json",
+      "platformName": "PC-FX",
+      "platformShortname": "pcfx"
+    },
+    {
       "filename": "PICO8.json",
       "platformName": "PICO-8",
       "platformShortname": "pico8"
