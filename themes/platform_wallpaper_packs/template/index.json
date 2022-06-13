@@ -3,7 +3,7 @@
   "description": "A platform wallpaper pack template for wallpaper pack creators.",
   "authors": ["Daijishō", "magneticchen"],
   "sources": ["https://nooxy.org"],
-  "previewThumbnailFilename": "preview_thumbnail.jpg",
+  "previewThumbnailFilename": "preview_thumbnail_2.jpg",
 
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "mount_niitaka.jpg",
