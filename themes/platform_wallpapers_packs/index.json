@@ -1,0 +1,15 @@
+{
+  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/themes/platform_wallpapers_packs/",
+  "platformWallpapersPackList": [
+    {
+      "platformWallpapersPackAuthors": [
+        "Daijish\u014d",
+        "magneticchen"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack template for wallpapers pack creators.",
+      "platformWallpapersPackName": "Platform wallpapers pack template",
+      "platformWallpapersPackPreviewThumbnailPath": "template/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "template"
+    }
+  ]
+}
