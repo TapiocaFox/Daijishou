@@ -1,8 +1,8 @@
 {
   "name": "Platform wallpapers pack template",
-  "description": "A platform wallpapers pack template for wallpapers pack creators.",
+  "description": "A platform wallpapers pack template for wallpapers pack creators to duplicate.",
   "authors": ["Daijishō", "magneticchen"],
-  "sources": ["https://nooxy.org"],
+  "sources": ["https://nooxy.org", "https://github.com/magneticchen/Daijishou"],
   "previewThumbnailFilename": "preview_thumbnail_2.jpg",
 
   "hasDefaultWallpaper": true,
