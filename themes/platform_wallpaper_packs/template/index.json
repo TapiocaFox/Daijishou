@@ -1,0 +1,213 @@
+{
+  "name": "template",
+  "authors": ["magneticchen"],
+  "sources": ["https://nooxy.org"],
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "taiwan_coat_of_arms.png",
+  "wallpapers": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "32x",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "ms",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "taiwan_coat_of_arms.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "taiwan_coat_of_arms.png"
+    }
+  ]
+}

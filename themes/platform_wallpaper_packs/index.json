@@ -1,0 +1,9 @@
+{
+  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/themes/platform_wallpaper_packs/",
+  "platformWallpaperPackList": [
+    {
+      "indexPath": "template/index.json",
+      "platformWallpaperPackName": "template"
+    }
+  ]
+}
