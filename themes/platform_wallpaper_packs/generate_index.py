@@ -25,7 +25,8 @@ for d in platformWallpaperPacks:
                 platformWallpaperPackIndex = json.load(jsonFile)
                 platformWallpaperPackName = platformWallpaperPackIndex['name']
                 index['platformWallpaperPackList'].append({
-                    "indexPath": f,
+                    "platformWallpaperPackPath": platformWallpaperPackDir,
+                    "platformWallpaperPackIndexPath": f,
                     "platformWallpaperPackName": platformWallpaperPackName
                 })
 
