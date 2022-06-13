@@ -1,7 +1,9 @@
 {
   "name": "Platform wallpaper pack template",
-  "authors": ["magneticchen"],
+  "authors": ["Daijishō", "magneticchen"],
   "sources": ["https://nooxy.org"],
+  "previewThumbnailFilename": "taiwan_coat_of_arms.png",
+
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "taiwan_coat_of_arms.png",
   "wallpapers": [
