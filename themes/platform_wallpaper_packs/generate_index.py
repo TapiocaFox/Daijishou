@@ -29,7 +29,7 @@ for d in platformWallpaperPacks:
                 platformWallpaperPackPreviewThumbnailFilename = platformWallpaperPackIndex['previewThumbnailFilename']
                 index['platformWallpaperPackList'].append({
                     "platformWallpaperPackRootPath": platformWallpaperPackDir,
-                    "platformWallpaperPackIndexPath": f,
+                    # "platformWallpaperPackIndexPath": f,
                     "platformWallpaperPackPreviewThumbnailPath": platformWallpaperPackDir+'/'+platformWallpaperPackPreviewThumbnailFilename,
                     "platformWallpaperPackAuthors": platformWallpaperPackAuthors,
                     "platformWallpaperPackName": platformWallpaperPackName,
