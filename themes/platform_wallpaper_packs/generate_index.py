@@ -24,6 +24,7 @@ for d in platformWallpaperPacks:
             with open(f) as jsonFile:
                 platformWallpaperPackIndex = json.load(jsonFile)
                 platformWallpaperPackName = platformWallpaperPackIndex['name']
+                platformWallpaperPackDescription = platformWallpaperPackIndex['description']
                 platformWallpaperPackAuthors = platformWallpaperPackIndex['authors']
                 platformWallpaperPackPreviewThumbnailFilename = platformWallpaperPackIndex['previewThumbnailFilename']
                 index['platformWallpaperPackList'].append({
@@ -31,7 +32,8 @@ for d in platformWallpaperPacks:
                     "platformWallpaperPackIndexPath": f,
                     "platformWallpaperPackPreviewThumbnailPath": platformWallpaperPackDir+'/'+platformWallpaperPackPreviewThumbnailFilename,
                     "platformWallpaperPackAuthors": platformWallpaperPackAuthors,
-                    "platformWallpaperPackName": platformWallpaperPackName
+                    "platformWallpaperPackName": platformWallpaperPackName,
+                    "platformWallpaperPackDescription": platformWallpaperPackDescription
                 })
 
 with open(indexFilename, 'w') as outfile:

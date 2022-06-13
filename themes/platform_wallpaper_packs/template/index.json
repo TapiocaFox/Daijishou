@@ -1,5 +1,6 @@
 {
   "name": "Platform wallpaper pack template",
+  "description": "A platform wallpaper pack template for wallpaper pack creators.",
   "authors": ["Daijishō", "magneticchen"],
   "sources": ["https://nooxy.org"],
   "previewThumbnailFilename": "taiwan_coat_of_arms.png",
