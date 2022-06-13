@@ -8,7 +8,8 @@
       ],
       "platformWallpaperPackIndexPath": "template/index.json",
       "platformWallpaperPackName": "Platform wallpaper pack template",
-      "platformWallpaperPackPath": "template"
+      "platformWallpaperPackPreviewThumbnailPath": "template/taiwan_coat_of_arms.png",
+      "platformWallpaperPackRootPath": "template"
     }
   ]
 }
