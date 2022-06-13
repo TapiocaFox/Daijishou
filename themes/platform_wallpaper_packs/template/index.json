@@ -6,211 +6,211 @@
   "previewThumbnailFilename": "preview_thumbnail.jpg",
 
   "hasDefaultWallpaper": true,
-  "defaultWallpaperFilename": "taiwan_coat_of_arms.png",
+  "defaultWallpaperFilename": "mount_niitaka.jpg",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "cpc",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "atari2600",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "atari5200",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "atari7800",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "jaguar",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "lynx",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "atarist",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "cps1",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "cps2",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "cps3",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "c64",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "amiga",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "doom",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "dos",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "dreamcast",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "gb",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "gba",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "gc",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "j2me",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "mame",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "msx",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "neogeo",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "neogeocd",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "ngp",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "ngpc",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "n64",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "nds",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "nes",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "switch",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "wii",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "pcfx",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "pico8",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "psp",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "pokemini",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "scummvm",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "32x",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "segacd",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "gamegear",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "megadrive",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "ms",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "saturn",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "psx",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "ps2",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "snes",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "tic80",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "supervision",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "ws",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "wsc",
-      "filename": "taiwan_coat_of_arms.png"
+      "filename": "mount_niitaka.jpg"
     }
   ]
 }
