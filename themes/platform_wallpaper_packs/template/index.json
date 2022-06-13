@@ -7,7 +7,7 @@
 
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "taiwan_coat_of_arms.png",
-  "wallpapers": [
+  "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
       "filename": "taiwan_coat_of_arms.png"
