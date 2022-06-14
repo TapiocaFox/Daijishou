@@ -1,0 +1,212 @@
+{
+  "name": "Alekfull-NX",
+  "description": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
+  "authors": ["fagnerpc"],
+  "sources": ["https://github.com/fagnerpc/Alekfull-NX"],
+  "previewThumbnailFilename": "thumbnail.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "arcade.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3d0.jpg"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "amstradcpc.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.jpg"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "atarijaguar.jpg"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx.jpg"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.jpg"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64.jpg"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.jpg"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.jpg"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.jpg"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.jpg"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.jpg"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.jpg"
+    },
+    {
+      "matchPlatformShortname": "32x",
+      "filename": "sega32x.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.jpg"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.jpg"
+    },
+    {
+      "matchPlatformShortname": "ms",
+      "filename": "master.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.jpg"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "filename": "tic80.jpg"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.jpg"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "wswan.jpg"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wswanc.jpg"
+    }
+  ]
+}
