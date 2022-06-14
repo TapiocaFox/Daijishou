@@ -3,12 +3,13 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "viking",
         "iShade"
       ],
-      "platformWallpapersPackDescription": "The pack contains colorful yet simple wallpapers of physical looks for each devices. Made by UsagiShade, indexing by magneticchen.",
-      "platformWallpapersPackName": "UsagiShade",
-      "platformWallpapersPackPreviewThumbnailPath": "ishade/thumbnail.png",
-      "platformWallpapersPackRootPath": "ishade"
+      "platformWallpapersPackDescription": "The pack contains colorful yet simple wallpapers of physical looks for each devices. Originated from viking on launchbox. Modified by UsagiShade, indexing by magneticchen.",
+      "platformWallpapersPackName": "COLORFUL",
+      "platformWallpapersPackPreviewThumbnailPath": "colorful/COLORFUL.png",
+      "platformWallpapersPackRootPath": "colorful"
     },
     {
       "platformWallpapersPackAuthors": [
