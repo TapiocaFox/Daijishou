@@ -1,0 +1,100 @@
+{
+  "name": "DrOctoroc",
+  "description": "The pack contains 3d models for each devices. Originated from DrOctoroc on deviantart.com. Mentioned by MonkoftheFunk in Discord.",
+  "authors": ["DrOctoroc"],
+  "sources": ["https://www.deviantart.com/droctoroc/gallery/52135159/3d-models"],
+  "previewThumbnailFilename": "droctoroc.gif",
+
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "panasonic_3do.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari_2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari_2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari_2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "atari_jaguar.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "sega_dreamcast.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "nintendo_game_boy.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "nintendo_game_boy_advance.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "nintendo_gameboy_color.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "nintendo_game_cube.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "nintendo_64.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nintendo_ds.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nintendo_entertainment_system.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "nintendo_wii.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "sega_cd.jpg"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "sega_genesis.jpg"
+    },
+    {
+      "matchPlatformShortname": "ms",
+      "filename": "sega_master_system.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "sega_saturn.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "sony_playstation.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "super_nintendo_entertainment_system.jpg"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "bandai_wonderswan_color.jpg"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "bandai_wonderswan_color.jpg"
+    }
+  ]
+}

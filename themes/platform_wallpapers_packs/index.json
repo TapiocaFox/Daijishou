@@ -13,9 +13,18 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "DrOctoroc"
+      ],
+      "platformWallpapersPackDescription": "The pack contains 3d models for each devices. Originated from DrOctoroc on deviantart.com. Mentioned by MonkoftheFunk in Discord.",
+      "platformWallpapersPackName": "DrOctoroc",
+      "platformWallpapersPackPreviewThumbnailPath": "droctoroc/droctoroc.gif",
+      "platformWallpapersPackRootPath": "droctoroc"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Kenji cosplay studio"
       ],
-      "platformWallpapersPackDescription": "The pack contains abstract, flat and colorful wallpapers with brand logo for nintendo devices. Originated from kenji-cosplay-studio on deviantart.com. Mention by Diabolus in Discord.",
+      "platformWallpapersPackDescription": "The pack contains abstract, flat and colorful wallpapers with brand logo for nintendo devices. Originated from kenji-cosplay-studio on deviantart.com. Mentioned by Diabolus in Discord.",
       "platformWallpapersPackName": "Kenji cosplay studio",
       "platformWallpapersPackPreviewThumbnailPath": "kenji-cosplay-studio/kenji-cosplay-studio.jpg",
       "platformWallpapersPackRootPath": "kenji-cosplay-studio"
