@@ -23,9 +23,9 @@ Here is the list of supported methods for querying.
  - where
 
 
-## Prefixes
+## Formats
 
-### Prefix
+### Format
 `IGDB:GAME:TAGS("template tags"):"query"`
 
 #### description
