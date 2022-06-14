@@ -4,11 +4,11 @@ Daijishō takes your privacy seriously. To better protect your privacy Daijishō
 
 ## Collection of Routine Information
 
-Daijishō track only basic information about their user on device. And use it on device and never shared and send information to ourself.
+Daijishō has no backend and track only basic information about their user on device. And use it on device and never shared and send information to myself.
 
 ## Advertisement and Other Third Parties
 
-Although Daijishō itself doesn't collect data. Some of the third parties APIs or websites might has their own policies.
+Although Daijishō itself doesn't collect data and has no backend at all. Some of the third parties APIs or websites might has their own policies.
 
 
 ## Links to Third Party Websites
