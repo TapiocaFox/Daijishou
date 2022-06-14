@@ -3,6 +3,15 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "fagnerpc"
+      ],
+      "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
+      "platformWallpapersPackName": "Alekfull-NX",
+      "platformWallpapersPackPreviewThumbnailPath": "alekfull-nx/thumbnail.png",
+      "platformWallpapersPackRootPath": "alekfull-nx"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "viking",
         "iShade"
       ],
