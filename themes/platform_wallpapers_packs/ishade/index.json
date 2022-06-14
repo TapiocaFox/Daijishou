@@ -5,7 +5,7 @@
   "sources": ["https://www.youtube.com/c/SceneTeen"],
   "previewThumbnailFilename": "thumbnail.png",
 
-  "hasDefaultWallpaper": false,
+  "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "Arcade.jpg",
   "wallpaperList": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "matchPlatformShortname": "cpc",
-      "filename": "Arcade.jpg"
+      "filename": "DOS.png"
     },
     {
       "matchPlatformShortname": "atari2600",
@@ -54,11 +54,11 @@
     },
     {
       "matchPlatformShortname": "c64",
-      "filename": "PC.png"
+      "filename": "DOS.png"
     },
     {
       "matchPlatformShortname": "amiga",
-      "filename": "Arcade.jpg"
+      "filename": "DOS.png"
     },
     {
       "matchPlatformShortname": "doom",
