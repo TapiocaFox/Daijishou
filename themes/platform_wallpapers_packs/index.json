@@ -3,6 +3,15 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "iShade"
+      ],
+      "platformWallpapersPackDescription": "The pack contains colorful yet simple wallpapers of physical looks for each devices. Made by UsagiShade, indexing by magneticchen.",
+      "platformWallpapersPackName": "UsagiShade",
+      "platformWallpapersPackPreviewThumbnailPath": "ishade/thumbnail.png",
+      "platformWallpapersPackRootPath": "ishade"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Daijish\u014d",
         "magneticchen"
       ],
