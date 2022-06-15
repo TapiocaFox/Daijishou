@@ -6,7 +6,8 @@
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
-            "LIBRETRO:Nintendo - Game Boy"
+            "LIBRETRO:Nintendo - Game Boy",
+            "IGDB:GAMES:TAGS(scraperKeyword): where platforms=33; search \"{scraperKeyword}\""
         ],
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": false,
