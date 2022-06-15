@@ -43,6 +43,16 @@
         "Daijish\u014d",
         "magneticchen"
       ],
+      "platformWallpapersPackDescription": "This pack will set all your wallpaper to mount niitaka. Niitaka (\u65b0\u9ad8) is the highest mountain in Taiwan at 3,952 m above sea level.",
+      "platformWallpapersPackName": "Mount niitaka",
+      "platformWallpapersPackPreviewThumbnailPath": "mount_niitaka/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "mount_niitaka"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Daijish\u014d",
+        "magneticchen"
+      ],
       "platformWallpapersPackDescription": "A platform wallpapers pack template contains only single wallpaper of retro futuristic wallpaper.",
       "platformWallpapersPackName": "Retro futuristic",
       "platformWallpapersPackPreviewThumbnailPath": "retro-futuristic/futuristic.jpg",
@@ -57,16 +67,6 @@
       "platformWallpapersPackName": "Super green",
       "platformWallpapersPackPreviewThumbnailPath": "super-green/oloff3.gif",
       "platformWallpapersPackRootPath": "super-green"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "Daijish\u014d",
-        "magneticchen"
-      ],
-      "platformWallpapersPackDescription": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
-      "platformWallpapersPackName": "Platform wallpapers pack template",
-      "platformWallpapersPackPreviewThumbnailPath": "template/preview_thumbnail_2.jpg",
-      "platformWallpapersPackRootPath": "template"
     },
     {
       "platformWallpapersPackAuthors": [
