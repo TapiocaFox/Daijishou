@@ -1,0 +1,12 @@
+{
+  "name": "Mount niitaka",
+  "description": "This pack will set all your wallpaper to mount niitaka. Niitaka (新高) is the highest mountain in Taiwan at 3,952 m above sea level.",
+  "authors": ["Daijishō", "magneticchen"],
+  "sources": ["https://nooxy.org", "https://github.com/magneticchen/Daijishou", "https://www.ysnp.gov.tw/"],
+  "previewThumbnailFilename": "preview_thumbnail_2.jpg",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "wallpaperList": [
+  ]
+}

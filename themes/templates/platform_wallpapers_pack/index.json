@@ -2,7 +2,7 @@
   "name": "Platform wallpapers pack template",
   "description": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
   "authors": ["Daijishō", "magneticchen"],
-  "sources": ["https://nooxy.org", "https://github.com/magneticchen/Daijishou"],
+  "sources": ["https://nooxy.org", "https://github.com/magneticchen/Daijishou", "https://www.ysnp.gov.tw/"],
   "previewThumbnailFilename": "preview_thumbnail_2.jpg",
 
   "hasDefaultWallpaper": true,
