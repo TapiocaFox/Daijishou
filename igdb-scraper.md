@@ -26,7 +26,7 @@ Here is the list of supported methods for querying.
 ## Formats
 
 ### Format
-`IGDB:GAME:TAGS("template tags"):"query"`
+`IGDB:GAMES:TAGS("template tags"):"query"`
 
 #### description
 Used when Daijishō need to get game related info from IGDB. For example scraping for boxarts, descriptions or videos etc. Endpoint the prefix used:
@@ -39,4 +39,20 @@ https://api.igdb.com/v4/games
 - iGDBChecksum (Not yet supported)
 
 #### example
-`IGDB:GAME:TAGS(scraperKeyword):where platforms=48; search "{scraperKeyword}";`
+`IGDB:GAMES:TAGS(scraperKeyword):where platforms=48; search "{scraperKeyword}";`
+
+<!-- ### Format
+`IGDB:SEARCH:TAGS("template tags"):"query"`
+
+#### description
+Used when Daijishō need to get game related info from IGDB. For example scraping for boxarts, descriptions or videos etc. Endpoint the prefix used:
+
+https://api.igdb.com/v4/search
+
+#### template tags
+- scraperKeyword
+- platformName
+- iGDBChecksum (Not yet supported)
+
+#### example
+`IGDB:SEARCH:TAGS(scraperKeyword): search "{scraperKeyword}";` -->
