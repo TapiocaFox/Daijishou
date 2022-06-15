@@ -40,6 +40,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Daijish\u014d",
+        "magneticchen"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack template contains only single wallpaper of retro futuristic wallpaper.",
+      "platformWallpapersPackName": "Retro futuristic",
+      "platformWallpapersPackPreviewThumbnailPath": "retro-futuristic/futuristic.jpg",
+      "platformWallpapersPackRootPath": "retro-futuristic"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "MonkoftheFunk",
         "oloff3"
       ],

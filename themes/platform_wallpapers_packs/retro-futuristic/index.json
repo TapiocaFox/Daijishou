@@ -1,0 +1,12 @@
+{
+  "name": "Retro futuristic",
+  "description": "A platform wallpapers pack template contains only single wallpaper of retro futuristic wallpaper.",
+  "authors": ["Daijishō", "magneticchen"],
+  "sources": ["https://wallpaperaccess.com/80s-retro-futuristic"],
+  "previewThumbnailFilename": "futuristic.jpg",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "futuristic.jpg",
+  "wallpaperList": [
+  ]
+}
