@@ -56,6 +56,15 @@
       "platformWallpapersPackName": "Theme 9000",
       "platformWallpapersPackPreviewThumbnailPath": "theme-9000/thumbnail.jpg",
       "platformWallpapersPackRootPath": "theme-9000"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jetup13"
+      ],
+      "platformWallpapersPackDescription": "The pack contains fo wallpapers of systems with transparent backgrounds. Originated from launchbox theme. Packed by Jetup13.",
+      "platformWallpapersPackName": "Transparent Pack",
+      "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
+      "platformWallpapersPackRootPath": "transparent-pack"
     }
   ]
 }
