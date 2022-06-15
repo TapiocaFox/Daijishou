@@ -1,0 +1,72 @@
+{
+  "name": "Super green",
+  "description": "The pack contains only green lines sketch of physical looks for each device's controllers. Originated from viking on launchbox. Discovered by Diabolus, modified by MonkoftheFunk, indexing by magneticchen for Daijishō.",
+  "authors": ["MonkoftheFunk", "oloff3"],
+  "sources": ["https://www.deviantart.com/oloff3/gallery/6566966/console-controllers", "https://github.com/magneticchen/Daijishou"],
+  "previewThumbnailFilename": "oloff3.gif",
+
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "sega_dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gameboy.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gameboy_color.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "nintendo_gamecube.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nintendo_ds.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wiimote.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "sega_mega_drive.png"
+    },
+    {
+      "matchPlatformShortname": "ms",
+      "filename": "sega_master_system.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "playstation_1.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "playstation_2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "super_nintendo_controller.png"
+    }
+  ]
+}
