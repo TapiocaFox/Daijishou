@@ -6,7 +6,8 @@
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
-            "LIBRETRO:Nintendo - Nintendo Entertainment System"
+            "LIBRETRO:Nintendo - Nintendo Entertainment System",
+            "IGDB:GAMES:TAGS(scraperKeyword): where platforms=18; search \"{scraperKeyword}\";"
         ],
         "boxArtAspectRatioId": 3,
         "useCustomBoxArtAspectRatio": false,
