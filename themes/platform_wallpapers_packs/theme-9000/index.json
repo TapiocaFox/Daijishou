@@ -1,0 +1,216 @@
+{
+  "name": "Theme 9000",
+  "description": "The pack contains red-themed backgrounds, devices and titles wallpapers for each platforms. It's a platform wallpapers pack for Daijishō made by Retro Devils.",
+  "authors": ["Retro Devils"],
+  "sources": ["https://www.retro-devils.com/"],
+  "previewThumbnailFilename": "thumbnail.jpg",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3DO.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "ATARI 2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "ATARI 5200.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "ATARI 7800.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "JAGUAR.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "COMMADORE 64.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "AMIGA.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "DREAMCAST.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "GAMEBOY.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "GAMEBOY ADVANCE.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "GAMEBOY COLOR.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "GAMECUBE.png"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "MSX.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "NEOGEO.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "NEOGEO.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "NEOGEO POCKET.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "NEOGEO POCKET COLOR.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "NINTENDO 64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "NINTENDO DS.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "NES.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "WII.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "PC ENGINE.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "32x",
+      "filename": "SEGA 32X.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "SEGA CD.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "GAME GEAR.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "MEGADRIVE.png"
+    },
+    {
+      "matchPlatformShortname": "ms",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "SATURN.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "PLAYSTATION.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "SUPER NES.png"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "WONDERSWAN.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "WONDERSWAN COLOR.png"
+    }
+  ]
+}
