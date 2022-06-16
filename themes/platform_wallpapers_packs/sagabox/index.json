@@ -1,0 +1,212 @@
+{
+  "name": "SagaBox",
+  "description": "The pack contains wallpapers of characters from systems with transparent backgrounds. Originated from launchbox theme. Created by Jetup13. Originated from NES-Box for ES by KALEL1981.",
+  "authors": ["Jetup13", "KALEL1981"],
+  "sources": ["https://github.com/Jetup13/es-theme-sagabox", "https://github.com/KALEL1981/es-theme-nes-box"],
+  "previewThumbnailFilename": "preview_thumbnail_2.png",
+
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "amstradcpc.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "atarijaguar.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "mario.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "mario.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.png"
+    },
+    {
+      "matchPlatformShortname": "32x",
+      "filename": "sega32x.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "mastersystem.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "filename": "tic80.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "wonderswan.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wonderswancolor.png"
+    }
+  ]
+}

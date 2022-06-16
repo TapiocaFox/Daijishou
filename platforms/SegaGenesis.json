@@ -2,7 +2,7 @@
   "databaseVersion": 3,
   "platform": {
     "name": "Sega Genesis",
-    "shortname": "megadrive",
+    "shortname": "genesis",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
@@ -17,7 +17,7 @@
     "extra": ""
   },
   "playerList": [{
-      "name": "megadrive - com.androidemu.gens",
+      "name": "genesis - com.androidemu.gens",
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms)$",
       "amStartArguments": "-n com.androidemu.gens/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
@@ -28,7 +28,7 @@
 
 
     {
-      "name": "megadrive - RetroArch 64 - genesis_plus_gx",
+      "name": "genesis - RetroArch 64 - genesis_plus_gx",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/genesis_plus_gx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -37,7 +37,7 @@
       "extra": ""
     },
     {
-      "name": "megadrive - RetroArch 64 - genesis_plus_gx_wide",
+      "name": "genesis - RetroArch 64 - genesis_plus_gx_wide",
       "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/genesis_plus_gx_wide_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
