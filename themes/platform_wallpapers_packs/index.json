@@ -60,6 +60,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jetup13",
+        "KALEL1981"
+      ],
+      "platformWallpapersPackDescription": "The pack contains wallpapers of characters from systems with transparent backgrounds. Originated from launchbox theme. Created by Jetup13. Originated from NES-Box for ES by KALEL1981.",
+      "platformWallpapersPackName": "SagaBox",
+      "platformWallpapersPackPreviewThumbnailPath": "sagabox/preview_thumbnail_2.png",
+      "platformWallpapersPackRootPath": "sagabox"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "MonkoftheFunk",
         "oloff3"
       ],

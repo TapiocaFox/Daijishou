@@ -194,7 +194,7 @@
     {
       "filename": "Sega32X.json",
       "platformName": "Sega 32X",
-      "platformShortname": "32x"
+      "platformShortname": "sega32x"
     },
     {
       "filename": "SegaCD.json",
@@ -209,12 +209,12 @@
     {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
-      "platformShortname": "megadrive"
+      "platformShortname": "genesis"
     },
     {
       "filename": "SegaMasterSystem.json",
       "platformName": "Sega Master System",
-      "platformShortname": "ms"
+      "platformShortname": "master"
     },
     {
       "filename": "SegaSaturn.json",
