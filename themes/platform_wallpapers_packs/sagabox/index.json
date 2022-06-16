@@ -1,9 +1,9 @@
 {
-  "name": "SagaBox",
+  "name": "Saga Box",
   "description": "The pack contains wallpapers of characters from systems with transparent backgrounds. Originated from launchbox theme. Created by Jetup13. Originated from NES-Box for ES by KALEL1981.",
   "authors": ["Jetup13", "KALEL1981"],
   "sources": ["https://github.com/Jetup13/es-theme-sagabox", "https://github.com/KALEL1981/es-theme-nes-box"],
-  "previewThumbnailFilename": "preview_thumbnail_2.png",
+  "previewThumbnailFilename": "mario.png",
 
   "hasDefaultWallpaper": false,
   "defaultWallpaperFilename": null,
