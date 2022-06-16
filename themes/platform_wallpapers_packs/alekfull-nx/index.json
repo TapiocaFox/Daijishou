@@ -173,6 +173,10 @@
       "filename": "megadrive.jpg"
     },
     {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.jpg"
+    },
+    {
       "matchPlatformShortname": "master",
       "filename": "master.jpg"
     },

@@ -173,6 +173,10 @@
       "filename": "GG.png"
     },
     {
+      "matchPlatformShortname": "genesis",
+      "filename": "MD.png"
+    },
+    {
       "matchPlatformShortname": "megadrive",
       "filename": "MD.png"
     },
