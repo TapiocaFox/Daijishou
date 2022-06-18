@@ -12,6 +12,11 @@
       "platformShortname": "cpc"
     },
     {
+      "filename": "Android.json",
+      "platformName": "Android (Do not download, For Daijish\u014d v1.2.12)",
+      "platformShortname": "android"
+    },
+    {
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600"
