@@ -1,7 +1,7 @@
 {
     "databaseVersion": 6,
     "platform": {
-        "name": "Android (Daijishō v1.2.12)",
+        "name": "Android (Do not download, For Daijishō v1.2.12)",
         "shortname": "android",
         "description": null,
         "acceptedFilenameRegex": "^.*$",
