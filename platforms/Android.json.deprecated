@@ -1,0 +1,30 @@
+{
+    "databaseVersion": 6,
+    "platform": {
+        "name": "Android (Do not download, For Daijishō v1.2.12)",
+        "shortname": "android",
+        "description": null,
+        "acceptedFilenameRegex": "^.*$",
+        "scraperSourceList": [
+            "RAW:Android"
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": false,
+        "customBoxArtAspectRatio": null,
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": false,
+        "customScreenAspectRatio": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "android - activity component player",
+            "description": "Android activity componet player",
+            "acceptedFilenameRegex": "^$",
+            "amStartArguments": "-n {android.activity}\n",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        }
+    ]
+}
