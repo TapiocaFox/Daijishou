@@ -24,6 +24,7 @@ Player is a set of arguments can be configured to execute playable files filtere
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
 ![](/imgs/platform_nes.png)
+
 ![](/imgs/platform_library.png)
 
 ### Q&A(3/7): How to add platforms and players
@@ -40,7 +41,9 @@ Highlight page arrange your items by favorite, recent played and newly added ite
 Daijishō also allow you to manage apps, search games, wallpaper packs, support RetroAchievements, hotkeys, theme-color, video background, provide detail for items, widgets page and play button sounds etc.
 
 ![](/imgs/widgets.png)
+
 ![](/imgs/achievement_5.png)
+
 ![](/imgs/platform_wallpapers_pack_2.png)
 
 ### Q&A(6/7): How much efforts does the author put on this project?
