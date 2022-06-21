@@ -7,12 +7,16 @@ Daijishō is a retro launcher that let you manage your retro games libraries. Da
 
 Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじしょう" actually stands for ["台字章"](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D) in kanji. Which is a pattern widely used in Taiwan during the Japanese period. Anyway, happy gaming.
 
+### *** Taking a break on the project ***
+Daijishō has evolved a lot the first half of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page and various other small details. I know that there are still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 7 continuous months. Thus, I am gonna take a break from the Daijishō project, probably months. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
+
 ### About this Repository
-Daijishō is currently closed-source. However you can still report issues or submit suggestions here.
+Daijishō is currently closed-source. Nonetheless, I do have some prerequisites for open-sourcing it.You can still report issues or submit suggestions here. And Daijishō will always be free!
 
 # Q&A
 ### Q&A(0/7): Is Daijishō a Pegasus fork?
-No
+Nope
+
 ### Q&A(1/7): What is "player"
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
@@ -42,8 +46,7 @@ Highlight page arrange your items by favorite, recent played and newly added ite
 ![](/imgs/highlight.gif)
 
 ### Q&A(5/7): What about other features
-Daijishō also allow you to manage apps, search games, support RetroAchievements, hotkeys, theme-color, video background, provide detail page and play button sounds etc.
-
+Daijishō also allow you to manage apps, search games, support RetroAchievements, hotkeys, theme-color, video background, provide detail for items, widgets page and play button sounds etc.
 
 ![](/imgs/game_detail.gif)
 ![](/imgs/platform_library.png)
@@ -60,15 +63,15 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 # Related links
 <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
-
-[Discord](https://discord.com/invite/nJbxdT3QQE)
+[Discord (recommended)](https://discord.com/invite/nJbxdT3QQE)
 
 [Telegram Group](https://t.me/daijishou)
 
 [Wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou)
 
 [Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
-### Donation
+
+### Donation (I am taking a break on the project)
 [PayPal](https://paypal.me/magneticchen)
 
 [Patreon](https://www.patreon.com/magneticchen)
@@ -83,11 +86,5 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 
 # Resources
-
-[![Gamer Shortcut US](https://img.youtube.com/vi/c2gLY5eiFWY/0.jpg)](https://www.youtube.com/watch?v=c2gLY5eiFWY)
-
-[![Gamer Shortcut US](https://img.youtube.com/vi/MWz_x2lCVN4/0.jpg)](https://www.youtube.com/watch?v=MWz_x2lCVN4)
-- YouTube videos from **"Gamer Shortcut US"**
-
-[![Gamer Shortcut US](https://img.youtube.com/vi/KI3R9BNM9ss/0.jpg)](https://www.youtube.com/watch?v=KI3R9BNM9ss)
+[![Retro Devils](https://img.youtube.com/vi/KI3R9BNM9ss/0.jpg)](https://www.youtube.com/watch?v=KI3R9BNM9ss)
 - YouTube videos from **"Retro Devils"**
