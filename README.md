@@ -18,7 +18,7 @@ Daijishō is currently closed-source. Nonetheless, I do have some prerequisites 
 Nope. But you can import some config for emulators from pegasus.
 
 ### Q&A (1/7): Main features
-Daijishō also allow you to
+Daijishō also allow you to:
  - manage apps
  - search items
  - download wallpaper packs
