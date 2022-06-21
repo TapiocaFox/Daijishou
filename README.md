@@ -39,7 +39,7 @@ Highlight page arrange your items by favorite, recent played and newly added ite
 ### Q&A(5/7): What about other features
 Daijishō also allow you to manage apps, search games, wallpaper packs, support RetroAchievements, hotkeys, theme-color, video background, provide detail for items, widgets page and play button sounds etc.
 
-![](/imgs/platform_wallpapers_packs.png)
+![](/imgs/platform_wallpapers_pack.png)
 ![](/imgs/widgets.png)
 ![](/imgs/achievement_4.png)
 
