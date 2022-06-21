@@ -20,40 +20,17 @@ Nope
 ### Q&A(1/7): What is "player"
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
-![](/imgs/player.png)
-
 ### Q&A(2/7): What is "platform"
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
-
-![](/imgs/platform.gif)
-![](/imgs/platform_n64.png)
-
-
-[wallpaper source](https://cutewallpaper.org/download.php?file=/21/n64-wallpapers/Super-Smash-Bros-N64-Phone-Wallpaper-Ryanmartinproductions.com.jpg)
 
 ### Q&A(3/7): How to add platforms and players
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
-![](/imgs/import_platform.png)
-![](/imgs/no_platform.png)
-
-
 ### Q&A(4/7): How does highlight page work
 Highlight page arrange your items by favorite, recent played and newly added items. You can long click items to review details.
 
-<!-- ![](/imgs/highlight_favorite.png)
-![](/imgs/highlight_recent.png) -->
-![](/imgs/highlight.gif)
-
 ### Q&A(5/7): What about other features
-Daijishō also allow you to manage apps, search games, support RetroAchievements, hotkeys, theme-color, video background, provide detail for items, widgets page and play button sounds etc.
-
-![](/imgs/game_detail.gif)
-![](/imgs/platform_library.png)
-![](/imgs/apps.png)
-![](/imgs/achievement_1.png)
-![](/imgs/achievement_2.png)
-![](/imgs/achievement_3.png)
+Daijishō also allow you to manage apps, search games, wallpaper packs, support RetroAchievements, hotkeys, theme-color, video background, provide detail for items, widgets page and play button sounds etc.
 
 ### Q&A(6/7): How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
