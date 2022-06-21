@@ -17,34 +17,46 @@ Daijishō is currently closed-source. Nonetheless, I do have some prerequisites 
 ### Q&A(0/7): Is Daijishō a Pegasus fork?
 Nope
 
-### Q&A(1/7): What is "player"
+### Q&A(1/7): Main features
+Daijishō also allow you to
+ - manage apps
+ - search items
+ - download wallpaper packs
+ - RetroAchievements
+ - hotkeys
+ - theme-colors
+ - video background
+ - detail view by long click
+ - suggest similar items for item
+ - widgets page (with wigets of activities, random, pin and play etc.)
+ - sound effects.
+
+![](/imgs/widgets.png)
+widgets
+![](/imgs/achievement_5.png)
+RetroAchievements
+![](/imgs/platform_wallpapers_pack_2.png)
+wallpaper packs
+
+### Q&A(2/7): What is "player"
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
-### Q&A(2/7): What is "platform"
+### Q&A(3/7): What is "platform"
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
 ![](/imgs/platform_nes.png)
 
 ![](/imgs/platform_library.png)
 
-### Q&A(3/7): How to add platforms and players
+### Q&A(4/7): How to add platforms and players
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ![](/imgs/download_platforms.png)
 
-### Q&A(4/7): How does highlight page work
+### Q&A(5/7): How does highlight page work
 Highlight page arrange your items by favorite, recent played and newly added items. You can long click items to review details.
 
 ![](/imgs/highlight.png)
-
-### Q&A(5/7): What about other features
-Daijishō also allow you to manage apps, search games, wallpaper packs, support RetroAchievements, hotkeys, theme-color, video background, provide detail for items, widgets page and play button sounds etc.
-
-![](/imgs/widgets.png)
-
-![](/imgs/achievement_5.png)
-
-![](/imgs/platform_wallpapers_pack_2.png)
 
 ### Q&A(6/7): How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
@@ -69,13 +81,13 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 
 # TODO
-- Explore Page
-- More scraper sources
-- Export database
-- Easter egg
-- Localization (Japanese, Chinese(Taiwan), Taiwanese)
+ - Localization
+ - Grid view for platform libraries
+ - Android platform
+ - Better GDI format support
+ - Background music
 
 
 # Resources
 [![Retro Devils](https://img.youtube.com/vi/KI3R9BNM9ss/0.jpg)](https://www.youtube.com/watch?v=KI3R9BNM9ss)
-- YouTube videos from **"Retro Devils"**
+ - YouTube videos from **"Retro Devils"**
