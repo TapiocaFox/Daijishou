@@ -93,6 +93,8 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
  - Android platform
  - Better GDI format support
  - Background music
+ - A action for deleting ROMs that are not present in the filesystem in settings
+ - Sync all platforms
 
 
 # Resources
