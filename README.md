@@ -87,6 +87,7 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 
 # TODO
+ - Alphabetic switching in platform library
  - Localization
  - Grid view for platform libraries
  - Android platform
