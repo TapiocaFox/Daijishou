@@ -40,8 +40,8 @@ Highlight page arrange your items by favorite, recent played and newly added ite
 Daijishō also allow you to manage apps, search games, wallpaper packs, support RetroAchievements, hotkeys, theme-color, video background, provide detail for items, widgets page and play button sounds etc.
 
 ![](/imgs/widgets.png)
+![](/imgs/achievement_5.png)
 ![](/imgs/platform_wallpapers_pack_2.png)
-![](/imgs/achievement_4.png)
 
 ### Q&A(6/7): How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
