@@ -83,7 +83,7 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 ### Donation (I am taking a break on the project)
 [PayPal](https://paypal.me/magneticchen)
 
-[Patreon](https://www.patreon.com/magneticchen)
+<!-- [Patreon](https://www.patreon.com/magneticchen) -->
 
 
 # TODO
