@@ -80,7 +80,7 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 [Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 
-### Donation (I am taking a break on the project)
+### Donation (I am taking a break from the project)
 [PayPal](https://paypal.me/magneticchen)
 
 <!-- [Patreon](https://www.patreon.com/magneticchen) -->
@@ -95,6 +95,7 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
  - Background music
  - An action for deleting ROMs that are not present in the filesystem in settings
  - Sync all platforms
+ - Merge disks
 
 
 # Resources
