@@ -193,11 +193,23 @@
       "filename": "mount_niitaka.jpg"
     },
     {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
       "matchPlatformShortname": "snes",
       "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "tic80",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
       "filename": "mount_niitaka.jpg"
     },
     {

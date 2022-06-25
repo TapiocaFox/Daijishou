@@ -197,12 +197,24 @@
       "filename": "PS2.png"
     },
     {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "PC Engine SuperGrafx.png"
+    },
+    {
       "matchPlatformShortname": "snes",
       "filename": "SNES.png"
     },
     {
       "matchPlatformShortname": "tic80",
       "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "PC Engine SuperGrafx.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "PC Engine SuperGrafx.png"
     },
     {
       "matchPlatformShortname": "supervision",

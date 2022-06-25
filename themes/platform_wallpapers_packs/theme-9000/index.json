@@ -193,12 +193,24 @@
       "filename": "default.png"
     },
     {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "PC ENGINE.png"
+    },
+    {
       "matchPlatformShortname": "snes",
       "filename": "SUPER NES.png"
     },
     {
       "matchPlatformShortname": "tic80",
       "filename": "default.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "PC ENGINE.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "PC ENGINE.png"
     },
     {
       "matchPlatformShortname": "supervision",

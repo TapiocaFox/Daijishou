@@ -232,6 +232,11 @@
       "platformShortname": "ps2"
     },
     {
+      "filename": "SuperGrafx.json",
+      "platformName": "SuperGrafx",
+      "platformShortname": "supergrafx"
+    },
+    {
       "filename": "SuperNintendoEntertainmentSystem.json",
       "platformName": "Super Nintendo Entertainment System",
       "platformShortname": "snes"
@@ -240,6 +245,16 @@
       "filename": "TIC80.json",
       "platformName": "TIC-80",
       "platformShortname": "tic80"
+    },
+    {
+      "filename": "TurboGrafx16.json",
+      "platformName": "TurboGrafx-16",
+      "platformShortname": "tg16"
+    },
+    {
+      "filename": "TurboGrafxCD.json",
+      "platformName": "TurboGrafx-CD",
+      "platformShortname": "tgcd"
     },
     {
       "filename": "WataraSupervision.json",

@@ -193,12 +193,24 @@
       "filename": "ps2.jpg"
     },
     {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.jpg"
+    },
+    {
       "matchPlatformShortname": "snes",
       "filename": "snes.jpg"
     },
     {
       "matchPlatformShortname": "tic80",
       "filename": "tic80.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16cd.jpg"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "supervision",
