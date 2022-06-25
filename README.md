@@ -29,7 +29,7 @@ Daijishō also allow you to:
  - video background
  - detail view by long click
  - suggest similar items for item
- - widgets page (with wigets of activities, random, pin and play etc.)
+ - widgets page (with widgets of activities, random, pin and play etc.)
  - sound effects.
 
 ![](/imgs/widgets.png)
@@ -93,7 +93,7 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
  - Android platform
  - Better GDI format support
  - Background music
- - An action for deleting ROMs that are not present in the filesystem in settings
+ - An action for deleting ROMs that are not present in the file system in settings
  - Sync all platforms
  - Merge disks
 
