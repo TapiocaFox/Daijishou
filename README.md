@@ -31,6 +31,7 @@ Daijishō also allow you to:
  - suggest similar items for item
  - widgets page (with widgets of activities, random, pin and play etc.)
  - sound effects.
+ - RSS Feed
 
 ![](/imgs/widgets.png)
 
