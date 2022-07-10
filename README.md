@@ -88,9 +88,7 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
 
 
 # TODO
- - Alphabetic switching in platform library
  - Localization
- - Grid view for platform libraries
  - Android platform
  - Better GDI format support
  - Background music
@@ -98,7 +96,8 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
  - Sync all platforms
  - Merge disks
  - Edit the image of a pinned game
-
+ - Hide games
+ <!-- - Tags system -->
 
 # Resources
 [![Retro Devils](https://img.youtube.com/vi/KI3R9BNM9ss/0.jpg)](https://www.youtube.com/watch?v=KI3R9BNM9ss)
