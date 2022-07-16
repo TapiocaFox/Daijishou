@@ -12,6 +12,24 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "fagnerpc"
+      ],
+      "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/ARTFLIX-NX-Recalbox on GitHub. Mentioned by DougRetroGames in Discord.",
+      "platformWallpapersPackName": "Alekfull-NX",
+      "platformWallpapersPackPreviewThumbnailPath": "alekfull-nx-recalbox/thumbnail.png",
+      "platformWallpapersPackRootPath": "alekfull-nx-recalbox"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "fagnerpc"
+      ],
+      "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-SOLO on GitHub. Mentioned by DougRetroGames in Discord.",
+      "platformWallpapersPackName": "Alekfull-SOLO",
+      "platformWallpapersPackPreviewThumbnailPath": "alekfull-solo/thumbnail.png",
+      "platformWallpapersPackRootPath": "alekfull-solo"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "viking",
         "iShade"
       ],
