@@ -4,7 +4,7 @@
     "name": "Sony PlayStation",
     "shortname": "psx",
     "description": null,
-    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?:chd|cue)$",
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "scraperSourceList": [
       "LIBRETRO:Sony - PlayStation"
     ],
