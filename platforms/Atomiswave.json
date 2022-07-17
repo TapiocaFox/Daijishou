@@ -7,6 +7,7 @@
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
         "scraperSourceList": [
           "LIBRETRO:Atomiswave",
+          "ARCADE_ITALIA:MAME",
           "LIBRETRO:Sega - Dreamcast"
         ],
         "boxArtAspectRatioId": 1,
