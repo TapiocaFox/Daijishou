@@ -29,8 +29,8 @@
 
         {
             "name": "supergrafx - RetroArch 64 - mednafen_pce",
-            "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
+            "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
             "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_pce_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -38,8 +38,8 @@
         },
         {
             "name": "supergrafx - RetroArch 64 - mednafen_supergrafx",
-            "description": "Supported extensions: ccd, chd, cue, pce, sgx.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx)$",
+            "description": "Supported extensions: ccd, chd, cue, pce, sgx, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx|zip|7z)$",
             "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_supergrafx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -49,8 +49,8 @@
 
         {
             "name": "supergrafx - RetroArch 32 - mednafen_pce",
-            "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
+            "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
             "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_pce_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -58,8 +58,8 @@
         },
         {
             "name": "supergrafx - RetroArch 32 - mednafen_supergrafx",
-            "description": "Supported extensions: ccd, chd, cue, pce, sgx.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx)$",
+            "description": "Supported extensions: ccd, chd, cue, pce, sgx, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx|zip|7z)$",
             "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_supergrafx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -68,8 +68,8 @@
 
         {
             "name": "supergrafx - RetroArch - mednafen_pce",
-            "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
+            "description": "Supported extensions: ccd, chd, cue, m3u, pce, sgx, toc, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
             "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mednafen_pce_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
@@ -77,8 +77,8 @@
         },
         {
             "name": "supergrafx - RetroArch - mednafen_supergrafx",
-            "description": "Supported extensions: ccd, chd, cue, pce, sgx.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx)$",
+            "description": "Supported extensions: ccd, chd, cue, pce, sgx, zip, 7z.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|pce|sgx|zip|7z)$",
             "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mednafen_supergrafx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,

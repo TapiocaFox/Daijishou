@@ -42,6 +42,11 @@
       "platformShortname": "atarist"
     },
     {
+      "filename": "Atomiswave.json",
+      "platformName": "Atomiswave",
+      "platformShortname": "atomiswave"
+    },
+    {
       "filename": "CPS1.json",
       "platformName": "CP System I",
       "platformShortname": "cps1"
