@@ -25,6 +25,10 @@
       "filename": "atari_2600.jpg"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "sega_dreamcast.jpg"
+    },
+    {
       "matchPlatformShortname": "jaguar",
       "filename": "atari_jaguar.jpg"
     },

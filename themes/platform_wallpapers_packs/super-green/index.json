@@ -9,6 +9,10 @@
   "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "sega_dreamcast.png"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "filename": "sega_dreamcast.png"
     },

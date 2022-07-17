@@ -41,6 +41,10 @@
       "filename": "Atari 2600.jpg"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "DC.png"
+    },
+    {
       "matchPlatformShortname": "cps1",
       "filename": "Arcade.jpg"
     },

@@ -41,6 +41,10 @@
       "filename": "atarist.png"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
       "matchPlatformShortname": "cps1",
       "filename": "cps1.png"
     },

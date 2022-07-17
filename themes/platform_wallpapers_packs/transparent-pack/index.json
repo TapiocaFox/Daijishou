@@ -49,6 +49,10 @@
       "filename": "atarist.png"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
       "matchPlatformShortname": "amiga",
       "filename": "amiga.png"
     },

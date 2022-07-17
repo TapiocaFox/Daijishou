@@ -41,6 +41,10 @@
       "filename": "default.png"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "DREAMCAST.png"
+    },
+    {
       "matchPlatformShortname": "cps1",
       "filename": "default.png"
     },
