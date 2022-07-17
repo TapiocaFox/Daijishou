@@ -6,7 +6,7 @@
   "previewThumbnailFilename": "thumbnail.png",
 
   "hasDefaultWallpaper": true,
-  "defaultWallpaperFilename": "arcade.jpg",
+  "defaultWallpaperFilename": "imageviewer.jpg",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
@@ -210,11 +210,11 @@
     },
     {
       "matchPlatformShortname": "tg16",
-      "filename": "tg16.jpg"
+      "filename": "pcengine.jpg"
     },
     {
       "matchPlatformShortname": "tgcd",
-      "filename": "tg16cd.jpg"
+      "filename": "pcenginecd.jpg"
     },
     {
       "matchPlatformShortname": "supervision",
