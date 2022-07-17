@@ -20,7 +20,7 @@
     },
     "playerList": [
         {
-            "name": "cps3 - NEO.EMU",
+            "name": "cps2 - NEO.EMU",
             "description": "Supported extensions: zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
             "amStartArguments": "-n com.explusalpha.neoemu/com.imagine.BaseActivity\n  -d {file.path}\n",
