@@ -92,10 +92,10 @@ You can star this GitHub page, donate, promote Daijishō in the communities, sum
  - Android platform
  - Better GDI format support
  - Background music
- - An action for deleting ROMs that are not present in the file system in settings
+ <!-- - An action for deleting ROMs that are not present in the file system in settings -->
  - Sync all platforms
  - Merge disks
- - Edit the image of a pinned game
+ <!-- - Edit the image of a pinned game -->
  - Hide games
  <!-- - Tags system -->
 
