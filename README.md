@@ -27,10 +27,10 @@ Well done. You have now made the most of it. Here are some tips for you.
  - See "Main features" in Q&A to make sure you don't miss any features!
 
 # Q&A
-## [0/7]: Is Daijishō a Pegasus fork?
+### [0/7]: Is Daijishō a Pegasus fork?
 Nope. But you can import some config for emulators from pegasus.
 
-## [1/7]: Main features
+### [1/7]: Main features
 Daijishō also allow you to:
  - manage apps
  - search items
@@ -57,30 +57,30 @@ Daijishō also allow you to:
 
 (wallpaper packs)
 
-## [2/7]: What is "player"
+### [2/7]: What is "player"
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
-## [3/7]: What is "platform"
+### [3/7]: What is "platform"
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
 ![](/imgs/platform_nes.png)
 
 ![](/imgs/platform_library.png)
 
-## [4/7]: How to add platforms and players
+### [4/7]: How to add platforms and players
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ![](/imgs/download_platforms.png)
 
-## [5/7]: How does highlight page work
+### [5/7]: How does highlight page work
 Highlight page arrange your items by favorite, recent played and newly added items. You can long click items to review details.
 
 ![](/imgs/highlight.png)
 
-## [6/7]: How much efforts does the author put on this project?
+### [6/7]: How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
 
-## [7/7]: What can you do to support?
+### [7/7]: What can you do to support?
 You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or update platform list in this GitHub page.
 
 # Related links
