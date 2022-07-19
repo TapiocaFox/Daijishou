@@ -15,7 +15,6 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
 
 # Make the most of Daijishō
  0. Install prefered emulators app first, then Daijishō will select it automatically
-
  1. Setup hotkeys for better and intuitive navigation
  2. Download and select platforms you want
  3. Set game files path and sync for each platforms
