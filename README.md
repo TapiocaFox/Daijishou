@@ -101,7 +101,7 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
  - Hide games
  <!-- - Tags system -->
 
- # Related links
+# Related links
  <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
  [Discord (recommended)](https://discord.com/invite/nJbxdT3QQE)
 
