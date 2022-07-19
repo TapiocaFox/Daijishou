@@ -55,7 +55,9 @@ Nope. But you can import some config for emulators from pegasus.
 
 ![](/imgs/platform_wallpapers_pack_2.png)
 
-(wallpaper packs) And a lot more.
+(wallpaper packs)
+
+And a lot more...
 
 ### What is "player" (2 of 7)
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
@@ -83,21 +85,6 @@ This is a side project. The project solely develop on my retroid pocket 2+ and A
 ### What can you do to support? (7 of 7)
 You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or update platform list in this GitHub page.
 
-# Related links
-<!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
-[Discord (recommended)](https://discord.com/invite/nJbxdT3QQE)
-
-[Telegram Group](https://t.me/daijishou)
-
-[Wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou)
-
-[Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
-
-### Donation (I am taking a break from the project)
-[PayPal](https://paypal.me/magneticchen)
-
-<!-- [Patreon](https://www.patreon.com/magneticchen) -->
-
 
 # Taking a break from the project
 Daijishō has evolved a lot in the first half of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 7 continuous months. Thus, I decided to take a break from the Daijishō project, probably for months. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
@@ -113,3 +100,18 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
  <!-- - Edit the image of a pinned game -->
  - Hide games
  <!-- - Tags system -->
+
+ # Related links
+ <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
+ [Discord (recommended)](https://discord.com/invite/nJbxdT3QQE)
+
+ [Telegram Group](https://t.me/daijishou)
+
+ [Wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou)
+
+ [Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
+
+ ### Donation (I am taking a break from the project)
+ [PayPal](https://paypal.me/magneticchen)
+
+ <!-- [Patreon](https://www.patreon.com/magneticchen) -->
