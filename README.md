@@ -14,12 +14,12 @@ Daijishō is currently closed-source. Nonetheless, I do have some prerequisites 
 Daijishō has evolved a lot in the first half of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 7 continuous months. Thus, I decided to take a break from the Daijishō project, probably for months. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
 
 # Make the most of Daijishō
- 0. Install prefered emulators app first, then Daijishō will select it automatically
- 1. Setup hotkeys for better and intuitive navigation
- 2. Download and select platforms you want
- 3. Set game files path and sync for each platforms
- 4. Download prefered wallpaper pack and select prefer theme color in settings page
- 5. Add prefered widgets in widget page
+ 0. **Install prefered emulators** app first, then Daijishō will select it automatically
+ 1. **Setup hotkeys** for better and intuitive navigation
+ 2. **Download and select platforms** you want
+ 3. **Set game files path and sync** for each platforms
+ 4. **Download prefered wallpaper pack** and **select prefer theme color** in settings page
+ 5. **Add prefered widgets** in widget page
 
 Well done. You have now made the most of it. Here are some tips for you.
 
