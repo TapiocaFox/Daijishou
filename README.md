@@ -13,6 +13,21 @@ Daijishō is currently closed-source. Nonetheless, I do have some prerequisites 
 ### *** Taking a break from the project ***
 Daijishō has evolved a lot in the first half of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 7 continuous months. Thus, I decided to take a break from the Daijishō project, probably for months. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
 
+# Make the most of Daijishō
+ 0. Install prefered emulators app first, then Daijishō will select it automatically
+ 1. Setup hotkeys for better and intuitive navigation
+ 2. Download and select platforms you want
+ 3. Set game files path and sync for each platforms
+ 4. Download prefered wallpaper pack in settings page
+ 5. Add prefered widgets in widget page
+
+Well done. You are now made the most of it. Here are some tips for you.
+
+ - You can long click items to see detail of the item.
+ - You can inspect your RetroAchievements records if you login.
+ - Switching hotkeys have different abilities in different sections.
+ - Be sure to make use of widgets, they are very useful. Like RSS, Activit, Pining games etc.
+ - See "Main features" in Q&A to make sure you don't miss any features!
 
 # Q&A
 ## [0/7]: Is Daijishō a Pegasus fork?
