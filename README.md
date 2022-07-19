@@ -15,7 +15,7 @@ Daijishō is currently closed-source. Nonetheless, I do have some prerequisites 
  1. ***Setup hotkeys*** for better and intuitive navigation
  2. ***Download and select platforms*** you want
  3. ***Set game files path and sync*** for each platforms
- 4. ***Download prefered wallpaper pack*** and ***select prefer theme color*** in settings page
+ 4. ***Download prefered wallpaper pack*** and ***select prefered theme color*** in settings page
  5. ***Add prefered widgets*** in widget page
 
 Well done. You have now made the most of it. Here are some tips for you.
