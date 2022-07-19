@@ -26,7 +26,7 @@ Well done. You have now made the most of it. Here are some tips for you.
  - Be sure to make use of widgets, they are very useful. Like RSS, Activit, Pining games etc.
  - See "Main features" in Q&A to make sure you don't miss any features!
 
-# Q&A
+# Frequently asked question
 ### Is Daijishō a Pegasus fork? (0 of 5)
 Nope. But you can import some config for emulators from pegasus.
 
