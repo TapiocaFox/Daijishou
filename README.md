@@ -15,13 +15,14 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
 
 # Make the most of Daijishō
  0. Install prefered emulators app first, then Daijishō will select it automatically
+
  1. Setup hotkeys for better and intuitive navigation
  2. Download and select platforms you want
  3. Set game files path and sync for each platforms
- 4. Download prefered wallpaper pack in settings page
+ 4. Download prefered wallpaper pack and select prefer theme color in settings page
  5. Add prefered widgets in widget page
 
-Well done. You are now made the most of it. Here are some tips for you.
+Well done. You have now made the most of it. Here are some tips for you.
 
  - You can long click items to see detail of the item.
  - You can inspect your RetroAchievements records if you login.
