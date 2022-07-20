@@ -217,6 +217,10 @@
       "filename": "PC ENGINE.png"
     },
     {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "VIRTUALBOY.png"
+    },
+    {
       "matchPlatformShortname": "supervision",
       "filename": "default.png"
     },

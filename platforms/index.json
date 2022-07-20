@@ -262,6 +262,11 @@
       "platformShortname": "tgcd"
     },
     {
+      "filename": "VirtualBoy.json",
+      "platformName": "Virtual Boy",
+      "platformShortname": "virtualboy"
+    },
+    {
       "filename": "WataraSupervision.json",
       "platformName": "Watara Supervision",
       "platformShortname": "supervision"

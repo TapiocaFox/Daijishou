@@ -217,6 +217,10 @@
       "filename": "tgcd.png"
     },
     {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
       "matchPlatformShortname": "supervision",
       "filename": "supervision.png"
     },

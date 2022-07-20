@@ -217,6 +217,10 @@
       "filename": "pcenginecd.jpg"
     },
     {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.jpg"
+    },
+    {
       "matchPlatformShortname": "supervision",
       "filename": "supervision.jpg"
     },
