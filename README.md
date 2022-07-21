@@ -24,6 +24,7 @@ Well done. You have now made the most of it. Here are some tips for you.
  - You can inspect your RetroAchievements records if you login.
  - Switching hotkeys have different abilities in different sections.
  - Be sure to make use of widgets, they are very useful. Like RSS, Activit, Pining games etc.
+ - You can update your platforms by re-downloading and re-importing platforms from the list without losing records
  - See "Main features" in Q&A to make sure you don't miss any features!
 
 # Frequently asked questions
