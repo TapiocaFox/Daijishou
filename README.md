@@ -11,9 +11,9 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじし�
 Daijishō is currently closed-source. Nonetheless, I do have some prerequisites for open-sourcing it.You can still report issues or submit suggestions here. And Daijishō will always be free!
 
 # Make the most of Daijishō
- 0. ***Install prefered emulators*** app first, then Daijishō will select it automatically
+ 0. ***Install prefered emulators*** apps first, then Daijishō will select it automatically
  1. ***Setup hotkeys*** for better and intuitive navigation
- 2. ***Download and select platforms*** you want
+ 2. ***Download and import platforms*** you want
  3. ***Set game files path and sync*** for each platforms
  4. ***Download prefered wallpaper pack*** and ***select prefered theme color*** in settings page
  5. ***Add prefered widgets*** in widget page

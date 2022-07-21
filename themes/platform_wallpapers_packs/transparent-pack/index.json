@@ -293,6 +293,10 @@
       "filename": "dreamcast.png"
     },
     {
+      "matchPlatformShortname": "fbneo",
+      "filename": "cps1.png"
+    },
+    {
       "matchPlatformShortname": "vmu",
       "filename": "vmu.png"
     },

@@ -87,6 +87,11 @@
       "platformShortname": "dreamcast"
     },
     {
+      "filename": "FinalBurnNeo.json",
+      "platformName": "Arcade (FinalBurn Neo)",
+      "platformShortname": "fbneo"
+    },
+    {
       "filename": "GameBoy.json",
       "platformName": "Game Boy",
       "platformShortname": "gb"
