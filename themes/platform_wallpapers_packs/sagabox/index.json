@@ -225,6 +225,10 @@
       "filename": "virtualboy.png"
     },
     {
+      "matchPlatformShortname": "wasm4",
+      "filename": "wasm4.png"
+    },
+    {
       "matchPlatformShortname": "supervision",
       "filename": "supervision.png"
     },

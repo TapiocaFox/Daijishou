@@ -225,6 +225,10 @@
       "filename": "mount_niitaka.jpg"
     },
     {
+      "matchPlatformShortname": "wasm4",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
       "matchPlatformShortname": "supervision",
       "filename": "mount_niitaka.jpg"
     },

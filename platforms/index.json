@@ -272,6 +272,11 @@
       "platformShortname": "virtualboy"
     },
     {
+      "filename": "WASM4.json",
+      "platformName": "WASM-4",
+      "platformShortname": "wasm4"
+    },
+    {
       "filename": "WataraSupervision.json",
       "platformName": "Watara Supervision",
       "platformShortname": "supervision"
