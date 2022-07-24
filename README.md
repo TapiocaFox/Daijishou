@@ -19,7 +19,7 @@ Daijishō is currently closed-source. Nonetheless, I do have some prerequisites 
  5. ***Add prefered widgets*** in widget page
 
 Well done. You have now made the most of it. Here are some tips for you.
-
+ - Take a look of [wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou) might helps.
  - You can long click items to see detail of the item.
  - You can inspect your RetroAchievements records if you login.
  - Switching hotkeys have different abilities in different sections.
@@ -106,9 +106,9 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
 
  [Telegram Group](https://t.me/daijishou)
 
- [Wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou)
+ [Daijishou (台字章) history wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 
- [Daijishou (台字章) wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
+ [Daijishō EmuGen wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
 
  ### Donation (I am taking a break from the project)
  [PayPal](https://paypal.me/magneticchen)
