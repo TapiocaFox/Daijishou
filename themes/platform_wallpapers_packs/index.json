@@ -12,9 +12,11 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "fagnerpc"
+        "fagnerpc",
+        "Retro Devils",
+        "Eighttees Kid"
       ],
-      "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/ARTFLIX-NX-Recalbox on GitHub. Mentioned by DougRetroGames in Discord.",
+      "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/ARTFLIX-NX-Recalbox on GitHub. Mentioned by DougRetroGames in Discord. Backported some images from Retro Devils and Eighttees Kid.",
       "platformWallpapersPackName": "ARTFLIX-NX-Recalbox",
       "platformWallpapersPackPreviewThumbnailPath": "alekfull-nx-recalbox/thumbnail.png",
       "platformWallpapersPackRootPath": "alekfull-nx-recalbox"
@@ -51,7 +53,7 @@
       "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
-      "platformWallpapersPackDescription": "EpicNoir and Switch Emulationstation theme inspired wallpaper pack using screenshots of gameplay. Packed by Jetup13..",
+      "platformWallpapersPackDescription": "EpicNoir and Switch Emulationstation theme inspired wallpaper pack using screenshots of gameplay. Packed by Jetup13.",
       "platformWallpapersPackName": "EpicNX",
       "platformWallpapersPackPreviewThumbnailPath": "epicnx/thumb.png",
       "platformWallpapersPackRootPath": "epicnx"
