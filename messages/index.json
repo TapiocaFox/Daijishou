@@ -14,7 +14,7 @@
     },
     {
       "title": "Upgrade available",
-      "message": "🚨 Version 233 (1.2.49) is now available.\n This update is the first normal version. Please opt-out beta testing and update.\n You can either upgrade from google play store or checkout releases page on GitHub.",
+      "message": "🚨 Version 233 (1.2.49) is now available.\n If you are a beta tester. Please opt-out beta testing and update.\n You can either upgrade from google play store or checkout releases page on GitHub.",
       "acknowledgmentText": "Ok",
       "acknowledgmentLink": null,
       "cancelText": "GitHub",
