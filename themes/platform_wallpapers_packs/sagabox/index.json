@@ -161,6 +161,10 @@
       "filename": "pokemini.png"
     },
     {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "easyrpg.png"
+    },
+    {
       "matchPlatformShortname": "scummvm",
       "filename": "scummvm.png"
     },

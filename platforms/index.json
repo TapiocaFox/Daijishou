@@ -197,6 +197,11 @@
       "platformShortname": "pokemini"
     },
     {
+      "filename": "RPGMaker.json",
+      "platformName": "RPG Maker",
+      "platformShortname": "rpgmaker"
+    },
+    {
       "filename": "ScummVM.json",
       "platformName": "ScummVM",
       "platformShortname": "scummvm"
