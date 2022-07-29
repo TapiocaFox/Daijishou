@@ -57,7 +57,7 @@
 
     {
       "name": "psx - Retroarch 64 - beetle psx hw",
-      "description": "Player description.",
+      "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": " -n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_psx_hw_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n -e QUITFOCUS\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
@@ -66,7 +66,7 @@
     },
     {
       "name": "psx - Retroarch 64 - beetle psx",
-      "description": "Player description.",
+      "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_psx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n -e QUITFOCUS \n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
@@ -104,7 +104,7 @@
 
     {
       "name": "psx - Retroarch 32 - beetle psx hw",
-      "description": "Player description.",
+      "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": " -n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_psx_hw_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n -e QUITFOCUS\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
@@ -113,7 +113,7 @@
     },
     {
       "name": "psx - Retroarch 32 - beetle psx",
-      "description": "Player description.",
+      "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_psx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n -e QUITFOCUS \n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
@@ -151,7 +151,7 @@
 
     {
       "name": "psx - Retroarch - beetle psx hw",
-      "description": "Player description.",
+      "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": " -n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/mednafen_psx_hw_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n -e QUITFOCUS\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
@@ -160,7 +160,7 @@
     },
     {
       "name": "psx - Retroarch - beetle psx",
-      "description": "Player description.",
+      "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/mednafen_psx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n -e QUITFOCUS \n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": true,
