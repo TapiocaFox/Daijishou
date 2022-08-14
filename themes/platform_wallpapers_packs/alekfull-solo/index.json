@@ -57,6 +57,10 @@
       "filename": "cps3.jpg"
     },
     {
+      "matchPlatformShortname": "coleco",
+      "filename": "colecovision.jpg"
+    },
+    {
       "matchPlatformShortname": "c64",
       "filename": "c64.jpg"
     },

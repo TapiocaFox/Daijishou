@@ -169,6 +169,10 @@
       "filename": "cps3.png"
     },
     {
+      "matchPlatformShortname": "coleco",
+      "filename": "coleco.png"
+    },
+    {
       "matchPlatformShortname": "neogeo",
       "filename": "neogeo.png"
     },

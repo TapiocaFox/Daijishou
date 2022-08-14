@@ -62,6 +62,11 @@
       "platformShortname": "cps3"
     },
     {
+      "filename": "ColecoVision.json",
+      "platformName": "ColecoVision",
+      "platformShortname": "coleco"
+    },
+    {
       "filename": "Commodore64.json",
       "platformName": "Commodore 64",
       "platformShortname": "c64"
