@@ -124,6 +124,17 @@
       "platformWallpapersPackName": "Transparent Pack",
       "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
       "platformWallpapersPackRootPath": "transparent-pack"
+       "platformWallpapersPackAuthors": [
+        "Jetup13"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "LuísMz"
+      ],
+      "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijishô Launcher.",
+      "platformWallpapersPackName": "RetroArtx",
+      "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
+      "platformWallpapersPackRootPath": "Retro-Artx"
     }
   ]
 }
