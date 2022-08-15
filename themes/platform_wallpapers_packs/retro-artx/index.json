@@ -2,35 +2,12 @@
   "name": "RetroArtx",
   "description": "This pack contains images of the devices and minimalistic system logo, made for the Daijishô Launcher.",
   "authors": ["LuisMz"],
+  "sources": [],
   "previewThumbnailFilename": "thumbnail.jpg",
 
   "hasDefaultWallpaper": false,
   "defaultWallpaperFilename": null,
   "wallpaperList": [
-    {
-      "matchPlatformShortname": "3do",
-      "filename": "panasonic_3do.jpg"
-    },
-    {
-      "matchPlatformShortname": "atari2600",
-      "filename": "atari_2600.jpg"
-    },
-    {
-      "matchPlatformShortname": "atari5200",
-      "filename": "atari_2600.jpg"
-    },
-    {
-      "matchPlatformShortname": "atari7800",
-      "filename": "atari_2600.jpg"
-    },
-    {
-      "matchPlatformShortname": "atomiswave",
-      "filename": "sega_dreamcast.jpg"
-    },
-    {
-      "matchPlatformShortname": "jaguar",
-      "filename": "atari_jaguar.jpg"
-    },
     {
       "matchPlatformShortname": "dreamcast",
       "filename": "DREAMCAST.jpg"
@@ -68,8 +45,12 @@
       "filename": "WII.jpg"
     },
     {
+      "matchPlatformShortname": "sega32x",
+      "filename": "GENESIS (SEGA32X).jpg"
+    },
+    {
       "matchPlatformShortname": "segacd",
-      "filename": "sega_cd.jpg"
+      "filename": "GENESIS (SEGACD).jpg"
     },
     {
       "matchPlatformShortname": "genesis",
@@ -98,14 +79,6 @@
     {
       "matchPlatformShortname": "snes",
       "filename": "SNES.jpg"
-    },
-    {
-      "matchPlatformShortname": "ws",
-      "filename": "bandai_wonderswan_color.jpg"
-    },
-    {
-      "matchPlatformShortname": "wsc",
-      "filename": "bandai_wonderswan_color.jpg"
     }
   ]
 }

@@ -79,6 +79,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "LuisMz"
+      ],
+      "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijish\u00f4 Launcher.",
+      "platformWallpapersPackName": "RetroArtx",
+      "platformWallpapersPackPreviewThumbnailPath": "retro-artx/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "retro-artx"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Daijish\u014d",
         "magneticchen"
       ],
@@ -124,15 +133,6 @@
       "platformWallpapersPackName": "Transparent Pack",
       "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
       "platformWallpapersPackRootPath": "transparent-pack"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "LuísMz"
-      ],
-      "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijishô Launcher.",
-      "platformWallpapersPackName": "RetroArtx",
-      "platformWallpapersPackPreviewThumbnailPath": "retro-artx/thumbnail.jpg",
-      "platformWallpapersPackRootPath": "retro-artx"
     }
   ]
 }
