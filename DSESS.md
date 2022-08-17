@@ -41,7 +41,7 @@ All arguments must be translated to URL encoded string.
 And don't forget to translate it to URL encoded string like others arguments.
 
 ### Selector argument
-`dsess_selector=` + CSS selector.
+`dsess_selector=` + CSS selector. When available the selector argument will be applied on target site.
 
 ### Attribute argument
 `dsess_attribute=` + From selector selected element specify the attribute that you want to resolve in target site. For example `href` for `<a>` element.
