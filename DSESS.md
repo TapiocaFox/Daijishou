@@ -45,7 +45,7 @@ And don't forget to translate it to URL encoded string like others arguments.
 #### 2. Selector argument
 `dsess_selector=` + CSS selector.
 
-When available the selector argument will be applied on target site.
+When target site is available, the selector argument will be applied on target site.
 
 #### 3. Attribute argument
 `dsess_attribute=` + Attribute you want from element selected by selector.
