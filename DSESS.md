@@ -38,6 +38,7 @@ All arguments must be translated to URL query encoded string.
 `dsess_target_site=` + Target site regex.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
+
 It will matches all links available from search results from search engine. And if matched, the selector argument will be used in next process.
 And don't forget to translate it to URL encoded query string like others arguments.
 
