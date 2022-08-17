@@ -2,7 +2,7 @@
   "name": "RetroArtx",
   "description": "This pack contains images of the devices and minimalistic system logo, made for the Daijishô Launcher.",
   "authors": ["LuisMz"],
-  "sources": [],
+  "sources": ["https://t.me/daijishou"],
   "previewThumbnailFilename": "thumbnail.jpg",
 
   "hasDefaultWallpaper": false,
