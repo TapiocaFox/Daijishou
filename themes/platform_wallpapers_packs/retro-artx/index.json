@@ -9,6 +9,10 @@
   "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
+      "matchPlatformShortname": "atari2600",
+      "filename": "ATARI2600.jpg"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "filename": "DREAMCAST.jpg"
     },
@@ -27,6 +31,14 @@
     {
       "matchPlatformShortname": "gc",
       "filename": "GC.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "MAME.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "NEOGEO.jpg"
     },
     {
       "matchPlatformShortname": "n64",
@@ -55,6 +67,10 @@
     {
       "matchPlatformShortname": "segacd",
       "filename": "GENESIS (SEGACD).jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "GAMEGEAR.jpg"
     },
     {
       "matchPlatformShortname": "genesis",
