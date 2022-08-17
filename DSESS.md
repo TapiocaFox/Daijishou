@@ -36,7 +36,7 @@ All arguments must be translated to URL encoded string.
 
 ### Target site regex argument
 `dsess_target_site=` + Target site regex. For example:
-`https:\/\/www.romspedia.com\/roms\/`
+`^https:\/\/www.romspedia.com\/roms\/.*$`
 
 And don't forget to translate it to URL encoded string like others arguments.
 
