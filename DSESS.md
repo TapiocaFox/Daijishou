@@ -27,7 +27,7 @@ See https://regex101.com/.
 DSESS URL including below parts and parameters.
 
 ### The body URL
-The body URL contains the search engine HTTPS URL with template tags. The template tags will apply immediately before the URL parameters be analyzed. And DSESS defined arguments will be extracted and removed. For example:
+The body URL contains the search engine HTTPS URL with template tags. The template tags will apply immediately before the URL parameters be analyzed. And DSESS defined arguments will be extracted and removed before HTTPS request. For example:
 
 `https://www.google.com/search?q={scraperKeyword}&hl={localeLanguage}&tbm=isch`
 
