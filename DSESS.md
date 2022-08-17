@@ -1,6 +1,6 @@
 # Daijishō Search Engine Scraper Syntax (DSESS)
 
-DSESS uses search engine URL to obtain target site. Then use the CSS selector syntax to acquire wanted image source.
+DSESS uses search engine URL to obtain target sites. Then use the CSS selector syntax to acquire wanted sources.
 
 ## Template tags
 You have to specify template tags you want to use inside the `TAGS()` brackets. Separated by comma without spaces. It is case sensitive. For example:
@@ -50,9 +50,13 @@ If `dess_attribute` is not present the innerHTML will be resolved.
 
 ## Headers
 `DSESS:BOXART:TAGS("template tags")`
+
 `DSESS:TITLE:TAGS("template tags")`
+
 `DSESS:SNAPSHOT:TAGS("template tags")`
+
 `DSESS:YOUTUBE:TAGS("template tags")`
+
 `DSESS:DESCRIPTION:TAGS("template tags")`
 
 ## Format summed up
@@ -68,4 +72,5 @@ If `dess_attribute` is not present the innerHTML will be resolved.
 
 #### example
 `DSESS:BOXART:TAGS("template tags"):"DSESS URL"`
+
 `DSESS:TITLE:TAGS("template tags"):"DSESS URL"`
