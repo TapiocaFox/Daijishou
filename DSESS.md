@@ -27,20 +27,19 @@ See https://regex101.com/.
 DSESS URL including below parts and parameters.
 
 ### The body URL
-The body URL contains the search engine HTTPS URL with template tags. The template tags will apply immediately before the URL parameters be analyzed. For example:
+The body URL contains the search engine HTTPS URL with template tags. The template tags will apply immediately before the URL parameters be analyzed. And DSESS defined arguments will be extracted and removed. For example:
 
 `https://www.google.com/search?q={scraperKeyword}&hl={localeLanguage}&tbm=isch`
 
-Concat with following arguments.
-All arguments must be translated to URL encoded string.
+Concatenate with following arguments.
+All arguments must be translated to URL query encoded string.
 
 #### 1. Target site regex argument
 `dsess_target_site=` + Target site regex.
 
-For example:
-`^https:\/\/www.romspedia.com\/roms\/.*$`
-
-And don't forget to translate it to URL encoded string like others arguments.
+For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
+It will matches all links available from search results from search engine. And if matched, the selector argument will be used in next process.
+And don't forget to translate it to URL encoded query string like others arguments.
 
 #### 2. Selector argument
 `dsess_selector=` + CSS selector.
@@ -48,7 +47,7 @@ And don't forget to translate it to URL encoded string like others arguments.
 When target site is available, the selector argument will be applied on target site.
 
 #### 3. Attribute argument
-`dsess_attribute=` + Attribute you want from element selected by selector.
+`dsess_attribute=` + Attribute you want from the element selected by CSS selector.
 
 For example `href` for `<a>` element.
 If `dsess_attribute` is not present the innerHTML will be resolved.
