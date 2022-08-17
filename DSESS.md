@@ -44,8 +44,8 @@ And don't forget to translate it to URL encoded string like others arguments.
 `dsess_selector=` + CSS selector.
 
 ### Attribute argument
-`dsess_attribute=` + The attribute selected by selector that you want to resolve in target site. For example "href".
-If `dess_attribute` is not present the innerHTML will be resolved.
+`dsess_attribute=` + From selector selected element specify the attribute that you want to resolve in target site. For example `href` for `<a>` element.
+If `dsess_attribute` is not present the innerHTML will be resolved.
 
 
 ## Headers
