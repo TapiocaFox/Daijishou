@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "id": "id",
+      "title": "Title",
+      "message": "message",
+
+      "acknowledgmentText": "Ok",
+      "acknowledgmentAction": 0,
+      "acknowledgmentLink": "https://127.0.0.1",
+
+      "cancelText": "Cancel",
+      "cancelAction": 0,
+      "cancelLink": null,
+
+      "neutralText": "neutral",
+      "neutralAction": 0,
+      "neutralLink": "https://127.0.0.1",
+
+      "targetVersion": null,
+      "targetLanguageCode": null,
+      "belowVersion": null
+    }
+  ]
+}
