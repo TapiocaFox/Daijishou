@@ -34,7 +34,7 @@ The body URL contains the search engine HTTPS URL with template tags. The templa
 Concat with following arguments.
 All arguments must be translated to URL encoded string.
 
-### Target site regex argument
+#### Target site regex argument
 `dsess_target_site=` + Target site regex. For example:
 `^https:\/\/www.romspedia.com\/roms\/.*$`
 
