@@ -34,18 +34,18 @@ The body URL contains the search engine HTTPS URL with template tags. The templa
 Concat with following arguments.
 All arguments must be translated to URL encoded string.
 
-#### Target site regex argument
+#### 1. Target site regex argument
 `dsess_target_site=` + Target site regex. For example:
 `^https:\/\/www.romspedia.com\/roms\/.*$`
 
 And don't forget to translate it to URL encoded string like others arguments.
 
-#### Selector argument
+#### 2. Selector argument
 `dsess_selector=` + CSS selector.
 
 When available the selector argument will be applied on target site.
 
-#### Attribute argument
+#### 3. Attribute argument
 `dsess_attribute=` + Attribute you want from element selected by selector.
 
 For example `href` for `<a>` element.
