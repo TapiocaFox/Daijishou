@@ -37,6 +37,10 @@
       "filename": "NDS.jpg"
     },
     {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.jpg"
+    },
+    {
       "matchPlatformShortname": "nes",
       "filename": "NES.jpg"
     },
@@ -79,6 +83,10 @@
     {
       "matchPlatformShortname": "snes",
       "filename": "SNES.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "SWITCH.jpg"
     }
   ]
 }
