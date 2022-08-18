@@ -46,7 +46,7 @@ Nope. But you can import some config for emulators from pegasus.
  - sound effects.
  - RSS Feed -->
 
-![](/imgs/widgets.png)
+![](/imgs/widgets_2.png)
 
 (widgets)
 
