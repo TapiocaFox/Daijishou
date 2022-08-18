@@ -58,6 +58,10 @@ Nope. But you can import some config for emulators from pegasus.
 
 (wallpaper packs)
 
+![](/imgs/detail_view.png)
+
+(detail view)
+
 And a lot more...
 
 ### What is "player" (2 of 5)
