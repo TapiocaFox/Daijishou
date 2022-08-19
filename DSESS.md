@@ -89,5 +89,10 @@ When target site is available, the selector parameter will be applied on target 
 For example `href` for `<a>` element.
 If `dsess_attribute` is not present the innerHTML will be resolved.
 
+### 4. Extractor Regex parameter
+`dsess_extractor=` + Extractor Regex.
+
+If `dsess_extractor` is not present the the plain text will be used. Else string extracted from Regex group 1 will be used.
+
 ## Examples
 <!-- `DSESS:BOXART:TAGS("template tags"):"DSESS URL"` -->
