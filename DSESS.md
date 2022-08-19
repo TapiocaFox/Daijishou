@@ -101,16 +101,16 @@ If `dsess_extractor` is not present the the plain text will be used. Else string
 ## Example
 `DSESS:BOXART:TAGS(scraperKeyword):https://www.gametdb.com/Main/Results?q=%7BscraperKeyword%7D&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.gametdb%5C.com%5C%2FSwitch%5C%2F.%2A%24&dsess_selector=span.frame.lfloat+img&dsess_attribute=src`
 
-Box art for nintendo switch games on www.gametdb.com.
+`Box art` for nintendo switch games on www.gametdb.com.
 
 ### Decoded parts
 
-body url `https://www.gametdb.com/Main/Results?q={scraperKeyword}`
+`The body URL` `https://www.gametdb.com/Main/Results?q={scraperKeyword}`
 
-dsess_target_site=`^https:\/\/www\.gametdb\.com\/Switch\/.*$`
+`dsess_target_site=` `^https:\/\/www\.gametdb\.com\/Switch\/.*$`
 
-dsess_selector=`span.frame.lfloat img`
+`dsess_selector=` `span.frame.lfloat img`
 
-dsess_attribute=`src`
+`dsess_attribute=` `src`
 
-dsess_extractor is not used in this example
+`dsess_extractor` is not used in this example
