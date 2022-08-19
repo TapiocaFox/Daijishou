@@ -19,11 +19,13 @@ DSESS has below format.
 `Headers` + `:` + `Template tags` + `:` + `DSESS URL`
 
 ## Headers
-`DSESS:BOXART`
+`DSESS:` + scraper target
 
-`DSESS:TITLE`
+`DSESS:BOX_ART`
 
 `DSESS:SNAPSHOT`
+
+`DSESS:TITLE`
 
 `DSESS:YOUTUBE`
 
