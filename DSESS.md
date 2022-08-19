@@ -112,3 +112,5 @@ dsess_target_site=`^https:\/\/www\.gametdb\.com\/Switch\/.*$`
 dsess_selector=`span.frame.lfloat img`
 
 dsess_attribute=`src`
+
+dsess_extractor is not used in this example
