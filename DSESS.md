@@ -47,9 +47,9 @@ In order to use template tags in query. Surround it with curly brackets in query
 
 
 ## DSESS URL
-DSESS URL including below parts and parameters.
+DSESS URL The body URL and several URL parameters.
 
-### The body URL
+### 0. The body URL
 The body URL contains the search engine HTTPS URL with template tags. The template tags will apply immediately before the URL parameters be analyzed. And DSESS defined parameters will be extracted and removed before HTTPS request. For example:
 
 `https://www.google.com/search?q={scraperKeyword}&hl={localeLanguage}&tbm=isch`
@@ -57,7 +57,7 @@ The body URL contains the search engine HTTPS URL with template tags. The templa
 Concatenate by URL parameters rules with following parameters with process order.
 All parameters **must be translated to URL query encoded string**.
 
-#### 1. Target site Regex parameter
+### 1. Target site Regex parameter
 `dsess_target_site=` + Target site Regex.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
@@ -68,12 +68,12 @@ It will matches all links available from search results from search engine. And 
 If `dsess_target_site` is not present. The search engine site itself will be used by **2.selector parameter**'s CSS selector.
 And don't forget to **translate the Regex to URL encoded query string** like others parameters.
 
-#### 2. Selector parameter
+### 2. Selector parameter
 `dsess_selector=` + CSS selector.
 
 When target site is available, the selector parameter will be applied on target site.
 
-#### 3. Attribute parameter
+### 3. Attribute parameter
 `dsess_attribute=` + Attribute you want from the element selected by CSS selector.
 
 For example `href` for `<a>` element.
