@@ -1,6 +1,6 @@
 # Daijishō Search Engine Scraper Syntax (DSESS)
 
-DSESS uses search engine URL to obtain target sites. Then use the CSS selector syntax to acquire wanted sources.
+DSESS uses search engine URL to obtain target sites. Then use the CSS selector syntax to acquire wanted sources from target sites.
 
 ## Preknowledges
 ### CSS selector
@@ -57,14 +57,14 @@ DSESS URL contains **The body URL** and several **DSESS URL parameters**.
 DSESS defined parameters will be extracted and removed before HTTPS request.
 
 ### 0. The body URL
-The body URL contains the search engine HTTPS URL with template tags. The template tags will apply for each URL parameter when each paramenter be obtained. For example:
+The body URL contains the search engine HTTPS URL with template tags. The template tags will apply to each URL parameter when each paramenter be obtained. For example:
 
 `https://www.google.com/search?q=%7BscraperKeyword%7D&hl=%7BlocaleLanguage%7D&tbm=isch`
 
 You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{localeLanguage}`. And those will be replaced by corresponding string values.
 
 All parameters **must be translated to URL query encoded string**. Concatenate by URL parameters rules.
-Same with following DSESS URL parameters. Also the DSESS URL parameters are processed below order.
+Same with following DSESS URL parameters. Also the DSESS URL parameters are processed with below order.
 
 ### 1. Target site Regex parameter
 `dsess_target_site=` + Target site Regex.
