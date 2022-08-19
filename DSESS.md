@@ -47,7 +47,7 @@ In order to use template tags in query. Surround it with curly brackets in query
 
 
 ## DSESS URL
-DSESS URL The body URL and several URL parameters.
+DSESS URL contains **The body URL** and several **URL parameters**.
 
 ### 0. The body URL
 The body URL contains the search engine HTTPS URL with template tags. The template tags will apply immediately before the URL parameters be analyzed. And DSESS defined parameters will be extracted and removed before HTTPS request. For example:
