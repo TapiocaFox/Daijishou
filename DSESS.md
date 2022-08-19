@@ -49,8 +49,9 @@ Encoded as
 ### Template tags
 - scraperKeyword
 - platformName, like `DOOM Game Engine`
-- localeLanguage, like `en-US` `zh-TW`
-
+- localeLanguage, like `en` `zh`
+- localeCountry, like `US` `TW`
+- localeLanguageAndCountry, like `en-US` `zh-TW`
 
 ## DSESS URL
 DSESS URL contains **The body URL** and several **DSESS URL parameters**.
@@ -60,6 +61,9 @@ DSESS defined parameters will be extracted and removed before HTTPS request.
 The body URL contains the search engine HTTPS URL with template tags. The template tags will apply to each URL parameter when each paramenter be obtained. For example:
 
 `https://www.google.com/search?q=%7BscraperKeyword%7D&hl=%7BlocaleLanguage%7D&tbm=isch`
+
+`https://www.gametdb.com/`
+
 
 You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{localeLanguage}`. And those will be replaced by corresponding string values.
 
