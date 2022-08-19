@@ -8,7 +8,8 @@ Before further instruction. Make sure to view the [doc](https://jsoup.org/cookbo
 
 ### URL Query string
 Query string is a part of a URL that assigns values to specified parameters. Which is useful for search engine.
-Your parameters have to be encoded as [URL encode/decode](https://www.url-encode-decode.com/) and [URL encoded string](https://www.urlencoder.org/)
+Your parameters have to be encoded as [URL Query encoding](https://www.url-encode-decode.com/).
+ <!-- and [URL encoded string](https://www.urlencoder.org/) -->
 
 ### Regex
 See https://regex101.com/.
@@ -53,17 +54,18 @@ Encoded as
 
 
 ## DSESS URL
-DSESS URL contains **The body URL** and several **URL parameters**.
+DSESS URL contains **The body URL** and several **DSESS URL parameters**.
+DSESS defined parameters will be extracted and removed before HTTPS request.
 
 ### 0. The body URL
-The body URL contains the search engine HTTPS URL with template tags. The template tags will apply for each URL parameter be analyzed. And DSESS defined parameters will be extracted and removed before HTTPS request. For example:
+The body URL contains the search engine HTTPS URL with template tags. The template tags will apply for each URL parameter when extracted. For example:
 
 `https://www.google.com/search?q=%7BscraperKeyword%7D&hl=%7BlocaleLanguage%7D&tbm=isch`
 
-You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{localeLanguage}`.
+You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{localeLanguage}`. And those will be replaced by corresponding string values.
 
 All parameters **must be translated to URL query encoded string**. Concatenate by URL parameters rules.
-With following DSESS URL parameters. The parameters is processed below order.
+Same with following DSESS URL parameters. Also the DSESS URL parameters are processed below order.
 
 ### 1. Target site Regex parameter
 `dsess_target_site=` + Target site Regex.
