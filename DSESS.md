@@ -8,7 +8,7 @@ Before further instruction. Make sure to view the [doc](https://jsoup.org/cookbo
 
 ### URL Query string
 Query string is a part of a URL that assigns values to specified parameters. Which is useful for search engine.
-Your parameters have to be encoded as [URL encoded string](https://www.urlencoder.org/)
+Your parameters have to be encoded as [URL encode/decode](https://www.url-encode-decode.com/) and [URL encoded string](https://www.urlencoder.org/)
 
 ### Regex
 See https://regex101.com/.
@@ -42,6 +42,10 @@ In order to use template tags in query. Surround it with curly brackets in query
 
 `PlayStationPortable {scraperKeyword}` `q={scraperKeyword}&hl={localeLanguage}` `query={scraperKeyword}`
 
+Encoded as
+
+`PlayStationPortable+%7BscraperKeyword%7D` `q=%7BscraperKeyword%7D&hl=%7BlocaleLanguage%7D` `query=%7BscraperKeyword%7D`
+
 ### Template tags
 - scraperKeyword
 - platformName, like `DOOM Game Engine`
@@ -52,23 +56,26 @@ In order to use template tags in query. Surround it with curly brackets in query
 DSESS URL contains **The body URL** and several **URL parameters**.
 
 ### 0. The body URL
-The body URL contains the search engine HTTPS URL with template tags. The template tags will apply immediately before the URL parameters be analyzed. And DSESS defined parameters will be extracted and removed before HTTPS request. For example:
+The body URL contains the search engine HTTPS URL with template tags. The template tags will apply for each URL parameter be analyzed. And DSESS defined parameters will be extracted and removed before HTTPS request. For example:
 
-`https://www.google.com/search?q={scraperKeyword}&hl={localeLanguage}&tbm=isch`
+`https://www.google.com/search?q=%7BscraperKeyword%7D&hl=%7BlocaleLanguage%7D&tbm=isch`
 
-Concatenate by URL parameters rules with following parameters with process order.
-All parameters **must be translated to URL query encoded string**.
+You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{localeLanguage}`.
+
+All parameters **must be translated to URL query encoded string**. Concatenate by URL parameters rules.
+With following DSESS URL parameters. The parameters is processed below order.
 
 ### 1. Target site Regex parameter
 `dsess_target_site=` + Target site Regex.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
+And don't forget to **translate the Regex to URL encoded query string** like others parameters.
+
+Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
 It will matches all links available from search results from search engine. And if matched, the first matched by "**1.Target site Regex**"  will be used by "**2.selector parameter**" in next process.
 
-
 If `dsess_target_site` is not present. The search engine site itself will be used by **2.selector parameter**'s CSS selector.
-And don't forget to **translate the Regex to URL encoded query string** like others parameters.
 
 ### 2. Selector parameter
 `dsess_selector=` + CSS selector.
