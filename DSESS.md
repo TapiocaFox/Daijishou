@@ -115,15 +115,17 @@ If `dsess_extractor` is not present the the plain text will be used. Else string
 ## Example
 `DSESS:BOX_ART:TAGS(scraperKeyword):https://www.switchscores.com/games/search?search_keywords=%7BscraperKeyword%7D&dsess_target_site_selector=div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.switchscores%5C.com%5C%2Fgames%5C%2F.%2A%24&dsess_selector=div.col-md-8+%3E+img.img-responsive&dsess_attribute=src`
 
-`Box art` for nintendo switch games on www.gametdb.com.
+`Box art` for nintendo switch games on www.switchscores.com.
 
 ### Decoded parts
 
-`The body URL` `https://www.gametdb.com/Main/Results?q={scraperKeyword}`
+`The body URL` `https://www.switchscores.com/games/search?search_keywords={scraperKeyword}`
 
-`dsess_target_site=` `^https:\/\/www\.gametdb\.com\/Switch\/.*$`
+`dsess_target_site_selector=` `div.col-xs-9.col-sm-9.col-md-9.col-lg-9 a`
 
-`dsess_selector=` `span.frame.lfloat img`
+`dsess_target_site=` `^https:\/\/www\.switchscores\.com\/games\/.*$`
+
+`dsess_selector=` `div.col-md-8 > img.img-responsive`
 
 `dsess_attribute=` `src`
 
