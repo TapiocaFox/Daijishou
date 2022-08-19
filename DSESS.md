@@ -38,12 +38,12 @@ DSESS string with more tags are recommended to order it at a higher priority pos
 
 In order to use template tags in query. Surround it with curly brackets in query. Like:
 
-`PlayStationPortable "{scraperKeyword}";`
+`PlayStationPortable {scraperKeyword}` `q={scraperKeyword}&hl={localeLanguage}` `qeury={scraperKeyword}`
 
 ### Template tags
 - scraperKeyword
-- platformName
-- localeLanguage
+- platformName, like `DOOM Game Engine`
+- localeLanguage, like `en-US` `zh-TW`
 
 
 ## DSESS URL
@@ -55,7 +55,7 @@ The body URL contains the search engine HTTPS URL with template tags. The templa
 `https://www.google.com/search?q={scraperKeyword}&hl={localeLanguage}&tbm=isch`
 
 Concatenate by URL parameters rules with following parameters.
-All parameters must be translated to URL query encoded string.
+All parameters **must be translated to URL query encoded string**.
 
 #### 1. Target site regex parameter
 `dsess_target_site=` + Target site regex.
@@ -63,7 +63,7 @@ All parameters must be translated to URL query encoded string.
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
 
 It will matches all links available from search results from search engine. And if matched, the **2.selector parameter** will be used in next process. If `dsess_target_site` is not present the search engine site itself will be used by **2.selector parameter**'s CSS selector.
-And don't forget to translate it to URL encoded query string like others parameters.
+And don't forget to **translate it to URL encoded query string** like others parameters.
 
 #### 2. Selector parameter
 `dsess_selector=` + CSS selector.
@@ -77,6 +77,4 @@ For example `href` for `<a>` element.
 If `dsess_attribute` is not present the innerHTML will be resolved.
 
 ## Examples
-`DSESS:BOXART:TAGS("template tags"):"DSESS URL"`
-
-`DSESS:TITLE:TAGS("template tags"):"DSESS URL"`
+<!-- `DSESS:BOXART:TAGS("template tags"):"DSESS URL"` -->
