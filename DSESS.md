@@ -64,6 +64,7 @@ For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
 
 It will matches all links available from search results from search engine. And if matched, the first matched by "**1.Target site Regex**"  will be used by "**2.selector parameter**" in next process.
 
+
 If `dsess_target_site` is not present. The search engine site itself will be used by **2.selector parameter**'s CSS selector.
 And don't forget to **translate the Regex to URL encoded query string** like others parameters.
 
