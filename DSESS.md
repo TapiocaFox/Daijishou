@@ -54,16 +54,16 @@ The body URL contains the search engine HTTPS URL with template tags. The templa
 
 `https://www.google.com/search?q={scraperKeyword}&hl={localeLanguage}&tbm=isch`
 
-Concatenate by URL parameters rules with following parameters.
+Concatenate by URL parameters rules with following parameters with process order.
 All parameters **must be translated to URL query encoded string**.
 
-#### 1. Target site regex parameter
-`dsess_target_site=` + Target site regex.
+#### 1. Target site Regex parameter
+`dsess_target_site=` + Target site Regex.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
 
-It will matches all links available from search results from search engine. And if matched, the **2.selector parameter** will be used in next process. If `dsess_target_site` is not present the search engine site itself will be used by **2.selector parameter**'s CSS selector.
-And don't forget to **translate it to URL encoded query string** like others parameters.
+It will matches all links available from search results from search engine. And if matched, the first matched by **Target site Regex**  will be used by **2.selector parameter** in next process. If `dsess_target_site` is not present the search engine site itself will be used by **2.selector parameter**'s CSS selector.
+And don't forget to **translate the Regex to URL encoded query string** like others parameters.
 
 #### 2. Selector parameter
 `dsess_selector=` + CSS selector.
