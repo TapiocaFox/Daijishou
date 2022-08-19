@@ -67,7 +67,7 @@ The body URL contains the search engine HTTPS URL with template tags. The templa
 
 You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{localeLanguage}`. And those will be replaced by corresponding string values.
 
-All parameters **must be translated to URL query encoded string**. Concatenate by URL parameters rules.
+All parameters **must be encode to URL query encoded string**. Concatenate by URL parameters rules.
 Same with following DSESS URL parameters. Also the DSESS URL parameters are processed with below order.
 
 ### 1. Target site link selector parameter
@@ -75,7 +75,7 @@ Same with following DSESS URL parameters. Also the DSESS URL parameters are proc
 
 For example: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9 a`.
 
-And don't forget to **translate the Regex to URL encoded query string** like others parameters.
+And don't forget to **encode the Regex to URL encoded query string** like others parameters.
 
 Encoded as: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a`.
 
@@ -89,7 +89,7 @@ If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
 
-And don't forget to **translate the Regex to URL encoded query string** like others parameters.
+And don't forget to **encode the Regex to URL encoded query string** like others parameters.
 
 Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
