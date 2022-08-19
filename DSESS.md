@@ -4,12 +4,11 @@ DSESS uses search engine URL to obtain target sites. Then use the CSS selector s
 
 ## Preknowledges
 ### CSS selector
-Before further instruction. Make sure to view the [doc](https://jsoup.org/cookbook/extracting-data/selector-syntax) from JSoup.
+Before further instruction. Make sure to view the [doc](https://jsoup.org/cookbook/extracting-data/selector-syntax) from Jsoup.
 
 ### URL Query string
 Query string is a part of a URL that assigns values to specified parameters. Which is useful for search engine.
 Your parameters have to be encoded as [URL Query encoding](https://www.url-encode-decode.com/).
- <!-- and [URL encoded string](https://www.urlencoder.org/) -->
 
 ### Regex
 See https://regex101.com/.
