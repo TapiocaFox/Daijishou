@@ -38,7 +38,7 @@ DSESS string with more tags are recommended to order it at a higher priority pos
 
 In order to use template tags in query. Surround it with curly brackets in query. Like:
 
-`PlayStationPortable {scraperKeyword}` `q={scraperKeyword}&hl={localeLanguage}` `qeury={scraperKeyword}`
+`PlayStationPortable {scraperKeyword}` `q={scraperKeyword}&hl={localeLanguage}` `query={scraperKeyword}`
 
 ### Template tags
 - scraperKeyword
