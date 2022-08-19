@@ -57,7 +57,7 @@ DSESS URL contains **The body URL** and several **DSESS URL parameters**.
 DSESS defined parameters will be extracted and removed before HTTPS request.
 
 ### 0. The body URL
-The body URL contains the search engine HTTPS URL with template tags. The template tags will apply for each URL parameter when extracted. For example:
+The body URL contains the search engine HTTPS URL with template tags. The template tags will apply for each URL parameter when each paramenter be obtained. For example:
 
 `https://www.google.com/search?q=%7BscraperKeyword%7D&hl=%7BlocaleLanguage%7D&tbm=isch`
 
