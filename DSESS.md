@@ -70,7 +70,20 @@ You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{lo
 All parameters **must be translated to URL query encoded string**. Concatenate by URL parameters rules.
 Same with following DSESS URL parameters. Also the DSESS URL parameters are processed with below order.
 
-### 1. Target site Regex parameter
+### 1. Target site link selector parameter
+`dsess_target_site_selector=` + Target site `<a>` element CSS selector.
+
+For example: `a.gs-title`.
+And don't forget to **translate the Regex to URL encoded query string** like others parameters.
+
+Encoded as: `a.gs-title`.
+
+It will matches all `<a>` elements available from search results from search engine. These `<a>` elements will be used by "**2. Target site Regex**" in next process.
+
+If `dsess_target_site_selector` is not present. All `<a>` element will be used.
+
+
+### 2. Target site Regex parameter
 `dsess_target_site=` + Target site Regex.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
@@ -78,28 +91,29 @@ And don't forget to **translate the Regex to URL encoded query string** like oth
 
 Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
-It will matches all links available from search results from search engine. And if matched, the first matched by "**1.Target site Regex**"  will be used by "**2.selector parameter**" in next process.
+It will matches all links available from search results from search engine. And if matched, the first matched by "**2. Target site Regex**"  will be used by "**2.selector parameter**" in next process.
 
-If `dsess_target_site` is not present. The search engine site itself will be used by **2.selector parameter**'s CSS selector.
+If `dsess_target_site` is not present. The search engine site itself will be used by **2. selector parameter**'s CSS selector.
 
-### 2. Selector parameter
+
+### 3. Selector parameter
 `dsess_selector=` + CSS selector.
 
 When target site is available, the selector parameter will be applied on target site.
 
-### 3. Attribute parameter
+### 4. Attribute parameter
 `dsess_attribute=` + Attribute you want from the element selected by CSS selector.
 
 For example `href` for `<a>` element.
-If `dsess_attribute` is not present the innerHTML will be resolved.
+If `dsess_attribute` is not present the doc's html() will be resolved.
 
-### 4. Extractor Regex parameter
+### 5. Extractor Regex parameter
 `dsess_extractor=` + Extractor Regex.
 
 If `dsess_extractor` is not present the the plain text will be used. Else string extracted from Regex group 1 will be used.
 
 ## Example
-`DSESS:BOX_ART:TAGS(scraperKeyword):https://www.gametdb.com/Main/Results?q=%7BscraperKeyword%7D&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.gametdb%5C.com%5C%2FSwitch%5C%2F.%2A%24&dsess_selector=span.frame.lfloat+img&dsess_attribute=src`
+`DSESS:BOX_ART:TAGS(scraperKeyword):https://www.switchscores.com/games/search?search_keywords=%7BscraperKeyword%7D&dsess_target_site_selector=div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.switchscores%5C.com%5C%2Fgames%5C%2F.%2A%24&dsess_selector=div.col-md-8+%3E+img.img-responsive&dsess_attribute=src`
 
 `Box art` for nintendo switch games on www.gametdb.com.
 
