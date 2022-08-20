@@ -95,7 +95,7 @@ Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
 It will matches all links filtered by **1. Target site link selector** from search engine. And if matched, the first matched by "**2. Target site Regex**"  will be used by "**2.selector parameter**" in next process.
 
-If `dsess_target_site` is not present. The search engine site itself will be used by **3. selector parameter**'s CSS selector.
+If `dsess_target_site` is not present. The search engine site itself will be used by **3. Selector parameter**'s CSS selector.
 
 
 ### 3. Selector parameter
@@ -116,6 +116,16 @@ If `dsess_attribute` is not present the doc's html() will be resolved.
 
 If `dsess_extractor` is not present the the plain text will be used. Else string extracted from Regex group 1 will be used.
 
+
+### 6. Replacer Regex parameter
+`dsess_replacer=` + Replacer Regex.
+
+If `dsess_replacer` is not present the the original text will be used. Else string filter by it will be used in **7. Replacer value parameter**.
+
+### 7. Replacer value parameter
+`dsess_replacer_value=` + Replacer value.
+
+If `dsess_replacer` is not present the the original text will be used. Else string filter by **6. Replacer Regex parameter** will be replaced with the replacer value.
 
 ## Example
 `DSESS:BOX_ART:TAGS(scraperKeyword):https://www.switchscores.com/games/search?search_keywords=%7BscraperKeyword%7D&dsess_target_site_selector=div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.switchscores%5C.com%5C%2Fgames%5C%2F.%2A%24&dsess_selector=div.col-md-8+%3E+img.img-responsive&dsess_attribute=src`
