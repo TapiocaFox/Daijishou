@@ -7,7 +7,9 @@
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
         "scraperSourceList": [
             "LIBRETRO:Nintendo - Nintendo DS",
-            "LIBRETRO:Nintendo - Nintendo DSi"
+            "LIBRETRO:Nintendo - Nintendo DSi",
+            "DSESS:BOX_ART:TAGS(scraperKeyword):https://romspure.cc/roms/nintendo-ds?search=%7BscraperKeyword%7D&dsess_target_site_selector=tbody+tr+td+a.text-body&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fromspure%5C.cc%5C%2Froms%5C%2Fnintendo-ds%5C%2F.%2A%24&dsess_selector=main%23primary+div.row+div.col-12.col-sm-4+img&dsess_attribute=src"
+
         ],
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": true,
