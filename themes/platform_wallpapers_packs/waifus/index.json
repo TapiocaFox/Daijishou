@@ -90,24 +90,28 @@
       "filename": "mame.jpg"
     },
     {
+      "matchPlatformShortname": "fbneo",
+      "filename": "mame.jpg"
+    },
+    {
       "matchPlatformShortname": "msx",
-      "filename": "mount_niitaka.jpg"
+      "filename": "gg.jpg"
     },
     {
       "matchPlatformShortname": "neogeo",
-      "filename": "mount_niitaka.jpg"
+      "filename": "metal_slug.jpg"
     },
     {
       "matchPlatformShortname": "neogeocd",
-      "filename": "mount_niitaka.jpg"
+      "filename": "metal_slug.jpg"
     },
     {
       "matchPlatformShortname": "ngp",
-      "filename": "mount_niitaka.jpg"
+      "filename": "metal_slug.jpg"
     },
     {
       "matchPlatformShortname": "ngpc",
-      "filename": "mount_niitaka.jpg"
+      "filename": "metal_slug.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
@@ -167,7 +171,7 @@
     },
     {
       "matchPlatformShortname": "gamegear",
-      "filename": "mount_niitaka.jpg"
+      "filename": "gg.jpg"
     },
     {
       "matchPlatformShortname": "genesis",
