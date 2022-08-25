@@ -133,6 +133,16 @@
       "platformWallpapersPackName": "Transparent Pack",
       "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
       "platformWallpapersPackRootPath": "transparent-pack"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Daijish\u014d",
+        "magneticchen"
+      ],
+      "platformWallpapersPackDescription": "This pack will contains waifus for each platform :3. Aim to create :3 wallpaper set. If you have better material please submit!",
+      "platformWallpapersPackName": "Waifus :3",
+      "platformWallpapersPackPreviewThumbnailPath": "waifus/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "waifus"
     }
   ]
 }
