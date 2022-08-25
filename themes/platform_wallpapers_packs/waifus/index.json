@@ -9,7 +9,8 @@
     "https://mobile.twitter.com/ziren37",
     "https://twitter.com/SquadalaGuy2/status/1413276919005515777/photo/1",
     "https://i.kym-cdn.com/photos/images/original/002/183/554/bea",
-    "https://pokemon-go.name/en/rejdy-pokemon-go-v-marte-2022-spisok-vseh-rejdovyh-bossov/"
+    "https://pokemon-go.name/en/rejdy-pokemon-go-v-marte-2022-spisok-vseh-rejdovyh-bossov/",
+    "https://danbooru.donmai.us/posts/4383766"
   ],
   "previewThumbnailFilename": "thumbnail.jpg",
 
@@ -114,7 +115,7 @@
     },
     {
       "matchPlatformShortname": "n64",
-      "filename": "mount_niitaka.jpg"
+      "filename": "nintendo.jpg"
     },
     {
       "matchPlatformShortname": "nds",
@@ -130,7 +131,7 @@
     },
     {
       "matchPlatformShortname": "wii",
-      "filename": "wii.jpg"
+      "filename": "wii-3.jpg"
     },
     {
       "matchPlatformShortname": "pcfx",
@@ -142,7 +143,7 @@
     },
     {
       "matchPlatformShortname": "psp",
-      "filename": "mount_niitaka.jpg"
+      "filename": "psp.jpg"
     },
     {
       "matchPlatformShortname": "pokemini",
@@ -194,7 +195,7 @@
     },
     {
       "matchPlatformShortname": "snes",
-      "filename": "mount_niitaka.jpg"
+      "filename": "nintendo.jpg"
     },
     {
       "matchPlatformShortname": "tic80",
@@ -202,11 +203,11 @@
     },
     {
       "matchPlatformShortname": "tg16",
-      "filename": "mount_niitaka.jpg"
+      "filename": "tg16.jpg"
     },
     {
       "matchPlatformShortname": "tgcd",
-      "filename": "mount_niitaka.jpg"
+      "filename": "tg16-2.jpg"
     },
     {
       "matchPlatformShortname": "supervision",
