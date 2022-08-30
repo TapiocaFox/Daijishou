@@ -5,8 +5,8 @@
   "sources": [],
   "previewThumbnailFilename": "thumbnail.gif",
 
-  "hasDefaultWallpaper": true,
-  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
       "matchPlatformShortname": "android",
