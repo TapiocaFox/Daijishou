@@ -79,6 +79,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "lipheson"
+      ],
+      "platformWallpapersPackDescription": "A light-themed Alekfull-NX like wallpaper set. Currently contains mainly PS and Nintendo characters. This pack is made by lipheson on the Daijish\u014d discord.",
+      "platformWallpapersPackName": "My Eyes!!!",
+      "platformWallpapersPackPreviewThumbnailPath": "my-eyes/thumbnail.gif",
+      "platformWallpapersPackRootPath": "my-eyes"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "LuisMz"
       ],
       "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijish\u00f4 Launcher.",

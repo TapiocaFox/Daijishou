@@ -1,0 +1,44 @@
+{
+  "name": "My Eyes!!!",
+  "description": "A light-themed Alekfull-NX like wallpaper set. Currently contains mainly PS and Nintendo characters. This pack is made by lipheson on the Daijishō discord.",
+  "authors": ["lipheson"],
+  "sources": [],
+  "previewThumbnailFilename": "thumbnail.gif",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "android",
+      "filename": "Android.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "Gameboy_Advance.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "Gamecube.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "Wii.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "PS1.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "PS2.jpg"
+    }
+  ]
+}
