@@ -23,7 +23,7 @@
             "name": "ps2 - Aethersx2",
             "description": "Supported extensions: iso, chd, gz.",
             "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz)$",
-            "amStartArguments": " -n xyz.aethersx2.android/.EmulationActivity\n -a android.intent.action.MAIN\n -e bootPath {file.uri},
+            "amStartArguments": " -n xyz.aethersx2.android/.EmulationActivity\n -a android.intent.action.MAIN\n -e bootPath {file.uri}",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""

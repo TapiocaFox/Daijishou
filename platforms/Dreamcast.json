@@ -23,7 +23,7 @@
             "name": "dreamcast - io.recompiled.redream",
             "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path},
+            "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -32,7 +32,7 @@
             "name": "dreamcast - com.reicast.emulator",
             "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n com.reicast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path},
+            "amStartArguments": "-n com.reicast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -41,7 +41,7 @@
             "name": "dreamcast - com.flycast.emulator",
             "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n com.flycast.emulator/com.reicast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path},
+            "amStartArguments": "-n com.flycast.emulator/com.reicast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
