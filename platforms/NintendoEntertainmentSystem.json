@@ -37,6 +37,8 @@
             "killPackageProcessesWarning": true,
             "extra": ""
         },
+
+        
         {
             "name": "nes - RetroArch 64 - nestopia",
             "description": "Supported extensions: fds, nes, unf, unif, zip, 7z.",
