@@ -41,7 +41,7 @@
             "name": "gba - com.explusalpha.GbaEmu",
             "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
             "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
-            "amStartArguments": "-n com.explusalpha.GbaEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d \"{file.uri}\"",
+            "amStartArguments": "-n com.explusalpha.GbaEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri},
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -50,7 +50,7 @@
             "name": "gba - com.fastemulator.gbafree",
             "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
             "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
-            "amStartArguments": "-n com.fastemulator.gbafree/com.fastemulator.gba.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
+            "amStartArguments": "-n com.fastemulator.gbafree/com.fastemulator.gba.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path},
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -59,7 +59,7 @@
             "name": "gba - com.fastemulator.gba",
             "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
             "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
-            "amStartArguments": "-n com.fastemulator.gba/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"",
+            "amStartArguments": "-n com.fastemulator.gba/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path},
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

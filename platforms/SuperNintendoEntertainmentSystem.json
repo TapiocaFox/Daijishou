@@ -23,7 +23,7 @@
           "name": "snes - com.explusalpha.Snes9xPlus",
           "description": "Supported extensions: bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc.",
           "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc)$",
-          "amStartArguments": "-n com.explusalpha.Snes9xPlus/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d \"{file.uri}\"",
+          "amStartArguments": "-n com.explusalpha.Snes9xPlus/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri},
           "killPackageProcesses": false,
           "killPackageProcessesWarning": true,
           "extra": ""
