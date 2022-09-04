@@ -239,6 +239,10 @@
     {
       "matchPlatformShortname": "wsc",
       "filename": "wswanc.jpg"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.jpg"
     }
   ]
 }

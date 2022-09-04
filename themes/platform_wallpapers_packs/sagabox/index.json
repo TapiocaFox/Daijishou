@@ -247,6 +247,10 @@
     {
       "matchPlatformShortname": "wsc",
       "filename": "wonderswancolor.png"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.png"
     }
   ]
 }
