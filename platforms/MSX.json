@@ -24,7 +24,7 @@
       "name": "msx - com.explusalpha.MsxEmu",
       "description": "Supported extensions: cas, col, dsk, fdi, m3u, mx1, mx2, ri, rom, sc, sg.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|fdi|m3u|mx1|mx2|ri|rom|sc|sg)$",
-      "amStartArguments": "-n com.explusalpha.MsxEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.explusalpha.MsxEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

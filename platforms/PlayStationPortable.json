@@ -23,7 +23,7 @@
             "name": "psp - PPSSPP",
             "description": "Supported extensions: cso, elf, iso, pbp, prx.",
             "acceptedFilenameRegex": "^(.*)\\.(?:cso|elf|iso|pbp|prx)$",
-            "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n  -d \"{file.uri}\"\n  --activity-clear-task",
+            "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

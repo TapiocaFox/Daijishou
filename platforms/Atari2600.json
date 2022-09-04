@@ -23,7 +23,7 @@
       "name": "atari2600 - com.explusalpha.A2600Emu",
       "description": "Supported extensions: a26, bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin)$",
-      "amStartArguments": "-n com.explusalpha.A2600Emu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.explusalpha.A2600Emu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -32,7 +32,7 @@
       "name": "atari2600 - com.androidemu.atari",
       "description": "Supported extensions: a26, bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin)$",
-      "amStartArguments": "-n com.androidemu.atari/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d \"{file.path}\"\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.androidemu.atari/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
