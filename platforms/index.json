@@ -300,6 +300,11 @@
       "filename": "WonderSwanColor.json",
       "platformName": "WonderSwan Color",
       "platformShortname": "wsc"
+    },
+    {
+      "filename": "ZXSpectrum.json",
+      "platformName": "ZX Spectrum",
+      "platformShortname": "zxspectrum"
     }
   ]
 }
