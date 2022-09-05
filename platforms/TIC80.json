@@ -10,7 +10,7 @@
         ],
         "boxArtAspectRatioId": 0,
         "useCustomBoxArtAspectRatio": true,
-        "customBoxArtAspectRatio": "16:9",
+        "customBoxArtAspectRatio": "8:5",
         "screenAspectRatioId": 6,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
