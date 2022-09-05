@@ -154,7 +154,11 @@
     },
     {
       "matchPlatformShortname": "pico8",
-      "filename": "pico8.jpg"
+      "filename": "cdi.jpg"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "psp",

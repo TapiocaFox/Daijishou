@@ -192,6 +192,11 @@
       "platformShortname": "pico8"
     },
     {
+      "filename": "PhilipsCDi.json",
+      "platformName": "Philips CD-i",
+      "platformShortname": "cdi"
+    },
+    {
       "filename": "PlayStationPortable.json",
       "platformName": "PlayStation Portable",
       "platformShortname": "psp"

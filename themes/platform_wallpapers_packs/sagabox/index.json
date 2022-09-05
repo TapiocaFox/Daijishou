@@ -157,6 +157,10 @@
       "filename": "pico8.png"
     },
     {
+      "matchPlatformShortname": "pico8",
+      "filename": "cdi.png"
+    },
+    {
       "matchPlatformShortname": "psp",
       "filename": "psp.png"
     },
