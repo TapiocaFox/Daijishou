@@ -1,7 +1,7 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
-        "name": "Android (Do not download, For Daijishō v1.2.12)",
+        "name": "Android (Beware, it is deprecated)",
         "shortname": "android",
         "description": null,
         "acceptedFilenameRegex": "^.*$",
@@ -19,7 +19,7 @@
     "playerList": [
         {
             "name": "android - activity component player",
-            "description": "Android activity componet player",
+            "description": "Android activity component player",
             "acceptedFilenameRegex": "^$",
             "amStartArguments": "-n {android.activity}\n",
             "killPackageProcesses": false,
