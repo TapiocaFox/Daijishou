@@ -105,6 +105,15 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
  <!-- - Merge disks -->
  <!-- - Hide games -->
 
+# Languages List
+1. English
+2. Portuguese (Português)
+3. Taiwanese mandarin (台灣國語)
+4. Japanese (日本語)
+5. French (Français)
+6. Chinese (中文)
+7. Italian (Italiana)
+
 # Related links
  <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
  [Discord (recommended)](https://discord.com/invite/nJbxdT3QQE)
