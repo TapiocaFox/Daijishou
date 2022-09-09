@@ -101,6 +101,10 @@
       "filename": "mount_niitaka.jpg"
     },
     {
+      "matchPlatformShortname": "intellivision",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
       "matchPlatformShortname": "j2me",
       "filename": "mount_niitaka.jpg"
     },

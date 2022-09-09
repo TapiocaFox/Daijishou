@@ -101,6 +101,10 @@
       "filename": "mario.png"
     },
     {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.png"
+    },
+    {
       "matchPlatformShortname": "mame",
       "filename": "mame.png"
     },

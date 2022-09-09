@@ -101,6 +101,10 @@
       "filename": "gc.jpg"
     },
     {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.jpg"
+    },
+    {
       "matchPlatformShortname": "mame",
       "filename": "mame.jpg"
     },
