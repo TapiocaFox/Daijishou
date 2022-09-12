@@ -124,6 +124,8 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
 
  [Daijishō EmuGen wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
 
+ [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA/featured)
+
  ### Donation (I am taking a break from the project)
  [PayPal](https://paypal.me/magneticchen)
 
