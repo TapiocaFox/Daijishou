@@ -257,6 +257,10 @@
       "filename": "wonderswancolor.png"
     },
     {
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81.png"
+    },
+    {
       "matchPlatformShortname": "zxspectrum",
       "filename": "zxspectrum.png"
     }

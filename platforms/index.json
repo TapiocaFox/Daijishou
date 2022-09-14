@@ -312,6 +312,11 @@
       "platformShortname": "wsc"
     },
     {
+      "filename": "ZX81.json",
+      "platformName": "ZX 81",
+      "platformShortname": "zx81"
+    },
+    {
       "filename": "ZXSpectrum.json",
       "platformName": "ZX Spectrum",
       "platformShortname": "zxspectrum"

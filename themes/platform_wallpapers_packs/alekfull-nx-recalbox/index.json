@@ -249,6 +249,10 @@
       "filename": "wswanc.jpg"
     },
     {
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81.jpg"
+    },
+    {
       "matchPlatformShortname": "zxspectrum",
       "filename": "zxspectrum.jpg"
     }
