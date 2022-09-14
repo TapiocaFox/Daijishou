@@ -11,8 +11,8 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじし�
 Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it.You can still report issues or submit suggestions here. And Daijishō will always be free!
 
 ### What's next (1.4) (Planned 2023)
- - Items set (Merge disc and region)
- - Backup and restore option
+ - Items set (Merge discs and regions)
+ - Backup and restore options
  - Wallpaper
  - And more...
 
