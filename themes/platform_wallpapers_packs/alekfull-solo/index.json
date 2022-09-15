@@ -201,6 +201,10 @@
       "filename": "saturn.jpg"
     },
     {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.jpg"
+    },
+    {
       "matchPlatformShortname": "psx",
       "filename": "psx.jpg"
     },

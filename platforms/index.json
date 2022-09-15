@@ -252,6 +252,11 @@
       "platformShortname": "saturn"
     },
     {
+      "filename": "SharpX68000.json",
+      "platformName": "Sharp X68000",
+      "platformShortname": "x68000"
+    },
+    {
       "filename": "SonyPlayStation.json",
       "platformName": "Sony PlayStation",
       "platformShortname": "psx"

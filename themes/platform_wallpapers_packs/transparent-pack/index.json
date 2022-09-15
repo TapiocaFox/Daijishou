@@ -293,6 +293,10 @@
       "filename": "saturn.png"
     },
     {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.png"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "filename": "dreamcast.png"
     },
