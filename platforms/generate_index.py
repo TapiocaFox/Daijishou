@@ -1,9 +1,12 @@
 import os, re, json
+
 indexFilename = "index.json"
+
 categoriesDir = "./categories"
 categoriesNames = {
     "rp2_plus": "RP2+"
 }
+
 regex = re.compile("^(?!(?:\._|\.).*).*\.json$")
 
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
