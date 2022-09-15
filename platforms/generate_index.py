@@ -9,9 +9,14 @@ regex = re.compile("^(?!(?:\._|\.).*).*\.json$")
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 files.sort()
 
-# categories = [f for f in os.listdir(categoriesDir) if os.path.isdir(f)]
-categories = [f for f in os.listdir(categoriesDir)]
-categories.sort()
+categories = []
+try: 
+    # categories = [f for f in os.listdir(categoriesDir) if os.path.isdir(f)]
+    categories += [f for f in os.listdir(categoriesDir)]
+    categories.sort()
+
+except Exception:
+    pass
 
 index = {
     "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
