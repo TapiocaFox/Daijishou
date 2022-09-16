@@ -241,6 +241,10 @@
       "filename": "tg16cd.jpg"
     },
     {
+      "matchPlatformShortname": "vectrex",
+      "filename": "vectrex.jpg"
+    },
+    {
       "matchPlatformShortname": "virtualboy",
       "filename": "virtualboy.jpg"
     },

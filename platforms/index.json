@@ -292,6 +292,11 @@
       "platformShortname": "tgcd"
     },
     {
+      "filename": "Vectrex.json",
+      "platformName": "Vectrex",
+      "platformShortname": "vectrex"
+    },
+    {
       "filename": "VirtualBoy.json",
       "platformName": "Virtual Boy",
       "platformShortname": "virtualboy"
