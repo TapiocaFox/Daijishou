@@ -205,6 +205,10 @@
       "filename": "mastersystem.png"
     },
     {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg-1000.png"
+    },
+    {
       "matchPlatformShortname": "saturn",
       "filename": "saturn.png"
     },

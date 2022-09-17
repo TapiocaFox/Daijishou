@@ -247,6 +247,11 @@
       "platformShortname": "master"
     },
     {
+      "filename": "SegaSG1000.json",
+      "platformName": "Sega SG-1000",
+      "platformShortname": "sg1000"
+    },
+    {
       "filename": "SegaSaturn.json",
       "platformName": "Sega Saturn",
       "platformShortname": "saturn"
