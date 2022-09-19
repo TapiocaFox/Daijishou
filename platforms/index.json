@@ -92,6 +92,11 @@
       "platformShortname": "dreamcast"
     },
     {
+      "filename": "FairchildChannelF.json",
+      "platformName": "Fairchild Channel F",
+      "platformShortname": "channelf"
+    },
+    {
       "filename": "FinalBurnNeo.json",
       "platformName": "Arcade (FinalBurn Neo)",
       "platformShortname": "fbneo"

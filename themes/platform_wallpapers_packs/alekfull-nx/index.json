@@ -81,6 +81,10 @@
       "filename": "dreamcast.jpg"
     },
     {
+      "matchPlatformShortname": "channelf",
+      "filename": "channelf.jpg"
+    },
+    {
       "matchPlatformShortname": "fbneo",
       "filename": "fbneo.jpg"
     },
