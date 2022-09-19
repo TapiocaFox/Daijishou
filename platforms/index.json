@@ -137,6 +137,11 @@
       "platformShortname": "j2me"
     },
     {
+      "filename": "LowResNX.json",
+      "platformName": "LowRes NX",
+      "platformShortname": "lowresnx"
+    },
+    {
       "filename": "MAME.json",
       "platformName": "Arcade (MAME)",
       "platformShortname": "mame"
