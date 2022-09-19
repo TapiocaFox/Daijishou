@@ -85,6 +85,10 @@
       "filename": "fbneo.jpg"
     },
     {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.jpg"
+    },
+    {
       "matchPlatformShortname": "gb",
       "filename": "gb.jpg"
     },

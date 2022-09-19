@@ -97,6 +97,11 @@
       "platformShortname": "fbneo"
     },
     {
+      "filename": "Game&Watch.json",
+      "platformName": "Game & Watch",
+      "platformShortname": "gw"
+    },
+    {
       "filename": "GameBoy.json",
       "platformName": "Game Boy",
       "platformShortname": "gb"
