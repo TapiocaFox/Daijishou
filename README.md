@@ -8,9 +8,9 @@ Daijishō is a retro launcher that let you manage your retro games libraries. Da
 Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじしょう" actually stands for ["台字章"](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D) in kanji. Which is a pattern widely used in Taiwan during the Japanese period. Anyway, happy gaming.
 
 ### About this Repository
-Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it.You can still report issues or submit suggestions here. And Daijishō will always be free!
+Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
 
-### What's next? (1.4) (Planned 2023)
+### What's next? (1.4) (Planned to start working on it in 2023)
  - Items set (Merge discs and regions)
  - Backup and restore options
  - Wallpaper
