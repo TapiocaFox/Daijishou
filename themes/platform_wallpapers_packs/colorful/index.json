@@ -13,6 +13,10 @@
       "filename": "Panasonic 3DO.jpg"
     },
     {
+      "matchPlatformShortname": "android",
+      "filename": "Android.png"
+    },
+    {
       "matchPlatformShortname": "cpc",
       "filename": "DOS.png"
     },

@@ -13,6 +13,10 @@
       "filename": "3do.jpg"
     },
     {
+      "matchPlatformShortname": "android",
+      "filename": "android.jpg"
+    },
+    {
       "matchPlatformShortname": "cpc",
       "filename": "cpc.jpg"
     },

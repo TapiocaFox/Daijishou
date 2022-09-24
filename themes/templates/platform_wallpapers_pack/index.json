@@ -13,6 +13,10 @@
       "filename": "mount_niitaka.jpg"
     },
     {
+      "matchPlatformShortname": "android",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
       "matchPlatformShortname": "cpc",
       "filename": "mount_niitaka.jpg"
     },
