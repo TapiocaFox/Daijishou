@@ -165,6 +165,10 @@
       "filename": "pico8.png"
     },
     {
+      "matchPlatformShortname": "palm",
+      "filename": "palm.png"
+    },
+    {
       "matchPlatformShortname": "cdi",
       "filename": "cdi.png"
     },

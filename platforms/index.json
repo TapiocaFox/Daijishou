@@ -212,6 +212,11 @@
       "platformShortname": "pico8"
     },
     {
+      "filename": "PalmOS.json",
+      "platformName": "Palm OS",
+      "platformShortname": "palm"
+    },
+    {
       "filename": "PhilipsCDi.json",
       "platformName": "Philips CD-i",
       "platformShortname": "cdi"
