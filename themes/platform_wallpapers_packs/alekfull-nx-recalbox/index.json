@@ -57,6 +57,10 @@
       "filename": "cps3.jpg"
     },
     {
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.jpg"
+    },
+    {
       "matchPlatformShortname": "coleco",
       "filename": "colecovision.jpg"
     },
