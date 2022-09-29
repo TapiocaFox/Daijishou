@@ -102,6 +102,11 @@
       "platformShortname": "fbneo"
     },
     {
+      "filename": "FlashbackGameEngine.json",
+      "platformName": "Flashback Game Engine",
+      "platformShortname": "flashback"
+    },
+    {
       "filename": "Game&Watch.json",
       "platformName": "Game & Watch",
       "platformShortname": "gw"
