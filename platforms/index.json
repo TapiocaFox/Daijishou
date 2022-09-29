@@ -67,6 +67,11 @@
       "platformShortname": "cavestory"
     },
     {
+      "filename": "Chip8.json",
+      "platformName": "CHIP-8",
+      "platformShortname": "chip8"
+    },
+    {
       "filename": "ColecoVision.json",
       "platformName": "ColecoVision",
       "platformShortname": "coleco"
