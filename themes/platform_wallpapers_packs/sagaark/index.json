@@ -1,0 +1,380 @@
+{
+  "name": "SagaArk",
+  "description": "Remixed take on the Alekfull theme. Packed by Jetup13.",
+  "authors": ["Jetup13"],
+  "sources": ["https://github.com/magneticchen/Daijishou"],
+  "previewThumbnailFilename": "icon.jpg",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "base.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.jpg"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "cpc.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari400",
+      "filename": "atari400.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari800",
+      "filename": "atari800.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.jpg"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "jaguar.jpg"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "lynx.jpg"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.jpg"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.jpg"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.jpg"
+    },
+    {
+      "matchPlatformShortname": "cdtv",
+      "filename": "cdtv.jpg"
+    },
+    {
+      "matchPlatformShortname": "cd32",
+      "filename": "cd32.jpg"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx2",
+      "filename": "msx2.jpg"
+    },
+    {
+      "matchPlatformShortname": "x1",
+      "filename": "x1.jpg"
+    },
+    {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.jpg"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tgcd.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcengine",
+      "filename": "pcengine.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcenginecd",
+      "filename": "pcenginecd.jpg"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.jpg"
+    },
+    {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.jpg"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "filename": "pc98.jpg"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64.jpg"
+    },
+    {
+      "matchPlatformShortname": "c128",
+      "filename": "c128.jpg"
+    },
+    {
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81.jpg"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.jpg"
+    },
+    {
+      "matchPlatformShortname": "ti99",
+      "filename": "ti99.jpg"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.jpg"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.jpg"
+    },
+    {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.jpg"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.jpg"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.jpg"
+    },
+    {
+      "matchPlatformShortname": "vb",
+      "filename": "vb.jpg"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.jpg"
+    },
+    {
+      "matchPlatformShortname": "famicom",
+      "filename": "famicom.jpg"
+    },
+    {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.jpg"
+    },
+    {
+      "matchPlatformShortname": "sfc",
+      "filename": "sfc.jpg"
+    },
+    {
+      "matchPlatformShortname": "sgb",
+      "filename": "sgb.jpg"
+    },
+    {
+      "matchPlatformShortname": "satellaview",
+      "filename": "satellaview.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64dd",
+      "filename": "n64dd.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.jpg"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.jpg"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.jpg"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.jpg"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "32x.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast.jpg"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "cps1.jpg"
+    },
+    {
+      "matchPlatformShortname": "vmu",
+      "filename": "vmu.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.jpg"
+    },
+    {
+      "matchPlatformShortname": "pspminis",
+      "filename": "pspminis.jpg"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "filename": "j2me.jpg"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "filename": "tic80.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.jpg"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tgcd.jpg"
+    },
+    {
+      "matchPlatformShortname": "lowresnx",
+      "filename": "lowresnx.jpg"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.jpg"
+    },
+    {
+      "matchPlatformShortname": "uzebox",
+      "filename": "uzebox.jpg"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "vb.jpg"
+    },
+    {
+      "matchPlatformShortname": "megaduck",
+      "filename": "megaduck.jpg"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "ws.jpg"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wsc.jpg"
+    }
+  ]
+}
