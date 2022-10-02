@@ -107,6 +107,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jetup13"
+      ],
+      "platformWallpapersPackDescription": "Remixed take on the Alekfull theme. Packed by Jetup13.",
+      "platformWallpapersPackName": "SagaArk",
+      "platformWallpapersPackPreviewThumbnailPath": "sagaark/icon.jpg",
+      "platformWallpapersPackRootPath": "sagaark"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13",
         "KALEL1981"
       ],
