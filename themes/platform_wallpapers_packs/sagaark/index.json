@@ -121,6 +121,10 @@
       "filename": "pc98.jpg"
     },
     {
+      "matchPlatformShortname": "coleco",
+      "filename": "coleco.jpg"
+    },
+    {
       "matchPlatformShortname": "c64",
       "filename": "c64.jpg"
     },
@@ -195,6 +199,10 @@
     {
       "matchPlatformShortname": "gb",
       "filename": "gb.jpg"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
@@ -302,7 +310,11 @@
     },
     {
       "matchPlatformShortname": "fbneo",
-      "filename": "cps1.jpg"
+      "filename": "fbn.jpg"
+    },
+    {
+      "matchPlatformShortname": "fbalpha",
+      "filename": "fba.jpg"
     },
     {
       "matchPlatformShortname": "vmu",
@@ -317,16 +329,16 @@
       "filename": "ps2.jpg"
     },
     {
-      "matchPlatformShortname": "supergrafx",
-      "filename": "supergrafx.jpg"
-    },
-    {
       "matchPlatformShortname": "psp",
       "filename": "psp.jpg"
     },
     {
       "matchPlatformShortname": "pspminis",
       "filename": "pspminis.jpg"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.jpg"
     },
     {
       "matchPlatformShortname": "j2me",
