@@ -57,6 +57,10 @@
       "filename": "cps3.jpg"
     },
     {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.jpg"
+    },
+    {
       "matchPlatformShortname": "cavestory",
       "filename": "cavestory.jpg"
     },

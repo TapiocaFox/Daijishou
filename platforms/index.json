@@ -62,6 +62,11 @@
       "platformShortname": "cps3"
     },
     {
+      "filename": "CannonballOutRunEngine.json",
+      "platformName": "Cannonball OutRun Engine",
+      "platformShortname": "cannonball"
+    },
+    {
       "filename": "CaveStoryGameEngine.json",
       "platformName": "Cave Story Game Engine",
       "platformShortname": "cavestory"

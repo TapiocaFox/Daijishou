@@ -1,7 +1,7 @@
 {
     "databaseVersion": 6,
     "platform": {
-        "name": "Cannonball - Outrun Game Engine",
+        "name": "Cannonball OutRun Engine",
         "shortname": "cannonball",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
