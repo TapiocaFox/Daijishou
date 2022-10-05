@@ -1,5 +1,6 @@
 {
     "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "Sharp X68000",
         "shortname": "x68000",

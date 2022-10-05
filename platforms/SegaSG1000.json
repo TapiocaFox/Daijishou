@@ -1,5 +1,6 @@
 {
     "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "Sega SG-1000",
         "shortname": "sg1000",

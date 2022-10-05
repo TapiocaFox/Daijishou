@@ -1,5 +1,6 @@
 {
     "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "Commodore 64",
         "shortname": "c64",

@@ -1,5 +1,6 @@
 {
     "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "ZX 81",
         "shortname": "zx81",

@@ -1,5 +1,6 @@
 {
     "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "Cave Story Game Engine",
         "shortname": "cavestory",

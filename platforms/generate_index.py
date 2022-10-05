@@ -31,10 +31,12 @@ for f in files:
             try:
                 platformSharable = json.load(jsonFile)
                 platformEntityPortable = platformSharable['platform']
+                revisionNumber = platformSharable['revisionNumber'] if('revisionNumber' in platformSharable) else None
                 index['platformList'].append({
                     "filename": f,
                     "platformName": platformEntityPortable['name'],
-                    "platformShortname": platformEntityPortable['shortname']
+                    "platformShortname": platformEntityPortable['shortname'],
+                    'revisionNumber': revisionNumber
                 })
             except Exception as e:
                 print(e)

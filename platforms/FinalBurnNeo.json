@@ -1,5 +1,6 @@
 {
     "databaseVersion": 6,
+    "revisionNumber": 1,
     "platform": {
         "name": "Arcade (FinalBurn Neo)",
         "shortname": "fbneo",

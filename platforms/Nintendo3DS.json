@@ -1,5 +1,6 @@
 {
-  "databaseVersion": 3,
+  "databaseVersion": 8,
+  "revisionNumber": 1,
   "platform": {
     "name": "Nintendo 3DS",
     "shortname": "3ds",

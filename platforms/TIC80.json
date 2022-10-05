@@ -1,5 +1,6 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "TIC-80",
         "shortname": "tic80",

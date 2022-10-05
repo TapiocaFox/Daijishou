@@ -1,5 +1,6 @@
 {
     "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "Cannonball OutRun Engine",
         "shortname": "cannonball",

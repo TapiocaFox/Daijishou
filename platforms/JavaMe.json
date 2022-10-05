@@ -1,5 +1,6 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
+    "revisionNumber": 1,
     "platform": {
         "name": "Java Me",
         "shortname": "j2me",
