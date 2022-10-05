@@ -1,5 +1,5 @@
 {
-  "databaseVersion": 4,
+  "databaseVersion": 8,
   "platform": {
     "name": "Arcade (MAME)",
     "shortname": "mame",
@@ -12,6 +12,7 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
+    "retroAchievementsAlias": "Arcade",
     "extra": ""
   },
   "playerList": [{

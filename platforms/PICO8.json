@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 4,
+    "databaseVersion": 8,
     "platform": {
         "name": "PICO-8",
         "shortname": "pico8",
@@ -14,6 +14,7 @@
         "screenAspectRatioId": 0,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": null,
         "extra": ""
     },
     "playerList": [

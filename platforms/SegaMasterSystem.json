@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "Sega Master System",
         "shortname": "master",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 1,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": "Master System",
         "extra": ""
     },
     "playerList": [

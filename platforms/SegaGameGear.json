@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "Sega Game Gear",
         "shortname": "gamegear",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 0,
         "useCustomScreenAspectRatio": true,
         "customScreenAspectRatio": "10:9",
+        "retroAchievementsAlias": "Game Gear",
         "extra": ""
     },
     "playerList": [

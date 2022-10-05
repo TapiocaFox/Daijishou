@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "Cannonball OutRun Engine",
         "shortname": "cannonball",
@@ -12,6 +12,7 @@
         "screenAspectRatioId": 1,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": null,
         "extra": ""
     },
     "playerList": [

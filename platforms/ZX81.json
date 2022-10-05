@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "ZX 81",
         "shortname": "zx81",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 1,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": null,
         "extra": ""
     },
     "playerList": [

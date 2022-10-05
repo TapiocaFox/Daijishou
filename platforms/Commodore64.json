@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "Commodore 64",
         "shortname": "c64",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 1,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": null,
         "extra": ""
     },
     "playerList": [

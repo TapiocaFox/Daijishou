@@ -16,6 +16,7 @@
         "screenAspectRatioId": 3,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": null,
         "extra": ""
     },
     "playerList": [

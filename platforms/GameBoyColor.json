@@ -16,6 +16,7 @@
         "screenAspectRatioId": 2,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": "Game Boy Color",
         "extra": ""
     },
     "playerList": [

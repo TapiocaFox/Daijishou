@@ -1,5 +1,5 @@
 {
-  "databaseVersion": 3,
+  "databaseVersion": 8,
   "platform": {
     "name": "Watara Supervision",
     "shortname": "supervision",
@@ -16,6 +16,7 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
+    "retroAchievementsAlias": "Watara Supervision",
     "extra": ""
   },
   "playerList": [

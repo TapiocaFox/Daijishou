@@ -1,5 +1,5 @@
 {
-  "databaseVersion": 7,
+  "databaseVersion": 8,
   "platform": {
     "name": "WonderSwan",
     "shortname": "ws",
@@ -16,6 +16,7 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
+    "retroAchievementsAlias": "WonderSwan",
     "extra": ""
   },
   "playerList": [

@@ -1,5 +1,5 @@
 {
-  "databaseVersion": 5,
+  "databaseVersion": 8,
   "platform": {
     "name": "Atari Jaguar",
     "shortname": "jaguar",
@@ -16,6 +16,7 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
+    "retroAchievementsAlias": "Atari Jaguar",
     "extra": ""
   },
   "playerList": [

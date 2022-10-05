@@ -19,6 +19,7 @@
         "screenAspectRatioId": 2,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": "Arcade",
         "extra": ""
     },
     "playerList": [

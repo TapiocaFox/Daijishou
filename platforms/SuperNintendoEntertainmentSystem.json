@@ -1,5 +1,5 @@
 {
-  "databaseVersion": 3,
+  "databaseVersion": 8,
   "platform": {
     "name": "Super Nintendo Entertainment System",
     "shortname": "snes",
@@ -16,6 +16,7 @@
     "screenAspectRatioId": 2,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
+    "retroAchievementsAlias": "SNES",
     "extra": ""
   },
   "playerList": [

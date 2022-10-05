@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "Amstrad CPC",
         "shortname": "cpc",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 0,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": "Amstrad CPC",
         "extra": ""
     },
     "playerList": [

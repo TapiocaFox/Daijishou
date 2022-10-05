@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "Atari Lynx",
         "shortname": "lynx",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 3,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": "Atari Lynx",
         "extra": ""
     },
     "playerList": [

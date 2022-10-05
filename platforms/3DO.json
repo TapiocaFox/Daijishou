@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "3DO",
         "shortname": "3do",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 1,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": "3DO Interactive Multiplayer",
         "extra": ""
     },
     "playerList": [

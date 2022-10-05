@@ -1,5 +1,5 @@
 {
-  "databaseVersion": 4,
+  "databaseVersion": 8,
   "platform": {
     "name": "Atari 2600",
     "shortname": "atari2600",
@@ -16,6 +16,7 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
+    "retroAchievementsAlias": "Atari 2600",
     "extra": ""
   },
   "playerList": [

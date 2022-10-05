@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "Vectrex",
         "shortname": "vectrex",
@@ -16,6 +16,7 @@
         "screenAspectRatioId": 0,
         "useCustomScreenAspectRatio": true,
         "customScreenAspectRatio": "546:683",
+        "retroAchievementsAlias": "Vectrex",
         "extra": ""
     },
     "playerList": [

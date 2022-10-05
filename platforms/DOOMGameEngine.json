@@ -1,5 +1,5 @@
 {
-  "databaseVersion": 4,
+  "databaseVersion": 8,
   "platform": {
     "name": "DOOM Game Engine",
     "shortname": "doom",
@@ -14,6 +14,7 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
     "extra": ""
   },
   "playerList": [

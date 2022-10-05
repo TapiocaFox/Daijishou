@@ -1,5 +1,5 @@
 {
-    "databaseVersion": 6,
+    "databaseVersion": 8,
     "platform": {
         "name": "WASM-4",
         "shortname": "wasm4",
@@ -14,6 +14,7 @@
         "screenAspectRatioId": 0,
         "useCustomScreenAspectRatio": false,
         "customScreenAspectRatio": null,
+        "retroAchievementsAlias": "WASM-4",
         "extra": ""
     },
     "playerList": [
