@@ -1,6 +1,6 @@
 {
   "databaseVersion": 8,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "PC-FX",
     "shortname": "pcfx",
@@ -17,7 +17,7 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "PC-FX",
     "extra": ""
   },
   "playerList": [

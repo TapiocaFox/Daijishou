@@ -109,6 +109,14 @@
       "filename": "supergrafx.png"
     },
     {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.png"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "filename": "pc98.png"
+    },
+    {
       "matchPlatformShortname": "pcfx",
       "filename": "pcfx.png"
     },

@@ -266,10 +266,22 @@
       "revisionNumber": 1
     },
     {
+      "filename": "PC88.json",
+      "platformName": "PC-88",
+      "platformShortname": "pc88",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "PC98.json",
+      "platformName": "PC-98",
+      "platformShortname": "pc98",
+      "revisionNumber": 1
+    },
+    {
       "filename": "PCFX.json",
       "platformName": "PC-FX",
       "platformShortname": "pcfx",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "PICO8.json",

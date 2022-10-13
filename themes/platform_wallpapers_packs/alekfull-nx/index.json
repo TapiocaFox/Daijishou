@@ -169,6 +169,10 @@
       "filename": "wii.jpg"
     },
     {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.jpg"
+    },
+    {
       "matchPlatformShortname": "pcfx",
       "filename": "pcfx.jpg"
     },
