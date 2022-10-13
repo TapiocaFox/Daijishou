@@ -23,6 +23,18 @@
       "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
       "targetVersion": null,
       "belowVersion": 305
+    },
+    {
+      "title": "The Daijishou version you are using is defected",
+      "message": "🚨 Version 310 (1.3.34) is now available checkout releases page on GitHub.",
+      "acknowledgmentText": "Ok",
+      "acknowledgmentLink": null,
+      "cancelText": "GitHub",
+      "cancelLink": "https://github.com/magneticchen/Daijishou/releases",
+      "neutralText": "Upgrade",
+      "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
+      "targetVersion": null,
+      "belowVersion": 309
     }
   ]
 }
