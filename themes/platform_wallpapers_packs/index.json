@@ -3,6 +3,24 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "BrunoBelmonte"
+      ],
+      "platformWallpapersPackDescription": "BB-1 Dark",
+      "platformWallpapersPackName": "BB-1 Dark",
+      "platformWallpapersPackPreviewThumbnailPath": "BB1-Dark/thumbnail.png",
+      "platformWallpapersPackRootPath": "BB1-Dark"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "BrunoBelmonte"
+      ],
+      "platformWallpapersPackDescription": "BB-1 Light",
+      "platformWallpapersPackName": "BB-1 Light",
+      "platformWallpapersPackPreviewThumbnailPath": "BB1-Light/thumbnail.png",
+      "platformWallpapersPackRootPath": "BB1-Light"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "fagnerpc"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
