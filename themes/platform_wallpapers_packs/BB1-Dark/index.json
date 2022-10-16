@@ -2,7 +2,7 @@
     "name": "BB-1 Dark",
     "description": "BB-1 Dark",
     "authors": ["BrunoBelmonte"],
-    "sources": ["Null"],
+    "sources": [],
     "previewThumbnailFilename": "thumbnail.png",
   
     "hasDefaultWallpaper": true,

@@ -2,7 +2,7 @@
     "name": "BB-1 Light",
     "description": "BB-1 Light",
     "authors": ["BrunoBelmonte"],
-    "sources": ["Null"],
+    "sources": [],
     "previewThumbnailFilename": "thumbnail.png",
   
     "hasDefaultWallpaper": true,
