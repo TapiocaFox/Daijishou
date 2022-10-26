@@ -341,7 +341,7 @@
       "filename": "SegaGameGear.json",
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "SegaGenesis.json",

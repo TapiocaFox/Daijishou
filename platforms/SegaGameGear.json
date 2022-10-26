@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 1,
+    "revisionNumber": 2,
     "platform": {
         "name": "Sega Game Gear",
         "shortname": "gamegear",
@@ -25,7 +25,7 @@
             "name": "gamegear - com.androidemu.gg",
             "description": "Supported extensions: bin, bms, col, gg, rom, sg, sms.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|bms|col|gg|rom|sg|sms)$",
-            "amStartArguments": "-n com.androidemu.gg/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
+            "amStartArguments": "-n com.androidemu.gg/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
