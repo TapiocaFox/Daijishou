@@ -1,0 +1,80 @@
+{
+  "name": "Clean Colors",
+  "description": "This pack contains colorful representation for each system and the games that made that system famous. Designed by JamesHowlett in Discord.",
+  "authors": ["jusuchin85"],
+  "sources": [],
+  "previewThumbnailFilename": "thumbnail.png",
+
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "Atari.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "Dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "GB.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "GBA.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "GBC.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "GameGear.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "Gamecube.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "Genesis.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "N64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "NDS.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "NES.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "PS1.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "PS2.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "SNES.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "Wii.png"
+    }
+  ]
+}
