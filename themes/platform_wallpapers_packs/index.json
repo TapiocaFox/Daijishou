@@ -21,6 +21,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Post Mortem"
+      ],
+      "platformWallpapersPackDescription": "This wallpaper pack uses only images that really represent the games of each platforms, with a minimal but futuristic design. Tested on 4:3 screen.",
+      "platformWallpapersPackName": "Light Beam",
+      "platformWallpapersPackPreviewThumbnailPath": "Light-Beam/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Light-Beam"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "fagnerpc"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
