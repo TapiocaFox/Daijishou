@@ -3,7 +3,7 @@
   "description": "This wallpaper pack uses only images that really represent the games of each platforms, with a minimal but futuristic design. Tested on 4:3 screen.",
   "authors": ["Post Mortem"],
   "sources": [],
-  "previewThumbnailFilename": "previewthumbnail.jpg",
+  "previewThumbnailFilename": "Previewthumbnail.jpg",
 
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.jpg",
@@ -98,7 +98,7 @@
     },
     {
       "matchPlatformShortname": "nds",
-      "filename": "nds.jpg"
+      "filename": "ds.jpg"
     },
     {
       "matchPlatformShortname": "nes",
