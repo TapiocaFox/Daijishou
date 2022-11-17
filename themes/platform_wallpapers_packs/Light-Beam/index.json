@@ -17,20 +17,16 @@
       "filename": "android.jpg"
     },
     {
-      "matchPlatformShortname": "atomiswave",
-      "filename": "arcade.jpg"
-    },
-    {
       "matchPlatformShortname": "cps1",
-      "filename": "arcade.jpg"
+      "filename": "cps1.jpg"
     },
     {
       "matchPlatformShortname": "cps2",
-      "filename": "arcade.jpg"
+      "filename": "cps2.jpg"
     },
     {
       "matchPlatformShortname": "cps3",
-      "filename": "arcade.jpg"
+      "filename": "cps3.jpg"
     },
     {
       "matchPlatformShortname": "c64",
@@ -82,11 +78,11 @@
     },
     {
       "matchPlatformShortname": "neogeo",
-      "filename": "arcade.jpg"
+      "filename": "neogeo.jpg"
     },
     {
       "matchPlatformShortname": "neogeocd",
-      "filename": "arcade.jpg"
+      "filename": "neogeocd.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
