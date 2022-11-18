@@ -1,9 +1,9 @@
 {
-  "name": "Light Beam",
-  "description": "This wallpaper pack uses only images that really represent the games of each platforms, with a minimal but futuristic design. Tested on 4:3 screen.",
+  "name": "Arrow",
+  "description": "Colorful wallpaper with minimalist design, with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
   "authors": ["Post Mortem"],
   "sources": [],
-  "previewThumbnailFilename": "Previewthumbnail.jpg",
+  "previewThumbnailFilename": "previewthumbnail.jpg",
 
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.jpg",
@@ -50,7 +50,7 @@
     },
     {
       "matchPlatformShortname": "fbneo",
-      "filename": "arcade.jpg"
+      "filename": "fbneo.jpg"
     },
     {
       "matchPlatformShortname": "gb",
@@ -70,7 +70,7 @@
     },
     {
       "matchPlatformShortname": "mame",
-      "filename": "arcade.jpg"
+      "filename": "mame.jpg"
     },
     {
       "matchPlatformShortname": "msx",
@@ -94,7 +94,7 @@
     },
     {
       "matchPlatformShortname": "nds",
-      "filename": "ds.jpg"
+      "filename": "nds.jpg"
     },
     {
       "matchPlatformShortname": "nes",
@@ -114,7 +114,7 @@
     },
     {
       "matchPlatformShortname": "scummvm",
-      "filename": "amiga.jpg"
+      "filename": "scummvm.jpg"
     },
     {
       "matchPlatformShortname": "sega32x",
