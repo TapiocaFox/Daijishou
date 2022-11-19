@@ -3,6 +3,15 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "Post Mortem"
+      ],
+      "platformWallpapersPackDescription": "Colorful wallpaper with minimalist design, with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
+      "platformWallpapersPackName": "Arrow",
+      "platformWallpapersPackPreviewThumbnailPath": "Arrow/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Arrow"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "BrunoBelmonte"
       ],
       "platformWallpapersPackDescription": "BB-1 Dark, a platform wallpapers pack made by BrunoBelmonte. The wallpapers pack contains beautiful gameplay snapshots and titles for each platform.",
