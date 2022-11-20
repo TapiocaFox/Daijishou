@@ -68,6 +68,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "jusuchin85"
+      ],
+      "platformWallpapersPackDescription": "This pack contains colorful representation for each system and the games that made that system famous. Designed by JamesHowlett in Discord.",
+      "platformWallpapersPackName": "Clean Colors",
+      "platformWallpapersPackPreviewThumbnailPath": "clean-colors/Thumbnail.png",
+      "platformWallpapersPackRootPath": "clean-colors"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "viking",
         "iShade"
       ],
