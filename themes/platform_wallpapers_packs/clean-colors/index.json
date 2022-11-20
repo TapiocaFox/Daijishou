@@ -3,10 +3,10 @@
   "description": "This pack contains colorful representation for each system and the games that made that system famous. Designed by JamesHowlett in Discord.",
   "authors": ["jusuchin85"],
   "sources": [],
-  "previewThumbnailFilename": "thumbnail.png",
+  "previewThumbnailFilename": "Thumbnail.png",
 
-  "hasDefaultWallpaper": false,
-  "defaultWallpaperFilename": null,
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "Default.png",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3ds",
@@ -69,8 +69,16 @@
       "filename": "PSP.png"
     },
     {
+      "matchPlatformShortname": "saturn",
+      "filename": "SegaSaturn.png"
+    },
+    {
       "matchPlatformShortname": "snes",
       "filename": "SNES.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "Switch.png"
     },
     {
       "matchPlatformShortname": "wii",
