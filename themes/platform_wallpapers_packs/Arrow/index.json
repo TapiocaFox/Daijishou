@@ -89,6 +89,10 @@
       "filename": "gc.jpg"
     },
     {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "rpgmaker.jpg"
+    },
+    {
       "matchPlatformShortname": "mame",
       "filename": "mame.jpg"
     },
