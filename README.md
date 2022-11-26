@@ -117,8 +117,7 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
 3. Taiwanese mandarin (台灣國語)
 4. Japanese (日本語)
 5. French (Français)
-6. Chinese (中文)
-7. Italian (Italiana)
+6. Italian (Italiana)
 
 # Related links
  <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
