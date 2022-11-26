@@ -13,8 +13,28 @@
       "filename": "3do.jpg"
     },
     {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.jpg"
+    },
+    {
       "matchPlatformShortname": "android",
       "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "cpc.jpg"
     },
     {
       "matchPlatformShortname": "cps1",
@@ -27,6 +47,14 @@
     {
       "matchPlatformShortname": "cps3",
       "filename": "cps3.jpg"
+    },
+    {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.jpg"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "coleco.jpg"
     },
     {
       "matchPlatformShortname": "c64",
@@ -53,6 +81,10 @@
       "filename": "fbneo.jpg"
     },
     {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.jpg"
+    },
+    {
       "matchPlatformShortname": "gb",
       "filename": "gb.jpg"
     },
@@ -67,6 +99,30 @@
     {
       "matchPlatformShortname": "gc",
       "filename": "gc.jpg"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "jaguar.jpg"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "lynx.jpg"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.jpg"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.jpg"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "rpgmaker.jpg"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.jpg"
     },
     {
       "matchPlatformShortname": "mame",
@@ -167,6 +223,10 @@
     {
       "matchPlatformShortname": "supergrafx",
       "filename": "supergrafx.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.jpg"
     },
     {
       "matchPlatformShortname": "ws",
