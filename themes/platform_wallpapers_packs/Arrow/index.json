@@ -13,6 +13,10 @@
       "filename": "3do.jpg"
     },
     {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.jpg"
+    },
+    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.jpg"
     },
@@ -27,6 +31,10 @@
     {
       "matchPlatformShortname": "android",
       "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "cpc.jpg"
     },
     {
       "matchPlatformShortname": "cps1",
@@ -73,6 +81,10 @@
       "filename": "fbneo.jpg"
     },
     {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.jpg"
+    },
+    {
       "matchPlatformShortname": "gb",
       "filename": "gb.jpg"
     },
@@ -89,8 +101,28 @@
       "filename": "gc.jpg"
     },
     {
+      "matchPlatformShortname": "jaguar",
+      "filename": "jaguar.jpg"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "lynx.jpg"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.jpg"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.jpg"
+    },
+    {
       "matchPlatformShortname": "rpgmaker",
       "filename": "rpgmaker.jpg"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.jpg"
     },
     {
       "matchPlatformShortname": "mame",
@@ -191,6 +223,10 @@
     {
       "matchPlatformShortname": "supergrafx",
       "filename": "supergrafx.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.jpg"
     },
     {
       "matchPlatformShortname": "ws",
