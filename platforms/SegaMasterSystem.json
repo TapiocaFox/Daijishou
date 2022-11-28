@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 1,
+    "revisionNumber": 2,
     "platform": {
         "name": "Sega Master System",
         "shortname": "master",
@@ -21,6 +21,16 @@
         "extra": ""
     },
     "playerList": [
+        {
+            "name": "master - com.explusalpha.MdEmu",
+            "description": "Support extensions: 32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|bms|chd|cue|gen|gg|iso|m3u|md|mdx|pco|sg|sgd|smd|sms)$",
+            "amStartArguments": "-n com.explusalpha.MdEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+
         {
             "name": "master - RetroArch 64 - genesis_plus_gx",
             "description": "Supported extensions: 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms, zip, 7z.",

@@ -335,7 +335,7 @@
       "filename": "SegaCD.json",
       "platformName": "Sega CD",
       "platformShortname": "segacd",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "SegaGameGear.json",
@@ -353,7 +353,7 @@
       "filename": "SegaMasterSystem.json",
       "platformName": "Sega Master System",
       "platformShortname": "master",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "SegaSG1000.json",
