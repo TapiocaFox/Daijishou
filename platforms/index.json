@@ -41,7 +41,7 @@
       "filename": "AtariLynx.json",
       "platformName": "Atari Lynx",
       "platformShortname": "lynx",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "AtariST.json",
