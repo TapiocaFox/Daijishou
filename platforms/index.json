@@ -221,13 +221,13 @@
       "filename": "NeoGeoPocket.json",
       "platformName": "NeoGeo Pocket",
       "platformShortname": "ngp",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "NeoGeoPocketColor.json",
       "platformName": "NeoGeo Pocket Color",
       "platformShortname": "ngpc",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Nintendo3DS.json",
@@ -437,7 +437,7 @@
       "filename": "WataraSupervision.json",
       "platformName": "Watara Supervision",
       "platformShortname": "supervision",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "WonderSwan.json",
