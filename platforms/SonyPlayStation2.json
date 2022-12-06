@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 1,
+    "revisionNumber": 2,
     "platform": {
         "name": "Sony PlayStation 2",
         "shortname": "ps2",
@@ -26,6 +26,15 @@
             "description": "Supported extensions: iso, chd, gz.",
             "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz)$",
             "amStartArguments": " -n xyz.aethersx2.android/.EmulationActivity\n -a android.intent.action.MAIN\n -e bootPath {file.uri}\n --activity-clear-task \n --activity-clear-top \n ",
+            "killPackageProcesses": true,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "ps2 - Aethersx2 Turnip",
+            "description": "Supported extensions: iso, chd, gz.",
+            "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz)$",
+            "amStartArguments": " -n xyz.aethersx2.custom/.EmulationActivity\n -a android.intent.action.MAIN\n -e bootPath {file.uri}\n --activity-clear-task \n --activity-clear-top \n ",
             "killPackageProcesses": true,
             "killPackageProcessesWarning": true,
             "extra": ""
