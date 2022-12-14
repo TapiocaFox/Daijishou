@@ -118,6 +118,7 @@ Daijishō has evolved a lot in the first half of 2022. Including UI improvements
 4. Japanese (日本語)
 5. French (Français)
 6. Italian (Italiana)
+7. Spanish (Español)
 
 # Related links
  <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
