@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 1,
+    "revisionNumber": 2,
     "platform": {
         "name": "Nintendo 64",
         "shortname": "n64",
@@ -25,16 +25,7 @@
             "name": "n64 - org.mupen64plusae.v3.fzurita",
             "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
-            "amStartArguments": "-n org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-        {
-            "name": "n64 - paulscode.android.mupen64plusae",
-            "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
-            "amStartArguments": "-n paulscode.android.mupen64plusae/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "amStartArguments": "-n org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -43,7 +34,16 @@
             "name": "n64 - org.mupen64plusae.v3.fzurita.pro",
             "description": "Supported extensions: bin, n64, ndd, u1, v64, z64, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64|zip|7z)$",
-            "amStartArguments": "-n org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "amStartArguments": "-n org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        },
+        {
+            "name": "n64 - paulscode.android.mupen64plusae",
+            "description": "Supported extensions: bin, n64, ndd, u1, v64, z64.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64)$",
+            "amStartArguments": "-n paulscode.android.mupen64plusae/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
