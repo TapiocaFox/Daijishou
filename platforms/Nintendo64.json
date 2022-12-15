@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 3,
+    "revisionNumber": 4,
     "platform": {
         "name": "Nintendo 64",
         "shortname": "n64",
@@ -34,7 +34,7 @@
             "name": "n64 - org.mupen64plusae.v3.alpha",
             "description": "Supported extensions: bin, n64, ndd, u1, v64, z64, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|n64|ndd|u1|v64|z64|zip|7z)$",
-            "amStartArguments": "-n org.mupen64plusae.v3.alpha/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+            "amStartArguments": "-n org.mupen64plusae.v3.alpha/paulscode.android.mupen64plusae.SplashActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
