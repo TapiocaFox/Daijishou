@@ -239,7 +239,7 @@
       "filename": "Nintendo64.json",
       "platformName": "Nintendo 64",
       "platformShortname": "n64",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "NintendoDS.json",
@@ -341,7 +341,7 @@
       "filename": "SegaGameGear.json",
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SegaGenesis.json",
@@ -353,13 +353,13 @@
       "filename": "SegaMasterSystem.json",
       "platformName": "Sega Master System",
       "platformShortname": "master",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SegaSG1000.json",
       "platformName": "Sega SG-1000",
       "platformShortname": "sg1000",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "SegaSaturn.json",
