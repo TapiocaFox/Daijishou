@@ -5,7 +5,7 @@
         "name": "Sega CD",
         "shortname": "segacd",
         "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
         "scraperSourceList": [
             "LIBRETRO:Sega - Mega-CD - Sega CD",
             "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=21&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
