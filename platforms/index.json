@@ -155,7 +155,7 @@
       "filename": "GameBoy.json",
       "platformName": "Game Boy",
       "platformShortname": "gb",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "GameBoyAdvance.json",
@@ -167,7 +167,7 @@
       "filename": "GameBoyColor.json",
       "platformName": "Game Boy Color",
       "platformShortname": "gbc",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "GameCube.json",
@@ -395,7 +395,7 @@
       "filename": "SuperNintendoEntertainmentSystem.json",
       "platformName": "Super Nintendo Entertainment System",
       "platformShortname": "snes",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "TIC80.json",
