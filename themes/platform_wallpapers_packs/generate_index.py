@@ -4,7 +4,7 @@ indexFilename = "index.json"
 regex = re.compile("^(?!(?:\._|\.).*).*\.json$")
 
 platformWallpapersPacks = [f for f in os.listdir('.') if os.path.isdir(f)]
-platformWallpapersPacks.sort()
+platformWallpapersPacks = sorted(platformWallpapersPacks, key=str.casefold)
 
 index = {
     "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/themes/platform_wallpapers_packs/",
@@ -16,7 +16,7 @@ for d in platformWallpapersPacks:
     print(d)
     platformWallpapersPackDir = d
     files = [f for f in os.listdir(platformWallpapersPackDir) if os.path.isfile(platformWallpapersPackDir+'/'+f)]
-    # files.sort()
+    # files = sorted(files, key=str.casefold)
 
     for f in files:
         if f == indexFilename:
