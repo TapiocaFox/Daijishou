@@ -6,6 +6,7 @@
   "previewThumbnailFilename": "thumbnail.jpg",
 
   "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
       "matchPlatformShortname": "atomiswave",
