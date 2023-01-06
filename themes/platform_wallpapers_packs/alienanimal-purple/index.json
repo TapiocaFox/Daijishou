@@ -1,0 +1,123 @@
+{
+  "name": "alienanimal_purple",
+  "description": "The pack contains the purple theme created by reddit user alienanimal.",
+  "authors": ["alienanimal"],
+  "sources": ["https://www.reddit.com/r/retroid/comments/zr78l8/here_are_the_purple_versions_of_my_daijishō/"],
+  "previewThumbnailFilename": "thumbnail.jpg",
+
+  "hasDefaultWallpaper": false,
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "DC.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "DC.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "GB.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "GBA.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "GBC.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "GCN.png"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "SNK Neo Geo AES.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "SNK Neo Geo AES.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "N64.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "NES.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "Sega 32X.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "Sega CD.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "MD.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "MD.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "Saturn.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "PS1.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "PS2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "SNES.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "Arcade.png"
+    }
+  ]
+}
