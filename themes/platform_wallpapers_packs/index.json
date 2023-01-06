@@ -32,6 +32,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "alienanimal"
+      ],
+      "platformWallpapersPackDescription": "The pack contains the purple theme created by reddit user alienanimal.",
+      "platformWallpapersPackName": "alienanimal_purple",
+      "platformWallpapersPackPreviewThumbnailPath": "alienanimal-purple/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "alienanimal-purple"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
       "platformWallpapersPackDescription": "Colorful wallpaper with minimalist design, with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
