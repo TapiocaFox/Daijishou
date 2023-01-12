@@ -107,7 +107,7 @@
       "filename": "CommodoreAmiga.json",
       "platformName": "Commodore Amiga",
       "platformShortname": "amiga",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "DOOMGameEngine.json",
