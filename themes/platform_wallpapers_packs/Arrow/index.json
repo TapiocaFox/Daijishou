@@ -236,6 +236,10 @@
       "matchPlatformShortname": "wsc",
       "filename": "wsc.jpg"
     },
+       {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.jpg"
+    },
     {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
