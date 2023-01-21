@@ -109,14 +109,6 @@
       "filename": "supergrafx.png"
     },
     {
-      "matchPlatformShortname": "pc88",
-      "filename": "pc88.png"
-    },
-    {
-      "matchPlatformShortname": "pc98",
-      "filename": "pc98.png"
-    },
-    {
       "matchPlatformShortname": "pcfx",
       "filename": "pcfx.png"
     },
@@ -127,6 +119,10 @@
     {
       "matchPlatformShortname": "pc98",
       "filename": "pc98.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "coleco.png"
     },
     {
       "matchPlatformShortname": "c64",
@@ -157,6 +153,10 @@
       "filename": "doom.png"
     },
     {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.png"
+    },
+    {
       "matchPlatformShortname": "mame",
       "filename": "mame.png"
     },
@@ -181,10 +181,6 @@
       "filename": "cps3.png"
     },
     {
-      "matchPlatformShortname": "coleco",
-      "filename": "coleco.png"
-    },
-    {
       "matchPlatformShortname": "neogeo",
       "filename": "neogeo.png"
     },
@@ -203,6 +199,10 @@
     {
       "matchPlatformShortname": "gb",
       "filename": "gb.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
     },
     {
       "matchPlatformShortname": "gbc",
@@ -278,7 +278,7 @@
     },
     {
       "matchPlatformShortname": "master",
-      "filename": "ms.png"
+      "filename": "master.png"
     },
     {
       "matchPlatformShortname": "gamegear",
@@ -305,16 +305,16 @@
       "filename": "saturn.png"
     },
     {
-      "matchPlatformShortname": "x68000",
-      "filename": "x68000.png"
-    },
-    {
       "matchPlatformShortname": "dreamcast",
       "filename": "dreamcast.png"
     },
     {
       "matchPlatformShortname": "fbneo",
-      "filename": "cps1.png"
+      "filename": "fbn.png"
+    },
+    {
+      "matchPlatformShortname": "fbalpha",
+      "filename": "fba.png"
     },
     {
       "matchPlatformShortname": "vmu",
@@ -329,16 +329,16 @@
       "filename": "ps2.png"
     },
     {
-      "matchPlatformShortname": "supergrafx",
-      "filename": "supergrafx.png"
-    },
-    {
       "matchPlatformShortname": "psp",
       "filename": "psp.png"
     },
     {
       "matchPlatformShortname": "pspminis",
       "filename": "pspminis.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.png"
     },
     {
       "matchPlatformShortname": "j2me",
@@ -387,14 +387,6 @@
     {
       "matchPlatformShortname": "wsc",
       "filename": "wsc.png"
-    },
-    {
-      "matchPlatformShortname": "zx81",
-      "filename": "zx81.png"
-    },
-    {
-      "matchPlatformShortname": "zxspectrum",
-      "filename": "zxspectrum.png"
     }
   ]
 }
