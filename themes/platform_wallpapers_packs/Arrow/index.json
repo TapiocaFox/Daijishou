@@ -33,6 +33,10 @@
       "filename": "android.jpg"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.jpg"
+    },
+    {
       "matchPlatformShortname": "cpc",
       "filename": "cpc.jpg"
     },
