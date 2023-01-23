@@ -151,6 +151,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "UnBurn"
+      ],
+      "platformWallpapersPackDescription": "An NES Cartridge inspired wallpaper, highlighting a particular game from that platform.",
+      "platformWallpapersPackName": "NES Love Letter",
+      "platformWallpapersPackPreviewThumbnailPath": "NES-love-letter/thumbnail.png",
+      "platformWallpapersPackRootPath": "NES-love-letter"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "LuisMz"
       ],
       "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijish\u00f4 Launcher.",
