@@ -88,6 +88,10 @@
       "filename": "gg.png"
     },
     {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
+    },
+    {
       "matchPlatformShortname": "intellivision",
       "filename": "intellivision.png"
     },
