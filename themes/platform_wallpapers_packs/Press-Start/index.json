@@ -8,6 +8,10 @@
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.png"
+    },
+    {
       "matchPlatformShortname": "3ds",
       "filename": "3ds.png"
     },
@@ -30,6 +34,10 @@
     {
       "matchPlatformShortname": "atarist",
       "filename": "atarist.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.png"
     },
     {
       "matchPlatformShortname": "android",
