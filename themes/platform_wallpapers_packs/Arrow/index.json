@@ -197,6 +197,10 @@
       "filename": "saturn.jpg"
     },
     {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.jpg"
+    },
+    {
       "matchPlatformShortname": "psx",
       "filename": "psx.jpg"
     },
