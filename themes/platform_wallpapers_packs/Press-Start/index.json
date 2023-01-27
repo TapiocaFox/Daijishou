@@ -1,8 +1,8 @@
 {
   "name": "Press Start",
-  "description": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 50 wallpapers.",
+  "description": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 60 wallpapers.",
   "authors": ["UnBurn"],
-  "sources": ["https://www.mobygames.com/", "https://tcrf.net/", "https://rpgmaker.net/", "https://itch.io"],
+  "sources": ["https://www.mobygames.com/", "https://tcrf.net/", "https://www.launchbox-app.com/", "https://rpgmaker.net/", "https://itch.io"],
   "previewThumbnailFilename": "thumbnail.png",
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
@@ -36,6 +36,10 @@
       "filename": "atarist.png"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
       "matchPlatformShortname": "amiga",
       "filename": "amiga.png"
     },
@@ -56,8 +60,20 @@
       "filename": "cavestory.png"
     },
     {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.png"
+    },
+    {
+      "matchPlatformShortname": "channelf",
+      "filename": "channelf.png"
+    },
+    {
       "matchPlatformShortname": "coleco",
       "filename": "colecovision.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "cpc.png"
     },
     {
       "matchPlatformShortname": "dreamcast",
@@ -70,6 +86,10 @@
     {
       "matchPlatformShortname": "dos",
       "filename": "dos.png"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "fbneo.png"
     },
     {
       "matchPlatformShortname": "gb",
@@ -152,6 +172,18 @@
       "filename": "ngpc.png"
     },
     {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.png"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "filename": "pc98.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.png"
+    },
+    {
       "matchPlatformShortname": "pico8",
       "filename": "pico8.jpg"
     },
@@ -206,6 +238,10 @@
     {
       "matchPlatformShortname": "virtualboy",
       "filename": "vb.png"
+    },
+    {
+      "matchPlatformShortname": "vectrex",
+      "filename": "vectrex.png"
     },
     {
       "matchPlatformShortname": "wii",
