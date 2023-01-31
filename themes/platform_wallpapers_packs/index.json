@@ -96,6 +96,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "dre10g"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
+      "platformWallpapersPackName": "Dre-LogoHardware",
+      "platformWallpapersPackPreviewThumbnailPath": "Dre-LogoHardware/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "Dre-LogoHardware"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "DrOctoroc"
       ],
       "platformWallpapersPackDescription": "The pack contains 3d models for each devices. Originated from DrOctoroc on deviantart.com. Mentioned by MonkoftheFunk in Discord.",

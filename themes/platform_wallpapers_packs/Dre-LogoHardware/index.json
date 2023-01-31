@@ -320,9 +320,9 @@
       "matchPlatformShortname": "wonderswan",
       "filename": "wonderswan.png"
     },
-	{
+  	{
       "matchPlatformShortname": "wonderswancolor",
       "filename": "wonderswancolor.png"
-    },
+    }
   ]
 }
