@@ -160,6 +160,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "UnBurn"
+      ],
+      "platformWallpapersPackDescription": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 60 wallpapers.",
+      "platformWallpapersPackName": "Press Start",
+      "platformWallpapersPackPreviewThumbnailPath": "Press-Start/thumbnail.png",
+      "platformWallpapersPackRootPath": "Press-Start"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "LuisMz"
       ],
       "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijish\u00f4 Launcher.",
