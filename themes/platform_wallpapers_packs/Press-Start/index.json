@@ -185,11 +185,11 @@
     },
     {
       "matchPlatformShortname": "pico8",
-      "filename": "pico8.jpg"
+      "filename": "pico8.png"
     },
     {
       "matchPlatformShortname": "pokemini",
-      "filename": "pokemonmini.jpg"
+      "filename": "pokemonmini.png"
     },
     {
       "matchPlatformShortname": "ps2",
@@ -205,7 +205,7 @@
     },
     {
       "matchPlatformShortname": "rpgmaker",
-      "filename": "rpgmaker.jpg"
+      "filename": "rpgmaker.png"
     },
     {
       "matchPlatformShortname": "saturn",
@@ -249,11 +249,11 @@
     },
     {
       "matchPlatformShortname": "ws",
-      "filename": "wonderswan.jpg"
+      "filename": "wonderswan.png"
     },
     {
       "matchPlatformShortname": "wsc",
-      "filename": "wonderswancolor.jpg"
+      "filename": "wonderswancolor.png"
     },
     {
       "matchPlatformShortname": "zxspectrum",
