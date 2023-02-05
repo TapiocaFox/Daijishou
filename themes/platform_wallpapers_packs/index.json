@@ -197,6 +197,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "DavirCrz"
+      ],
+      "platformWallpapersPackDescription": "This is an aspect to be able to represent in a good way the system according to appearance",
+      "platformWallpapersPackName": "RetroX",
+      "platformWallpapersPackPreviewThumbnailPath": "RetroX/previewthumbnail.png",
+      "platformWallpapersPackRootPath": "RetroX"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "Remixed take on the Alekfull theme. Packed by Jetup13.",
