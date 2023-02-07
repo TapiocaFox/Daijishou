@@ -245,7 +245,7 @@
       "filename": "NintendoDS.json",
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
@@ -311,6 +311,18 @@
       "filename": "PokemonMini.json",
       "platformName": "Pokemon Mini",
       "platformShortname": "pokemini",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "Quake.json",
+      "platformName": "Quake Game Engine",
+      "platformShortname": "quake",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "Quake.json",
+      "platformName": "Quake II Game Engine",
+      "platformShortname": "quake2",
       "revisionNumber": 1
     },
     {
