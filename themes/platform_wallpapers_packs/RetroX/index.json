@@ -13,6 +13,10 @@
       "filename": "3do.png"
     },
     {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
       "matchPlatformShortname": "atarist",
       "filename": "atarist.png"
     },
@@ -58,7 +62,7 @@
     },
     {
       "matchPlatformShortname": "dreamcast",
-      "filename": "dc.png"
+      "filename": "dreamcast.png"
     },
     {
       "matchPlatformShortname": "fbneo",
