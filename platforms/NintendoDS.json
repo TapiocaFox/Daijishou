@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 1,
+    "revisionNumber": 2,
     "platform": {
         "name": "Nintendo DS",
         "shortname": "nds",
@@ -27,7 +27,7 @@
             "name": "nds - Drastic",
             "description": "Supported extensions: bin, nds, rar, zip, 7z.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|rar|zip|7z)$",
-            "amStartArguments": "-n com.dsemu.drastic/.DraSticActivity\n-d {file.path}\n--activity-clear-task\n--activity-clear-top",
+            "amStartArguments": "-n com.dsemu.drastic/.DraSticActivity\n-d {file.uri}\n--activity-clear-task\n--activity-clear-top",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
