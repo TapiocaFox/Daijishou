@@ -206,6 +206,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "jimgray"
+      ],
+      "platformWallpapersPackDescription": "Theme designed by jimgray and uploaded on his behalf.",
+      "platformWallpapersPackName": "Vivid",
+      "platformWallpapersPackPreviewThumbnailPath": "Vivid/previewthumbnail.png",
+      "platformWallpapersPackRootPath": "Vivid"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "Remixed take on the Alekfull theme. Packed by Jetup13.",
