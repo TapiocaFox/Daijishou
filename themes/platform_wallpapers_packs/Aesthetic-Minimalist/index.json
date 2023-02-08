@@ -10,7 +10,7 @@
   "wallpaperList": [
     {
       "matchPlatformShortname": "3ds",
-      "filename": "mount_niitaka.png"
+      "filename": "3DS.png"
     },
     {
       "matchPlatformShortname": "android",
@@ -25,7 +25,7 @@
       "filename": "dreamcast.png"
     },
     {
-      "matchPlatformShortname": gamegear",
+      "matchPlatformShortname": "gamegear",
       "filename": "gamegear.png"
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "matchPlatformShortname": "ps2",
-      "filename": "mount_niitaka.png"
+      "filename": "ps2.png"
     },
     {
       "matchPlatformShortname": "psp",
