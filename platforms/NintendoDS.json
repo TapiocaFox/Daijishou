@@ -36,7 +36,7 @@
             "name": "nds - MelonDS",
             "description": null,
             "acceptedFilenameRegex": "^(.*).(?:nds)$",
-            "amStartArguments": "-a android.intent.action.VIEW\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e PATH {file.path}",
+            "amStartArguments": "-a me.magnum.melonds.LAUNCH_ROM\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": false,
             "extra": ""
