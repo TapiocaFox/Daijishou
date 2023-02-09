@@ -1,6 +1,6 @@
 {
   "name": "Eclipse",
-  "description": "Colorful wallpaper with modern design, with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
+  "description": "Colorful wallpaper with modern design and the Daijishou logo to honor it's creator. The theme has been creadted with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
   "authors": ["Post Mortem"],
   "sources": [],
   "previewThumbnailFilename": "previewthumbnail.jpg",
@@ -228,7 +228,15 @@
       "matchPlatformShortname": "wsc",
       "filename": "wsc.jpg"
     },
-       {
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.jpg"
+    },
+    {
       "matchPlatformShortname": "intellivision",
       "filename": "intellivision.jpg"
     },
