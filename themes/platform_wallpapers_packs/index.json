@@ -3,6 +3,16 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "Aesthetic Minimalist",
+        "Sarantula"
+      ],
+      "platformWallpapersPackDescription": "Minimalist design for daijisho, optimized for 4:3 and 16:9 aspect ratio devices. Designed specifically for use with the Retroid Pocket 2+/3+. Contains most popular wallpapers with more to be added in the future.",
+      "platformWallpapersPackName": "Aesthetic Minimalist",
+      "platformWallpapersPackPreviewThumbnailPath": "Aesthetic-Minimalist/preview_thumbnail.png",
+      "platformWallpapersPackRootPath": "Aesthetic-Minimalist"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "fagnerpc"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
@@ -114,6 +124,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Post Mortem"
+      ],
+      "platformWallpapersPackDescription": "Colorful wallpaper with modern design, with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
+      "platformWallpapersPackName": "Eclipse",
+      "platformWallpapersPackPreviewThumbnailPath": "Eclipse/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Eclipse"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "EpicNoir and Switch Emulationstation theme inspired wallpaper pack using screenshots of gameplay. Packed by Jetup13.",
@@ -206,15 +225,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "jimgray"
-      ],
-      "platformWallpapersPackDescription": "Theme designed by jimgray and uploaded on his behalf.",
-      "platformWallpapersPackName": "Vivid",
-      "platformWallpapersPackPreviewThumbnailPath": "Vivid/previewthumbnail.png",
-      "platformWallpapersPackRootPath": "Vivid"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "Remixed take on the Alekfull theme. Packed by Jetup13.",
@@ -259,6 +269,15 @@
       "platformWallpapersPackName": "Transparent Pack",
       "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
       "platformWallpapersPackRootPath": "transparent-pack"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "jimgray"
+      ],
+      "platformWallpapersPackDescription": "Theme designed by jimgray and uploaded on his behalf.",
+      "platformWallpapersPackName": "Vivid",
+      "platformWallpapersPackPreviewThumbnailPath": "Vivid/previewthumbnail.png",
+      "platformWallpapersPackRootPath": "Vivid"
     },
     {
       "platformWallpapersPackAuthors": [
