@@ -134,6 +134,12 @@
       "revisionNumber": 1
     },
     {
+      "filename": "FamicomDiskSystem.json",
+      "platformName": "Famicom Disk System",
+      "platformShortname": "fds",
+      "revisionNumber": 1
+    },
+    {
       "filename": "FinalBurnNeo.json",
       "platformName": "Arcade (FinalBurn Neo)",
       "platformShortname": "fbneo",
