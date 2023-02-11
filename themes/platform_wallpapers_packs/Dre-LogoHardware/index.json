@@ -20,6 +20,10 @@
       "matchPlatformShortname": "amiga",
       "filename": "amiga.png"
     },
+	    {
+      "matchPlatformShortname": "amigacd32",
+      "filename": "amigacd32.png"
+    },
     {
       "matchPlatformShortname": "android",
       "filename": "android.png"
@@ -35,6 +39,10 @@
     {
       "matchPlatformShortname": "cpc",
       "filename": "cpc.png"
+    },
+	    {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.png"
     },
     {
       "matchPlatformShortname": "atari800",
