@@ -233,6 +233,46 @@
       "filename": "Arcade.jpg"
     },
     {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.png"
+    },
+    {
+      "matchPlatformShortname": "ps3",
+      "filename": "ps3.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
+    },
+    {
+      "matchPlatformShortname": "bsx",
+      "filename": "bsx.png"
+    },
+    {
+      "matchPlatformShortname": "ios",
+      "filename": "ios.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "xbox360",
+      "filename": "xbox360.png"
+    },
+    {
+      "matchPlatformShortname": "famicom",
+      "filename": "famicom.png"
+    },
+    {
+      "matchPlatformShortname": "sfamicom",
+      "filename": "sfamicom.png"
+    },
+    {
       "matchPlatformShortname": "wsc",
       "filename": "Arcade.jpg"
     }

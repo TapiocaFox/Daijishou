@@ -237,6 +237,10 @@
       "filename": "virtualboy.jpg"
     },
     {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.jpg"
+    },
+    {
       "matchPlatformShortname": "intellivision",
       "filename": "intellivision.jpg"
     },
