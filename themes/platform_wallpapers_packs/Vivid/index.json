@@ -207,6 +207,10 @@
     {
       "matchPlatformShortname": "gw",
       "filename": "gw.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.png"
     }
   ]
 }
