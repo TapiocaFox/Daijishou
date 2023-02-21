@@ -219,6 +219,10 @@
     {
       "matchPlatformShortname": "vita",
       "filename": "vita.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.png"
     }
   ]
 }
