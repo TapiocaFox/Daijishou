@@ -3,9 +3,9 @@
   "description": "Theme designed by jimgray and uploaded on his behalf.",
   "authors": ["jimgray"],
   "sources": ["https://discord.com/channels/965270127312535592/965270635926396978/1071883480620859402"],
-  "previewThumbnailFilename": "previewthumbnail.png",
+  "previewThumbnailFilename": "thumbnail.png",
 
-  "hasDefaultWallpaper": false,
+  "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
