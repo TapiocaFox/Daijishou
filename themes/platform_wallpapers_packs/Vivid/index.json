@@ -223,6 +223,14 @@
     {
       "matchPlatformShortname": "doom",
       "filename": "doom.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.png"
     }
   ]
 }
