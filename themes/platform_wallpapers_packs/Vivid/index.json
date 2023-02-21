@@ -215,6 +215,10 @@
     {
       "matchPlatformShortname": "atomiswave",
       "filename": "atomiswave.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.png"
     }
   ]
 }
