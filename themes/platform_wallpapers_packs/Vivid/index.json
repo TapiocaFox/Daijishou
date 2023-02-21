@@ -231,6 +231,10 @@
     {
       "matchPlatformShortname": "cps2",
       "filename": "cps2.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.png"
     }
   ]
 }
