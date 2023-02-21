@@ -12,8 +12,8 @@ Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisi
 
 ### What's next? (1.4) (Planned to start working on it in 2023)
  - Items set (Merge discs and regions)
- - Backup and restore options
- - Wallpaper
+ - [Backup](/imgs/1_4_backup.png) and [restore](/imgs/1_4_restore.png) options
+ - [Wallpaper](/imgs/1_4_wallpaper.png)
  - And more...
 
 # Make the most of Daijishō
