@@ -203,6 +203,10 @@
     {
       "matchPlatformShortname": "wsc",
       "filename": "wsc.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
     }
   ]
 }
