@@ -1,7 +1,7 @@
 {
   "name": "Vivid",
   "description": "Theme designed by jimgray and uploaded on his behalf.",
-  "authors": ["jimgray"],
+  "authors": ["jimgray", "UnbelievableFlavour", "Richard_75"],
   "sources": ["https://discord.com/channels/965270127312535592/965270635926396978/1071883480620859402"],
   "previewThumbnailFilename": "thumbnail.png",
 
@@ -111,6 +111,10 @@
     {
       "matchPlatformShortname": "neogeo",
       "filename": "neogeo.png"
+    },
+    {
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.png"
     },
     {
       "matchPlatformShortname": "nes",
