@@ -15,7 +15,7 @@ Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisi
  - [Backup](/imgs/1_4_backup.png) and [restore](/imgs/1_4_restore.png) options
  - [Wallpaper](/imgs/1_4_wallpaper.png)
  - Better [settings](/imgs/1_4_settings.png) page and [logger](/imgs/1_4_logger.png) for debugging and [DSESS](/DSESS.png)
- - New synchronization [UI](/imgs/1_4_synchronization.png)
+ - New [simplified](/imgs/1_4_platforms.png) and [synchronization](/imgs/1_4_synchronization.png) UIs
  - And more...
 
 # Make the most of Daijishō
