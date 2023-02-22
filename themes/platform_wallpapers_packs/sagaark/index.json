@@ -337,24 +337,12 @@
       "filename": "pspminis.jpg"
     },
     {
-      "matchPlatformShortname": "supergrafx",
-      "filename": "supergrafx.jpg"
-    },
-    {
       "matchPlatformShortname": "j2me",
       "filename": "j2me.jpg"
     },
     {
       "matchPlatformShortname": "tic80",
       "filename": "tic80.jpg"
-    },
-    {
-      "matchPlatformShortname": "tg16",
-      "filename": "tg16.jpg"
-    },
-    {
-      "matchPlatformShortname": "tgcd",
-      "filename": "tgcd.jpg"
     },
     {
       "matchPlatformShortname": "lowresnx",

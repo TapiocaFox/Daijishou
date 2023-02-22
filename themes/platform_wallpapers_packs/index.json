@@ -106,6 +106,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jetup13"
+      ],
+      "platformWallpapersPackDescription": "Mondrian inspired wallpaper pack by Jetup13.",
+      "platformWallpapersPackName": "ColorfulGrid",
+      "platformWallpapersPackPreviewThumbnailPath": "ColorfulGrid/base.png",
+      "platformWallpapersPackRootPath": "ColorfulGrid"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "dre10g"
       ],
       "platformWallpapersPackDescription": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
