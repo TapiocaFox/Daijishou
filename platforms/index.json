@@ -374,6 +374,12 @@
       "revisionNumber": 3
     },
     {
+      "filename": "SegaNAOMI.json",
+      "platformName": "Sega NAOMI",
+      "platformShortname": "naomi",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SegaSG1000.json",
       "platformName": "Sega SG-1000",
       "platformShortname": "sg1000",
