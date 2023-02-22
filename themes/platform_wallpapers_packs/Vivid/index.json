@@ -113,6 +113,10 @@
       "filename": "neogeo.png"
     },
     {
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.png"
+    },
+    {
       "matchPlatformShortname": "nes",
       "filename": "nes.png"
     },
