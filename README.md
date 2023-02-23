@@ -14,7 +14,7 @@ Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisi
  - Items set (Merge discs and regions)
  - [Backup](/imgs/1_4_backup.png) and [restore](/imgs/1_4_restore.png) options
  - [Wallpaper](/imgs/1_4_wallpaper.png)
- - Better [settings](/imgs/1_4_settings.png) page and [logger](/imgs/1_4_logger.png) for debugging and [DSESS](/DSESS.png)
+ - Better [settings](/imgs/1_4_settings.png) page and [logger](/imgs/1_4_logger.png) for debugging and [DSESS](/DSESS.md)
  - New [simplified](/imgs/1_4_platforms.png) and [synchronization](/imgs/1_4_synchronization.png) UIs
  - And more...
 
