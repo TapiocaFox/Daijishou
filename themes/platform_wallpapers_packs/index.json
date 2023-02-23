@@ -13,6 +13,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Post Mortem"
+      ],
+      "platformWallpapersPackDescription": "Colorful wallpaper with minimalist design, with images that represent the games that can be found on the choosen system. Tested on a 4:3 screen.",
+      "platformWallpapersPackName": "Arrow",
+      "platformWallpapersPackPreviewThumbnailPath": "Arrow/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Arrow"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "fagnerpc"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
@@ -51,15 +60,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Post Mortem"
-      ],
-      "platformWallpapersPackDescription": "Colorful wallpaper with minimalist design, with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
-      "platformWallpapersPackName": "Arrow",
-      "platformWallpapersPackPreviewThumbnailPath": "Arrow/previewthumbnail.jpg",
-      "platformWallpapersPackRootPath": "Arrow"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "BrunoBelmonte"
       ],
       "platformWallpapersPackDescription": "BB-1 Dark, a platform wallpapers pack made by BrunoBelmonte. The wallpapers pack contains beautiful gameplay snapshots and titles for each platform.",
@@ -75,6 +75,15 @@
       "platformWallpapersPackName": "BB-1 Light",
       "platformWallpapersPackPreviewThumbnailPath": "BB1-Light/thumbnail.png",
       "platformWallpapersPackRootPath": "BB1-Light"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Post Mortem"
+      ],
+      "platformWallpapersPackDescription": "Colorful wallpaper with simple design and the. The theme has been created with images of the hardware and logo of each platform. Compatible with 4:3 and widescreens.",
+      "platformWallpapersPackName": "Circuit",
+      "platformWallpapersPackPreviewThumbnailPath": "Circuit/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Circuit"
     },
     {
       "platformWallpapersPackAuthors": [
