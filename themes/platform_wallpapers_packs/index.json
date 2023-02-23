@@ -13,15 +13,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Post Mortem"
-      ],
-      "platformWallpapersPackDescription": "Colorful wallpaper with minimalist design, with images that represent the games that can be found on the choosen system. Tested on a 4:3 screen.",
-      "platformWallpapersPackName": "Arrow",
-      "platformWallpapersPackPreviewThumbnailPath": "Arrow/previewthumbnail.jpg",
-      "platformWallpapersPackRootPath": "Arrow"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "fagnerpc"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
@@ -57,6 +48,15 @@
       "platformWallpapersPackName": "alienanimal_purple",
       "platformWallpapersPackPreviewThumbnailPath": "alienanimal-purple/thumbnail.jpg",
       "platformWallpapersPackRootPath": "alienanimal-purple"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Post Mortem"
+      ],
+      "platformWallpapersPackDescription": "Colorful wallpaper with minimalist design, with images that represent the games that can be found on the choosen system. Tested on a 4:3 screen.",
+      "platformWallpapersPackName": "Arrow",
+      "platformWallpapersPackPreviewThumbnailPath": "Arrow/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Arrow"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -128,7 +128,7 @@
       ],
       "platformWallpapersPackDescription": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
       "platformWallpapersPackName": "Dre-LogoHardware",
-      "platformWallpapersPackPreviewThumbnailPath": "Dre-LogoHardware/thumbnail.jpg",
+      "platformWallpapersPackPreviewThumbnailPath": "Dre-LogoHardware/thumbnail.png",
       "platformWallpapersPackRootPath": "Dre-LogoHardware"
     },
     {

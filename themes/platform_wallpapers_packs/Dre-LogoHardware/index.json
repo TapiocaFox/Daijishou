@@ -3,7 +3,7 @@
   "description": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
   "authors": ["dre10g"],
   "sources": ["archive.org", "es-theme-carbon-2021-master"],
-  "previewThumbnailFilename": "thumbnail.jpg",
+  "previewThumbnailFilename": "thumbnail.png",
 
 "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
