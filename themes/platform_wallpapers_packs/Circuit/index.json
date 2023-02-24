@@ -214,7 +214,7 @@
     },
     {
       "matchPlatformShortname": "gamegear",
-      "filename": "gamegear.jpg"
+      "filename": "gg.jpg"
     },
     {
       "matchPlatformShortname": "supergrafx",
@@ -267,6 +267,14 @@
     {
       "matchPlatformShortname": "arcade",
       "filename": "arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "vectrex",
+      "filename": "vectrex.jpg"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.jpg"
     },
     {
       "matchPlatformShortname": "tgcd",
