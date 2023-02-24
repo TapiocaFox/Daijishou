@@ -65,6 +65,10 @@
       "filename": "c64.jpg"
     },
     {
+      "matchPlatformShortname": "cd32",
+      "filename": "cd32.jpg"
+    },
+    {
       "matchPlatformShortname": "amiga",
       "filename": "amiga.jpg"
     },
@@ -159,6 +163,10 @@
     {
       "matchPlatformShortname": "psp",
       "filename": "psp.jpg"
+    },
+    {
+      "matchPlatformShortname": "pspminis",
+      "filename": "pspminis.jpg"
     },
     {
       "matchPlatformShortname": "scummvm",
@@ -275,6 +283,10 @@
     {
       "matchPlatformShortname": "cdi",
       "filename": "cdi.jpg"
+    },
+    {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.jpg"
     },
     {
       "matchPlatformShortname": "tgcd",
