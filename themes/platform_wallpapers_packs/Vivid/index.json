@@ -239,6 +239,10 @@
     {
       "matchPlatformShortname": "megadrive",
       "filename": "megadrive.png"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.png"
     }
   ]
 }
