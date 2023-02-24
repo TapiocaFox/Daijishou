@@ -269,6 +269,14 @@
       "filename": "arcade.jpg"
     },
     {
+      "matchPlatformShortname": "vectrex",
+      "filename": "vectrex.jpg"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
     }
