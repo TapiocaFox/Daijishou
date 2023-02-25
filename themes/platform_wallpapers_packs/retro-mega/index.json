@@ -171,6 +171,10 @@
     {
       "matchPlatformShortname": "doom",
       "filename": "doom.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.png"
     }
   ]
 }
