@@ -119,6 +119,10 @@
     {
       "matchPlatformShortname": "wii",
       "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
     }
   ]
 }
