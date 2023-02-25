@@ -61,6 +61,10 @@
       "filename": "psx.png"
     },
     {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
       "matchPlatformShortname": "psp",
       "filename": "psp.png"
     },
