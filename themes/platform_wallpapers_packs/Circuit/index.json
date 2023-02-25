@@ -205,6 +205,10 @@
       "filename": "ps2.jpg"
     },
     {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.jpg"
+    },
+    {
       "matchPlatformShortname": "snes",
       "filename": "snes.jpg"
     },
