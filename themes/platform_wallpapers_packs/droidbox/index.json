@@ -45,6 +45,10 @@
       "filename": "arcade.png"
     },
     {
+      "matchPlatformShortname": "capcom play",
+      "filename": "cps.png"
+    },
+	{
       "matchPlatformShortname": "cps",
       "filename": "cps.png"
     },
@@ -97,6 +101,10 @@
       "filename": "gbc.png"
     },
     {
+      "matchPlatformShortname": "gamecube",
+      "filename": "gamecube.png"
+    },
+    {
       "matchPlatformShortname": "gc",
       "filename": "gamecube.png"
     },
@@ -108,7 +116,7 @@
       "matchPlatformShortname": "gamegear",
       "filename": "gg.png"
     },
-	    {
+	{
       "matchPlatformShortname": "gw",
       "filename": "gw.png"
     },
@@ -118,6 +126,10 @@
     },
     {
       "matchPlatformShortname": "master",
+      "filename": "master.png"
+    },
+	{
+      "matchPlatformShortname": "mastersystem",
       "filename": "master.png"
     },
 	{
@@ -181,6 +193,10 @@
       "filename": "psp.png"
     },
     {
+      "matchPlatformShortname": "ps1",
+      "filename": "psx.png"
+    },
+    {
       "matchPlatformShortname": "psx",
       "filename": "psx.png"
     },
@@ -231,6 +247,10 @@
     {
       "matchPlatformShortname": "wsc",
       "filename": "wsc.png"
+    },
+	{
+      "matchPlatformShortname": "vectrex",
+      "filename": "vectrex.png"
     }
   ]
 }
