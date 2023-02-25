@@ -142,6 +142,15 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Super Retro City (original), lukeskope (port)"
+      ],
+      "platformWallpapersPackDescription": "Theme designed by Super Retro City, remade by lukeskope and uploaded on his behalf.",
+      "platformWallpapersPackName": "DroidBox",
+      "platformWallpapersPackPreviewThumbnailPath": "droidbox/thumbnail.png",
+      "platformWallpapersPackRootPath": "droidbox"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
       "platformWallpapersPackDescription": "Colorful wallpaper with modern design and the Daijishou logo to honor it's creator. The theme has been created with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
@@ -231,6 +240,16 @@
       "platformWallpapersPackName": "Retro futuristic",
       "platformWallpapersPackPreviewThumbnailPath": "retro-futuristic/futuristic.jpg",
       "platformWallpapersPackRootPath": "retro-futuristic"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "djfumberger",
+        "UnbelievableFlavour"
+      ],
+      "platformWallpapersPackDescription": "Clean and modern theme originally designed for Pegasus. Adapted for the Daijishou interface.",
+      "platformWallpapersPackName": "Retro Mega (Beta)",
+      "platformWallpapersPackPreviewThumbnailPath": "retro-mega/thumbnail.png",
+      "platformWallpapersPackRootPath": "retro-mega"
     },
     {
       "platformWallpapersPackAuthors": [
