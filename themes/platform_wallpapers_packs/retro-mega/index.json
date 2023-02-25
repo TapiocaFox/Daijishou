@@ -107,6 +107,10 @@
     {
       "matchPlatformShortname": "tg16",
       "filename": "tg16.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
     }
   ]
 }
