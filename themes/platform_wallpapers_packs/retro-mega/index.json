@@ -45,6 +45,10 @@
       "filename": "3ds.png"
     },
     {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
       "matchPlatformShortname": "gamegear",
       "filename": "gamegear.png"
     },
