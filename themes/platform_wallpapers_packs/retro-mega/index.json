@@ -87,6 +87,10 @@
     {
       "matchPlatformShortname": "gc",
       "filename": "gc.png"
+    },
+    {
+      "matchPlatformShortname": "pcengine",
+      "filename": "pcengine.png"
     }
   ]
 }
