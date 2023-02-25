@@ -53,6 +53,10 @@
       "filename": "neogeocd.png"
     },
     {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.png"
+    },
+    {
       "matchPlatformShortname": "psx",
       "filename": "psx.png"
     },
