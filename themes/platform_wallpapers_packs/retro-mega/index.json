@@ -13,6 +13,10 @@
       "filename": "android.png"
     },
     {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.png"
+    },
+    {
       "matchPlatformShortname": "gw",
       "filename": "gw.png"
     },
