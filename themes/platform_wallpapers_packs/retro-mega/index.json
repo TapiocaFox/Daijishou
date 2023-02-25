@@ -127,6 +127,14 @@
     {
       "matchPlatformShortname": "virtualboy",
       "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "wonderswan",
+      "filename": "wonderswan.png"
+    },
+    {
+      "matchPlatformShortname": "wonderswancolor",
+      "filename": "wonderswan.png"
     }
   ]
 }
