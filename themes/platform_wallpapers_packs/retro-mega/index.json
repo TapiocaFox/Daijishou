@@ -151,6 +151,10 @@
     {
       "matchPlatformShortname": "vita",
       "filename": "vita.png"
+    },
+    {
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
     }
   ]
 }
