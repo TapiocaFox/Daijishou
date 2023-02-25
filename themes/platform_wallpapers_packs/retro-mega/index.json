@@ -167,6 +167,10 @@
     {
       "matchPlatformShortname": "cavestory",
       "filename": "cavestory.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.png"
     }
   ]
 }
