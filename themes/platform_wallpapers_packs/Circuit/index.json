@@ -293,6 +293,18 @@
       "filename": "x68000.jpg"
     },
     {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.jpg"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.jpg"
+    },
+    {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
     }
