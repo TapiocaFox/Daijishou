@@ -1,13 +1,25 @@
 {
-  "name": "Retro Mega (Beta)",
+  "name": "Retro Mega",
   "description": "Clean and modern theme originally designed for Pegasus. Adapted for the Daijishou interface.",
   "authors": ["djfumberger", "UnbelievableFlavour"],
-  "sources": ["https://github.com/djfumberger/retromega"],
+  "sources": ["https://github.com/djfumberger/retromega", "https://github.com/plaidman/retromega-next", "https://forums.launchbox-app.com/files/file/3889-photoreal-controller-vectors-by-pineapple-graphics/"],
   "previewThumbnailFilename": "thumbnail.png",
 
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.png"
+    },
+    {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
+    },
     {
       "matchPlatformShortname": "dreamcast",
       "filename": "dc.png"
@@ -29,20 +41,48 @@
       "filename": "nds.png"
     },
     {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
+      "matchPlatformShortname": "wiiu",
+      "filename": "wiiu.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
       "matchPlatformShortname": "gamegear",
       "filename": "gamegear.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.png"
     },
     {
       "matchPlatformShortname": "neogeocd",
       "filename": "neogeocd.png"
     },
     {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.png"
+    },
+    {
       "matchPlatformShortname": "psx",
       "filename": "psx.png"
     },
     {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
       "matchPlatformShortname": "psp",
       "filename": "psp.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "psvita.png"
     },
     {
       "matchPlatformShortname": "n64",
@@ -55,6 +95,70 @@
     {
       "matchPlatformShortname": "nes",
       "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.png"
+    },
+    {
+      "matchPlatformShortname": "mastersystem",
+      "filename": "mastersystem.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "sega32x.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.png"
+    },
+    {
+      "matchPlatformShortname": "pcengine",
+      "filename": "pcengine.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "wonderswan",
+      "filename": "wonderswan.png"
+    },
+    {
+      "matchPlatformShortname": "wonderswancolor",
+      "filename": "wonderswan.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.png"
+    },
+    {
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
     }
   ]
 }
