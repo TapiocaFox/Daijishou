@@ -37,6 +37,10 @@
       "filename": "nds.png"
     },
     {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
       "matchPlatformShortname": "gamegear",
       "filename": "gamegear.png"
     },
