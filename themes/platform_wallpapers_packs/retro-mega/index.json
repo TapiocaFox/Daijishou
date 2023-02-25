@@ -71,6 +71,10 @@
     {
       "matchPlatformShortname": "mastersystem",
       "filename": "mastersystem.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.png"
     }
   ]
 }
