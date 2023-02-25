@@ -159,6 +159,10 @@
     {
       "matchPlatformShortname": "pokemini",
       "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "streaming",
+      "filename": "streaming.png"
     }
   ]
 }
