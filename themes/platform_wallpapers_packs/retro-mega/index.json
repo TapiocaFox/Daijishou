@@ -2,7 +2,7 @@
   "name": "Retro Mega (Beta)",
   "description": "Clean and modern theme originally designed for Pegasus. Adapted for the Daijishou interface.",
   "authors": ["djfumberger", "UnbelievableFlavour"],
-  "sources": ["https://github.com/djfumberger/retromega"],
+  "sources": ["https://github.com/djfumberger/retromega", "https://github.com/plaidman/retromega-next", "https://forums.launchbox-app.com/files/file/3889-photoreal-controller-vectors-by-pineapple-graphics/"],
   "previewThumbnailFilename": "thumbnail.png",
 
   "hasDefaultWallpaper": true,
@@ -135,6 +135,10 @@
     {
       "matchPlatformShortname": "wonderswancolor",
       "filename": "wonderswan.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.png"
     }
   ]
 }
