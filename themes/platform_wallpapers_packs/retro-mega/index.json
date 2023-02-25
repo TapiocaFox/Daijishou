@@ -175,6 +175,10 @@
     {
       "matchPlatformShortname": "dos",
       "filename": "dos.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.png"
     }
   ]
 }
