@@ -9,6 +9,10 @@
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
+      "matchPlatformShortname": "android",
+      "filename": "android.png"
+    },
+    {
       "matchPlatformShortname": "gw",
       "filename": "gw.png"
     },
