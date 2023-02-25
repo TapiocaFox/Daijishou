@@ -155,6 +155,10 @@
     {
       "matchPlatformShortname": "xbox",
       "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
     }
   ]
 }
