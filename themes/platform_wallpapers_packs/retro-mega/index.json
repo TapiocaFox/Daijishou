@@ -59,6 +59,10 @@
     {
       "matchPlatformShortname": "nes",
       "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.png"
     }
   ]
 }
