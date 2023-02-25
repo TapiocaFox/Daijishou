@@ -123,6 +123,10 @@
     {
       "matchPlatformShortname": "pico8",
       "filename": "pico8.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
     }
   ]
 }
