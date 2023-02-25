@@ -103,6 +103,10 @@
     {
       "matchPlatformShortname": "pcengine",
       "filename": "pcengine.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.png"
     }
   ]
 }
