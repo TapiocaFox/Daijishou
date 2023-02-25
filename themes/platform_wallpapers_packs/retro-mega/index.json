@@ -85,6 +85,10 @@
       "filename": "mastersystem.png"
     },
     {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
       "matchPlatformShortname": "sega32x",
       "filename": "sega32x.png"
     },
