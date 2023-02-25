@@ -45,6 +45,10 @@
       "filename": "3ds.png"
     },
     {
+      "matchPlatformShortname": "wiiu",
+      "filename": "wiiu.png"
+    },
+    {
       "matchPlatformShortname": "switch",
       "filename": "switch.png"
     },
