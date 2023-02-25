@@ -163,6 +163,10 @@
     {
       "matchPlatformShortname": "streaming",
       "filename": "streaming.png"
+    },
+    {
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.png"
     }
   ]
 }
