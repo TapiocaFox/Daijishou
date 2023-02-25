@@ -9,6 +9,10 @@
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "filename": "dc.png"
     },
