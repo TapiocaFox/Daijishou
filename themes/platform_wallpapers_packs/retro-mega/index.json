@@ -73,6 +73,10 @@
       "filename": "psp.png"
     },
     {
+      "matchPlatformShortname": "vita",
+      "filename": "psvita.png"
+    },
+    {
       "matchPlatformShortname": "n64",
       "filename": "n64.png"
     },
