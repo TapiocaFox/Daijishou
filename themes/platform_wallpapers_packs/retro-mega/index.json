@@ -93,6 +93,10 @@
       "filename": "sega32x.png"
     },
     {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.png"
+    },
+    {
       "matchPlatformShortname": "gc",
       "filename": "gc.png"
     },
