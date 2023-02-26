@@ -159,6 +159,30 @@
     {
       "matchPlatformShortname": "pokemini",
       "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "streaming",
+      "filename": "streaming.png"
+    },
+    {
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx.png"
     }
   ]
 }
