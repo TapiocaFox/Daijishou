@@ -57,6 +57,10 @@
       "filename": "mastersystem.png"
     },
     {
+      "matchPlatformShortname": "master",
+      "filename": "mastersystem.png"
+    },
+    {
       "matchPlatformShortname": "n64",
       "filename": "n64.png"
     },
