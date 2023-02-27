@@ -17,6 +17,10 @@
       "filename": "arcade.png"
     },
     {
+      "matchPlatformShortname": "cannonball",
+      "filename": "arcade.png"
+    },
+    {
       "matchPlatformShortname": "gw",
       "filename": "gw.png"
     },
