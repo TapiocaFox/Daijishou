@@ -93,6 +93,10 @@
       "filename": "gw.jpg"
     },
     {
+      "matchPlatformShortname": "javame",
+      "filename": "javame.jpg"
+    },
+    {
       "matchPlatformShortname": "gb",
       "filename": "gb.jpg"
     },
