@@ -1,0 +1,128 @@
+{
+  "name": "Tech Grid",
+  "description": "A platform wallpapers pack with a techy vibrant look with the use of unique gaming wallpapers.",
+  "authors": ["Galvy"],
+  "sources": ["https://github.com/magneticchen/Daijishou"],
+  "previewThumbnailFilename": "Galvy_Icon.jpg",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "Galvy_default.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "Galvy_real_3do.jpg"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "Galvy_android.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "Galvy_atari2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "Galvy_capcom_ps1.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "Galvy_capcom_ps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "Galvy_capcom_ps3.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "Galvy_dreamcast.jpg"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "Galvy_finalburn_neo.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "Galvy_gameboy.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "Galvy_gameboy.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "Galvy_gameboy_color.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "Galvy_gameucube.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "Galvy_mame.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "Galvy_3ds.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "Galvy_n64.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "Galvy_nds.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "Galvy_nes.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "Galvy_switch.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "Galvy_wii.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "Galvy_psp.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "Galvy_gamegear.jpg"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "Galvy_sega.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "Galvy_segasaturn.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "Galvy_psx.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "Galvy_ps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "Galvy_snes.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "Galvy_tg16.jpg"
+    },
+    {
+      "matchPlatformShortname": "famicom",
+      "filename": "Galvy_famicom.jpg"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "Galvy_ps_vita.jpg"
+    }
+  ]
+}
