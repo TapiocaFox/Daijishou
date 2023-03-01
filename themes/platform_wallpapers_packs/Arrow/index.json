@@ -2,7 +2,7 @@
   "name": "Arrow",
   "description": "Colorful wallpaper with minimalist design, with images that represent the games that can be found on the choosen system. Tested on a 4:3 screen.",
   "authors": ["Post Mortem"],
-  "sources": [],
+  "sources": ["v2 Platform logos Profesionally Redrawn by Dan Patrick"],
   "previewThumbnailFilename": "previewthumbnail.jpg",
 
   "hasDefaultWallpaper": true,
