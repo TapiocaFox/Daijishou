@@ -53,25 +53,25 @@
       "filename": "Atomiswave.json",
       "platformName": "Atomiswave",
       "platformShortname": "atomiswave",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "CPS1.json",
       "platformName": "CP System I",
       "platformShortname": "cps1",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "CPS2.json",
       "platformName": "CP System II",
       "platformShortname": "cps2",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "CPS3.json",
       "platformName": "CP System III",
       "platformShortname": "cps3",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "CannonballOutRunEngine.json",
@@ -143,7 +143,7 @@
       "filename": "FinalBurnNeo.json",
       "platformName": "Arcade (FinalBurn Neo)",
       "platformShortname": "fbneo",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "FlashbackGameEngine.json",
@@ -203,7 +203,7 @@
       "filename": "MAME.json",
       "platformName": "Arcade (MAME)",
       "platformShortname": "mame",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "MSX.json",
@@ -215,13 +215,13 @@
       "filename": "NeoGeo.json",
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "NeoGeoCD.json",
       "platformName": "Neo Geo CD",
       "platformShortname": "neogeocd",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "NeoGeoPocket.json",
@@ -377,7 +377,7 @@
       "filename": "SegaNAOMI.json",
       "platformName": "Sega NAOMI",
       "platformShortname": "naomi",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SegaSG1000.json",

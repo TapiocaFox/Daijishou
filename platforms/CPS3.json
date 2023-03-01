@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 1,
+    "revisionNumber": 2,
     "platform": {
         "name": "CP System III",
         "shortname": "cps3",
@@ -9,7 +9,8 @@
         "scraperSourceList": [
           "LIBRETRO:FBNeo - Arcade Games",
           "LIBRETRO:MAME",
-          "ARCADE_ITALIA:MAME"
+          "ARCADE_ITALIA:MAME",
+          "DSESS:GENRES:TAGS(scraperKeyword):http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=%7BscraperKeyword%7D&arcade_only=0&autosearch=1&dsess_selector=div.colonna_sinistra%3Anth-child%281%29+div.table_row%3Anth-child%286%29+span.dettaglio"
         ],
         "boxArtAspectRatioId": 2,
         "useCustomBoxArtAspectRatio": false,

@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 2,
+    "revisionNumber": 3,
     "platform": {
         "name": "Neo Geo CD",
         "shortname": "neogeocd",
@@ -9,6 +9,7 @@
         "scraperSourceList": [
             "LIBRETRO:SNK - Neo Geo CD",
             "ARCADE_ITALIA:MAME",
+            "DSESS:GENRES:TAGS(scraperKeyword):http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=%7BscraperKeyword%7D&arcade_only=0&autosearch=1&dsess_selector=div.colonna_sinistra%3Anth-child%281%29+div.table_row%3Anth-child%286%29+span.dettaglio",
             "LIBRETRO:FBNeo - Arcade Games",
             "LIBRETRO:MAME",
             "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=4956&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
