@@ -13,8 +13,20 @@
       "filename": "3do.jpg"
     },
     {
-      "matchPlatformShortname": "atarist",
-      "filename": "atarist.jpg"
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.jpg"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "32x.jpg"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.jpg"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.jpg"
     },
     {
       "matchPlatformShortname": "atari2600",
@@ -29,12 +41,20 @@
       "filename": "atari7800.jpg"
     },
     {
-      "matchPlatformShortname": "android",
-      "filename": "android.jpg"
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.jpg"
     },
     {
       "matchPlatformShortname": "atomiswave",
       "filename": "atomiswave.jpg"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64.jpg"
+    },
+    {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.jpg"
     },
     {
       "matchPlatformShortname": "cpc",
@@ -53,24 +73,12 @@
       "filename": "cps3.jpg"
     },
     {
-      "matchPlatformShortname": "cannonball",
-      "filename": "cannonball.jpg"
-    },
-    {
       "matchPlatformShortname": "coleco",
       "filename": "coleco.jpg"
     },
     {
-      "matchPlatformShortname": "c64",
-      "filename": "c64.jpg"
-    },
-    {
       "matchPlatformShortname": "cd32",
       "filename": "cd32.jpg"
-    },
-    {
-      "matchPlatformShortname": "amiga",
-      "filename": "amiga.jpg"
     },
     {
       "matchPlatformShortname": "doom",
@@ -141,10 +149,6 @@
       "filename": "neogeocd.jpg"
     },
     {
-      "matchPlatformShortname": "3ds",
-      "filename": "3ds.jpg"
-    },
-    {
       "matchPlatformShortname": "n64",
       "filename": "n64.jpg"
     },
@@ -175,10 +179,6 @@
     {
       "matchPlatformShortname": "scummvm",
       "filename": "scummvm.jpg"
-    },
-    {
-      "matchPlatformShortname": "sega32x",
-      "filename": "32x.jpg"
     },
     {
       "matchPlatformShortname": "segacd",
