@@ -92,7 +92,7 @@ You can download from this GitHub page which is available in the Daijishō's set
 ### How does highlight page work (5 of 5)
 Highlight page arrange your items by favorite, recent played and newly added items. You can long click items to review details.
 
-![](/release-notes/1_4_release_note/library_genres.png)
+![](/imgs/highlight.png)
 
 
 # Words from the author
