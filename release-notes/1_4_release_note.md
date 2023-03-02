@@ -45,7 +45,7 @@
 
 [See DSESS Documentation](/DSESS.md)
  
-## UIs
+## Appearance
 ### General
  - Relative time format has been introduced.
  - Settings page has been revamped to more refined style.
@@ -56,20 +56,20 @@
  - Fixed several bugs.
  - Wallpaper packs thumbnails are displayed in list dialog.
 
-![](./1_4_release_note/ui_general_2.png)
+![](./1_4_release_note/appearance_general_2.png)
 
 ### Wallpaper
  - You can now set your Daijishou wallpaper.
  - The wallpaper will be synced into your backup.
  - Wallpaper API has been introduced for future updates.
 
-![](./1_4_release_note/ui_wallpaper.png)
+![](./1_4_release_note/appearance_wallpaper.png)
 
 ### Color theming
  - Color theming algorithm have been updated. It has been adjusted to avoid awkward colors.
  - Color theming has been applied to item detail view.
 
-![](./1_4_release_note/ui_color_theming.png)
+![](./1_4_release_note/appearance_color_theming.png)
 
 ## Development
 ### General
