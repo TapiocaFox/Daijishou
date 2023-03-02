@@ -54,6 +54,7 @@
  - You can now scale your UI.
  - Fixed RA profile caching.
  - Fixed several bugs.
+ - Wallpaper packs thumbnails are displayed in list dialog.
 
 ![](./1_4_release_note/ui_general_2.png)
 
