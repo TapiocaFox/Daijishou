@@ -31,6 +31,9 @@ DSESS has below format.
 
 `DSESS:DESCRIPTION`
 
+`DSESS:GENRES`
+
+
 ## Template tags
 You have to specify template tags you want to use inside the `TAGS()` brackets. Separated by comma without spaces. It is case sensitive. For example:
 
