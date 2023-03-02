@@ -10,13 +10,15 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじし�
 ### About this Repository
 Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
 
-### What's next? (1.4) (Planned to start working on it in 2023)
+<!-- ### What's next? (1.4) (Planned to start working on it in 2023)
  - Items set (Merge discs and regions)
  - [Backup](/imgs/1_4_backup.png) and [restore](/imgs/1_4_restore.png) options
  - [Wallpaper](/imgs/1_4_wallpaper.png)
  - Better [settings](/imgs/1_4_settings.png) page and [logger](/imgs/1_4_logger.png) for debugging and [DSESS](/DSESS.md)
  - New [simplified](/imgs/1_4_platforms.png) and [synchronization](/imgs/1_4_synchronization.png) UIs
- - And more...
+ - And more... -->
+ ### [1.4 (Essential Features Update) Release Note](/release-notes/1_4_release_note.md)
+
 
 # Make the most of Daijishō
  0. ***Install prefered emulators*** apps first, then Daijishō will select it automatically
@@ -54,7 +56,7 @@ Nope. But you can import some config for emulators from pegasus.
  - sound effects.
  - RSS Feed -->
 
-![](/imgs/widgets_3.png)
+![](/release-notes/1_4_release_note/appearance_wallpaper.png)
 
 (widgets)
 
@@ -66,7 +68,7 @@ Nope. But you can import some config for emulators from pegasus.
 
 (wallpaper packs)
 
-![](/imgs/detail_view.png)
+![](/release-notes/1_4_release_note/appearance_general.png)
 
 (detail view)
 
@@ -78,7 +80,7 @@ Player is a set of arguments can be configured to execute playable files filtere
 ### What is "platform" (3 of 5)
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
-![](/imgs/platform_genesis.png)
+![](/release-notes/1_4_release_note/appearance_general_2.png)
 
 ![](/imgs/platform_library.png)
 
@@ -90,7 +92,7 @@ You can download from this GitHub page which is available in the Daijishō's set
 ### How does highlight page work (5 of 5)
 Highlight page arrange your items by favorite, recent played and newly added items. You can long click items to review details.
 
-![](/imgs/highlight.png)
+![](/release-notes/1_4_release_note/library_genres.png)
 
 
 # Words from the author
@@ -102,7 +104,7 @@ You can star this GitHub page, donate, promote Daijishō in the communities or u
 <!-- You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or update platform list in this GitHub page. -->
 
 ### Taking a break from the project
-Daijishō has evolved a lot in the first half of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 7 continuous months. Thus, I decided to take a break from the Daijishō project, probably for months. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
+Daijishō has evolved a lot in the of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page, genres, backup, merge items and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 12 continuous months. Thus, I decided to take a break from the Daijishō project, probably for quarters. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
 
 <!-- # TODO (Might or might not)
  - Localization
