@@ -20,8 +20,8 @@
 ![](./1_4_release_note/library_genres.png)
 
 ### Synchronization
- - Synchronization architecture and workflow has been unified.
- - Synchronization will now limit number of concurrent syncs.
+ - Synchronization architecture and workflow have been unified.
+ - Synchronization will now limit numbers of concurrent syncs.
  - You can now scrape on a per item basis.
  - You can now sync entire library with one click.
  - Now platforms will be automatically updated via GitHub.
