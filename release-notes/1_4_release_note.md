@@ -60,13 +60,13 @@
 
 ### Wallpaper
  - You can now set your Daijishou wallpaper.
- - The wallpaper will be sync to your backup.
- - Wallpaper API has been introduce for future update.
+ - The wallpaper will be synced into your backup.
+ - Wallpaper API has been introduced for future updates.
 
 ![](./1_4_release_note/ui_wallpaper.png)
 
 ### Color theming
- - Color theming algorithm have been updated. It has been adjust to avoid awkward colors.
+ - Color theming algorithm have been updated. It has been adjusted to avoid awkward colors.
  - Color theming has been applied to item detail view.
 
 ![](./1_4_release_note/ui_color_theming.png)
