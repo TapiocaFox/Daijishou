@@ -1,37 +1,49 @@
-# Daijishou 1.4 update
+# Daijishou 1.4 (Essential Features Update) Release Note
 
 ## Library
 ### General
  - You can now hide items.
 
+![](./1_4_release_note/library_general.png)
+
 ### Disjoint Sets
  - Daijishou will now automatically merge titles.
  - Disks, regions, versions can be merged into single item.
+
+![](./1_4_release_note/library_disjoint_sets.png)
 
 ### Genres
  - Daijishou now scrapes genres via DSESS.
  - Highlight page has been renovated for genres.
  - In item detail view, search dialog and list view. Genres will be displayed.
 
+![](./1_4_release_note/library_genres.png)
+
 ### Synchronization
  - Synchronization architecture and workflow has been unified.
  - Synchronization will now limit number of concurrent syncs.
  - You can now scrape on a per item basis.
- - You can now sync entire library with one  click.
+ - You can now sync entire library with one click.
  - Now platforms will be automatically updated via GitHub.
  - You can now import external scraped files like one from Skraper for each platform. 
 
-### Backup and restore
+![](./1_4_release_note/library_synchronization.png)
+
+### Backup And Restore
  - Google Drive APIs have been implemented.
  - Modularized backup and restore components have been introduced.
  - You can now backup Daijishou to Google Drive.
  - Backup data migrations support has been introduced.
  - Restore policy has been introduced.
 
+![](./1_4_release_note/library_backup_and_restore.png)
+
 ### DSESS
  - Have improved caching of DSESS.
  - DSESS now can now pretty print reports for developers.
  - DSESS genres support added.
+
+[See DSESS Documentation](/DSESS.md)
  
 ## UIs
 ### General
@@ -43,24 +55,37 @@
  - Fixed RA profile caching.
  - Fixed several bugs.
 
+![](./1_4_release_note/ui_general_2.png)
+
 ### Wallpaper
  - You can now set your Daijishou wallpaper.
  - The wallpaper will be sync to your backup.
  - Wallpaper API has been introduce for future update.
 
+![](./1_4_release_note/ui_wallpaper.png)
+
 ### Color theming
  - Color theming algorithm have been updated. It has been adjust to avoid awkward colors.
  - Color theming has been applied to item detail view.
 
+![](./1_4_release_note/ui_color_theming.png)
 
 ## Development
 ### General
  - Debug mode has been improved. And made public.
  - Thumbnails view for platforms page haven't been succusfully added in 1.4. But can be enable via experimental mode.
  - Daijishou will capture crashes in debug mode.
+
+ ![](./1_4_release_note/development_general.png)
+
 ### Logger
  - Logger has been introduced.
  - Logger will show logging records with components, types, timestamps and messages.
+
+ ![](./1_4_release_note/development_logger.png)
+
 ### Daijishou Console
  - Daijishou Console has been introduced.
  - Several commands have been added.
+
+![](./1_4_release_note/development_daijishou_console.png)
