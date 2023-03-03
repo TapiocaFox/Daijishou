@@ -52,6 +52,7 @@
  - Synchronization now has a dedicated UI.
  - Platforms page UI has been minimized.
  - You can now scale your UI.
+ - You can now disable title in platforms page.
  - Fixed RA profile caching.
  - Fixed several bugs.
  - Wallpaper packs thumbnails are displayed in list dialog.
