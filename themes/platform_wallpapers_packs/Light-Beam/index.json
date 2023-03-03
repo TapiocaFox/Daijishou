@@ -2,7 +2,7 @@
   "name": "Light Beam",
   "description": "This wallpaper pack uses only images that really represent the games of each platforms, with a minimal but futuristic design. Tested on 4:3 screen.",
   "authors": ["Post Mortem"],
-  "sources": [],
+  "sources": ["Google Images"],
   "previewThumbnailFilename": "Previewthumbnail.jpg",
 
   "hasDefaultWallpaper": true,
@@ -13,8 +13,28 @@
       "filename": "3do.jpg"
     },
     {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.jpg"
+    },
+     {
       "matchPlatformShortname": "android",
       "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "colecovision",
+      "filename": "colecovision.jpg"
     },
     {
       "matchPlatformShortname": "cps1",
