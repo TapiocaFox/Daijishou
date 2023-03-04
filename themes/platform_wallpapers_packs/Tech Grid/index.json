@@ -46,7 +46,7 @@
     },
     {
       "matchPlatformShortname": "gba",
-      "filename": "Galvy_gba.jpg"
+      "filename": "Galvy_gameboy.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
@@ -54,7 +54,7 @@
     },
     {
       "matchPlatformShortname": "gc",
-      "filename": "Galvy_gamecube.jpg"
+      "filename": "Galvy_gameucube.jpg"
     },
     {
       "matchPlatformShortname": "mame",
@@ -123,6 +123,34 @@
     {
       "matchPlatformShortname": "vita",
       "filename": "Galvy_ps_vita.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "Galvy_atari5200.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "Galvy_atari7800.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "Galvy_neogeo.jpg"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "Galvy_sega32x.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "Galvy_segacd.jpg"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "Galvy_master.jpg"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "Galvy_tgcd.jpg"
     }
   ]
 }
