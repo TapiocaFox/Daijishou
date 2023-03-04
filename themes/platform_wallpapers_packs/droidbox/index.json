@@ -216,6 +216,10 @@
       "matchPlatformShortname": "segacd",
       "filename": "segacd.png"
     },
+	{
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
     {
       "matchPlatformShortname": "sg1000",
       "filename": "sg1000.png"
