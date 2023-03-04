@@ -46,7 +46,7 @@
     },
     {
       "matchPlatformShortname": "gba",
-      "filename": "Galvy_gameboy.jpg"
+      "filename": "Galvy_gba.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
@@ -54,7 +54,7 @@
     },
     {
       "matchPlatformShortname": "gc",
-      "filename": "Galvy_gameucube.jpg"
+      "filename": "Galvy_gamecube.jpg"
     },
     {
       "matchPlatformShortname": "mame",
