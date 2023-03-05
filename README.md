@@ -1,5 +1,5 @@
 # Daijishō (Emulator frontend)
-![](/imgs/cover.png)
+![](/imgs/cover_new.png)
 <a href='https://play.google.com/store/apps/details?id=com.magneticchen.daijishou'><img alt='Get it on Google Play' src='https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg' height='70px'/></a>
 
 # Daijishō
