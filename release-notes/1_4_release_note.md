@@ -21,7 +21,7 @@
 
 ### Synchronization
  - Synchronization architecture and workflow have been unified.
- - Synchronization will now limit numbers of concurrent syncs.
+ - Synchronization will now dynamically adjust and limit numbers of concurrent syncs.
  - You can now scrape on a per item basis.
  - You can now sync entire library with one click.
  - Now platforms will be automatically updated via GitHub.
