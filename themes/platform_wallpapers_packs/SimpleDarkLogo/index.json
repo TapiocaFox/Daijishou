@@ -1,6 +1,6 @@
 {
-  "name": "SimpleLightLogo",
-  "description": "Just a simple light theme with the platform logos",
+  "name": "SimpleDarkLogo",
+  "description": "Just a simple dark theme with the platform logos",
   "authors": ["LanDKZd"],
   "sources": ["Wikipedia, archive.org, Dan Patrick"],
   "previewThumbnailFilename": "thumbnail.png",
