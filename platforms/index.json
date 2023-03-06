@@ -131,7 +131,7 @@
       "filename": "FairchildChannelF.json",
       "platformName": "Fairchild Channel F",
       "platformShortname": "channelf",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "FamicomDiskSystem.json",
