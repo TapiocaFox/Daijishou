@@ -209,6 +209,10 @@
       "filename": "ps2.jpg"
     },
     {
+      "matchPlatformShortname": "odyssey2",
+      "filename": "odyssey2.jpg"
+    },
+    {
       "matchPlatformShortname": "pokemini",
       "filename": "pokemini.jpg"
     },
