@@ -42,6 +42,7 @@
  - Have improved caching of DSESS.
  - DSESS now can now pretty print reports for developers.
  - DSESS genres support added.
+ - Added `scraperKeywordNormalized` template tag.
 
 [See DSESS Documentation](/DSESS.md)
  

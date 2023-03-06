@@ -39,6 +39,8 @@ You have to specify template tags you want to use inside the `TAGS()` brackets. 
 
 `TAGS(scraperKeyword,platformName)`
 
+`TAGS(scraperKeywordNormalized,platformName)`
+
 DSESS string with more tags are recommended to order it at a higher priority position in your platform JSON file. Since it is more specific. However if Daijishō can't provide those tags, that scraper string will be ignored.
 
 In order to use template tags in query. Surround it with curly brackets in query. Like:
