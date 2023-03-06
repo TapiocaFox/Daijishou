@@ -39,7 +39,7 @@
 ![](./1_4_release_note/library_backup_and_restore.png)
 
 ### DSESS and Libretro Scraper
- - Libretro scraper has been improved for mis-identifying titles.
+ - Libretro scraper has been improved for mis-identifying titles. (Like regions and versions)
  - Have improved caching of DSESS.
  - DSESS now can now pretty print reports for developers.
  - DSESS genres support added.
