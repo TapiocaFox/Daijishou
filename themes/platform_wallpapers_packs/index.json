@@ -281,6 +281,24 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "LanDKZd"
+      ],
+      "platformWallpapersPackDescription": "Just a simple dark theme with the platform logos",
+      "platformWallpapersPackName": "SimpleDarkLogo",
+      "platformWallpapersPackPreviewThumbnailPath": "SimpleDarkLogo/thumbnail.png",
+      "platformWallpapersPackRootPath": "SimpleDarkLogo"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "LanDKZd"
+      ],
+      "platformWallpapersPackDescription": "Just a simple light theme with the platform logos",
+      "platformWallpapersPackName": "SimpleLightLogo",
+      "platformWallpapersPackPreviewThumbnailPath": "SimpleLightLogo/thumbnail.png",
+      "platformWallpapersPackRootPath": "SimpleLightLogo"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "MonkoftheFunk",
         "oloff3"
       ],
