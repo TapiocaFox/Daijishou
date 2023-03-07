@@ -257,7 +257,7 @@
       "filename": "NintendoEntertainmentSystem.json",
       "platformName": "Nintendo Entertainment System",
       "platformShortname": "nes",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "NintendoSwitch.json",
