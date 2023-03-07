@@ -68,7 +68,7 @@
 
 ![](./1_4_release_note/appearance_wallpaper.png)
 
-### Color theming
+### Color Theming
  - Color theming algorithm have been updated. It has been adjusted to avoid awkward colors.
  - Color theming has been applied to item detail view.
 
