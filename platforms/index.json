@@ -272,6 +272,12 @@
       "revisionNumber": 2
     },
     {
+      "filename": "Odyssey2.json",
+      "platformName": "Magnavox Odyssey 2",
+      "platformShortname": "odyssey2",
+      "revisionNumber": 1
+    },
+    {
       "filename": "PC88.json",
       "platformName": "PC-88",
       "platformShortname": "pc88",
