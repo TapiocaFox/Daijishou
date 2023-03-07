@@ -21,6 +21,14 @@
       "filename": "arcade.jpg"
     },
     {
+      "matchPlatformShortname": "fbneo",
+      "filename": "arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "arcade.jpg"
+    },
+    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari-2600.jpg"
     },
