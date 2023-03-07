@@ -81,6 +81,10 @@
       "filename": "cd32.jpg"
     },
     {
+      "matchPlatformShortname": "channelf",
+      "filename": "channelf.jpg"
+    },
+    {
       "matchPlatformShortname": "doom",
       "filename": "doom.jpg"
     },
