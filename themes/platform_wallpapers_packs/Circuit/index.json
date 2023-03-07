@@ -161,6 +161,18 @@
       "filename": "nds.jpg"
     },
     {
+      "matchPlatformShortname": "ndsi",
+      "filename": "ndsi.jpg"
+    },
+    {
+      "matchPlatformShortname": "wiiware",
+      "filename": "wiiware.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64dd",
+      "filename": "n64dd.jpg"
+    },
+    {
       "matchPlatformShortname": "nes",
       "filename": "nes.jpg"
     },
