@@ -5,7 +5,7 @@ Daijishō Player Template File is a file that can be treated as playable item. A
 ## Why Daijishō Player Template
 
 ### Tasker
-Say that you want to launch `exampleTask` of Tasker in Daijishō. You can do this by setting players' am start arguments with template tags, and create `.dpt` files with below settings.
+Say that you want to launch `exampleTask` of Tasker in Daijishō. You can do this by setting players' `am start arguments` with template tags, and create `.dpt` files with tags names and values.
 
 Player Am Start Arguments:
 
@@ -31,6 +31,8 @@ Then in Daijishou player template file for `Golden Abyss` (For example `Golden A
 [vita_game_id] PCSF00001
 ...
 ```
+
+With above settings `{tags.vita_game_id}` will be replaced with `PCSF00001` defined in `Golden Abyss.dpt`.
 
 ## Notes
  - The Daijishō Player Template File has the extension `.dpt`. 
