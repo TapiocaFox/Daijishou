@@ -329,6 +329,26 @@
       "filename": "fds.jpg"
     },
     {
+      "matchPlatformShortname": "nsf",
+      "filename": "nsf.jpg"
+    },
+    {
+      "matchPlatformShortname": "nfc",
+      "filename": "nfc.jpg"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcecd",
+      "filename": "pcecd.jpg"
+    },
+    {
+      "matchPlatformShortname": "pce",
+      "filename": "pce.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
     }
