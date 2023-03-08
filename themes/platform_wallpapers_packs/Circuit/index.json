@@ -29,6 +29,10 @@
       "filename": "android.jpg"
     },
     {
+      "matchPlatformShortname": "atari800",
+      "filename": "atari800.jpg"
+    },
+    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.jpg"
     },
