@@ -3,20 +3,29 @@
 Daijishō Player Template File is a file that can be treated as playable item. And apply player template when you play the file based on how you define the template file.
 
 ## Why Daijishō Player Template
-For exmaple `-n ... --es task_name {tags.task_name}` am start arguments of player for Tasker. 
 
-And in Daijishō player template file (For example `exampleTask.dpt`):
+### Tasker
+Say that you want to launch exampleTask of Tasker in Daijishō.
+
+Am Start Arguments:
+
+ `-n ... --es task_name {tags.task_name}`
+
+And with the Daijishō player template file (Like `exampleTask.dpt`):
 ```
 # Daijishou Player Template
 [task_name] exampleTask
 ...
 ```
 
-This can probably also be used to solve the PS Vita3k issues.
+### Vita3k
+Daijishō Player Template can probably also be used to solve the PS Vita3k issues.
+
+Am Start Arguments:
 
 `-n org.vita3k.emulator/org.vita3k.emulator.Emulator -e launch {tags.vita_game_id}`
 
-In Daijishou player template file (For example `Golden Abyss.dpt`):
+Then in Daijishou player template file for `Golden Abyss` (For example `Golden Abyss.dpt`):
 ```
 # Daijishou Player Template
 [vita_game_id] PCSF00001
