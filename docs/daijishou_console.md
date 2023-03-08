@@ -1,4 +1,4 @@
-# Daijishō Console
+# 💻 Daijishō Console
 ## Enable Console
 Type `\debug on` in your the logger.
 
@@ -8,6 +8,7 @@ Type `\debug on` in your the logger.
 Type `\help` in your the logger.
 
 ### Notes
+ - `\prefs` let you view and modify preferences.
  - `\am_start` command can be used by emulator dev to check if Daijishō can launch items via Daijishō to emulator app.
  - `\dsess` command can be used to check whether the site can be used by Daijishō [DSESS](\docs\DSESS.md) scraper.
 
