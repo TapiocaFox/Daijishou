@@ -5,7 +5,7 @@ Daijishō Player Template File is a file that can be treated as playable item. A
 ## Why Daijishō Player Template
 
 ### Tasker
-Say that you want to launch exampleTask of Tasker in Daijishō. You can do this by settings players and create `.dpt` files with below settings.
+Say that you want to launch `exampleTask` of Tasker in Daijishō. You can do this by settings players and create `.dpt` files with below settings.
 
 Am Start Arguments:
 
@@ -19,7 +19,7 @@ And with the Daijishō player template file (Like `exampleTask.dpt`):
 ```
 
 ### Vita3k
-Daijishō Player Template can probably also be used to solve the PS Vita3k issues.
+Daijishō Player Template can possiblly be used to solve the PS Vita3k issues. With below settings.
 
 Am Start Arguments:
 
