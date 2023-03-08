@@ -17,6 +17,10 @@
       "filename": "3ds.png"
     },
     {
+      "matchPlatformShortname": "32x",
+      "filename": "sega32x.png"
+    },
+    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.png"
     },
