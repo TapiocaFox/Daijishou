@@ -5,7 +5,7 @@ Daijishō Player Template File is a file that can be treated as playable item. A
 ## Why Daijishō Player Template
 
 ### Tasker
-Say that you want to launch exampleTask of Tasker in Daijishō.
+Say that you want to launch exampleTask of Tasker in Daijishō. You can do this by settings players and create `.dpt` files with below settings.
 
 Am Start Arguments:
 
