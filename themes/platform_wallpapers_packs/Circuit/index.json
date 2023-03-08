@@ -1,6 +1,6 @@
 {
   "name": "Circuit",
-  "description": "Colorful wallpaper with simple design and the. The theme has been created with images of the hardware and logo of each platform. Compatible with 4:3 and widescreens.",
+  "description": "Colorful wallpaper with simple design. The theme has been created with images of the hardware and logo of each platform. Compatible with 4:3 and wide screens. Hide title option ON recommended.",
   "authors": ["Post Mortem"],
   "sources": ["COLORFUL Hardware by viking & v2 Platform logos Profesionally Redrawn by Dan Patrick"],
   "previewThumbnailFilename": "previewthumbnail.jpg",
@@ -27,6 +27,10 @@
     {
       "matchPlatformShortname": "android",
       "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari800",
+      "filename": "atari800.jpg"
     },
     {
       "matchPlatformShortname": "atari2600",
