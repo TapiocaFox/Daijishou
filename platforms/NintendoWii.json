@@ -1,6 +1,6 @@
 {
   "databaseVersion": 8,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Nintendo Wii",
     "shortname": "wii",
@@ -65,7 +65,7 @@
       "name": "wii - org.dolphinemu.dolphinemu",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
-      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
