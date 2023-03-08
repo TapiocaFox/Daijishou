@@ -1,4 +1,4 @@
-# Daijishou 1.4 (Essential Features Update) Release Note
+# Daijishō 1.4 (Essential Features Update) Release Note
 
 ## Library
 ### General
@@ -7,13 +7,13 @@
 ![](./1_4_release_note/library_general.png)
 
 ### Disjoint Sets
- - Daijishou will now automatically merge titles.
+ - Daijishō will now automatically merge titles.
  - Disks, regions, versions can be merged into single item.
 
 ![](./1_4_release_note/library_disjoint_sets.png)
 
 ### Genres
- - Daijishou now scrapes genres via DSESS.
+ - Daijishō now scrapes genres via DSESS.
  - Highlight page has been renovated for genres.
  - In item detail view, search dialog and list view. Genres will be displayed.
 
@@ -32,7 +32,7 @@
 ### Backup And Restore
  - Google Drive APIs have been implemented.
  - Modularized backup and restore components have been introduced.
- - You can now backup Daijishou to Google Drive.
+ - You can now backup Daijishō to Google Drive.
  - Backup data migrations support has been introduced.
  - Restore policy has been introduced.
 
@@ -45,7 +45,7 @@
  - DSESS genres support added.
  - Added `scraperKeywordNormalized` template tag.
 
-[See DSESS Documentation](/DSESS.md)
+[See DSESS Documentation](/docs/dsess.md)
  
 ## Appearance
 ### General
@@ -62,7 +62,7 @@
 ![](./1_4_release_note/appearance_general_2.png)
 
 ### Wallpaper
- - You can now set your Daijishou wallpaper.
+ - You can now set your Daijishō wallpaper.
  - The wallpaper will be synced into your backup.
  - Wallpaper API has been introduced for future updates.
 
@@ -78,7 +78,7 @@
 ### General
  - Debug mode has been improved. And made public.
  - Thumbnails view for platforms page haven't been succusfully added in 1.4. But can be enable via experimental mode.
- - Daijishou will capture crashes in debug mode.
+ - Daijishō will capture crashes in debug mode.
 
  ![](./1_4_release_note/development_general.png)
 
@@ -88,8 +88,10 @@
 
  ![](./1_4_release_note/development_logger.png)
 
-### Daijishou Console
- - Daijishou Console has been introduced.
+### Daijishō Console
+ - Daijishō Console has been introduced.
  - Several commands have been added.
+
+[See Daijishō Console Documentation](/docs/dsess.md)
 
 ![](./1_4_release_note/development_daijishou_console.png)
