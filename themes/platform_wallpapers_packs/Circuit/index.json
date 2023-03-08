@@ -237,6 +237,10 @@
       "filename": "snes.jpg"
     },
     {
+      "matchPlatformShortname": "satellaview",
+      "filename": "satellaview.jpg"
+    },
+    {
       "matchPlatformShortname": "tg16",
       "filename": "tg16.jpg"
     },
