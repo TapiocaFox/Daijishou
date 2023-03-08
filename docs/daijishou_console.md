@@ -18,5 +18,5 @@ Type `\help` in your the logger.
 | `force_set_wallpaper_for_all` | Boolean | Set wallpaper for every pages if `true`. It is for cosmetic uses. |
 | `hide_platforms_page_subtitle` | Boolean | Hide platforms page subtitle if `true`. It is for cosmetic uses. |
 | `enable_non_home_activity` | Boolean | Enable non home activity of Daijishō if `true`. For Android 13 Dex users. |
-| `disable_widgets_page` | Boolean | Disable widget page if `true`. |
+| `disable_widgets_page` | Boolean | Disable widgets page if `true`. |
 | `scale_ui` | String | Scale your UI. For example `1.25`.|
