@@ -89,7 +89,7 @@
       "filename": "Chip8.json",
       "platformName": "CHIP-8",
       "platformShortname": "chip8",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "ColecoVision.json",
@@ -107,7 +107,7 @@
       "filename": "CommodoreAmiga.json",
       "platformName": "Commodore Amiga",
       "platformShortname": "amiga",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "DOOMGameEngine.json",
@@ -137,7 +137,7 @@
       "filename": "FamicomDiskSystem.json",
       "platformName": "Famicom Disk System",
       "platformShortname": "fds",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "FinalBurnNeo.json",
@@ -155,25 +155,25 @@
       "filename": "Game&Watch.json",
       "platformName": "Game & Watch",
       "platformShortname": "gw",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "GameBoy.json",
       "platformName": "Game Boy",
       "platformShortname": "gb",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "GameBoyAdvance.json",
       "platformName": "Game Boy Advance",
       "platformShortname": "gba",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "GameBoyColor.json",
       "platformName": "Game Boy Color",
       "platformShortname": "gbc",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "GameCube.json",
@@ -209,7 +209,7 @@
       "filename": "MSX.json",
       "platformName": "MSX",
       "platformShortname": "msx",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "NeoGeo.json",
@@ -245,19 +245,19 @@
       "filename": "Nintendo64.json",
       "platformName": "Nintendo 64",
       "platformShortname": "n64",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "NintendoDS.json",
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
       "platformName": "Nintendo Entertainment System",
       "platformShortname": "nes",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "NintendoSwitch.json",
@@ -365,19 +365,19 @@
       "filename": "SegaGameGear.json",
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SegaMasterSystem.json",
       "platformName": "Sega Master System",
       "platformShortname": "master",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "SegaNAOMI.json",
@@ -389,7 +389,7 @@
       "filename": "SegaSG1000.json",
       "platformName": "Sega SG-1000",
       "platformShortname": "sg1000",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "SegaSaturn.json",
@@ -425,7 +425,7 @@
       "filename": "SuperNintendoEntertainmentSystem.json",
       "platformName": "Super Nintendo Entertainment System",
       "platformShortname": "snes",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "TIC80.json",
@@ -437,7 +437,7 @@
       "filename": "TurboGrafx16.json",
       "platformName": "TurboGrafx-16",
       "platformShortname": "tg16",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "TurboGrafxCD.json",

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 8,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "MSX",
     "shortname": "msx",
@@ -36,7 +36,7 @@
     {
       "name": "msx - RetroArch 64 - fmsx",
       "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/fmsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
@@ -56,7 +56,7 @@
     {
       "name": "msx - RetroArch 32 - fmsx",
       "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fmsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
@@ -76,7 +76,7 @@
     {
       "name": "msx - RetroArch - fmsx",
       "description": "Supported extensions: cas, dsk, fdi, m3u, mx1, mx2, rom.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cas|dsk|fdi|m3u|mx1|mx2|rom|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/fmsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
