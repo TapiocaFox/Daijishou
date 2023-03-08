@@ -3,6 +3,7 @@
 ## Library
 ### General
  - You can now hide items.
+ - Introduced [Daijishō Player Template File (.dst)](/docs/daijishou_player_template.md)
 
 ![](./1_4_release_note/library_general.png)
 
