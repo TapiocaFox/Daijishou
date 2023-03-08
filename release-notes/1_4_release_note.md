@@ -92,6 +92,6 @@
  - Daijishō Console has been introduced.
  - Several commands have been added.
 
-[See Daijishō Console Documentation](/docs/dsess.md)
+[See Daijishō Console Documentation](/docs/daijishou_console.md)
 
 ![](./1_4_release_note/development_daijishou_console.png)
