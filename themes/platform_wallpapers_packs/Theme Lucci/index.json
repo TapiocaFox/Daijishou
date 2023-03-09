@@ -9,8 +9,8 @@
   "defaultWallpaperFilename": "mount_niitaka.jpg",
   "wallpaperList": [
     {
-      "matchPlatformShortname": "amiga500",
-      "filename": "amiga-500.jpg"
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.jpg"
     },
     {
       "matchPlatformShortname": "android",
@@ -101,8 +101,8 @@
       "filename": "neogeo.jpg"
     },
     {
-      "matchPlatformShortname": "ngp",
-      "filename": "ngp.jpg"
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
