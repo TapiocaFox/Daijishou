@@ -1,6 +1,6 @@
 {
   "databaseVersion": 8,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Super Nintendo Entertainment System",
     "shortname": "snes",
@@ -45,7 +45,7 @@
         {
           "name": "snes - RetroArch 64 - higan_sfc",
           "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/higan_sfc_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -54,7 +54,7 @@
         {
           "name": "snes - RetroArch 64 - higan_sfc_balanced",
           "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/higan_sfc_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -63,7 +63,7 @@
         {
           "name": "snes - RetroArch 64 - mednafen_supafaust",
           "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_supafaust_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -72,7 +72,7 @@
         {
           "name": "snes - RetroArch 64 - mednafen_snes",
           "description": "Supported extensions: bs, fig, sfc, smc, st.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_snes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -117,7 +117,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes2014_accuracy",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes2014_accuracy_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -126,7 +126,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes2014_balanced",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes2014_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -135,7 +135,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes2014_performance",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes2014_performance_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -144,7 +144,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes_cplusplus98",
           "description": "Supported extensions: sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_cplusplus98_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -153,7 +153,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes",
           "description": "Supported extensions: gb, gbc, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -162,7 +162,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes_hd_beta",
           "description": "Supported extensions: gb, gbc, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_hd_beta_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -171,7 +171,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes_mercury_accuracy",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_mercury_accuracy_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -180,7 +180,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes_mercury_balanced",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_mercury_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -189,7 +189,7 @@
         {
           "name": "snes - RetroArch 64 - bsnes_mercury_performance",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bsnes_mercury_performance_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -198,7 +198,7 @@
         {
           "name": "snes - RetroArch 64 - mesen-s",
           "description": "Supported extensions: sfc, smc, fig, swc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mesen-s_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -218,7 +218,7 @@
         {
           "name": "snes - RetroArch 32 - higan_sfc",
           "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/higan_sfc_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -227,7 +227,7 @@
         {
           "name": "snes - RetroArch 32 - higan_sfc_balanced",
           "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/higan_sfc_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -236,7 +236,7 @@
         {
           "name": "snes - RetroArch 32 - mednafen_supafaust",
           "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_supafaust_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -245,7 +245,7 @@
         {
           "name": "snes - RetroArch 32 - mednafen_snes",
           "description": "Supported extensions: bs, fig, sfc, smc, st.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_snes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -290,7 +290,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes2014_accuracy",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes2014_accuracy_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -299,7 +299,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes2014_balanced",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes2014_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -308,7 +308,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes2014_performance",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes2014_performance_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -317,7 +317,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes_cplusplus98",
           "description": "Supported extensions: sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes_cplusplus98_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -326,7 +326,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes",
           "description": "Supported extensions: gb, gbc, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -335,7 +335,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes_hd_beta",
           "description": "Supported extensions: gb, gbc, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes_hd_beta_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -344,7 +344,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes_mercury_accuracy",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes_mercury_accuracy_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -353,7 +353,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes_mercury_balanced",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes_mercury_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -362,7 +362,7 @@
         {
           "name": "snes - RetroArch 32 - bsnes_mercury_performance",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bsnes_mercury_performance_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -371,7 +371,7 @@
         {
           "name": "snes - RetroArch 32 - mesen-s",
           "description": "Supported extensions: sfc, smc, fig, swc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
           "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mesen-s_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -391,7 +391,7 @@
         {
           "name": "snes - RetroArch - higan_sfc",
           "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/higan_sfc_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -400,7 +400,7 @@
         {
           "name": "snes - RetroArch - higan_sfc_balanced",
           "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/higan_sfc_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -409,7 +409,7 @@
         {
           "name": "snes - RetroArch - mednafen_supafaust",
           "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mednafen_supafaust_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -418,7 +418,7 @@
         {
           "name": "snes - RetroArch - mednafen_snes",
           "description": "Supported extensions: bs, fig, sfc, smc, st.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mednafen_snes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -463,7 +463,7 @@
         {
           "name": "snes - RetroArch - bsnes2014_accuracy",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes2014_accuracy_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -472,7 +472,7 @@
         {
           "name": "snes - RetroArch - bsnes2014_balanced",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes2014_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -481,7 +481,7 @@
         {
           "name": "snes - RetroArch - bsnes2014_performance",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes2014_performance_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -490,7 +490,7 @@
         {
           "name": "snes - RetroArch - bsnes_cplusplus98",
           "description": "Supported extensions: sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes_cplusplus98_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -499,7 +499,7 @@
         {
           "name": "snes - RetroArch - bsnes",
           "description": "Supported extensions: gb, gbc, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -508,7 +508,7 @@
         {
           "name": "snes - RetroArch - bsnes_hd_beta",
           "description": "Supported extensions: gb, gbc, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes_hd_beta_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -517,7 +517,7 @@
         {
           "name": "snes - RetroArch - bsnes_mercury_accuracy",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes_mercury_accuracy_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -526,7 +526,7 @@
         {
           "name": "snes - RetroArch - bsnes_mercury_balanced",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes_mercury_balanced_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -535,7 +535,7 @@
         {
           "name": "snes - RetroArch - bsnes_mercury_performance",
           "description": "Supported extensions: bml, sfc, smc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bsnes_mercury_performance_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
@@ -544,7 +544,7 @@
         {
           "name": "snes - RetroArch - mesen-s",
           "description": "Supported extensions: sfc, smc, fig, swc.",
-          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc)$",
+          "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
           "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mesen-s_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
           "killPackageProcesses": true,
           "killPackageProcessesWarning": true,
