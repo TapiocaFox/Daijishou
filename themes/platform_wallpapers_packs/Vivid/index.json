@@ -21,6 +21,14 @@
       "filename": "sega32x.png"
     },
     {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.png"
+    },
+        {
+      "matchPlatformShortname": "mvs",
+      "filename": "arcade-neogeo.png"
+    },
+    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.png"
     },
@@ -243,6 +251,10 @@
     {
       "matchPlatformShortname": "megadrive",
       "filename": "megadrive.png"
+    },
+    {
+      "matchPlatformShortname": "megacd",
+      "filename": "megacd.png"
     },
     {
       "matchPlatformShortname": "naomi",
