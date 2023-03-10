@@ -241,6 +241,14 @@
       "filename": "vita.jpg"
     },
     {
+      "matchPlatformShortname": "odyssey2",
+      "filename": "odyssey2.jpg"
+    },
+    {
+      "matchPlatformShortname": "channelf",
+      "filename": "channelf.jpg"
+    },
+    {
       "matchPlatformShortname": "intellivision",
       "filename": "intellivision.jpg"
     },
