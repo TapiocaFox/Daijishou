@@ -25,6 +25,10 @@ Player Am Start Arguments:
 
 `-n org.vita3k.emulator/org.vita3k.emulator.Emulator -e launch {tags.vita_game_id}`
 
+or
+
+`-n org.vita3k.emulator/org.vita3k.emulator.Emulator --esa "AppRestartParameters" "-r","{tags.vita_game_id}"`
+
 Then in Daijishou player template file for `Golden Abyss` (For example `Golden Abyss.dpt`):
 ```
 # Daijishou Player Template

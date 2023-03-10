@@ -1,0 +1,34 @@
+{
+    "databaseVersion": 8,
+    "revisionNumber": 1,
+    "platform": {
+        "name": "Sony PS Vita",
+        "shortname": "vita",
+        "description": null,
+        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+        "scraperSourceList": [
+            "LIBRETRO:Sony - PlayStation Vita",
+            "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=39&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+            "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=39&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E"
+        ],
+        "boxArtAspectRatioId": 0,
+        "useCustomBoxArtAspectRatio": true,
+        "customBoxArtAspectRatio": "256:327",
+        "screenAspectRatioId": 0,
+        "useCustomScreenAspectRatio": true,
+        "customScreenAspectRatio": "5:3",
+        "retroAchievementsAlias": null,
+        "extra": ""
+    },
+    "playerList": [
+        {
+            "name": "vita - vita3k",
+            "description": "Supported extensions: dpt.",
+            "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
+            "amStartArguments": "-n org.vita3k.emulator/org.vita3k.emulator.Emulator --esa \"AppRestartParameters\" \"-r\",\"{tags.vita_game_id}\"",
+            "killPackageProcesses": false,
+            "killPackageProcessesWarning": true,
+            "extra": ""
+        }
+    ]
+}
