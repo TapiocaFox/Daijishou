@@ -253,6 +253,18 @@
       "filename": "intellivision.jpg"
     },
     {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.jpg"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
     }
