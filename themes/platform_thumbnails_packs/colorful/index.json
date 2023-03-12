@@ -1,0 +1,280 @@
+{
+  "name": "COLORFUL",
+  "description": "The pack contains colorful yet simple wallpapers of physical looks for each devices. Originated from viking on launchbox. Modified by UsagiShade, indexing by magneticchen for Daijishō.",
+  "authors": ["viking", "iShade"],
+  "sources": ["https://forums.launchbox-app.com/files/file/2485-colorful-resources/"],
+  "previewThumbnailFilename": "COLORFUL.jpg",
+
+  "hasDefaultThumbnail": true,
+  "defaultThumbnailFilename": "Arcade.jpg",
+  "thumbnailList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "Panasonic 3DO.jpg"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "Android.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "DOS.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "Atari 2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "Atari 2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "Atari 2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "Atari Jaguar.jpg"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "Atari Lynx.jpg"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "Atari 2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "DC.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "DOS.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "DOS.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "PC.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "DOS.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "DC.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "GB.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "GBA.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "GBC.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "GCN.png"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "SNK Neo Geo AES.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "SNK Neo Geo AES.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "NGP.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "NGP.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "N64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "NDS.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "NES.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "Nintendo Switch.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "Wii.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "PC.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "PMini.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "PC.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "Sega 32X.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "Sega CD.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "GG.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "MD.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "MD.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "Sega Mastersystem.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "Saturn.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "PS1.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "PS2.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "PC Engine SuperGrafx.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "SNES.png"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "PC Engine SuperGrafx.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "PC Engine SuperGrafx.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "Arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.png"
+    },
+    {
+      "matchPlatformShortname": "ps3",
+      "filename": "ps3.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
+    },
+    {
+      "matchPlatformShortname": "bsx",
+      "filename": "bsx.png"
+    },
+    {
+      "matchPlatformShortname": "ios",
+      "filename": "ios.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "xbox360",
+      "filename": "xbox360.png"
+    },
+    {
+      "matchPlatformShortname": "famicom",
+      "filename": "famicom.png"
+    },
+    {
+      "matchPlatformShortname": "sfamicom",
+      "filename": "sfamicom.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "Arcade.jpg"
+    }
+  ]
+}
