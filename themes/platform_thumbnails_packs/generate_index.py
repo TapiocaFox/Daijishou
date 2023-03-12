@@ -1,0 +1,43 @@
+import os, re, json
+indexFilename = "index.json"
+
+regex = re.compile("^(?!(?:\._|\.).*).*\.json$")
+
+platformThumbnailsPacks = [f for f in os.listdir('.') if os.path.isdir(f)]
+platformThumbnailsPacks = sorted(platformThumbnailsPacks, key=str.casefold)
+
+index = {
+    "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/themes/platform_thumbnails_packs/",
+    "platformThumbnailsPackList": []
+}
+
+
+for d in platformThumbnailsPacks:
+    print(d)
+    platformThumbnailsPackDir = d
+    files = [f for f in os.listdir(platformThumbnailsPackDir) if os.path.isfile(platformThumbnailsPackDir+'/'+f)]
+    # files = sorted(files, key=str.casefold)
+
+    for f in files:
+        if f == indexFilename:
+            f = platformThumbnailsPackDir+'/'+f
+            with open(f, encoding='utf-8') as jsonFile:
+                try:
+                    platformThumbnailsPackIndex = json.load(jsonFile)
+                    platformThumbnailsPackName = platformThumbnailsPackIndex['name']
+                    platformThumbnailsPackDescription = platformThumbnailsPackIndex['description']
+                    platformThumbnailsPackAuthors = platformThumbnailsPackIndex['authors']
+                    platformThumbnailsPackPreviewThumbnailFilename = platformThumbnailsPackIndex['previewThumbnailFilename']
+                    index['platformThumbnailsPackList'].append({
+                        "platformThumbnailsPackRootPath": platformThumbnailsPackDir,
+                        # "platformThumbnailPackIndexPath": f,
+                        "platformThumbnailsPackPreviewThumbnailPath": platformThumbnailsPackDir+'/'+platformThumbnailsPackPreviewThumbnailFilename,
+                        "platformThumbnailsPackAuthors": platformThumbnailsPackAuthors,
+                        "platformThumbnailsPackName": platformThumbnailsPackName,
+                        "platformThumbnailsPackDescription": platformThumbnailsPackDescription
+                    })
+                except Exception as e:
+                    print(e)
+
+with open(indexFilename, 'w') as outfile:
+    json.dump(index, outfile, indent=2, sort_keys=True)
