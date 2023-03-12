@@ -150,3 +150,5 @@ If `dsess_replacer` is not present the the original text will be used. Else stri
 `dsess_attribute=` `src`
 
 `dsess_extractor` is not used in this example
+
+You can try DSESS in [Daijishō Console](/docs/daijishou_console.md).

@@ -28,6 +28,6 @@ Type `\help` in your the logger.
 | `enable_non_home_activity` | Boolean | Enable non home activity of Daijishō if `true`. For Android 13 Dex users. |
 | `disable_widgets_page` | Boolean | Disable widgets page if `true`. |
 | `use_pure_dark_theme` | Boolean | Use pure dark theme if `true`. For OLED devices.|
-| `lightweight_backup` | Boolean | Skip backups like images `true`.|
+| `use_lightweight_backup` | Boolean | Skip backups like images `true`.|
 | `scale_ui` | String | Scale your UI. For example `1.25`.|
 
