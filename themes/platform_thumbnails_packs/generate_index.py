@@ -28,13 +28,15 @@ for d in platformThumbnailsPacks:
                     platformThumbnailsPackDescription = platformThumbnailsPackIndex['description']
                     platformThumbnailsPackAuthors = platformThumbnailsPackIndex['authors']
                     platformThumbnailsPackPreviewThumbnailFilename = platformThumbnailsPackIndex['previewThumbnailFilename']
+                    platformThumbnailsPackIsNSFW = platformThumbnailsPackIndex['isNSFW'] if 'isNSFW' in platformThumbnailsPackIndex.keys() else False
                     index['platformThumbnailsPackList'].append({
                         "platformThumbnailsPackRootPath": platformThumbnailsPackDir,
                         # "platformThumbnailPackIndexPath": f,
                         "platformThumbnailsPackPreviewThumbnailPath": platformThumbnailsPackDir+'/'+platformThumbnailsPackPreviewThumbnailFilename,
                         "platformThumbnailsPackAuthors": platformThumbnailsPackAuthors,
                         "platformThumbnailsPackName": platformThumbnailsPackName,
-                        "platformThumbnailsPackDescription": platformThumbnailsPackDescription
+                        "platformThumbnailsPackDescription": platformThumbnailsPackDescription,
+                        "platformThumbnailsPackIsNSFW": platformThumbnailsPackIsNSFW
                     })
                 except Exception as e:
                     print(e)

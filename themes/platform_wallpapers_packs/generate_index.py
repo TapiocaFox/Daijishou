@@ -28,13 +28,15 @@ for d in platformWallpapersPacks:
                     platformWallpapersPackDescription = platformWallpapersPackIndex['description']
                     platformWallpapersPackAuthors = platformWallpapersPackIndex['authors']
                     platformWallpapersPackPreviewThumbnailFilename = platformWallpapersPackIndex['previewThumbnailFilename']
+                    platformWallpapersPackIsNSFW = platformWallpapersPackIndex['isNSFW'] if 'isNSFW' in platformWallpapersPackIndex.keys() else False
                     index['platformWallpapersPackList'].append({
                         "platformWallpapersPackRootPath": platformWallpapersPackDir,
                         # "platformWallpaperPackIndexPath": f,
                         "platformWallpapersPackPreviewThumbnailPath": platformWallpapersPackDir+'/'+platformWallpapersPackPreviewThumbnailFilename,
                         "platformWallpapersPackAuthors": platformWallpapersPackAuthors,
                         "platformWallpapersPackName": platformWallpapersPackName,
-                        "platformWallpapersPackDescription": platformWallpapersPackDescription
+                        "platformWallpapersPackDescription": platformWallpapersPackDescription,
+                        "platformWallpapersPackIsNSFW": platformWallpapersPackIsNSFW
                     })
                 except Exception as e:
                     print(e)
