@@ -69,10 +69,6 @@
       "filename": "saturn.png"
     },
     {
-      "matchPlatformShortname": "chip8",
-      "filename": ""
-    },
-    {
       "matchPlatformShortname": "coleco",
       "filename": "colecovision.png"
     },
@@ -85,10 +81,6 @@
       "filename": "amiga.png"
     },
     {
-      "matchPlatformShortname": "doom",
-      "filename": ""
-    },
-    {
       "matchPlatformShortname": "dos",
       "filename": "dos.png"
     },
@@ -97,20 +89,8 @@
       "filename": "Dreamcast.png"
     },
     {
-      "matchPlatformShortname": "channelf",
-      "filename": ""
-    },
-    {
       "matchPlatformShortname": "fbneo",
       "filename": "fbneo.png"
-    },
-    {
-      "matchPlatformShortname": "flashback",
-      "filename": ""
-    },
-    {
-      "matchPlatformShortname": "gw",
-      "filename": ""
     },
     {
       "matchPlatformShortname": "gb",
@@ -131,10 +111,6 @@
     {
       "matchPlatformShortname": "intellivision",
       "filename": "intellivision.png"
-    },
-    {
-      "matchPlatformShortname": "j2me",
-      "filename": ""
     },
     {
       "matchPlatformShortname": "mame",
@@ -185,10 +161,6 @@
       "filename": "wii.png"
     },
     {
-      "matchPlatformShortname": "odyssey2",
-      "filename": ""
-    },
-    {
       "matchPlatformShortname": "atomiswave",
       "filename": "atomiswave.png"
     },
@@ -203,10 +175,6 @@
     {
       "matchPlatformShortname": "pico8",
       "filename": "pico8.png"
-    },
-    {
-      "matchPlatformShortname": "palm",
-      "filename": ""
     },
     {
       "matchPlatformShortname": "cdi",
@@ -277,10 +245,6 @@
       "filename": "snes.png"
     },
     {
-      "matchPlatformShortname": "tic80",
-      "filename": ""
-    },
-    {
       "matchPlatformShortname": "tg16",
       "filename": "tg16.png"
     },
@@ -289,16 +253,8 @@
       "filename": "tg16cd.png"
     },
     {
-      "matchPlatformShortname": "vectrex",
-      "filename": ""
-    },
-    {
       "matchPlatformShortname": "virtualboy",
       "filename": "virtualboy.png"
-    },
-    {
-      "matchPlatformShortname": "wasm4",
-      "filename": ""
     },
     {
       "matchPlatformShortname": "supervision",
