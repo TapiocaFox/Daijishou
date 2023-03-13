@@ -36,7 +36,7 @@ for d in platformWallpapersPacks:
                         "platformWallpapersPackAuthors": platformWallpapersPackAuthors,
                         "platformWallpapersPackName": platformWallpapersPackName,
                         "platformWallpapersPackDescription": platformWallpapersPackDescription,
-                        # "platformWallpapersPackIsNSFW": platformWallpapersPackIsNSFW
+                        "platformWallpapersPackIsNSFW": platformWallpapersPackIsNSFW
                     })
                 except Exception as e:
                     print(e)
