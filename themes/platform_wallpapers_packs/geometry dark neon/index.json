@@ -1,0 +1,280 @@
+{
+  "name": "Geometry Dark Neon",
+  "description": "A Neon version of 'Geometry Dark'.",
+  "authors": ["てRey夜"],
+  "sources": ["https://www.pngwing.com/", "https://logos.fandom.com/wiki/Logopedia"],
+  "previewThumbnailFilename": "thumbnail-neon.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default-neon.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do-neon.png"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "droid-neon.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "amstradcpc-neon.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600-neon.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200-neon.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800-neon.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "atarijaguar-neon.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx-neon.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist-neon.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave-neon.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1-neon.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2-neon.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3-neon.png"
+    },
+    {
+      "matchPlatformShortname": "psvita",
+      "filename": "psvita-neon.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn-neon.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "colecovision-neon.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64-neon.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga-neon.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos-neon.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "Dreamcast-neon.png"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "fbneo-neon.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb-neon.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba-neon.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc-neon.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc-neon.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision-neon.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame-neon.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx-neon.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo-neon.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd-neon.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp-neon.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc-neon.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS-neon.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64-neon.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds-neon.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes-neon.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch-neon.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii-neon.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave-neon.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx-neon.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx-neon.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8-neon.png"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi-neon.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp-neon.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini-neon.png"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "easyrpg-neon.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm-neon.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "sega32x-neon.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd-neon.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear-neon.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis-neon.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master-neon.png"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000-neon.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn-neon.png"
+    },
+    {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000-neon.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx-neon.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2-neon.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx-neon.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes-neon.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16-neon.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tg16cd-neon.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy-neon.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision-neon.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "wswan-neon.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wswanc-neon.png"
+    },
+    {
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81-neon.png"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum-neon.png"
+    }
+  ]
+}
