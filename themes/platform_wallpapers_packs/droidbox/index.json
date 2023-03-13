@@ -1,8 +1,8 @@
 {
   "name": "DroidBox",
-  "description": "Theme designed by Super Retro City, remade by lukeskope and uploaded on his behalf.",
+  "description": "Theme designed by Super Retro City, remixed by lukeskope and uploaded on his behalf.",
   "authors": ["Super Retro City (original), lukeskope (port)"],
-  "sources": ["https://github.com/KALEL1981/es-theme-nes-box"],
+  "sources": ["https://github.com/KALEL1981/es-theme-nes-box, https://forums.launchbox-app.com/files/file/3402-v2-platform-logos-professionally-redrawn-official-versions-new-bigbox-defaults"],
   "previewThumbnailFilename": "thumbnail.png",
 
   "hasDefaultWallpaper": true,
