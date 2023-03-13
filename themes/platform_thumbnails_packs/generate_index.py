@@ -36,7 +36,7 @@ for d in platformThumbnailsPacks:
                         "platformThumbnailsPackAuthors": platformThumbnailsPackAuthors,
                         "platformThumbnailsPackName": platformThumbnailsPackName,
                         "platformThumbnailsPackDescription": platformThumbnailsPackDescription,
-                        "platformThumbnailsPackIsNSFW": platformThumbnailsPackIsNSFW
+                        # "platformThumbnailsPackIsNSFW": platformThumbnailsPackIsNSFW
                     })
                 except Exception as e:
                     print(e)
