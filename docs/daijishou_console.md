@@ -29,5 +29,6 @@ Type `\help` in your the logger.
 | `disable_widgets_page` | Boolean | Disable widgets page if `true`. |
 | `use_pure_dark_theme` | Boolean | Use pure dark theme if `true`. For OLED devices.|
 | `use_lightweight_backup` | Boolean | Skip backups like images `true`.|
+| `use_nsfw` | Boolean | Set `true` to allow adult content.|
 | `scale_ui` | String | Scale your UI. For example `1.25`.|
 
