@@ -169,6 +169,33 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "\u3066Rey\u591c"
+      ],
+      "platformWallpapersPackDescription": "An angled and minimal design, featuring system logos.",
+      "platformWallpapersPackName": "Geometry",
+      "platformWallpapersPackPreviewThumbnailPath": "geometry/thumbnail.png",
+      "platformWallpapersPackRootPath": "geometry"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "\u3066Rey\u591c"
+      ],
+      "platformWallpapersPackDescription": "A dark version of 'Geometry'.",
+      "platformWallpapersPackName": "Geometry Dark",
+      "platformWallpapersPackPreviewThumbnailPath": "geometry dark/thumbnail-dark.png",
+      "platformWallpapersPackRootPath": "geometry dark"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "\u3066Rey\u591c"
+      ],
+      "platformWallpapersPackDescription": "A Neon version of 'Geometry Dark'.",
+      "platformWallpapersPackName": "Geometry Dark Neon",
+      "platformWallpapersPackPreviewThumbnailPath": "geometry dark neon/thumbnail-neon.png",
+      "platformWallpapersPackRootPath": "geometry dark neon"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Kenji cosplay studio"
       ],
       "platformWallpapersPackDescription": "The pack contains abstract, flat and colorful wallpapers with brand logo for nintendo devices. Originated from kenji-cosplay-studio on deviantart.com. Mentioned by Diabolus in Discord.",
