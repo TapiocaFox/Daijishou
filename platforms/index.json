@@ -179,7 +179,7 @@
       "filename": "GameCube.json",
       "platformName": "GameCube",
       "platformShortname": "gc",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "Intellivision.json",
