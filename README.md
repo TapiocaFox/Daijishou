@@ -136,7 +136,10 @@ Daijishō has evolved a lot in the of 2022. Including UI improvements, retro ach
 
  [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA/featured)
 
- ### Donation (I am taking a break from the project)
+ ### Donation
+
  [PayPal](https://paypal.me/magneticchen)
+
+  (I am taking a break from the project)
 
  <!-- [Patreon](https://www.patreon.com/magneticchen) -->
