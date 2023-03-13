@@ -11,25 +11,25 @@
       "filename": "AmstradCPC.json",
       "platformName": "Amstrad CPC",
       "platformShortname": "cpc",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Atari5200.json",
       "platformName": "Atari 5200",
       "platformShortname": "atari5200",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Atari7800.json",
       "platformName": "Atari 7800",
       "platformShortname": "atari7800",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "AtariJaguar.json",
@@ -41,13 +41,13 @@
       "filename": "AtariLynx.json",
       "platformName": "Atari Lynx",
       "platformShortname": "lynx",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "AtariST.json",
       "platformName": "Atari ST",
       "platformShortname": "atarist",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Atomiswave.json",
@@ -101,13 +101,13 @@
       "filename": "Commodore64.json",
       "platformName": "Commodore 64",
       "platformShortname": "c64",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "CommodoreAmiga.json",
       "platformName": "Commodore Amiga",
       "platformShortname": "amiga",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "DOOMGameEngine.json",
@@ -119,7 +119,7 @@
       "filename": "DOS.json",
       "platformName": "DOS",
       "platformShortname": "dos",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Dreamcast.json",
@@ -161,25 +161,25 @@
       "filename": "GameBoy.json",
       "platformName": "Game Boy",
       "platformShortname": "gb",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "GameBoyAdvance.json",
       "platformName": "Game Boy Advance",
       "platformShortname": "gba",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "GameBoyColor.json",
       "platformName": "Game Boy Color",
       "platformShortname": "gbc",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "GameCube.json",
       "platformName": "GameCube",
       "platformShortname": "gc",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Intellivision.json",
@@ -203,31 +203,31 @@
       "filename": "MAME.json",
       "platformName": "Arcade (MAME)",
       "platformShortname": "mame",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "MSX.json",
       "platformName": "MSX",
       "platformShortname": "msx",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "NeoGeo.json",
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "NeoGeoCD.json",
       "platformName": "Neo Geo CD",
       "platformShortname": "neogeocd",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "NeoGeoPocket.json",
       "platformName": "NeoGeo Pocket",
       "platformShortname": "ngp",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "NeoGeoPocketColor.json",
@@ -245,7 +245,7 @@
       "filename": "Nintendo64.json",
       "platformName": "Nintendo 64",
       "platformShortname": "n64",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "NintendoDS.json",
@@ -257,7 +257,7 @@
       "filename": "NintendoEntertainmentSystem.json",
       "platformName": "Nintendo Entertainment System",
       "platformShortname": "nes",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "NintendoSwitch.json",
@@ -365,19 +365,19 @@
       "filename": "SegaGameGear.json",
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "SegaMasterSystem.json",
       "platformName": "Sega Master System",
       "platformShortname": "master",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "SegaNAOMI.json",
@@ -395,7 +395,7 @@
       "filename": "SegaSaturn.json",
       "platformName": "Sega Saturn",
       "platformShortname": "saturn",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SharpX68000.json",
@@ -407,7 +407,7 @@
       "filename": "SonyPlayStation.json",
       "platformName": "Sony PlayStation",
       "platformShortname": "psx",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SonyPlayStation2.json",
@@ -425,7 +425,7 @@
       "filename": "SuperNintendoEntertainmentSystem.json",
       "platformName": "Super Nintendo Entertainment System",
       "platformShortname": "snes",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "TIC80.json",
@@ -437,13 +437,13 @@
       "filename": "TurboGrafx16.json",
       "platformName": "TurboGrafx-16",
       "platformShortname": "tg16",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "TurboGrafxCD.json",
       "platformName": "TurboGrafx-CD",
       "platformShortname": "tgcd",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Vectrex.json",
@@ -491,7 +491,7 @@
       "filename": "ZXSpectrum.json",
       "platformName": "ZX Spectrum",
       "platformShortname": "zxspectrum",
-      "revisionNumber": 2
+      "revisionNumber": 3
     }
   ]
 }
