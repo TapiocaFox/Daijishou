@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 5,
+    "revisionNumber": 6,
     "platform": {
         "name": "Nintendo Entertainment System",
         "shortname": "nes",
@@ -28,7 +28,7 @@
             "name": "nes - com.explusalpha.NesEmu",
             "description": "Support extensions: bin, fds, nes, nsf, qd, rom, unf, unif.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|fds|nes|nsf|qd|rom|unf|unif)$",
-            "amStartArguments": "-n com.explusalpha.NesEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "amStartArguments": "-n com.explusalpha.NesEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

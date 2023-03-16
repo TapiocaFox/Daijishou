@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 5,
+    "revisionNumber": 6,
     "platform": {
         "name": "Game Boy Color",
         "shortname": "gbc",
@@ -46,7 +46,7 @@
             "name": "gbc - com.explusalpha.GbcEmu",
             "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
-            "amStartArguments": "-n com.explusalpha.GbcEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "amStartArguments": "-n com.explusalpha.GbcEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n   -t application/zip",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

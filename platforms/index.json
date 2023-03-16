@@ -17,7 +17,7 @@
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "Atari5200.json",
@@ -101,7 +101,7 @@
       "filename": "Commodore64.json",
       "platformName": "Commodore 64",
       "platformShortname": "c64",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "CommodoreAmiga.json",
@@ -161,19 +161,19 @@
       "filename": "GameBoy.json",
       "platformName": "Game Boy",
       "platformShortname": "gb",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "GameBoyAdvance.json",
       "platformName": "Game Boy Advance",
       "platformShortname": "gba",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "GameBoyColor.json",
       "platformName": "Game Boy Color",
       "platformShortname": "gbc",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "GameCube.json",
@@ -209,13 +209,13 @@
       "filename": "MSX.json",
       "platformName": "MSX",
       "platformShortname": "msx",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "NeoGeo.json",
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "NeoGeoCD.json",
@@ -227,7 +227,7 @@
       "filename": "NeoGeoPocket.json",
       "platformName": "NeoGeo Pocket",
       "platformShortname": "ngp",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "NeoGeoPocketColor.json",
@@ -257,7 +257,7 @@
       "filename": "NintendoEntertainmentSystem.json",
       "platformName": "Nintendo Entertainment System",
       "platformShortname": "nes",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "NintendoSwitch.json",
@@ -371,13 +371,13 @@
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "SegaMasterSystem.json",
       "platformName": "Sega Master System",
       "platformShortname": "master",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "SegaNAOMI.json",
@@ -425,7 +425,7 @@
       "filename": "SuperNintendoEntertainmentSystem.json",
       "platformName": "Super Nintendo Entertainment System",
       "platformShortname": "snes",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "TIC80.json",
@@ -437,13 +437,13 @@
       "filename": "TurboGrafx16.json",
       "platformName": "TurboGrafx-16",
       "platformShortname": "tg16",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "TurboGrafxCD.json",
       "platformName": "TurboGrafx-CD",
       "platformShortname": "tgcd",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "Vectrex.json",

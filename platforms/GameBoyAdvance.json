@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 5,
+    "revisionNumber": 6,
     "platform": {
         "name": "Game Boy Advance",
         "shortname": "gba",
@@ -46,7 +46,7 @@
             "name": "gba - com.explusalpha.GbaEmu",
             "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
             "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
-            "amStartArguments": "-n com.explusalpha.GbaEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "amStartArguments": "-n com.explusalpha.GbaEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

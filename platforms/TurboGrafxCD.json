@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 3,
+    "revisionNumber": 4,
     "platform": {
         "name": "TurboGrafx-CD",
         "shortname": "tgcd",
@@ -28,7 +28,7 @@
             "name": "tgcd - com.explusalpha.PceEmu",
             "description": "Support extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
             "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
-            "amStartArguments": "-n com.explusalpha.PceEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "amStartArguments": "-n com.explusalpha.PceEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

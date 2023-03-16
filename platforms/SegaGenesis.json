@@ -1,6 +1,6 @@
 {
   "databaseVersion": 8,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Sega Genesis",
     "shortname": "genesis",
@@ -28,7 +28,7 @@
         "name": "genesis - com.explusalpha.MdEmu",
         "description": "Support extensions: 32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms.",
         "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|bms|chd|cue|gen|gg|iso|m3u|md|mdx|pco|sg|sgd|smd|sms)$",
-        "amStartArguments": "-n com.explusalpha.MdEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+        "amStartArguments": "-n com.explusalpha.MdEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
         "killPackageProcesses": false,
         "killPackageProcessesWarning": true,
         "extra": ""
