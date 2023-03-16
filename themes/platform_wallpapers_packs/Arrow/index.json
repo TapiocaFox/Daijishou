@@ -257,6 +257,10 @@
       "filename": "intellivision.jpg"
     },
     {
+      "matchPlatformShortname": "javame",
+      "filename": "javame.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
     }
