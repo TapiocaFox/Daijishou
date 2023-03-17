@@ -18,7 +18,7 @@
       "filename": "android.png"
     },
     {
-      "matchPlatformShortname": "cpc",
+      "matchPlatformShortname": "cpc-uncompleted",
       "filename": "mount_niitaka.jpg"
     },
     {
@@ -231,35 +231,35 @@
     },
     {
       "matchPlatformShortname": "sega32x",
-      "filename": "mount_niitaka.jpg"
+      "filename": "sega32x.png"
     },
     {
       "matchPlatformShortname": "segacd",
-      "filename": "mount_niitaka.jpg"
+      "filename": "segacd.png"
     },
     {
       "matchPlatformShortname": "gamegear",
-      "filename": "mount_niitaka.jpg"
+      "filename": "gamegear.png"
     },
     {
       "matchPlatformShortname": "genesis",
-      "filename": "mount_niitaka.jpg"
+      "filename": "genesis.png"
     },
     {
       "matchPlatformShortname": "master",
-      "filename": "mount_niitaka.jpg"
+      "filename": "master.png"
     },
     {
-      "matchPlatformShortname": "sg1000",
+      "matchPlatformShortname": "sg1000-uncompleted",
       "filename": "mount_niitaka.jpg"
     },
     {
       "matchPlatformShortname": "saturn",
-      "filename": "mount_niitaka.jpg"
+      "filename": "saturn.png"
     },
     {
       "matchPlatformShortname": "x68000",
-      "filename": "mount_niitaka.jpg"
+      "filename": "x68000.png"
     },
     {
       "matchPlatformShortname": "psx",
