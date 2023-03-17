@@ -1,6 +1,6 @@
 {
   "name": "Geometry Dark Neon",
-  "description": "A Neon version of 'Geometry Dark'.",
+  "description": "A neon version of 'Geometry Dark'.",
   "authors": ["てRey夜"],
   "sources": ["https://www.pngwing.com/", "https://logos.fandom.com/wiki/Logopedia"],
   "previewThumbnailFilename": "thumbnail-neon.png",
@@ -61,7 +61,7 @@
       "filename": "cps3-neon.png"
     },
     {
-      "matchPlatformShortname": "psvita",
+      "matchPlatformShortname": "vita",
       "filename": "psvita-neon.png"
     },
     {
