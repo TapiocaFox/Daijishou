@@ -137,6 +137,17 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Daijish\u014d",
+        "TapiocaFox"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack consists images of waifus with coloured background. This pack will set all your wallpaper to waifus related to the platforms. :3",
+      "platformWallpapersPackIsNSFW": true,
+      "platformWallpapersPackName": "Colorful Waifus\u2122",
+      "platformWallpapersPackPreviewThumbnailPath": "ColorfulWaifus/preview.png",
+      "platformWallpapersPackRootPath": "ColorfulWaifus"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "dre10g"
       ],
       "platformWallpapersPackDescription": "An elegant dark wallpaper pack with outlines of the original hardware and acompanied by that platform's logo.",
@@ -164,6 +175,16 @@
       "platformWallpapersPackName": "DroidBox",
       "platformWallpapersPackPreviewThumbnailPath": "droidbox/thumbnail.png",
       "platformWallpapersPackRootPath": "droidbox"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "omgitsdose"
+      ],
+      "platformWallpapersPackDescription": "A simple and modern wallpaper pack optimized for the Retroid Pocket 3/3+, oriiginally inspired by the Retro Mega Next theme for Pegasus. This wallpaper pack showcases hardware and system box cover art for most popular systems.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "DSE-Pocket",
+      "platformWallpapersPackPreviewThumbnailPath": "DSE-Pocket/thumbnail.png",
+      "platformWallpapersPackRootPath": "DSE-Pocket"
     },
     {
       "platformWallpapersPackAuthors": [
