@@ -61,6 +61,14 @@
       "filename": "cannonball.png"
     },
 	{
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.png"
+    },
+	{
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.png"
+    },
+	{
       "matchPlatformShortname": "channelf",
       "filename": "channelf.png"
     },
@@ -97,6 +105,10 @@
       "filename": "fbneo.png"
     },
 	{
+      "matchPlatformShortname": "fds",
+      "filename": "fds.png"
+    },
+	{
       "matchPlatformShortname": "gamegear",
       "filename": "gamegear.png"
     },
@@ -119,6 +131,14 @@
 	{
       "matchPlatformShortname": "genesis",
       "filename": "genesis.png"
+    },
+	{
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.png"
+    },
+	{
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
     },
 	{
       "matchPlatformShortname": "intellivision",
@@ -149,8 +169,20 @@
       "filename": "n64.png"
     },
 	{
+      "matchPlatformShortname": "n64dd",
+      "filename": "64dd.png"
+    },
+	{
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.png"
+    },
+	{
       "matchPlatformShortname": "nds",
       "filename": "nds.png"
+    },
+	{
+      "matchPlatformShortname": "dsiware",
+      "filename": "dsiware.png"
     },
 	{
       "matchPlatformShortname": "neogeo",
@@ -169,8 +201,24 @@
       "filename": "ngpc.png"
     },
 	{
+      "matchPlatformShortname": "odyssey",
+      "filename": "odyssey2.png"
+    },
+	{
       "matchPlatformShortname": "pico8",
       "filename": "pico8.png"
+    },
+	{
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.png"
+    },
+	{
+      "matchPlatformShortname": "pc98",
+      "filename": "pc98.png"
+    },
+	{
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.png"
     },
 	{
       "matchPlatformShortname": "pippin",
@@ -185,8 +233,8 @@
       "filename": "nes.png"
     },
 	{
-      "matchPlatformShortname": "pippin",
-      "filename": "pippin.png"
+      "matchPlatformShortname": "satellaview",
+      "filename": "satellaview.png"
     },
 	{
       "matchPlatformShortname": "psx",
@@ -209,8 +257,20 @@
       "filename": "saturn.png"
     },
 	{
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.png"
+    },
+	{
       "matchPlatformShortname": "segacd",
       "filename": "segacd.png"
+    },
+	{
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.png"
+    },
+	{
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.png"
     },
 	{
       "matchPlatformShortname": "snes",
@@ -221,15 +281,44 @@
       "filename": "switch.png"
     },
 	{
+      "matchPlatformShortname": "tic80",
+      "filename": "tic80.png"
+    },
+	{
+      "matchPlatformShortname": "turbografx16",
+      "filename": "turbografx16.png"
+    },
+	{
+      "matchPlatformShortname": "turbografxcd",
+      "filename": "turbografxcd.png"
+    },
+	{
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    }
+	{
       "matchPlatformShortname": "wii",
       "filename": "wii.png"
     },
 	{
+      "matchPlatformShortname": "wiiware",
+      "filename": "wiiware.png"
+    },
+	{
       "matchPlatformShortname": "wonderswan",
       "filename": "wonderswan.png"
-    },{
+    },
+	{
       "matchPlatformShortname": "wonderswancolor",
       "filename": "wonderswancolor.png"
+    },
+	{
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81.png"
+    },
+	{
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.png"
     }
   ]
 }
