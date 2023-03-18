@@ -165,7 +165,7 @@
       "filename": "neogeo.png"
     },
 	{
-      "matchPlatformShortname": "ngcd",
+      "matchPlatformShortname": "neogeocd",
       "filename": "ngcd.png"
     },
     {
@@ -236,6 +236,10 @@
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     },
+	{
+      "matchPlatformShortname": "tic80",
+      "filename": "tic80.png"
+    },
     {
       "matchPlatformShortname": "vita",
       "filename": "vita.png"
@@ -255,6 +259,14 @@
 	{
       "matchPlatformShortname": "vectrex",
       "filename": "vectrex.png"
+    },
+	{
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.png"
+    },
+	{
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.png"
     }
   ]
 }
