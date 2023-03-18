@@ -142,7 +142,7 @@
       ],
       "platformWallpapersPackDescription": "A platform wallpapers pack consists images of waifus with coloured background. This pack will set all your wallpaper to waifus related to the platforms. :3",
       "platformWallpapersPackIsNSFW": true,
-      "platformWallpapersPackName": "Colorful Waifus\u2122",
+      "platformWallpapersPackName": "Colorful Waifus\u2122 (Beta)",
       "platformWallpapersPackPreviewThumbnailPath": "ColorfulWaifus/preview.png",
       "platformWallpapersPackRootPath": "ColorfulWaifus"
     },
@@ -230,7 +230,7 @@
       "platformWallpapersPackAuthors": [
         "\u3066Rey\u591c"
       ],
-      "platformWallpapersPackDescription": "A Neon version of 'Geometry Dark'.",
+      "platformWallpapersPackDescription": "A neon version of 'Geometry Dark'.",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Geometry Dark Neon",
       "platformWallpapersPackPreviewThumbnailPath": "geometry dark neon/thumbnail-neon.png",
