@@ -299,6 +299,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Gris"
+      ],
+      "platformWallpapersPackDescription": "A set of wallpapers containing pixel art-style consoles against a minimalist backdrop. Optimized for 4:3 and 16:9 aspect ratios. Icons sourced from YoshiPixel, Logos sourced from Dan Patrick. Special thanks to iShade, Post Mortem, Sarantula, Lan_DKZd and \u3066Rey\u3299. (LIMITED SUPPORT)",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Pixels",
+      "platformWallpapersPackPreviewThumbnailPath": "Pixels/preview_thumbnail_2.png",
+      "platformWallpapersPackRootPath": "Pixels"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "UnBurn"
       ],
       "platformWallpapersPackDescription": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 60 wallpapers.",
