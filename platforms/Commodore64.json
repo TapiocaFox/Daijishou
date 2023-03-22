@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 3,
+    "revisionNumber": 4,
     "platform": {
         "name": "Commodore 64",
         "shortname": "c64",
@@ -28,7 +28,7 @@
             "name": "c64 - com.explusalpha.C64Emu",
             "description": "Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, lnx, p00, prg, t64, tap, x64, x6z, zip.",
             "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|lnx|p00|prg|t64|tap|x64|x6z|zip)$",
-            "amStartArguments": "-n com.explusalpha.C64Emu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history\n",
+            "amStartArguments": "-n com.explusalpha.C64Emu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  -t application/zip",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 8,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Atari 2600",
     "shortname": "atari2600",
@@ -28,7 +28,7 @@
       "name": "atari2600 - com.explusalpha.A2600Emu",
       "description": "Supported extensions: a26, bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin)$",
-      "amStartArguments": "-n com.explusalpha.A2600Emu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.explusalpha.A2600Emu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -96,6 +96,9 @@ Highlight page arrange your items by favorite, recent played and newly added ite
 
 
 # Words from the author
+### Before further disscussion
+![](/imgs/tapicofox_widgets.png)
+> Here is my widgets setup :3
 ### How much efforts does the author put on this project?
 This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
 

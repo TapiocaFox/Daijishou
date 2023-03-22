@@ -1,0 +1,116 @@
+{
+  "name": "Pixels",
+  "description": "A set of wallpapers containing pixel art-style consoles against a minimalist backdrop. Optimized for 4:3 and 16:9 aspect ratios. Icons sourced from YoshiPixel, Logos sourced from Dan Patrick. Special thanks to iShade, Post Mortem, Sarantula, Lan_DKZd and てRey㊙. (LIMITED SUPPORT)",
+  "authors": ["Gris"],
+  "sources": ["http://yspixel.jpn.org/icon/game/index.htm", "https://forums.launchbox-app.com/files/file/3402-v2-platform-logos-professionally-redrawn-official-versions-new-bigbox-defaults/?tab=reviews&sort=newest"],
+  "previewThumbnailFilename": "preview_thumbnail_2.png",
+
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3d0.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "g&w.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "neogeopocket.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "32x.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "megacd.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "mastersystem.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "ps1.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "wonderswan.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wonderswancolor.png"
+    }
+  ]
+}

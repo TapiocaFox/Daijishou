@@ -25,7 +25,7 @@ Type `\help` in your the logger.
 |---|---|---|
 | `force_set_wallpaper_for_all` | Boolean | Set wallpaper for every pages if `true`. It is for cosmetic uses. |
 | `hide_platforms_page_subtitle` | Boolean | Hide platforms page subtitle if `true`. It is for cosmetic uses. |
-| `enable_non_home_activity` | Boolean | Enable non home activity of Daijishō if `true`. For Android 13 Dex users. |
+| `enable_non_home_activity` | Boolean | Enable non home activity of Daijishō if `true`. For Dex users. |
 | `disable_widgets_page` | Boolean | Disable widgets page if `true`. |
 | `use_pure_dark_theme` | Boolean | Use pure dark theme if `true`. For OLED devices.|
 | `use_lightweight_backup` | Boolean | Skip backups like images if `true`.|
