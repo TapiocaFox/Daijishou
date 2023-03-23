@@ -319,7 +319,7 @@
     {
       "matchPlatformShortname": "zxspectrum",
       "filename": "zxspectrum.png"
-    }
+    },
     {
       "matchPlatformShortname": "amiga500",
       "filename": "amiga500.png"
@@ -327,143 +327,143 @@
     {
       "matchPlatformShortname": "amiga1200",
       "filename": "amiga1200.png"
-    }
+    },
     {
       "matchPlatformShortname": "amigacd32",
       "filename": "amigacd32.png"
-    }
+    },
     {
       "matchPlatformShortname": "apple2",
       "filename": "apple2.png"
-    }
+    },
     {
       "matchPlatformShortname": "apple2gs",
       "filename": "apple2gs.png"
-    }
+    },
     {
       "matchPlatformShortname": "atari",
       "filename": "atari.png"
-    }
+    },
     {
       "matchPlatformShortname": "atari400",
       "filename": "atari400.png"
-    }
+    },
     {
       "matchPlatformShortname": "atari800",
       "filename": "atari800.png"
-    }
+    },
     {
       "matchPlatformShortname": "bbcmicro",
       "filename": "bbcmicro.png"
-    }
+    },
     {
       "matchPlatformShortname": "c16",
       "filename": "c16.png"
-    }
+    },
     {
       "matchPlatformShortname": "capcom",
       "filename": "capcom.png"
-    }
+    },
     {
       "matchPlatformShortname": "cps",
       "filename": "cps.png"
-    }
+    },
     {
       "matchPlatformShortname": "cvic20",
       "filename": "cvic20.png"
-    }
+    },
     {
       "matchPlatformShortname": "daphne",
       "filename": "daphne.png"
-    }
+    },
     {
       "matchPlatformShortname": "dataeast",
       "filename": "dataeast.png"
-    }
+    },
     {
       "matchPlatformShortname": "famicom",
       "filename": "famicom.png"
-    }
+    },
     {
       "matchPlatformShortname": "fba",
       "filename": "fba.png"
-    }
+    },
     {
       "matchPlatformShortname": "konami",
       "filename": "konami.png"
-    }
+    },
     {
       "matchPlatformShortname": "megadrive",
       "filename": "megadrive.png"
-    }
+    },
     {
       "matchPlatformShortname": "msx2",
       "filename": "msx2.png"
-    }
+    },
     {
       "matchPlatformShortname": "n64dd",
       "filename": "n64dd.png"
-    }
+    },
     {
       "matchPlatformShortname": "namco",
       "filename": "namco.png"
-    }
+    },
     {
       "matchPlatformShortname": "naomi",
       "filename": "naomi.png"
-    }
+    },
     {
       "matchPlatformShortname": "naomi2",
       "filename": "naomi2.png"
-    }
+    },
     {
       "matchPlatformShortname": "naomigd",
       "filename": "naomigd.png"
-    }
+    },
     {
       "matchPlatformShortname": "nintendo",
       "filename": "nintendo.png"
-    }
+    },
     {
       "matchPlatformShortname": "openbor",
       "filename": "openbor.png"
-    }
+    },
     {
       "matchPlatformShortname": "pcengine",
       "filename": "pcengine.png"
-    }
+    },
     {
       "matchPlatformShortname": "pcenginecd",
       "filename": "pcenginecd.png"
-    }
+    },
     {
       "matchPlatformShortname": "ports",
       "filename": "ports.png"
-    }
+    },
     {
       "matchPlatformShortname": "quake",
       "filename": "quake.png"
-    }
+    },
     {
       "matchPlatformShortname": "quake2",
       "filename": "quake2.png"
-    }
+    },
     {
       "matchPlatformShortname": "sega",
       "filename": "sega.png"
-    }
+    },
     {
       "matchPlatformShortname": "sfc",
       "filename": "sfc.png"
-    }
+    },
     {
       "matchPlatformShortname": "snk",
       "filename": "snk.png"
-    }
+    },
     {
       "matchPlatformShortname": "vita",
       "filename": "vita.png"
-    }
+    },
     {
       "matchPlatformShortname": "wiiu",
       "filename": "wiiu.png"
