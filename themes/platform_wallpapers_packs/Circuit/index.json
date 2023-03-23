@@ -229,6 +229,10 @@
       "filename": "ps2.jpg"
     },
     {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.jpg"
+    },
+    {
       "matchPlatformShortname": "odyssey2",
       "filename": "odyssey2.jpg"
     },
