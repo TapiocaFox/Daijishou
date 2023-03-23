@@ -473,16 +473,6 @@
       "platformWallpapersPackName": "Waifus :3",
       "platformWallpapersPackPreviewThumbnailPath": "waifus/thumbnail.jpg",
       "platformWallpapersPackRootPath": "waifus"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "Jamesinorbit"
-      ],
-      "platformWallpapersPackDescription": "A rework of the classic Epic Noir theme based on a collaboration between Chicuelo and C64-dev",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "EpicRetroNoir",
-      "platformWallpapersPackPreviewThumbnailPath": "EpicRetroNoir/thumbnail.png",
-      "platformWallpapersPackRootPath": "EpicRetroNoir"
     }
   ]
 }
