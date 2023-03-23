@@ -109,6 +109,10 @@
       "filename": "flashback.png"
     },
     {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.png"
+    },
+    {
       "matchPlatformShortname": "gw",
       "filename": "gw.png"
     },
