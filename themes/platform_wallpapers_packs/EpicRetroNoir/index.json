@@ -3,7 +3,7 @@
   "description": "A rework of the classic Epic Noir theme based on a collaboration between Chicuelo and C64-dev",
   "authors": ["Jamesinorbit"],
   "sources": ["https://github.com/CkauNui/ckau-book", "https://github.com/c64-dev/es-theme-epicnoir", "https://github.com/20GotoTen/es-theme-retrofix"],
-  "previewThumbnailFilename": "thumbnaiL.png",
+  "previewThumbnailFilename": "thumbnail.png",
 
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
