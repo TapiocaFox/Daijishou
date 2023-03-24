@@ -50,6 +50,10 @@
       "filename": "lynx.png"
     },
     {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "rpgmaker.png"
+    },
+    {
       "matchPlatformShortname": "atarist",
       "filename": "atarist.png"
     },
