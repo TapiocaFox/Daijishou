@@ -141,6 +141,14 @@
       "filename": "sega32x.jpg"
     },
     {
+      "matchPlatformShortname": "ngage",
+      "filename": "ngage.jpg"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.jpg"
+    },
+    {
       "matchPlatformShortname": "segacd",
       "filename": "segacd.jpg"
     },
