@@ -21,6 +21,10 @@
       "filename": "g&w.png"
     },
     {
+	      "matchPlatformShortname": "fbneo",
+      "filename": "fbn.png"
+    },
+    {
       "matchPlatformShortname": "gb",
       "filename": "gb.png"
     },
@@ -31,6 +35,10 @@
     {
       "matchPlatformShortname": "gbc",
       "filename": "gbc.png"
+    },
+	  {
+	  "matchPlatformShortname": "mame",
+      "filename": "mame.png"
     },
     {
       "matchPlatformShortname": "gc",
@@ -60,6 +68,10 @@
       "matchPlatformShortname": "wii",
       "filename": "wii.png"
     },
+	  {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
+    },
     {
       "matchPlatformShortname": "psp",
       "filename": "psp.png"
@@ -70,7 +82,7 @@
     },
     {
       "matchPlatformShortname": "segacd",
-      "filename": "megacd.png"
+      "filename": "segacd.png"
     },
     {
       "matchPlatformShortname": "gamegear",
