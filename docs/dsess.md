@@ -101,7 +101,7 @@ If `dsess_target_site_label` is not present. Process will jump from ***1. Target
 
 It will score all labels selected by ***2. Target site label sub-selector*** from search engine. The element's ***4. Target site link sub-selector*** selected link with highest score automatically scored by ***3. Target site label sub-selector matchers*** and matched by ***5. Target site Regex parameter*** will be used by ***In target site parameters: 1.selector*** in next process.
 
-If `dsess_target_site_label_matcher` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
+If `dsess_target_site_label_matchers` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
 #### Example
 `scraperKeyword, platformName`. Encoded as: `scraperKeyword%2C+platformName`.
