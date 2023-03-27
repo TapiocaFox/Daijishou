@@ -89,17 +89,17 @@ If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 
 It is a sub-selector for the the elements selected from ***1. Target site selector***.
 
-It will select all elements filtered by ***1. Target site selector*** from search engine. And if select, The `.text()` from the element selected by ***2. Target site label sub-selector***  will be used by ***3. Target site label sub-selector matcher*** in next process.
+It will select all elements filtered by ***1. Target site selector*** from search engine. And if select, The `.text()` from the element selected by ***2. Target site label sub-selector***  will be used by ***3. Target site label sub-selector matchers*** in next process.
 
 If `dsess_target_site_label` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
 #### Example
 `span`. Encoded as `span`.
 
-### 3. Target site label sub-selector matcher parameter
-**Usage:** `dsess_target_site_label_matcher=` + Target site label matchers.
+### 3. Target site label sub-selector matchers parameter
+**Usage:** `dsess_target_site_label_matchers=` + Target site label matchers.
 
-It will score all labels selected by ***2. Target site label sub-selector*** from search engine. The element's ***4. Target site link sub-selector*** selected link with highest score scored by ***3. Target site label sub-selector matcher*** and matched by ***5. Target site Regex parameter*** will be used by ***In target site parameters: 1.selector*** in next process.
+It will score all labels selected by ***2. Target site label sub-selector*** from search engine. The element's ***4. Target site link sub-selector*** selected link with highest score automatically scored by ***3. Target site label sub-selector matchers*** and matched by ***5. Target site Regex parameter*** will be used by ***In target site parameters: 1.selector*** in next process.
 
 If `dsess_target_site_label_matcher` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
