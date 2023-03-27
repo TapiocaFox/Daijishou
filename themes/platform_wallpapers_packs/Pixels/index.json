@@ -21,7 +21,7 @@
       "filename": "g&w.png"
     },
     {
-	      "matchPlatformShortname": "fbneo",
+      "matchPlatformShortname": "fbneo",
       "filename": "fbn.png"
     },
     {
@@ -36,8 +36,8 @@
       "matchPlatformShortname": "gbc",
       "filename": "gbc.png"
     },
-	  {
-	  "matchPlatformShortname": "mame",
+    {
+      "matchPlatformShortname": "mame",
       "filename": "mame.png"
     },
     {
@@ -47,6 +47,10 @@
     {
       "matchPlatformShortname": "ngp",
       "filename": "neogeopocket.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.png"
     },
     {
       "matchPlatformShortname": "3ds",
@@ -85,6 +89,10 @@
       "filename": "segacd.png"
     },
     {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
       "matchPlatformShortname": "gamegear",
       "filename": "gamegear.png"
     },
@@ -111,6 +119,10 @@
     {
       "matchPlatformShortname": "snes",
       "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tgfx16.png"
     },
     {
       "matchPlatformShortname": "virtualboy",
