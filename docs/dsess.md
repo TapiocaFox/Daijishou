@@ -26,18 +26,7 @@ DSESS has below format.
 ## Headers
 `DSESS:` + scraper target
 
-`DSESS:BOX_ART`
-
-`DSESS:SNAPSHOT`
-
-`DSESS:TITLE`
-
-`DSESS:YOUTUBE`
-
-`DSESS:DESCRIPTION`
-
-`DSESS:GENRES`
-
+Avaliable headers: `DSESS:BOX_ART`, `DSESS:SNAPSHOT`, `DSESS:TITLE`, `DSESS:YOUTUBE`, `DSESS:DESCRIPTION`, `DSESS:GENRES`
 
 
 ## Template tags
@@ -63,7 +52,6 @@ Encoded as
 - localeLanguage, like `en` `zh`
 - localeCountry, like `US` `TW`
 - localeLanguageAndCountry, like `en-US` `zh-TW`
-
 
 
 ## DSESS URL
