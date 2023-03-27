@@ -75,8 +75,8 @@ You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{lo
 All parameters **must be encode to URL query encoded string**. Concatenate by URL parameters rules.
 Same with following DSESS URL parameters. Also the DSESS URL parameters are processed with below order.
 
-### Select target site parameters
-#### 1. Target site link selector parameter
+## Select target site parameters
+### 1. Target site link selector parameter
 `dsess_target_site_selector=` + Target site `<a>` element CSS selector.
 
 For example: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9 a`.
@@ -90,7 +90,7 @@ It will matches all `<a>` elements available from search results from search eng
 If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 
 
-#### 2. Target site Regex parameter
+### 2. Target site Regex parameter
 `dsess_target_site=` + Target site Regex.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
@@ -103,7 +103,7 @@ It will matches all links filtered by **1. Target site link selector** from sear
 
 If `dsess_target_site` is not present. The search engine site itself will be used by **3. Selector parameter**'s CSS selector.
 
-### In target site parameters
+## In target site parameters
 ### 1. Selector parameter
 `dsess_selector=` + CSS selector.
 
