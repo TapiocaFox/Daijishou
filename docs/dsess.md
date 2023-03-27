@@ -91,7 +91,7 @@ It is a sub-selector for the the elements selected from ***1. Target site select
 
 It will select all elements filtered by ***1. Target site selector*** from search engine. And if select, The `.text()` from the element selected by ***2. Target site label sub-selector***  will be used by ***3. Target site label sub-selector matchers*** in next process.
 
-If `dsess_target_site_label_subselector` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
+If `dsess_target_site_label_subselector` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex*** or ***4. Target site link sub-selector parameter*** if exists.
 
 #### Example
 `span`. Encoded as `span`.
@@ -101,7 +101,7 @@ If `dsess_target_site_label_subselector` is not present. Process will jump from 
 
 It will score all labels selected by ***2. Target site label sub-selector*** from search engine. The element's ***4. Target site link sub-selector*** selected link with highest score automatically scored by ***3. Target site label sub-selector matchers*** and matched by ***5. Target site Regex parameter*** will be used by ***In target site parameters: 1.selector*** in next process.
 
-If `dsess_target_site_label_matchers` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
+If `dsess_target_site_label_matchers` is not present. All template tags will be used.
 
 #### Example
 `scraperKeyword, platformName`. Encoded as: `scraperKeyword%2C+platformName`.
@@ -121,7 +121,7 @@ If `dsess_target_site_link_subselector` is not present. All of the elements' sub
 ### 5. Target site Regex parameter
 **Usage:** `dsess_target_site=` + Target site Regex.
 
-It will matches all links filtered by ***1. Target site selector*** to ***4. Target site link sub-selector parameter*** from search engine. And if matched, the first matched by ***5. Target site Regex***  will be used by ***In target site parameters: 1.selector*** in next process.
+It will matches all links filtered by ***1. Target site selector*** to ***4. Target site link sub-selector*** from search engine. And if matched, the first matched by ***5. Target site Regex***  will be used by ***In target site parameters: 1.selector*** in next process.
 
 If `dsess_target_site` is not present. The search engine site itself will be used by ***In target site parameters: 1.selector***'s CSS selector.
 
