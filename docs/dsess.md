@@ -87,7 +87,7 @@ Same with following DSESS URL parameters. Also the DSESS URL parameters are proc
 
 ## DSESS URL - Select target site parameters
 ### 1. Target site selector parameter
-**Usage:** `dsess_target_site_selector=` + Target site element CSS selector, where the element should contains `<a>` children.
+**Usage:** `dsess_target_site_selector=` + Target site element CSS selector. (Where the selected element should contains `<a>` children.)
 
 It will matches `<a>` elements available from search results from search engine. These `<a>` elements will be used by the next ***2. Target site label sub-selector*** to ***5. Target site Regex*** in next process.
 
@@ -95,8 +95,6 @@ If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 
 #### Example
 `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
-
-And don't forget to **encode CSS selector to URL encoded query string** like others parameters.
 
 Encoded as: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
 
@@ -112,8 +110,6 @@ If `dsess_target_site_label` is not present. Process will jump from ***1. Target
 #### Example
 `span`.
 
-And don't forget to **encode CSS selector to URL encoded query string** like others parameters.
-
 Encoded as: `span`.
 
 ### 3. Target site label sub-selector matcher parameter
@@ -125,8 +121,6 @@ If `dsess_target_site_label_matcher` is not present. Process will jump from ***1
 
 #### Example
 `scraperKeyword, platformName`.
-
-And don't forget to **encode CSS selector to URL encoded query string** like others parameters.
 
 Encoded as: `scraperKeyword%2C+platformName`.
 
@@ -142,6 +136,8 @@ If `dsess_target_site_link` is not present. All of the elements' sub-links selec
 #### Example
 `a`.
 
+Encoded as: `a`.
+
 ### 5. Target site Regex parameter
 **Usage:** `dsess_target_site=` + Target site Regex.
 
@@ -152,8 +148,6 @@ If `dsess_target_site` is not present. The search engine site itself will be use
 #### Example
 `^https:\/\/www.romspedia.com\/roms\/.*$`.
 
-And don't forget to **encode the Regex to URL encoded query string** like others parameters.
-
 Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
 ## DSESS URL - In target site parameters
@@ -162,6 +156,7 @@ Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
 When target site is available, the selector parameter will be applied on target site.
 
+And don't forget to **encode the CSS selector to URL encoded query string** like others parameters.
 
 ### 2. Attribute parameter
 **Usage:** `dsess_attribute=` + Attribute you want from the element selected by CSS selector.
@@ -169,22 +164,26 @@ When target site is available, the selector parameter will be applied on target 
 For example `href` for `<a>` element.
 If `dsess_attribute` is not present the doc's html() will be resolved.
 
-
 ### 3. Extractor Regex parameter
 **Usage:** `dsess_extractor=` + Extractor Regex.
 
 If `dsess_extractor` is not present the the plain text will be used. Else string extracted from Regex group 1 will be used.
 
+And don't forget to **encode the Regex to URL encoded query string** like others parameters.
 
 ### 4. Replacer Regex parameter
 **Usage:** `dsess_replacer=` + Replacer Regex.
 
 If `dsess_replacer` is not present the the original text will be used. Else string filter by it will be used in ***4. Replacer value***.
 
+And don't forget to **encode the Regex to URL encoded query string** like others parameters.
+
 ### 5. Replacer value parameter
 **Usage:** `dsess_replacer_value=` + Replacer value.
 
 If `dsess_replacer` is not present the the original text will be used. Else string filter by ***4. Replacer Regex*** will be replaced with the replacer value.
+
+And don't forget to **encode the Value to URL encoded query string** like others parameters.
 
 
 
