@@ -87,7 +87,7 @@ Same with following DSESS URL parameters. Also the DSESS URL parameters are proc
 
 ## DSESS URL - Select target site parameters
 ### 1. Target site selector parameter
-`dsess_target_site_selector=` + Target site element CSS selector, where the element should contains `<a>` children.
+**Usage:** `dsess_target_site_selector=` + Target site element CSS selector, where the element should contains `<a>` children.
 
 For example: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
 
@@ -101,7 +101,7 @@ If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 
 
 ### 2. Target site label sub-selector parameter
-`dsess_target_site_label=` + Target site label CSS selector. It is sub-selector for the the elements selected from ***1. Target site selector***.
+**Usage:** `dsess_target_site_label=` + Target site label CSS selector. It is sub-selector for the the elements selected from ***1. Target site selector***.
 
 For example: `span`.
 
@@ -114,7 +114,7 @@ It will select all elements filtered by ***1. Target site selector*** from searc
 If `dsess_target_site_label` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
 ### 3. Target site label sub-selector matcher parameter
-`dsess_target_site_label_matcher=` + Target site label matchers.
+**Usage:** `dsess_target_site_label_matcher=` + Target site label matchers.
 
 For example: `scraperKeyword, platformName`.
 
@@ -127,7 +127,7 @@ It will score all labels selected by ***2. Target site label sub-selector*** fro
 If `dsess_target_site_label_matcher` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
 ### 4. Target site link sub-selector parameter
-`dsess_target_site_link=` + Target site link CSS selector. It is sub-selector for the elements selected from ***1. Target site selector***.
+**Usage:** `dsess_target_site_link=` + Target site link CSS selector. It is sub-selector for the elements selected from ***1. Target site selector***.
 
 For example: `a`.
 
@@ -136,7 +136,7 @@ It will select links filtered by ***1. Target site selector*** from search engin
 If `dsess_target_site_link` is not present. All of the elements' sub-links selected from ***1. Target site selector*** will be used.
 
 ### 5. Target site Regex parameter
-`dsess_target_site=` + Target site Regex.
+**Usage:** `dsess_target_site=` + Target site Regex.
 
 For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
 
@@ -152,31 +152,31 @@ If `dsess_target_site` is not present. The search engine site itself will be use
 
 ## DSESS URL - In target site parameters
 ### 1. Selector parameter
-`dsess_selector=` + CSS selector.
+**Usage:** `dsess_selector=` + CSS selector.
 
 When target site is available, the selector parameter will be applied on target site.
 
 
 ### 2. Attribute parameter
-`dsess_attribute=` + Attribute you want from the element selected by CSS selector.
+**Usage:** `dsess_attribute=` + Attribute you want from the element selected by CSS selector.
 
 For example `href` for `<a>` element.
 If `dsess_attribute` is not present the doc's html() will be resolved.
 
 
 ### 3. Extractor Regex parameter
-`dsess_extractor=` + Extractor Regex.
+**Usage:** `dsess_extractor=` + Extractor Regex.
 
 If `dsess_extractor` is not present the the plain text will be used. Else string extracted from Regex group 1 will be used.
 
 
 ### 4. Replacer Regex parameter
-`dsess_replacer=` + Replacer Regex.
+**Usage:** `dsess_replacer=` + Replacer Regex.
 
 If `dsess_replacer` is not present the the original text will be used. Else string filter by it will be used in ***4. Replacer value***.
 
 ### 5. Replacer value parameter
-`dsess_replacer_value=` + Replacer value.
+**Usage:** `dsess_replacer_value=` + Replacer value.
 
 If `dsess_replacer` is not present the the original text will be used. Else string filter by ***4. Replacer Regex*** will be replaced with the replacer value.
 
