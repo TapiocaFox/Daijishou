@@ -386,6 +386,12 @@
       "revisionNumber": 3
     },
     {
+      "filename": "SegaPico.json",
+      "platformName": "Sega Pico",
+      "platformShortname": "pico",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SegaSG1000.json",
       "platformName": "Sega SG-1000",
       "platformShortname": "sg1000",
