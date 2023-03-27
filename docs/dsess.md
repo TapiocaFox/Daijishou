@@ -94,9 +94,7 @@ It will matches `<a>` elements available from search results from search engine.
 If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 
 #### Example
-`div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
-
-Encoded as: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
+`div.col-xs-9.col-sm-9.col-md-9.col-lg-9`. Encoded as `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
 
 ### 2. Target site label sub-selector parameter
 **Usage:** `dsess_target_site_label=` + Target site label CSS selector. 
@@ -108,9 +106,7 @@ It will select all elements filtered by ***1. Target site selector*** from searc
 If `dsess_target_site_label` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
 #### Example
-`span`.
-
-Encoded as: `span`.
+`span`. Encoded as `span`.
 
 ### 3. Target site label sub-selector matcher parameter
 **Usage:** `dsess_target_site_label_matcher=` + Target site label matchers.
@@ -120,9 +116,7 @@ It will score all labels selected by ***2. Target site label sub-selector*** fro
 If `dsess_target_site_label_matcher` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
 #### Example
-`scraperKeyword, platformName`.
-
-Encoded as: `scraperKeyword%2C+platformName`.
+`scraperKeyword, platformName`. Encoded as: `scraperKeyword%2C+platformName`.
 
 ### 4. Target site link sub-selector parameter
 **Usage:** `dsess_target_site_link=` + Target site link CSS selector. 
@@ -134,9 +128,7 @@ It will select links filtered by ***1. Target site selector*** from search engin
 If `dsess_target_site_link` is not present. All of the elements' sub-links selected from ***1. Target site selector*** will be used.
 
 #### Example
-`a`.
-
-Encoded as: `a`.
+`a`. Encoded as `a`.
 
 ### 5. Target site Regex parameter
 **Usage:** `dsess_target_site=` + Target site Regex.
@@ -146,9 +138,7 @@ It will matches all links filtered by ***1. Target site selector*** to ***4. Tar
 If `dsess_target_site` is not present. The search engine site itself will be used by ***In target site parameters: 1.selector***'s CSS selector.
 
 #### Example
-`^https:\/\/www.romspedia.com\/roms\/.*$`.
-
-Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
+`^https:\/\/www.romspedia.com\/roms\/.*$`. Encoded as `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
 ## DSESS URL - In target site parameters
 ### 1. Selector parameter
