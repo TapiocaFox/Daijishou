@@ -85,13 +85,13 @@ If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`. Encoded as `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
 
 ### 2. Target site label sub-selector parameter
-**Usage:** `dsess_target_site_label=` + Target site label CSS selector. 
+**Usage:** `dsess_target_site_label_subselector=` + Target site label CSS selector. 
 
 It is a sub-selector for the the elements selected from ***1. Target site selector***.
 
 It will select all elements filtered by ***1. Target site selector*** from search engine. And if select, The `.text()` from the element selected by ***2. Target site label sub-selector***  will be used by ***3. Target site label sub-selector matchers*** in next process.
 
-If `dsess_target_site_label` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
+If `dsess_target_site_label_subselector` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
 #### Example
 `span`. Encoded as `span`.
@@ -107,13 +107,13 @@ If `dsess_target_site_label_matchers` is not present. Process will jump from ***
 `scraperKeyword, platformName`. Encoded as: `scraperKeyword%2C+platformName`.
 
 ### 4. Target site link sub-selector parameter
-**Usage:** `dsess_target_site_link=` + Target site link CSS selector. 
+**Usage:** `dsess_target_site_link_subselector=` + Target site link CSS selector. 
 
 It is a sub-selector for the elements selected from ***1. Target site selector***.
 
 It will select links filtered by ***1. Target site selector*** from search engine. And if selected, the links will be used by ***5. Target site Regex*** in next process.
 
-If `dsess_target_site_link` is not present. All of the elements' sub-links selected from ***1. Target site selector*** will be used.
+If `dsess_target_site_link_subselector` is not present. All of the elements' sub-links selected from ***1. Target site selector*** will be used.
 
 #### Example
 `a`. Encoded as `a`.
