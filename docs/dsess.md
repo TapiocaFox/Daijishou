@@ -89,66 +89,72 @@ Same with following DSESS URL parameters. Also the DSESS URL parameters are proc
 ### 1. Target site selector parameter
 **Usage:** `dsess_target_site_selector=` + Target site element CSS selector, where the element should contains `<a>` children.
 
-For example: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
+It will matches `<a>` elements available from search results from search engine. These `<a>` elements will be used by the next ***2. Target site label sub-selector*** to ***5. Target site Regex*** in next process.
+
+If `dsess_target_site_selector` is not present. All `<a>` element will be used.
+
+#### Example
+`div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
 
 And don't forget to **encode CSS selector to URL encoded query string** like others parameters.
 
 Encoded as: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
 
-It will matches `<a>` elements available from search results from search engine. These `<a>` elements will be used by the next ***2. Target site label sub-selector*** to ***5. Target site Regex*** in next process.
-
-If `dsess_target_site_selector` is not present. All `<a>` element will be used.
-
-
 ### 2. Target site label sub-selector parameter
-**Usage:** `dsess_target_site_label=` + Target site label CSS selector. It is sub-selector for the the elements selected from ***1. Target site selector***.
+**Usage:** `dsess_target_site_label=` + Target site label CSS selector. 
 
-For example: `span`.
-
-And don't forget to **encode CSS selector to URL encoded query string** like others parameters.
-
-Encoded as: `span`.
+It is a sub-selector for the the elements selected from ***1. Target site selector***.
 
 It will select all elements filtered by ***1. Target site selector*** from search engine. And if select, The `.text()` from the element selected by ***2. Target site label sub-selector***  will be used by ***3. Target site label sub-selector matcher*** in next process.
 
 If `dsess_target_site_label` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
-### 3. Target site label sub-selector matcher parameter
-**Usage:** `dsess_target_site_label_matcher=` + Target site label matchers.
-
-For example: `scraperKeyword, platformName`.
+#### Example
+`span`.
 
 And don't forget to **encode CSS selector to URL encoded query string** like others parameters.
 
-Encoded as: `scraperKeyword%2C+platformName`.
+Encoded as: `span`.
+
+### 3. Target site label sub-selector matcher parameter
+**Usage:** `dsess_target_site_label_matcher=` + Target site label matchers.
 
 It will score all labels selected by ***2. Target site label sub-selector*** from search engine. The element's ***4. Target site link sub-selector*** selected link with highest score scored by ***3. Target site label sub-selector matcher*** and matched by ***5. Target site Regex parameter*** will be used by ***In target site parameters: 1.selector*** in next process.
 
 If `dsess_target_site_label_matcher` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex***
 
-### 4. Target site link sub-selector parameter
-**Usage:** `dsess_target_site_link=` + Target site link CSS selector. It is sub-selector for the elements selected from ***1. Target site selector***.
+#### Example
+`scraperKeyword, platformName`.
 
-For example: `a`.
+And don't forget to **encode CSS selector to URL encoded query string** like others parameters.
+
+Encoded as: `scraperKeyword%2C+platformName`.
+
+### 4. Target site link sub-selector parameter
+**Usage:** `dsess_target_site_link=` + Target site link CSS selector. 
+
+It is a sub-selector for the elements selected from ***1. Target site selector***.
 
 It will select links filtered by ***1. Target site selector*** from search engine. And if selected, the links will be used by ***5. Target site Regex*** in next process.
 
 If `dsess_target_site_link` is not present. All of the elements' sub-links selected from ***1. Target site selector*** will be used.
 
+#### Example
+`a`.
+
 ### 5. Target site Regex parameter
 **Usage:** `dsess_target_site=` + Target site Regex.
-
-For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
-
-And don't forget to **encode the Regex to URL encoded query string** like others parameters.
-
-Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
 It will matches all links filtered by ***1. Target site selector*** to ***4. Target site link sub-selector parameter*** from search engine. And if matched, the first matched by ***5. Target site Regex***  will be used by ***In target site parameters: 1.selector*** in next process.
 
 If `dsess_target_site` is not present. The search engine site itself will be used by ***In target site parameters: 1.selector***'s CSS selector.
 
+#### Example
+`^https:\/\/www.romspedia.com\/roms\/.*$`.
 
+And don't forget to **encode the Regex to URL encoded query string** like others parameters.
+
+Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
 
 ## DSESS URL - In target site parameters
 ### 1. Selector parameter
