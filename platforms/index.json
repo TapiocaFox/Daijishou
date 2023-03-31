@@ -260,6 +260,12 @@
       "revisionNumber": 6
     },
     {
+      "filename": "NintendoSatellaview.json",
+      "platformName": "Nintendo Satellaview",
+      "platformShortname": "satellaview",
+      "revisionNumber": 1
+    },
+    {
       "filename": "NintendoSwitch.json",
       "platformName": "Nintendo Switch",
       "platformShortname": "switch",

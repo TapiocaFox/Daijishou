@@ -306,6 +306,10 @@
       "filename": "genesis.png"
     },
     {
+      "matchPlatformShortname": "pico",
+      "filename": "pico.png"
+    },
+    {
       "matchPlatformShortname": "sega32x",
       "filename": "32x.png"
     },
