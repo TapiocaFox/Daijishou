@@ -1,6 +1,6 @@
 {
     "databaseVersion": 8,
-    "revisionNumber": 4,
+    "revisionNumber": 5,
     "platform": {
         "name": "PlayStation Portable",
         "shortname": "psp",
@@ -26,7 +26,7 @@
             "name": "psp - PPSSPP",
             "description": "Supported extensions: cso, elf, iso, pbp, prx.",
             "acceptedFilenameRegex": "^(.*)\\.(?:cso|elf|iso|pbp|prx)$",
-            "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task",
+            "amStartArguments": "-n org.ppsspp.ppsspp/.PpssppActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task  --activity-clear-top  --activity-no-history",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
@@ -35,7 +35,7 @@
             "name": "psp - PPSSPP Gold",
             "description": "Supported extensions: cso, elf, iso, pbp, prx.",
             "acceptedFilenameRegex": "^(.*)\\.(?:cso|elf|iso|pbp|prx)$",
-            "amStartArguments": "-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+            "amStartArguments": "-n org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task  --activity-clear-top  --activity-no-history",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
