@@ -275,6 +275,10 @@
     {
       "matchPlatformShortname": "zxspectrum",
       "filename": "zxspectrum-dark.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive-dark.png"
     }
   ]
 }
