@@ -214,7 +214,7 @@
     },
     {
       "matchPlatformShortname": "famicom",
-      "filename": "nes.png"
+      "filename": "famicom.png"
     },
     {
       "matchPlatformShortname": "snes",
@@ -222,7 +222,7 @@
     },
     {
       "matchPlatformShortname": "sfc",
-      "filename": "snes.png"
+      "filename": "sfc.png"
     },
     {
       "matchPlatformShortname": "satellaview",
