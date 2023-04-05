@@ -1,9 +1,9 @@
 {
   "name": "Dre-LogoHardware",
-  "description": "An elegant dark wallpaper pack with outlines of the original hardware and acompanied by that platform's logo.",
+  "description": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
   "authors": ["dre10g"],
   "sources": ["archive.org", "es-theme-carbon-2021-master"],
-  "previewThumbnailFilename": "thumbnail.png",
+  "previewThumbnailFilename": "thumbnail.jpg",
 
 "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
@@ -20,10 +20,6 @@
       "matchPlatformShortname": "amiga",
       "filename": "amiga.png"
     },
-	    {
-      "matchPlatformShortname": "amigacd32",
-      "filename": "amigacd32.png"
-    },
     {
       "matchPlatformShortname": "android",
       "filename": "android.png"
@@ -39,10 +35,6 @@
     {
       "matchPlatformShortname": "cpc",
       "filename": "cpc.png"
-    },
-	    {
-      "matchPlatformShortname": "cannonball",
-      "filename": "cannonball.png"
     },
     {
       "matchPlatformShortname": "atari800",
@@ -214,7 +206,7 @@
     },
     {
       "matchPlatformShortname": "famicom",
-      "filename": "nes.png"
+      "filename": "famicom.png"
     },
     {
       "matchPlatformShortname": "snes",
@@ -222,7 +214,7 @@
     },
     {
       "matchPlatformShortname": "sfc",
-      "filename": "snes.png"
+      "filename": "sfc.png"
     },
     {
       "matchPlatformShortname": "satellaview",
@@ -328,9 +320,9 @@
       "matchPlatformShortname": "wonderswan",
       "filename": "wonderswan.png"
     },
-  	{
+	{
       "matchPlatformShortname": "wonderswancolor",
       "filename": "wonderswancolor.png"
-    }
+    },
   ]
 }
