@@ -82,12 +82,12 @@ You can download from this GitHub page which is available in the Daijishō's set
 
 
 # Documents and links
-## Documents
+### Documents
  - [Daijishō Console](/docs/daijishou_console.md)
  - [Daijishō DSESS](/docs/dsess.md)
  - [Daijishō Player Template (.dpt)](/docs/daijishou_player_template.md)
 
-## Links
+### Links
  - [Daijishō Discord (Recommended)](https://discord.com/invite/nJbxdT3QQE)
  - [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA/featured)
  - [Daijishō EmuGen Wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
