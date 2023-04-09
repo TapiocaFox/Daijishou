@@ -43,11 +43,11 @@ Nope. But you can import some config for emulators from pegasus.
 
 ### Main features (1 of 4)
 
-![](/release-notes/1_4_release_note/appearance_wallpaper.png)
+![](/imgs/widgets_4.png)
 
 (Widgets)
 
-![](/imgs/achievement_5.png)
+![](/imgs/achievement_6.png)
 
 (RetroAchievements)
 
@@ -78,7 +78,7 @@ Platform contains players added in Daijishō that accepted various files from se
 ### How to add platforms and players (4 of 4)
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
-![](/imgs/download_platforms.png)
+![](/imgs/download_platforms_2.png)
 
 
 # Documents and links
