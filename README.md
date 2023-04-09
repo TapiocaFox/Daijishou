@@ -47,11 +47,11 @@ Nope. But you can import some config for emulators from pegasus.
 
 (Widgets)
 
-![](/imgs/achievement_6.png)
+![](/imgs/achievement_7.png)
 
 (RetroAchievements)
 
-![](/imgs/search.png)
+![](/imgs/search_2.png)
 
 (Search)
 
@@ -59,7 +59,7 @@ Nope. But you can import some config for emulators from pegasus.
 
 (Detail view)
 
-![](/imgs/genres.png)
+![](/imgs/genres_2.png)
 
 (Genres)
 
@@ -71,9 +71,9 @@ Player is a set of arguments can be configured to execute playable files filtere
 ### What is "platform" (3 of 4)
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
-![](/imgs/platform_collection_wallpaper_view.png)
+![](/imgs/platform_collection_wallpaper_view_2.png)
 
-![](/imgs/platform_library_2.png)
+![](/imgs/platform_library_3.png)
 
 ### How to add platforms and players (4 of 4)
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
