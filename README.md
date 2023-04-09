@@ -59,7 +59,7 @@ Nope. But you can import some config for emulators from pegasus.
 
 (Detail view)
 
-![](/imgs/genres_2.png)
+![](/imgs/genres_3.png)
 
 (Genres)
 
