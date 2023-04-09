@@ -37,62 +37,74 @@ Well done. You have now made the most of it. Here are some tips for you.
  - You can update your platforms by re-downloading and re-importing platforms from the list without losing records
  - See "Main features" in Q&A to make sure you don't miss any features!
 
-# Frequently asked questions
-### Is Daijishō a Pegasus fork? (0 of 5)
+# Quick look of Daijishō
+### Is Daijishō a Pegasus fork? (0 of 4)
 Nope. But you can import some config for emulators from pegasus.
 
-### Main features (1 of 5)
-<!-- Daijishō also allow you to: -->
- <!-- - manage apps
- - search items
- - download wallpaper packs
- - RetroAchievements
- - hotkeys
- - theme-colors
- - video background
- - detail view by long click
- - suggest similar items for item
- - widgets page (with widgets of activities, random, pin and play etc.)
- - sound effects.
- - RSS Feed -->
+### Main features (1 of 4)
 
 ![](/release-notes/1_4_release_note/appearance_wallpaper.png)
 
-(widgets)
+(Widgets)
 
 ![](/imgs/achievement_5.png)
 
 (RetroAchievements)
 
-![](/imgs/platform_wallpapers_pack_2.png)
+![](/imgs/search.png)
 
-(wallpaper packs)
+(Search)
 
 ![](/release-notes/1_4_release_note/appearance_general.png)
 
-(detail view)
+(Detail view)
+
+![](/imgs/genres.png)
+
+(Genres)
 
 And a lot more...
 
-### What is "player" (2 of 5)
+### What is "player" (2 of 4)
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
-### What is "platform" (3 of 5)
+### What is "platform" (3 of 4)
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
-![](/release-notes/1_4_release_note/appearance_general_2.png)
+![](/imgs/platform_collection_wallpaper_view.png)
 
-![](/imgs/platform_library.png)
+![](/imgs/platform_library_2.png)
 
-### How to add platforms and players (4 of 5)
+### How to add platforms and players (4 of 4)
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ![](/imgs/download_platforms.png)
 
-### How does highlight page work (5 of 5)
-Highlight page arrange your items by favorite, recent played and newly added items. You can long click items to review details.
 
-![](/imgs/highlight.png)
+# Documents and links
+## Documents
+ - [Daijishō Console](/docs/daijishou_console.md)
+ - [Daijishō DSESS](/docs/dsess.md)
+ - [Daijishō Player Template (.dpt)](/docs/daijishou_player_template.md)
+
+## Links
+ - [Daijishō Discord (Recommended)](https://discord.com/invite/nJbxdT3QQE)
+ - [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA/featured)
+ - [Daijishō EmuGen Wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
+ - [Daijishō (台字章) History Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
+
+
+# Supported languages
+1. English
+2. Portuguese (Português)
+3. Taiwanese mandarin (台灣國語)
+4. Japanese (日本語)
+5. French (Français)
+6. Italian (Italiana)
+7. Spanish (Español)
+8. Korean (한국인)
+9. German (Deutsche)
+10. Hindi (हिंदी)
 
 
 # Words from the author
@@ -109,35 +121,6 @@ You can star this GitHub page, donate, promote Daijishō in the communities or u
 ### Taking a break from the project
 Daijishō has evolved a lot in the of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page, genres, backup, merge items and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 12 continuous months. Thus, I decided to take a break from the Daijishō project, probably for quarters. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
 
-<!-- # TODO (Might or might not)
- - Localization
- - Android platform
- - Better GDI format support
- - Background music
- - Sync all platforms -->
- <!-- - Merge disks -->
- <!-- - Hide games -->
-
-# Languages List
-1. English
-2. Portuguese (Português)
-3. Taiwanese mandarin (台灣國語)
-4. Japanese (日本語)
-5. French (Français)
-6. Italian (Italiana)
-7. Spanish (Español)
-
-# Related links
- <!-- [Google Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) -->
- [Discord (recommended)](https://discord.com/invite/nJbxdT3QQE)
-
- [Telegram Group](https://t.me/daijishou)
-
- [Daijishou (台字章) history wiki](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
-
- [Daijishō EmuGen wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
-
- [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA/featured)
 
  ### Donation
 
