@@ -81,6 +81,30 @@ You can download from this GitHub page which is available in the Daijishō's set
 ![](/imgs/download_platforms_2.png)
 
 
+# Words from the author
+### Before further disscussion
+![](/imgs/tapicofox_widgets.png)
+> Here is my widgets setup :3
+### How much efforts does the author put on this project?
+This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
+
+### What can you do to support?
+You can star this GitHub page, donate, promote Daijishō in the communities or update platform list in this GitHub page.
+<!-- You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or update platform list in this GitHub page. -->
+
+### Taking a break from the project
+Daijishō has evolved a lot in the of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page, genres, backup, merge items and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 12 continuous months. Thus, I decided to take a break from the Daijishō project, probably for quarters. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
+
+
+ ### Donation
+
+ [PayPal](https://paypal.me/magneticchen)
+
+  (I am taking a break from the project)
+
+ <!-- [Patreon](https://www.patreon.com/magneticchen) -->
+
+
 # More about Daijishō
 ### Documentations
  - [Daijishō Console](/docs/daijishou_console.md)
@@ -104,27 +128,3 @@ You can download from this GitHub page which is available in the Daijishō's set
 8. Korean (한국인)
 9. German (Deutsche)
 10. Hindi (हिंदी)
-
-
-# Words from the author
-### Before further disscussion
-![](/imgs/tapicofox_widgets.png)
-> Here is my widgets setup :3
-### How much efforts does the author put on this project?
-This is a side project. The project solely develop on my retroid pocket 2+ and Android emulators. I will make some progress whenever I feel motivated in my free time usually in the weekend.
-
-### What can you do to support?
-You can star this GitHub page, donate, promote Daijishō in the communities or update platform list in this GitHub page.
-<!-- You can star this GitHub page, donate, promote Daijishō in the communities, summit your problems and ideas or update platform list in this GitHub page. -->
-
-### Taking a break from the project
-Daijishō has evolved a lot in the of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page, genres, backup, merge items and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 12 continuous months. Thus, I decided to take a break from the Daijishō project, probably for quarters. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
-
-
- ### Donation
-
- [PayPal](https://paypal.me/magneticchen)
-
-  (I am taking a break from the project)
-
- <!-- [Patreon](https://www.patreon.com/magneticchen) -->
