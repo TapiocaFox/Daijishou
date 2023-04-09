@@ -81,20 +81,19 @@ You can download from this GitHub page which is available in the Daijishō's set
 ![](/imgs/download_platforms_2.png)
 
 
-# Documents and links
-### Documents
+# More about Daijishō
+### Documentations
  - [Daijishō Console](/docs/daijishou_console.md)
  - [Daijishō DSESS](/docs/dsess.md)
  - [Daijishō Player Template (.dpt)](/docs/daijishou_player_template.md)
 
-### Links
+### Related links
  - [Daijishō Discord (Recommended)](https://discord.com/invite/nJbxdT3QQE)
  - [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA/featured)
  - [Daijishō EmuGen Wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
  - [Daijishō (台字章) History Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 
-
-# Supported languages
+### Supported languages
 1. English
 2. Portuguese (Português)
 3. Taiwanese mandarin (台灣國語)
