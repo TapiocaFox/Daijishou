@@ -96,15 +96,6 @@ You can star this GitHub page, donate, promote Daijishō in the communities or u
 Daijishō has evolved a lot in the of 2022. Including UI improvements, retro achievements, wallpaper packs, the new widgets page, genres, backup, merge items and various other small details. I know that there is still room for Daijishō to be grown and things to be improved. And I am thankfully aware of people's ideas and suggestions. However, In the mean time, I also have important things to be done awaiting for me. And its time for me to leave for a while from this repetitive routine for 12 continuous months. Thus, I decided to take a break from the Daijishō project, probably for quarters. With the relatively low attentions and activities focusing on Daijishō. Nevertheless, if you are familiar with Android Kotlin development and you wish to contribute or intergrate features for Daijishō, you can still DM me for the possibilities.
 
 
- ### Donation
-
- [PayPal](https://paypal.me/magneticchen)
-
-  (I am taking a break from the project)
-
- <!-- [Patreon](https://www.patreon.com/magneticchen) -->
-
-
 # More about Daijishō
 ### Documentations
  - [Daijishō Console](/docs/daijishou_console.md)
@@ -128,3 +119,11 @@ Daijishō has evolved a lot in the of 2022. Including UI improvements, retro ach
 8. Korean (한국인)
 9. German (Deutsche)
 10. Hindi (हिंदी)
+
+### Donation
+[PayPal](https://paypal.me/magneticchen)
+
+ (I am taking a break from the project)
+
+<!-- [Patreon](https://www.patreon.com/magneticchen) -->
+
