@@ -36,6 +36,7 @@ Well done. You have now made the most of it. Here are some tips for you.
  - Be sure to make use of widgets, they are very useful. Like RSS, Activity, Pining games etc.
  - You can update your platforms by re-downloading and re-importing platforms from the list without losing records
  - See "Main features" in Q&A to make sure you don't miss any features!
+ - Click Daijishō icon 7 times in about page will enable NSFW mode.
 
 # Quick look of Daijishō
 ### Is Daijishō a Pegasus fork? (0 of 4)
@@ -127,3 +128,5 @@ Daijishō has evolved a lot in the of 2022. Including UI improvements, retro ach
 
 <!-- [Patreon](https://www.patreon.com/magneticchen) -->
 
+# Copyright
+copyright©2023 TapiocaFox. Designed in Taiwan.
