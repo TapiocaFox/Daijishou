@@ -35,8 +35,8 @@ Well done. You have now made the most of it. Here are some tips for you.
  - Switching hotkeys have different abilities in different sections.
  - Be sure to make use of widgets, they are very useful. Like RSS, Activity, Pining games etc.
  - You can update your platforms by re-downloading and re-importing platforms from the list without losing records
- - See "Main features" in Q&A to make sure you don't miss any features!
  - Click Daijishō icon 7 times in about page will enable NSFW mode.
+ - See "Main features" in Quick look to make sure you don't miss any features!
 
 # Quick look of Daijishō
 ### Is Daijishō a Pegasus fork? (0 of 4)
