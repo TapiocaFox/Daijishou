@@ -47,14 +47,6 @@ Nope. But you can import some config for emulators from pegasus.
 
 (Widgets)
 
-![](/imgs/achievement_7.png)
-
-(RetroAchievements)
-
-![](/imgs/search_2.png)
-
-(Search)
-
 ![](/release-notes/1_4_release_note/appearance_general.png)
 
 (Detail view)
@@ -62,6 +54,14 @@ Nope. But you can import some config for emulators from pegasus.
 ![](/imgs/genres_3.png)
 
 (Genres)
+
+![](/imgs/achievement_7.png)
+
+(RetroAchievements)
+
+![](/imgs/search_2.png)
+
+(Search)
 
 And a lot more...
 
