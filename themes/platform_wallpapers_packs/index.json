@@ -170,7 +170,7 @@
       "platformWallpapersPackAuthors": [
         "Super Retro City (original), lukeskope (port)"
       ],
-      "platformWallpapersPackDescription": "Theme designed by Super Retro City, remixed by lukeskope and uploaded on his behalf.",
+      "platformWallpapersPackDescription": "Theme designed by Super Retro City, remixed by lukeskope",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "DroidBox",
       "platformWallpapersPackPreviewThumbnailPath": "droidbox/thumbnail.png",
@@ -198,16 +198,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Jamesinorbit"
-      ],
-      "platformWallpapersPackDescription": "A rework of the classic Epic Noir theme based on a collaboration between Chicuelo and C64-dev",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "EpicRetroNoir",
-      "platformWallpapersPackPreviewThumbnailPath": "EpicRetroNoir/thumbnail.png",
-      "platformWallpapersPackRootPath": "EpicRetroNoir"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "EpicNoir and Switch Emulationstation theme inspired wallpaper pack using screenshots of gameplay. Packed by Jetup13.",
@@ -215,6 +205,26 @@
       "platformWallpapersPackName": "EpicNX",
       "platformWallpapersPackPreviewThumbnailPath": "epicnx/thumb.png",
       "platformWallpapersPackRootPath": "epicnx"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "A rework of the classic Epic Noir theme based on a collaboration between Chicuelo and C64-dev",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Retro Noir",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicRetroNoir/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicRetroNoir"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "A rework of the classic Epic Noir theme based on a collaboration between Chicuelo and C64-dev with details",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Retro Noir Detail",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicRetroNoirDetail/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicRetroNoirDetail"
     },
     {
       "platformWallpapersPackAuthors": [
