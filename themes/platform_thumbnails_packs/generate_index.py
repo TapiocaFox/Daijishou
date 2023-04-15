@@ -13,7 +13,7 @@ index = {
 
 
 for d in platformThumbnailsPacks:
-    print(d)
+    # print(d)
     platformThumbnailsPackDir = d
     files = [f for f in os.listdir(platformThumbnailsPackDir) if os.path.isfile(platformThumbnailsPackDir+'/'+f)]
     # files = sorted(files, key=str.casefold)
@@ -24,6 +24,14 @@ for d in platformThumbnailsPacks:
             with open(f, encoding='utf-8') as jsonFile:
                 try:
                     platformThumbnailsPackIndex = json.load(jsonFile)
+                    print(platformThumbnailsPackIndex['name'])
+                    print("  Author(s): "+", ".join(platformThumbnailsPackIndex['authors'])+"")
+                    print("  Description: "+str(platformThumbnailsPackIndex['description']))
+                    if 'isNSFW' in platformThumbnailsPackIndex.keys():
+                        print("  IsNSFW: "+str(platformThumbnailsPackIndex['isNSFW']))
+                    else: 
+                        print("  IsNSFW: "+str(False))
+                    print("")
                     platformThumbnailsPackName = platformThumbnailsPackIndex['name']
                     platformThumbnailsPackDescription = platformThumbnailsPackIndex['description']
                     platformThumbnailsPackAuthors = platformThumbnailsPackIndex['authors']
@@ -40,6 +48,6 @@ for d in platformThumbnailsPacks:
                     })
                 except Exception as e:
                     print(e)
-
+print("Total "+str(len(index['platformThumbnailsPackList']))+" entries in the index.")
 with open(indexFilename, 'w') as outfile:
     json.dump(index, outfile, indent=2, sort_keys=True)
