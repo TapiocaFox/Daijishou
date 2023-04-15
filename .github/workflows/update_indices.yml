@@ -20,7 +20,7 @@ jobs:
         python-version: '3.10'
 
     - name: update platforms/index.js
-      run: cd platfoms && python generate_index.py
+      run: cd platforms && python generate_index.py
       
     - name: update platform_wallpapers_packs/index.js
       run: cd themes/platform_wallpapers_packs && python generate_index.py
