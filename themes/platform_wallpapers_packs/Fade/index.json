@@ -85,6 +85,18 @@
       "filename": "tg16.png"
     },
     {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "pcenginecd.png"
     }
