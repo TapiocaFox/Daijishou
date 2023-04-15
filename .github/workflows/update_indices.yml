@@ -2,9 +2,10 @@ name: Update Indices
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   update-indices:
@@ -19,7 +20,7 @@ jobs:
         python-version: '3.10'
 
     - name: update platforms/index.js
-      run: cd platfoms && python generate_index.py
+      run: cd platforms && python generate_index.py
       
     - name: update platform_wallpapers_packs/index.js
       run: cd themes/platform_wallpapers_packs && python generate_index.py
@@ -32,7 +33,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+        git diff-index --quiet HEAD || (git commit -a -m "updated indices by GitHub Actions" --allow-empty)
 
     - name: push changes
       uses: ad-m/github-push-action@v0.6.0
