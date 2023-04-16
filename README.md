@@ -116,7 +116,7 @@ Daijishō has evolved a lot in the of 2022. Including UI improvements, retro ach
 ### Related links
  - [Daijishō EmuGen Wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
  - [Daijishō (台字章) History Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
- - [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA)
+
 ### Supported languages
 1. English
 2. Portuguese (Português)
