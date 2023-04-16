@@ -2,6 +2,16 @@
 
 <a href='https://play.google.com/store/apps/details?id=com.magneticchen.daijishou'><img alt='Get it on Google Play' src='https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg' height='70px'/></a>
 
+# Daijishō
+
+Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
+
+Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじしょう" actually stands for ["台字章"](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D) in kanji. Which is a pattern widely used in Taiwan during the Japanese period. Anyway, happy gaming.
+
+### About this Repository
+Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
+
+ ### [1.4 (Essential Features Update) Release Note](/release-notes/1_4_release_note.md)
 
 <a href="https://discord.com/invite/nJbxdT3QQE" target="_blank">
     <img src="https://img.shields.io/discord/965270127312535592?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
@@ -18,16 +28,6 @@
 <!-- <a href="https://github.com/magneticchen/Daijishou/releases" target="_blank">
     <img src="https://img.shields.io/github/v/release/magneticchen/Daijishou?logo=android">
 </a> -->
-
-# Daijishō
-Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
-
-Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじしょう" actually stands for ["台字章"](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D) in kanji. Which is a pattern widely used in Taiwan during the Japanese period. Anyway, happy gaming.
-
-### About this Repository
-Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
-
- ### [1.4 (Essential Features Update) Release Note](/release-notes/1_4_release_note.md)
 
 
 # Make the most of Daijishō
