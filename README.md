@@ -6,18 +6,18 @@
 <a href="https://discord.gg/XnbXNQM" target="_blank">
     <img src="https://img.shields.io/discord/965270127312535592?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
 </a>
+<a href="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml" target="_blank">
+    <img src="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml/badge.svg">
+</a>
+<!-- a href="" target="_blank">
+    <img src="https://img.shields.io/github/stars/magneticchen/Daijishou?style=flat">
+</a> -->
 <!-- <a href="https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA" target="_blank">
     <img src="https://img.shields.io/static/v1?label=&message=subscribe&style=flat&logo=youtube&logoColor=ffffff&color=FF0000&labelColor=cc0000">
 </a> -->
 <!-- <a href="https://github.com/magneticchen/Daijishou/releases" target="_blank">
     <img src="https://img.shields.io/github/v/release/magneticchen/Daijishou?logo=android">
 </a> -->
-<a href="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml" target="_blank">
-    <img src="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml/badge.svg">
-</a>
-<a href="" target="_blank">
-    <img src="https://img.shields.io/github/stars/magneticchen/Daijishou?style=flat">
-</a>
 
 # Daijishō
 Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
