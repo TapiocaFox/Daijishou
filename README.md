@@ -11,10 +11,11 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじし�
 ### About this Repository
 Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
 
- ### [1.4 (Essential Features Update) Release Note](/release-notes/1_4_release_note.md)
-
 <a href="https://discord.com/invite/nJbxdT3QQE" target="_blank">
     <img src="https://img.shields.io/discord/965270127312535592?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
+</a>
+<a href="https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=&message=subscribe&style=flat&logo=youtube&logoColor=ffffff&color=FF0000&labelColor=cc0000">
 </a>
 <a href="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml" target="_blank">
     <img src="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml/badge.svg">
@@ -22,13 +23,12 @@ Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisi
 <!-- a href="" target="_blank">
     <img src="https://img.shields.io/github/stars/magneticchen/Daijishou?style=flat">
 </a> -->
-<!-- <a href="https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=&message=subscribe&style=flat&logo=youtube&logoColor=ffffff&color=FF0000&labelColor=cc0000">
-</a> -->
-<!-- <a href="https://github.com/magneticchen/Daijishou/releases" target="_blank">
+<a href="https://github.com/magneticchen/Daijishou/releases" target="_blank">
     <img src="https://img.shields.io/github/v/release/magneticchen/Daijishou?logo=android">
-</a> -->
-
+</a>
+<a href="/release-notes/1_4_release_note.md" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=release+note&message=1.4&style=flat">
+</a>
 
 # Make the most of Daijishō
  0. ***Install prefered emulators*** apps first, then Daijishō will select it automatically
