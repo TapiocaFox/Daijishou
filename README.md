@@ -3,7 +3,7 @@
 <a href='https://play.google.com/store/apps/details?id=com.magneticchen.daijishou'><img alt='Get it on Google Play' src='https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg' height='70px'/></a>
 
 
-<a href="https://discord.gg/XnbXNQM" target="_blank">
+<a href="https://discord.com/invite/nJbxdT3QQE" target="_blank">
     <img src="https://img.shields.io/discord/965270127312535592?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
 </a>
 <a href="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml" target="_blank">
