@@ -13,6 +13,22 @@
       "filename": "android.png"
     },
     {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.png"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "filename": "dc.png"
     },
