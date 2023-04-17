@@ -49,10 +49,10 @@ Well done. You have now made the most of it. Here are some tips for you.
  - See "Main features" in Quick look to make sure you don't miss any features!
 
 # Quick look of Daijishō
-### Is Daijishō a Pegasus fork? (0 of 4)
+### Is Daijishō a Pegasus fork? (0 of 5)
 Nope. But you can import some config for emulators from pegasus.
 
-### Main features (1 of 4)
+### Main features (1 of 5)
 
 ![](/imgs/widgets_4.png)
 
@@ -76,21 +76,24 @@ Nope. But you can import some config for emulators from pegasus.
 
 And a lot more...
 
-### What is "player" (2 of 4)
+### What is "player" (2 of 5)
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
-### What is "platform" (3 of 4)
+### What is "platform" (3 of 5)
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
 ![](/imgs/platform_collection_wallpaper_view_2.png)
 
 ![](/imgs/platform_library_3.png)
 
-### How to add platforms and players (4 of 4)
+### How to add platforms and players (4 of 5)
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ![](/imgs/download_platforms_2.png)
 
+
+### Supported Languages (5 of 5)
+`English`, `Portuguese (Português)`, `Taiwanese mandarin (台灣國語)`, `Japanese (日本語)`, `French (Français)`, `Italian (Italiana)`, `Spanish (Español)`, `Korean (한국인)`, `German (Deutsche)`, `Hindi (हिंदी)`
 
 # Words from the author
 ### Before further disscussion
@@ -117,22 +120,10 @@ Daijishō has evolved a lot in the of 2022. Including UI improvements, retro ach
  - [Daijishō EmuGen Wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
  - [Daijishō (台字章) History Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 
-### Supported languages
-1. English
-2. Portuguese (Português)
-3. Taiwanese mandarin (台灣國語)
-4. Japanese (日本語)
-5. French (Français)
-6. Italian (Italiana)
-7. Spanish (Español)
-8. Korean (한국인)
-9. German (Deutsche)
-10. Hindi (हिंदी)
-
 ### Donation
-[PayPal](https://paypal.me/magneticchen)
+ - [PayPal](https://paypal.me/magneticchen)
 
- (I am taking a break from the project)
+> I am taking a break from the project
 
 <!-- [Patreon](https://www.patreon.com/magneticchen) -->
 
