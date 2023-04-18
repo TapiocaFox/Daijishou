@@ -319,16 +319,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "lipheson"
-      ],
-      "platformWallpapersPackDescription": "A light-themed Alekfull-NX like wallpaper set. Currently contains mainly PS and Nintendo characters. This pack is made by lipheson on the Daijish\u014d discord.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "My Eyes!!!",
-      "platformWallpapersPackPreviewThumbnailPath": "my-eyes/thumbnail.gif",
-      "platformWallpapersPackRootPath": "my-eyes"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "UnBurn"
       ],
       "platformWallpapersPackDescription": "An NES Cartridge inspired wallpaper, highlighting a particular game from that platform.",
@@ -411,17 +401,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Jetup13",
-        "KALEL1981"
-      ],
-      "platformWallpapersPackDescription": "The pack contains wallpapers of characters from systems with transparent backgrounds. Originated from launchbox theme. Created by Jetup13. Originated from NES-Box for ES by KALEL1981.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "Saga Box",
-      "platformWallpapersPackPreviewThumbnailPath": "sagabox/mario.png",
-      "platformWallpapersPackRootPath": "sagabox"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "LanDKZd"
       ],
       "platformWallpapersPackDescription": "Just a simple dark theme with the platform logos",
@@ -439,17 +418,6 @@
       "platformWallpapersPackName": "SimpleLightLogo",
       "platformWallpapersPackPreviewThumbnailPath": "SimpleLightLogo/thumbnail.png",
       "platformWallpapersPackRootPath": "SimpleLightLogo"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "MonkoftheFunk",
-        "oloff3"
-      ],
-      "platformWallpapersPackDescription": "The pack contains only green lines sketch of physical looks for each device's controllers. Originated from viking on launchbox. Discovered by Diabolus, modified by MonkoftheFunk, indexing by magneticchen for Daijish\u014d.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "Super green",
-      "platformWallpapersPackPreviewThumbnailPath": "super-green/oloff3.gif",
-      "platformWallpapersPackRootPath": "super-green"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -483,16 +451,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Jetup13"
-      ],
-      "platformWallpapersPackDescription": "The pack contains of wallpapers of systems with transparent backgrounds. Originated from launchbox theme. Packed by Jetup13.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "Transparent Pack",
-      "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
-      "platformWallpapersPackRootPath": "transparent-pack"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "jimgray",
         "UnbelievableFlavour",
         "Richard_75"
@@ -502,17 +460,6 @@
       "platformWallpapersPackName": "Vivid",
       "platformWallpapersPackPreviewThumbnailPath": "Vivid/thumbnail.png",
       "platformWallpapersPackRootPath": "Vivid"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "Daijish\u014d",
-        "TapiocaFox"
-      ],
-      "platformWallpapersPackDescription": "This pack will contains waifus for each platform :3. Aim to create :3 wallpaper set. If you have better material please submit!",
-      "platformWallpapersPackIsNSFW": true,
-      "platformWallpapersPackName": "Waifus :3",
-      "platformWallpapersPackPreviewThumbnailPath": "waifus/thumbnail.jpg",
-      "platformWallpapersPackRootPath": "waifus"
     }
   ]
 }
