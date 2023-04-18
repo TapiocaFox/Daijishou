@@ -9,8 +9,16 @@
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
+      "matchPlatformShortname": "32x",
+      "filename": "32x.png"
+    },
+    {
       "matchPlatformShortname": "android",
       "filename": "android.png"
+    },
+    {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.png"
     },
     {
       "matchPlatformShortname": "atomiswave",
@@ -111,6 +119,14 @@
     {
       "matchPlatformShortname": "wii",
       "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
     },
     {
       "matchPlatformShortname": "tgcd",
