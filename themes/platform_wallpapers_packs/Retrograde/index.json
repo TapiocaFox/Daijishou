@@ -1,0 +1,316 @@
+{
+  "name": "Retrograde",
+  "description": "Minimal theme with a vibrant, colorful gradient. Icons used to represent each brand repectively with their logo & controller. Should be compatible with 4:3 and widescreen devices.",
+  "authors": ["Greg Chambon Jr. (OlGregDraws)"],
+  "sources": ["http://chamrocks.me/ Logos & Icons from their respected publishers. Controller Icons designed by Greg Chambon Jr."],
+  "previewThumbnailFilename": "previewthumbnail.jpg",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.jpg"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.jpg"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.jpg"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "cpc.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.jpg"
+    },
+    {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.jpg"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "coleco.jpg"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64.jpg"
+    },
+    {
+      "matchPlatformShortname": "cd32",
+      "filename": "cd32.jpg"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.jpg"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.jpg"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dc.jpg"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "fbneo.jpg"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.jpg"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "filename": "javame.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.jpg"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "jaguar.jpg"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "lynx.jpg"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "rpgmaker.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.jpg"
+    },
+    {
+      "matchPlatformShortname": "pspminis",
+      "filename": "pspminis.jpg"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.jpg"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "32x.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.jpg"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.jpg"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.jpg"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gg.jpg"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.jpg"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "ws.jpg"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wsc.jpg"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.jpg"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.jpg"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.jpg"
+    },
+    {
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.jpg"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.jpg"
+    },
+    {
+      "matchPlatformShortname": "computers",
+      "filename": "computers.jpg"
+    },
+    {
+      "matchPlatformShortname": "consoles",
+      "filename": "consoles.jpg"
+    },
+    {
+      "matchPlatformShortname": "handhelds",
+      "filename": "handhelds.jpg"
+    },
+    {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.jpg"
+    },
+    {
+      "matchPlatformShortname": "vectrex",
+      "filename": "vectrex.jpg"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.jpg"
+    },
+    {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.jpg"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.jpg"
+    },
+    {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.jpg"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tgcd.jpg"
+    }
+  ]
+}
