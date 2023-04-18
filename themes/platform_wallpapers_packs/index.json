@@ -198,6 +198,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "A mod of the classic Epic Noir theme in black, white and red",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Retro Noir Blanche",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicBlancheNoir/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicBlancheNoir"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "EpicNoir and Switch Emulationstation theme inspired wallpaper pack using screenshots of gameplay. Packed by Jetup13.",
