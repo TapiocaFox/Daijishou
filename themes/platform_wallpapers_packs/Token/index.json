@@ -5,8 +5,8 @@
   "sources": ["http://chamrocks.me/ Logos & Icons from their respected publishers. Controller Icons designed by Greg Chambon Jr."],
   "previewThumbnailFilename": "previewthumbnail.jpg",
 
-  "hasDefaultWallpaper": true,
-  "defaultWallpaperFilename": "default.jpg",
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
