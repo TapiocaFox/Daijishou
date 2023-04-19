@@ -13,6 +13,10 @@
       "filename": "32x.png"
     },
     {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.png"
+    },
+    {
       "matchPlatformShortname": "android",
       "filename": "android.png"
     },
