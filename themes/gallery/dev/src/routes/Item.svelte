@@ -36,7 +36,7 @@
 	}
 	
 	img {
-		height: 320px
+		max-width: 800px;
 	}
 
    img.thumb {
