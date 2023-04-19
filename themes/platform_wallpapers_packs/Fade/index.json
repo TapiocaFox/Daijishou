@@ -17,6 +17,18 @@
       "filename": "3do.png"
     },
     {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.png"
+    },
+    {
       "matchPlatformShortname": "android",
       "filename": "android.png"
     },
