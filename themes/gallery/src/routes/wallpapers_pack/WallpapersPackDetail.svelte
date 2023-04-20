@@ -57,8 +57,10 @@
 
 	img.thumb {
 		height: 128px;
+		width: 128px;
 		border-radius: 8px;
 		box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.25), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+		object-fit: cover;
 	}
 
 	span.filename {

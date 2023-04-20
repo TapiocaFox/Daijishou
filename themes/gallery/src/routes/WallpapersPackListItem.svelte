@@ -14,6 +14,7 @@
 		color: white;
 	}
 	img.thumbnail {
+		object-fit: cover;
 		width: 72px;
 		height: 72px;
 		margin-top: 12px;
