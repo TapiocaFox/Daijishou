@@ -40,7 +40,7 @@ Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisi
 
 Well done. You have now made the most of it. Here are some tips for you.
  - Take a look of [wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou) or [video from RetroGameCorps](https://www.youtube.com/watch?v=l-AhfEGuMao) might helps.
- - You can view wallpapers gallery [here](https://tapiocafox.github.io/Daijishou/themes/gallery/svelte-build/).
+ - You can [view wallpapers gallery](https://daijishou.github.io/Gallery/).
  - You can long click items to see detail of the item.
  - You can inspect your RetroAchievements records if you login.
  - Switching hotkeys have different abilities in different sections.
