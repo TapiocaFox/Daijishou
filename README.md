@@ -37,7 +37,7 @@ Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisi
  3. ***Set game files path and sync*** for each platforms
  4. ***Download prefered wallpaper pack*** and ***select prefered theme color*** in settings page
  5. ***Add prefered widgets*** in widget page
-
+ 
 Well done. You have now made the most of it. Here are some tips for you.
  - Take a look of [wiki from Jetup13](https://github.com/Jetup13/Retroid-Pocket-2-Plus-Wiki/wiki/Front-Ends#daijishou) or [video from RetroGameCorps](https://www.youtube.com/watch?v=l-AhfEGuMao) might helps.
  - You can [view wallpapers gallery](https://daijishou.github.io/Gallery/).
