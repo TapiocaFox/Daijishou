@@ -1,1 +1,0 @@
-export const rawSourceUri = "https://raw.githubusercontent.com/TapiocaFox/Daijishou/main"
