@@ -1,8 +1,9 @@
-# Daijishō (Emulator frontend)
 ![](/imgs/cover_new.png)
+
 <a href='https://play.google.com/store/apps/details?id=com.magneticchen.daijishou'><img alt='Get it on Google Play' src='https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg' height='70px'/></a>
 
 # Daijishō
+
 Daijishō is a retro launcher that let you manage your retro games libraries. Daijishō cares about integrated experience, expansibility, aesthetic and pragmatical usabilities let you focus on games itself. It will be updated continuously in the future based on users responds and my own retro gaming experience in my free time. Beware it does not come with emulators.
 
 Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじしょう" actually stands for ["台字章"](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D) in kanji. Which is a pattern widely used in Taiwan during the Japanese period. Anyway, happy gaming.
@@ -10,15 +11,24 @@ Wat? What does "Daijishō" even mean? You asked. "Daijishō" aka "だいじし�
 ### About this Repository
 Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
 
-<!-- ### What's next? (1.4) (Planned to start working on it in 2023)
- - Items set (Merge discs and regions)
- - [Backup](/imgs/1_4_backup.png) and [restore](/imgs/1_4_restore.png) options
- - [Wallpaper](/imgs/1_4_wallpaper.png)
- - Better [settings](/imgs/1_4_settings.png) page and [logger](/imgs/1_4_logger.png) for debugging and [DSESS](/DSESS.md)
- - New [simplified](/imgs/1_4_platforms.png) and [synchronization](/imgs/1_4_synchronization.png) UIs
- - And more... -->
- ### [1.4 (Essential Features Update) Release Note](/release-notes/1_4_release_note.md)
-
+<a href="https://discord.com/invite/nJbxdT3QQE" target="_blank">
+    <img src="https://img.shields.io/discord/965270127312535592?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
+</a>
+<a href="https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=&message=subscribe&style=flat&logo=youtube&logoColor=ffffff&color=FF0000&labelColor=cc0000">
+</a>
+<a href="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml" target="_blank">
+    <img src="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml/badge.svg">
+</a>
+<!-- a href="" target="_blank">
+    <img src="https://img.shields.io/github/stars/magneticchen/Daijishou?style=flat">
+</a> -->
+<a href="https://github.com/magneticchen/Daijishou/releases" target="_blank">
+    <img src="https://img.shields.io/github/v/release/magneticchen/Daijishou?logo=android">
+</a>
+<a href="/release-notes/1_4_release_note.md" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=release+note&message=1.4&style=flat">
+</a>
 
 # Make the most of Daijishō
  0. ***Install prefered emulators*** apps first, then Daijishō will select it automatically
@@ -39,10 +49,10 @@ Well done. You have now made the most of it. Here are some tips for you.
  - See "Main features" in Quick look to make sure you don't miss any features!
 
 # Quick look of Daijishō
-### Is Daijishō a Pegasus fork? (0 of 4)
+### Is Daijishō a Pegasus fork? (0 of 5)
 Nope. But you can import some config for emulators from pegasus.
 
-### Main features (1 of 4)
+### Main features (1 of 5)
 
 ![](/imgs/widgets_4.png)
 
@@ -66,21 +76,24 @@ Nope. But you can import some config for emulators from pegasus.
 
 And a lot more...
 
-### What is "player" (2 of 4)
+### What is "player" (2 of 5)
 Player is a set of arguments can be configured to execute playable files filtered by regular expression from your library with launching arguments. Player usually associated with emulators or retroarch.
 
-### What is "platform" (3 of 4)
+### What is "platform" (3 of 5)
 Platform contains players added in Daijishō that accepted various files from selected sync paths. Platform also can be configured to scrape correct boxarts and other preview media and to setup to match its appearance and aesthetics.
 
 ![](/imgs/platform_collection_wallpaper_view_2.png)
 
 ![](/imgs/platform_library_3.png)
 
-### How to add platforms and players (4 of 4)
+### How to add platforms and players (4 of 5)
 You can download from this GitHub page which is available in the Daijishō's settings page. Or you can import from pegasus frontend or other's shared and configured platform JSON files. Also you can manually added players then create platform from those players.
 
 ![](/imgs/download_platforms_2.png)
 
+
+### Supported Languages (5 of 5)
+`English`, `Portuguese (Português)`, `Taiwanese mandarin (台灣國語)`, `Japanese (日本語)`, `French (Français)`, `Italian (Italiana)`, `Spanish (Español)`, `Korean (한국인)`, `German (Deutsche)`, `Hindi (हिंदी)`
 
 # Words from the author
 ### Before further disscussion
@@ -104,27 +117,13 @@ Daijishō has evolved a lot in the of 2022. Including UI improvements, retro ach
  - [Daijishō Player Template (.dpt)](/docs/daijishou_player_template.md)
 
 ### Related links
- - [Daijishō Discord (Recommended)](https://discord.com/invite/nJbxdT3QQE)
- - [Daijishō YouTube](https://www.youtube.com/channel/UCLdTuA-K8bw4zLczwWwxEaA/featured)
  - [Daijishō EmuGen Wiki](https://emulation.gametechwiki.com/index.php/Daijish%C5%8D)
  - [Daijishō (台字章) History Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 
-### Supported languages
-1. English
-2. Portuguese (Português)
-3. Taiwanese mandarin (台灣國語)
-4. Japanese (日本語)
-5. French (Français)
-6. Italian (Italiana)
-7. Spanish (Español)
-8. Korean (한국인)
-9. German (Deutsche)
-10. Hindi (हिंदी)
-
 ### Donation
-[PayPal](https://paypal.me/magneticchen)
+ - [PayPal](https://paypal.me/magneticchen)
 
- (I am taking a break from the project)
+> I am taking a break from the project
 
 <!-- [Patreon](https://www.patreon.com/magneticchen) -->
 

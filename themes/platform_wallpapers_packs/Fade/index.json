@@ -1,6 +1,6 @@
 {
   "name": "Fade",
-  "description": "This is a colorful and minimalistic theme, with an uniform font type that was used to name each platform and its specs to create more harmony for the theme. All images are representations of the original character design of each platform era. 4:3 and Widescreen compatible. Hide platform title option ON recommended.",
+  "description": "This vibrant and sleek theme features a consistent font type used for naming each platform and its specifications, creating a sense of synergy throughout the design. The images used are authentic representations of the original character design from each platform era. The theme is compatible with both 4:3 and Widescreen displays, and it is recommended to enable the -Hide Platform Title- option for an optimal viewing experience.",
   "authors": ["Post Mortem"],
   "sources": ["Google Images, Photoreal Controller Vectors by Dan Patrick, Epic Noir Controllers Assets by c64-dev"],
   "previewThumbnailFilename": "Previewthumbnail.png",
@@ -9,8 +9,48 @@
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
+      "matchPlatformShortname": "32x",
+      "filename": "32x.png"
+    },
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.png"
+    },
+    {
       "matchPlatformShortname": "android",
       "filename": "android.png"
+    },
+    {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.png"
     },
     {
       "matchPlatformShortname": "dreamcast",
@@ -95,6 +135,14 @@
     {
       "matchPlatformShortname": "wii",
       "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
     },
     {
       "matchPlatformShortname": "tgcd",

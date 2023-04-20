@@ -198,6 +198,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "A mod of the classic Epic Noir theme in black, white and red",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Retro Noir Blanche",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicBlancheNoir/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicBlancheNoir"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "EpicNoir and Switch Emulationstation theme inspired wallpaper pack using screenshots of gameplay. Packed by Jetup13.",
@@ -230,7 +240,7 @@
       "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
-      "platformWallpapersPackDescription": "This is a colorful and minimalistic theme, with an uniform font type that was used to name each platform and its specs to create more harmony for the theme. All images are representations of the original character design of each platform era. 4:3 and Widescreen compatible. Hide platform title option ON recommended.",
+      "platformWallpapersPackDescription": "This vibrant and sleek theme features a consistent font type used for naming each platform and its specifications, creating a sense of synergy throughout the design. The images used are authentic representations of the original character design from each platform era. The theme is compatible with both 4:3 and Widescreen displays, and it is recommended to enable the -Hide Platform Title- option for an optimal viewing experience.",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Fade",
       "platformWallpapersPackPreviewThumbnailPath": "Fade/Previewthumbnail.png",
@@ -306,16 +316,6 @@
       "platformWallpapersPackName": "Mount niitaka",
       "platformWallpapersPackPreviewThumbnailPath": "mount-niitaka/preview_thumbnail_2.jpg",
       "platformWallpapersPackRootPath": "mount-niitaka"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "lipheson"
-      ],
-      "platformWallpapersPackDescription": "A light-themed Alekfull-NX like wallpaper set. Currently contains mainly PS and Nintendo characters. This pack is made by lipheson on the Daijish\u014d discord.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "My Eyes!!!",
-      "platformWallpapersPackPreviewThumbnailPath": "my-eyes/thumbnail.gif",
-      "platformWallpapersPackRootPath": "my-eyes"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -401,17 +401,6 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Jetup13",
-        "KALEL1981"
-      ],
-      "platformWallpapersPackDescription": "The pack contains wallpapers of characters from systems with transparent backgrounds. Originated from launchbox theme. Created by Jetup13. Originated from NES-Box for ES by KALEL1981.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "Saga Box",
-      "platformWallpapersPackPreviewThumbnailPath": "sagabox/mario.png",
-      "platformWallpapersPackRootPath": "sagabox"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "LanDKZd"
       ],
       "platformWallpapersPackDescription": "Just a simple dark theme with the platform logos",
@@ -429,17 +418,6 @@
       "platformWallpapersPackName": "SimpleLightLogo",
       "platformWallpapersPackPreviewThumbnailPath": "SimpleLightLogo/thumbnail.png",
       "platformWallpapersPackRootPath": "SimpleLightLogo"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "MonkoftheFunk",
-        "oloff3"
-      ],
-      "platformWallpapersPackDescription": "The pack contains only green lines sketch of physical looks for each device's controllers. Originated from viking on launchbox. Discovered by Diabolus, modified by MonkoftheFunk, indexing by magneticchen for Daijish\u014d.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "Super green",
-      "platformWallpapersPackPreviewThumbnailPath": "super-green/oloff3.gif",
-      "platformWallpapersPackRootPath": "super-green"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -473,13 +451,13 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Jetup13"
+        "Greg Chambon Jr. (OlGregDraws)"
       ],
-      "platformWallpapersPackDescription": "The pack contains of wallpapers of systems with transparent backgrounds. Originated from launchbox theme. Packed by Jetup13.",
+      "platformWallpapersPackDescription": "Minimal theme with a vibrant, colorful gradient. Icons used to represent each brand repectively with their logo & controller. Should be compatible with 4:3 and widescreen devices.",
       "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "Transparent Pack",
-      "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
-      "platformWallpapersPackRootPath": "transparent-pack"
+      "platformWallpapersPackName": "Token",
+      "platformWallpapersPackPreviewThumbnailPath": "Token/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Token"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -492,17 +470,6 @@
       "platformWallpapersPackName": "Vivid",
       "platformWallpapersPackPreviewThumbnailPath": "Vivid/thumbnail.png",
       "platformWallpapersPackRootPath": "Vivid"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "Daijish\u014d",
-        "TapiocaFox"
-      ],
-      "platformWallpapersPackDescription": "This pack will contains waifus for each platform :3. Aim to create :3 wallpaper set. If you have better material please submit!",
-      "platformWallpapersPackIsNSFW": true,
-      "platformWallpapersPackName": "Waifus :3",
-      "platformWallpapersPackPreviewThumbnailPath": "waifus/thumbnail.jpg",
-      "platformWallpapersPackRootPath": "waifus"
     }
   ]
 }
