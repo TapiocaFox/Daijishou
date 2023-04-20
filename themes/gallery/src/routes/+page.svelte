@@ -13,7 +13,7 @@
 
 		if (path.startsWith('/theme')) {
 			window.id = path.slice(6);
-			item = await fetch(`../platform_wallpapers_packs/${window.id}`).then(r => r.json());
+			item = await fetch(`https://raw.githubusercontent.com/TapiocaFox/Daijishou/main/themes/platform_wallpapers_packs/${window.id}/index.json`).then(r => r.json());
 
 			window.scrollTo(0,0);
 		} else if (path.startsWith('/')) {

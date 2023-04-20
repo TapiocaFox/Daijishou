@@ -5,7 +5,7 @@
 
 	let items;
     onMount(async () => {
-   	fetch(`../platform_wallpapers_packs/`)
+   	fetch(`https://raw.githubusercontent.com/TapiocaFox/Daijishou/main/themes/platform_wallpapers_packs/index.json`)
    		.then(r => r.json())
    		.then(data => {
    			items = data.platformWallpapersPackList;
