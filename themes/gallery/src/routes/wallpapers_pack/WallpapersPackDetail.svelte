@@ -16,11 +16,17 @@
 
 <article>
 	<p><a on:click={onBackClick}>&laquo; back to list</a></p>
-    <img class="thumb" src="{rawSourceUri}/themes/platform_wallpapers_packs/{slug}/{index.previewThumbnailFilename}" alt="{index.platformWallpapersPackName}"/>
-    <h1>{index.name}</h1>
+	{#if index.previewThumbnailFilename}
+    	<img class="thumb" src="{rawSourceUri}/themes/platform_wallpapers_packs/{slug}/{index.previewThumbnailFilename}" alt="{index.platformWallpapersPackName}"/>
+	{:else}
+		<img class="thumb" alt="{index.platformWallpapersPackName}"/>
+	{/if}
+	<h1>{index.name?index.name:"Loading…"}</h1>
 	<p>Has default wallpaper: {index.hasDefaultWallpaper? "yes" : "no"}{index.isNSFW?" • NSFW":""}</p>
 	<p>{index.description}</p>
-	<p class="authors">Authors: {index.authors.join(", ")}.<br>Sources: {index.sources.join(", ")}.</p>
+	{#if (index.authors&&index.authors.length>0)||(index.sources&&index.sources.length>0)}
+		<p class="authors">Authors: {index.authors.join(", ")}.<br>Sources: {index.sources.join(", ")}.</p>
+	{/if}
 </article>
 
 <div class="wallpapers">

@@ -6,7 +6,14 @@
 
  	/** @type {import('./$types').PageData} */
 	// export let data;
-	let index;
+	let index = {
+		name: null,
+		description: "Loading…",
+		wallpaperList: [],
+		authors: [],
+		sources: []
+
+	};
 	let slug;
 	
 	onMount(async() => {
@@ -28,7 +35,7 @@
 </script>
 
 <svelte:head>
-	{#if index}
+	{#if index.name}
 		<title> {index.name} </title>
 	{/if}
 </svelte:head>

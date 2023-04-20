@@ -4,7 +4,7 @@
 
 <article>
 	<img class="thumbnail" src="{window.baseUri}{item.platformWallpapersPackPreviewThumbnailPath}" alt="{item.platformWallpapersPackName}"/>
-	<h2><a href=/wallpapers_pack/#{item.platformWallpapersPackRootPath}>{item.platformWallpapersPackName}</a></h2>
+	<h2><a href=./wallpapers_pack/#{item.platformWallpapersPackRootPath}>{item.platformWallpapersPackName}</a></h2>
 	<p>{item.platformWallpapersPackDescription}</p>
    	<p class="authors">Author(s): {item.platformWallpapersPackAuthors.join(", ")}</p>
 </article>
