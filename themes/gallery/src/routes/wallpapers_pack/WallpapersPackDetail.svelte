@@ -1,13 +1,16 @@
 <script>
-	import { goto } from '$app/navigation';
+	// import { useNavigate } from "svelte-navigator";
 	import { rawSourceUri } from '../../constants';
 	export let index;
 	export let slug;
+	// const navigate = useNavigate();
 	function onBackClick() {
 		// const ref = document.referrer;
   		// goto(ref.length > 0 ? ref : "/")
 		// alert()
-		goto("/")
+		// goto("/")
+		// navigate(-1)
+		history.back()
 	}
 </script>
 
@@ -15,11 +18,19 @@
 	<p><a on:click={onBackClick}>&laquo; back to list</a></p>
     <img class="thumb" src="{rawSourceUri}/themes/platform_wallpapers_packs/{slug}/{index.previewThumbnailFilename}" alt="{index.platformWallpapersPackName}"/>
     <h1>{index.name}</h1>
+	<p>Has default wallpaper: {index.hasDefaultWallpaper? "yes" : "no"}{index.isNSFW?" • NSFW":""}</p>
 	<p>{index.description}</p>
-	<p class="authors">Authors: {index.authors.join(", ")}</p>
+	<p class="authors">Authors: {index.authors.join(", ")}.<br>Sources: {index.sources.join(", ")}.</p>
 </article>
 
 <div class="wallpapers">
+	{#if index.hasDefaultWallpaper}
+		<h2>default</h2>
+		<a href={rawSourceUri}/themes/platform_wallpapers_packs/{slug}/{index.defaultWallpaperFilename} target="_blank" >
+			<img class="wallpaper" src="{rawSourceUri}/themes/platform_wallpapers_packs/{slug}/{index.defaultWallpaperFilename}" alt="default" />
+		</a>
+		<span class="filename">{index.defaultWallpaperFilename}</span>
+	{/if}
 	{#each index.wallpaperList as wallpaperMeta}
 		<h2>{wallpaperMeta.matchPlatformShortname}</h2>
 		<a href={rawSourceUri}/themes/platform_wallpapers_packs/{slug}/{wallpaperMeta.filename} target="_blank" >

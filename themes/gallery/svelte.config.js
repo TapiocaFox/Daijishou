@@ -6,8 +6,8 @@ export default {
         adapter: adapter({
             // default options are shown. On some platforms
             // these options are set automatically — see below
-            pages: 'build',
-            assets: 'build',
+            pages: 'svelte-build',
+            assets: 'svelte-build',
             fallback: '404.html',
             precompress: false,
             strict: true

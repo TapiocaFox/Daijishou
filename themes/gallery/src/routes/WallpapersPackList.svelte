@@ -5,13 +5,13 @@
 
 	let items;
     onMount(async () => {
-   	fetch(`${rawSourceUri}/themes/platform_wallpapers_packs/index.json`)
-   		.then(r => r.json())
-   		.then(data => {
-   			items = data.platformWallpapersPackList;
-   			window.baseUri = data.baseUri;
-   			window.scrollTo(0, 0);
-   		});
+   		if(items == null)fetch(`${rawSourceUri}/themes/platform_wallpapers_packs/index.json`)
+			.then(r => r.json())
+			.then(data => {
+				items = data.platformWallpapersPackList;
+				window.baseUri = data.baseUri;
+				// window.scrollTo(0, 0);
+			});
     });
 </script>
 
