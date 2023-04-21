@@ -5,7 +5,7 @@
   "sources": ["Google Images, Photoreal Controller Vectors by Dan Patrick, Epic Noir Controllers Assets by c64-dev"],
   "previewThumbnailFilename": "Previewthumbnail.png",
 
-  "hasDefaultWallpaper": false,
+  "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
