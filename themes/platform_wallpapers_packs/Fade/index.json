@@ -57,6 +57,58 @@
       "filename": "dc.png"
     },
     {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "jaguar.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "lynx.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "vita.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "coleco.png"
+    },
+    {
+      "matchPlatformShortname": "cannonball",
+      "filename": "cannonball.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.png"
+    },
+    {
       "matchPlatformShortname": "fbneo",
       "filename": "fbneo.png"
     },
