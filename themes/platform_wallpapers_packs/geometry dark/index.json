@@ -1,6 +1,7 @@
 {
   "name": "Geometry Dark",
-  "description": "A dark version of 'Geometry'.",
+  "description": "A dark version of 'Geometry'. Wallpaper for Daijishō menus available here: https://github.com/TapiocaFox/Daijishou/blob/main/themes/platform_wallpapers_packs/geometry%20dark/wallpaper-dark.png
+ ",
   "authors": ["てRey夜"],
   "sources": ["https://www.pngwing.com/", "https://logos.fandom.com/wiki/Logopedia"],
   "previewThumbnailFilename": "thumbnail-dark.png",
