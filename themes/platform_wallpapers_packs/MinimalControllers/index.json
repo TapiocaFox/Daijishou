@@ -1,10 +1,9 @@
 {
   "name": "Minimal Controllers",
-  "description": "Minimalist design for daijisho, optimized for 4:3 and 16:9 aspect ratio devices. Designed specifically for use with the Retroid Pocket 2+/3+. Contains most popular wallpapers with more to be added in the future.",
+  "description": "Minimalist design for daijisho, optimized for 16:9 devices. Includes controllers of each system in a minimalistic background",
   "authors": ["NikkitaFTW"],
-  "sources": ["https://github.com/magneticchen/Daijishou"],
+  "sources": ["https://github.com/SaraVieira/Daijishou"],
   "previewThumbnailFilename": "preview_thumbnail.png",
-
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
