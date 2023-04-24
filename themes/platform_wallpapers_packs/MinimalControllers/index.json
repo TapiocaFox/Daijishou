@@ -1,0 +1,152 @@
+{
+  "name": "Minimal Controllers",
+  "description": "Minimalist design for daijisho, optimized for 4:3 and 16:9 aspect ratio devices. Designed specifically for use with the Retroid Pocket 2+/3+. Contains most popular wallpapers with more to be added in the future.",
+  "authors": ["NikkitaFTW"],
+  "sources": ["https://github.com/magneticchen/Daijishou"],
+  "previewThumbnailFilename": "preview_thumbnail.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.png"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "colecovision.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.png"
+    },
+    {
+      "matchPlatformShortname": "mastersystem",
+      "filename": "mastersystem.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "mastersystem.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "sega32x.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tg16cd.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "vb.png"
+    }
+  ]
+}
