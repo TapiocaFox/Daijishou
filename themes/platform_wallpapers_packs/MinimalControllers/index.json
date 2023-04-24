@@ -16,10 +16,6 @@
       "filename": "3DS.png"
     },
     {
-      "matchPlatformShortname": "android",
-      "filename": "android.png"
-    },
-    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.png"
     },
