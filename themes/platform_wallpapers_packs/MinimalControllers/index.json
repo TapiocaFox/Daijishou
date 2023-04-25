@@ -1,6 +1,6 @@
 {
   "name": "Minimal Controllers",
-  "description": "Minimalist design for daijisho, optimized for 16:9 devices. Includes controllers of each system in a minimalistic background",
+  "description": "Minimalist design for Daijisho, optimized for 16:9 devices. Includes controllers of each system in a minimalistic background.For a clean and immersive experience, the -Hide Title- option is recommended",
   "authors": ["NikkitaFTW"],
   "sources": ["https://github.com/SaraVieira/Daijishou"],
   "previewThumbnailFilename": "preview_thumbnail.png",
@@ -82,6 +82,22 @@
     {
       "matchPlatformShortname": "n64",
       "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.png"
     },
     {
       "matchPlatformShortname": "nds",
