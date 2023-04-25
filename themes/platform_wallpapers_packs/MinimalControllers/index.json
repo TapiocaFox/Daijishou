@@ -84,6 +84,22 @@
       "filename": "n64.png"
     },
     {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.png"
+    },
+    {
       "matchPlatformShortname": "nds",
       "filename": "nds.png"
     },
