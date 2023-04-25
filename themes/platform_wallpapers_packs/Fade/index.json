@@ -197,6 +197,50 @@
       "filename": "saturn.png"
     },
     {
+      "matchPlatformShortname": "gg",
+      "filename": "gg.png"
+    },
+    {
+      "matchPlatformShortname": "wiiu",
+      "filename": "wiiu.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "ps4",
+      "filename": "ps4.png"
+    },
+    {
+      "matchPlatformShortname": "ps3",
+      "filename": "ps3.png"
+    },
+    {
+      "matchPlatformShortname": "xone",
+      "filename": "xone.png"
+    },
+    {
+      "matchPlatformShortname": "x360",
+      "filename": "x360.png"
+    },
+    {
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.png"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.png"
+    },
+    {
+      "matchPlatformShortname": "cd32",
+      "filename": "cd32.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     }
