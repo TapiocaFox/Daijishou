@@ -288,6 +288,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "NikkitaFTW"
+      ],
+      "platformWallpapersPackDescription": "Minimalist design for daijisho, optimized for 16:9 devices. Includes controllers of each system in a minimalistic background",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Minimal Controllers",
+      "platformWallpapersPackPreviewThumbnailPath": "MinimalControllers/preview_thumbnail.png",
+      "platformWallpapersPackRootPath": "MinimalControllers"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "Features gamings best girls with a dark gradient background.",
