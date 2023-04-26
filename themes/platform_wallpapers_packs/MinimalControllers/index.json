@@ -16,6 +16,10 @@
       "filename": "3DS.png"
     },
     {
+      "matchPlatformShortname": "android",
+      "filename": "android.png"
+    },
+    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.png"
     },
@@ -106,6 +110,10 @@
     {
       "matchPlatformShortname": "nes",
       "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
     },
     {
       "matchPlatformShortname": "ps2",
