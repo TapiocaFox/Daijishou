@@ -9,7 +9,7 @@
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
-      "matchPlatformShortname": "32x",
+      "matchPlatformShortname": "sega32x",
       "filename": "32x.png"
     },
     {
@@ -197,7 +197,7 @@
       "filename": "saturn.png"
     },
     {
-      "matchPlatformShortname": "gg",
+      "matchPlatformShortname": "gamegear",
       "filename": "gg.png"
     },
     {
