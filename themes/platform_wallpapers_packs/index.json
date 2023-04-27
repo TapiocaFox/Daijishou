@@ -339,6 +339,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "philgooink"
+      ],
+      "platformWallpapersPackDescription": "A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system (for the most part)",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "POP!",
+      "platformWallpapersPackPreviewThumbnailPath": "POP!/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "POP!"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "UnBurn"
       ],
       "platformWallpapersPackDescription": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 60 wallpapers.",
