@@ -240,23 +240,31 @@
       "matchPlatformShortname": "cd32",
       "filename": "cd32.png"
     },
-        {
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
+    },
+    {
       "matchPlatformShortname": "ngp",
       "filename": "ngp.png"
     },
-        {
+    {
       "matchPlatformShortname": "ngpc",
       "filename": "ngpc.png"
     },
-        {
+    {
       "matchPlatformShortname": "master",
       "filename": "master.png"
     },
-        {
+    {
       "matchPlatformShortname": "supervision",
       "filename": "supervision.png"
     },
-        {
+    {
       "matchPlatformShortname": "zxspectrum",
       "filename": "zxspectrum.png"
     },
