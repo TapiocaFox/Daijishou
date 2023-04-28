@@ -269,6 +269,10 @@
       "filename": "zxspectrum.png"
     },
     {
+      "matchPlatformShortname": "msu1",
+      "filename": "msu1.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     }
