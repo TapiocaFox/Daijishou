@@ -1,7 +1,7 @@
 {
   "name": "POP!",
   "description": "A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system (for the most part)",
-  "authors": ["philgooink"],
+  "authors": ["philgoodink"],
   "sources": ["https://dimensions.com"],
   "previewThumbnailFilename": "preview_thumbnail_2.jpg",
 
@@ -222,7 +222,7 @@
     },
     {
       "matchPlatformShortname": "palm",
-      "filename": "palm.jpg"
+      "filename": "palmos.jpg"
     },
     {
       "matchPlatformShortname": "cdi",
@@ -242,7 +242,7 @@
     },
     {
       "matchPlatformShortname": "quake2",
-      "filename": "rpgmaker.jpg"
+      "filename": "quake2.jpg"
     },
     {
       "matchPlatformShortname": "rpgmaker",
@@ -342,7 +342,7 @@
     },
     {
       "matchPlatformShortname": "X68000",
-      "filename": "X68000.jpg"
+      "filename": "x68000.jpg"
     },
     {
       "matchPlatformShortname": "zx81",
