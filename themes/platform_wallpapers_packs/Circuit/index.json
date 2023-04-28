@@ -105,6 +105,10 @@
       "filename": "fbneo.jpg"
     },
     {
+      "matchPlatformShortname": "famicom",
+      "filename": "famicom.jpg"
+    },
+    {
       "matchPlatformShortname": "gw",
       "filename": "gw.jpg"
     },
