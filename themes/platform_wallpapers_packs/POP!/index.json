@@ -17,6 +17,10 @@
       "filename": "android.jpg"
     },
     {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.jpg"
+    },
+    {
       "matchPlatformShortname": "cpc",
       "filename": "cpc.jpg"
     },
@@ -157,6 +161,10 @@
       "filename": "msx.jpg"
     },
     {
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.jpg"
+    },
+    {
       "matchPlatformShortname": "neogeo",
       "filename": "neogeo.jpg"
     },
@@ -197,6 +205,10 @@
       "filename": "wii.jpg"
     },
     {
+      "matchPlatformShortname": "wiiu",
+      "filename": "wiiu.jpg"
+    },
+    {
       "matchPlatformShortname": "odyssey2",
       "filename": "odyssey2.jpg"
     },
@@ -231,6 +243,10 @@
     {
       "matchPlatformShortname": "psp",
       "filename": "psp.jpg"
+    },
+    {
+      "matchPlatformShortname": "psvita",
+      "filename": "psv.jpg"
     },
     {
       "matchPlatformShortname": "pokemini",
@@ -273,6 +289,10 @@
       "filename": "sms.jpg"
     },
     {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.jpg"
+    },
+    {
       "matchPlatformShortname": "sg1000",
       "filename": "sg1000.jpg"
     },
@@ -287,6 +307,14 @@
     {
       "matchPlatformShortname": "x68000",
       "filename": "x68000.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcengine",
+      "filename": "pcengine.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcenginecd",
+      "filename": "pcenginecd.jpg"
     },
     {
       "matchPlatformShortname": "psx",
