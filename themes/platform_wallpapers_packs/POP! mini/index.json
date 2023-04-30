@@ -1,6 +1,6 @@
 {
-  "name": "POP!",
-  "description": "A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system (for the most part)",
+  "name": "POP! mini",
+  "description": "4:3 version of POP! A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system",
   "authors": ["philgoodink"],
   "sources": ["https://dimensions.com"],
   "previewThumbnailFilename": "preview_thumbnail_2.jpg",
