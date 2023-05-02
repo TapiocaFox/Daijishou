@@ -148,6 +148,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "lipheson"
+      ],
+      "platformWallpapersPackDescription": "A retro gaming theme that brings back the nostalgia of classic video games from the 80s and 90s.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Daijish\u014d Box",
+      "platformWallpapersPackPreviewThumbnailPath": "Daijisho Box/Thumbnails.png",
+      "platformWallpapersPackRootPath": "Daijisho Box"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "dre10g"
       ],
       "platformWallpapersPackDescription": "An elegant dark wallpaper pack with outlines of the original hardware and acompanied by that platform's logo.",
@@ -341,11 +351,21 @@
       "platformWallpapersPackAuthors": [
         "philgoodink"
       ],
-      "platformWallpapersPackDescription": "A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system (for the most part)",
+      "platformWallpapersPackDescription": "A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system (for the most part).",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "POP!",
       "platformWallpapersPackPreviewThumbnailPath": "POP!/preview_thumbnail_2.jpg",
       "platformWallpapersPackRootPath": "POP!"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "philgoodink"
+      ],
+      "platformWallpapersPackDescription": "4:3 version of POP! A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "POP! mini",
+      "platformWallpapersPackPreviewThumbnailPath": "POP! mini/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "POP! mini"
     },
     {
       "platformWallpapersPackAuthors": [
