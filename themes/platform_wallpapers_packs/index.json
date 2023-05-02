@@ -148,6 +148,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "lipheson"
+      ],
+      "platformWallpapersPackDescription": "A retro gaming theme that brings back the nostalgia of classic video games from the 80s and 90s.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Daijish\u014d Box",
+      "platformWallpapersPackPreviewThumbnailPath": "Daijisho Box/Thumbnails.png",
+      "platformWallpapersPackRootPath": "Daijisho Box"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "dre10g"
       ],
       "platformWallpapersPackDescription": "An elegant dark wallpaper pack with outlines of the original hardware and acompanied by that platform's logo.",
