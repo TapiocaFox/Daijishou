@@ -9,7 +9,7 @@
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
-      "matchPlatformShortname": "32x",
+      "matchPlatformShortname": "sega32x",
       "filename": "32x.png"
     },
     {
@@ -157,6 +157,22 @@
       "filename": "psp.png"
     },
     {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.png"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "filename": "pc98.png"
+    },
+    {
+      "matchPlatformShortname": "palmos",
+      "filename": "palmos.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pxfx.png"
+    },
+    {
       "matchPlatformShortname": "segacd",
       "filename": "segacd.png"
     },
@@ -171,6 +187,10 @@
     {
       "matchPlatformShortname": "snes",
       "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "segapico",
+      "filename": "segapico.png"
     },
     {
       "matchPlatformShortname": "tg16",
@@ -195,6 +215,86 @@
     {
       "matchPlatformShortname": "saturn",
       "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gg.png"
+    },
+    {
+      "matchPlatformShortname": "wiiu",
+      "filename": "wiiu.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "ps4",
+      "filename": "ps4.png"
+    },
+    {
+      "matchPlatformShortname": "ps3",
+      "filename": "ps3.png"
+    },
+    {
+      "matchPlatformShortname": "xone",
+      "filename": "xone.png"
+    },
+    {
+      "matchPlatformShortname": "x360",
+      "filename": "x360.png"
+    },
+    {
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.png"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.png"
+    },
+    {
+      "matchPlatformShortname": "cd32",
+      "filename": "cd32.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.png"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.png"
+    },
+    {
+      "matchPlatformShortname": "msu1",
+      "filename": "msu1.png"
     },
     {
       "matchPlatformShortname": "tgcd",

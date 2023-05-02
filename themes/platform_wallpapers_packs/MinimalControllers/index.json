@@ -76,10 +76,6 @@
       "filename": "mame.png"
     },
     {
-      "matchPlatformShortname": "mastersystem",
-      "filename": "mastersystem.png"
-    },
-    {
       "matchPlatformShortname": "master",
       "filename": "mastersystem.png"
     },
