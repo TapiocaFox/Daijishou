@@ -157,6 +157,22 @@
       "filename": "psp.png"
     },
     {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.png"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "filename": "pc98.png"
+    },
+    {
+      "matchPlatformShortname": "palmos",
+      "filename": "palmos.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pxfx.png"
+    },
+    {
       "matchPlatformShortname": "segacd",
       "filename": "segacd.png"
     },
@@ -171,6 +187,10 @@
     {
       "matchPlatformShortname": "snes",
       "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "segapico",
+      "filename": "segapico.png"
     },
     {
       "matchPlatformShortname": "tg16",
@@ -255,6 +275,10 @@
     {
       "matchPlatformShortname": "ngpc",
       "filename": "ngpc.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.png"
     },
     {
       "matchPlatformShortname": "master",
