@@ -120,6 +120,10 @@
       "filename": "psp.png"
     },
     {
+      "matchPlatformShortname": "vita",
+      "filename": "psvita.png"
+    },
+    {
       "matchPlatformShortname": "psx",
       "filename": "psx.png"
     },
