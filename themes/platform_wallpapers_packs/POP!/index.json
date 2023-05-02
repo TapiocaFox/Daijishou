@@ -385,6 +385,14 @@
       "filename": "atari800.jpg"
     },
     {
+      "matchPlatformShortname": "pspminis",
+      "filename": "pspminis.jpg"
+    },
+    {
+      "matchPlatformShortname": "dsiware",
+      "filename": "dsiware.jpg"
+    },
+    {
       "matchPlatformShortname": "wiiware",
       "filename": "wiiware.jpg"
     }
