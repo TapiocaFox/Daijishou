@@ -64,7 +64,7 @@
             "name": "gba - com.fastemulator.gba",
             "description": "Support extensions: agb, bin, cgb, dmg, gb, gba, gbc, gbz, sgb.",
             "acceptedFilenameRegex": "^(.*)\\.(?:agb|bin|cgb|dmg|gb|gba|gbc|gbz|sgb)$",
-            "amStartArguments": "-n com.fastemulator.gba/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+            "amStartArguments": "-n com.fastemulator.gba/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
             "killPackageProcesses": false,
             "killPackageProcessesWarning": true,
             "extra": ""
