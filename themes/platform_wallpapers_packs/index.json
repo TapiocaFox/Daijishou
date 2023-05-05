@@ -298,6 +298,17 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Daijish\u014d",
+        "TapiocaFox"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Platform wallpapers pack template",
+      "platformWallpapersPackPreviewThumbnailPath": "Lovely Lewds/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "Lovely Lewds"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "NikkitaFTW"
       ],
       "platformWallpapersPackDescription": "Minimalist design for Daijisho, optimized for 16:9 devices. Includes controllers of each system in a minimalistic background.For a clean and immersive experience, the -Hide Title- option is recommended",
