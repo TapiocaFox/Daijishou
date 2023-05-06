@@ -41,6 +41,10 @@
       "filename": "channelf.jpg"
     },
     {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.jpg"
+    },
+    {
       "matchPlatformShortname": "cpc",
       "filename": "cpc.jpg"
     },
@@ -83,6 +87,10 @@
     {
       "matchPlatformShortname": "dreamcast",
       "filename": "dc.jpg"
+    },
+    {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.jpg"
     },
     {
       "matchPlatformShortname": "fbneo",
