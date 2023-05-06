@@ -298,13 +298,12 @@
     },
     {
       "platformWallpapersPackAuthors": [
-        "Daijish\u014d",
-        "TapiocaFox"
+        "BigShot"
       ],
-      "platformWallpapersPackDescription": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "Platform wallpapers pack template",
-      "platformWallpapersPackPreviewThumbnailPath": "Lovely Lewds/preview_thumbnail_2.jpg",
+      "platformWallpapersPackDescription": "A very lovely and lewd theme. Featuring babes from each dedicated console + with games logo and release date. Special thanks to Post Mortem for the help. Enjoy.",
+      "platformWallpapersPackIsNSFW": true,
+      "platformWallpapersPackName": "Lovely Lewds",
+      "platformWallpapersPackPreviewThumbnailPath": "Lovely Lewds/wallpaper.png",
       "platformWallpapersPackRootPath": "Lovely Lewds"
     },
     {
