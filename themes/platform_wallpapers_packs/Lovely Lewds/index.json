@@ -1,12 +1,13 @@
 {
-  "name": "Platform wallpapers pack template",
-  "description": "A platform wallpapers pack template for wallpapers pack creators to duplicate. This pack will set all your wallpaper to mount niitaka.",
-  "authors": ["Daijishō", "TapiocaFox"],
-  "sources": ["https://nooxy.org", "https://github.com/magneticchen/Daijishou", "https://www.ysnp.gov.tw/"],
-  "previewThumbnailFilename": "preview_thumbnail_2.jpg",
+  "name": "Lovely Lewds",
+  "description": "A very lovely and lewd theme. Featuring babes from each dedicated console + with games logo and release date of each console. Special thanks to Post Mortem for the help. Enjoy.",
+  "authors": ["BigShot"],
+  "sources": ["google images", "https://www.deviantart.com/sakimichan", "https://www.artstation.com/prywinkoart", "https://twitter.com/kittew_art?lang=en", "https://twitter.com/logancure?lang=ar", "https://www.artstation.com/welcometoparadisearts"],
+  "previewThumbnailFilename": "wallpaper.png",
 
+  "isNSFW": true,
   "hasDefaultWallpaper": true,
-  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "defaultWallpaperFilename": "1default.png",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
@@ -14,7 +15,7 @@
     },
     {
       "matchPlatformShortname": "android",
-      "filename": "mount_niitaka.jpg"
+      "filename": "android.png"
     },
     {
       "matchPlatformShortname": "cpc",
@@ -90,11 +91,11 @@
     },
     {
       "matchPlatformShortname": "dos",
-      "filename": "mount_niitaka.jpg"
+      "filename": "dos.png"
     },
     {
       "matchPlatformShortname": "dreamcast",
-      "filename": "mount_niitaka.jpg"
+      "filename": "dreamcast.png"
     },
     {
       "matchPlatformShortname": "channelf",
@@ -114,19 +115,19 @@
     },
     {
       "matchPlatformShortname": "gb",
-      "filename": "mount_niitaka.jpg"
+      "filename": "gb.png"
     },
     {
       "matchPlatformShortname": "gba",
-      "filename": "mount_niitaka.jpg"
+      "filename": "gba.png"
     },
     {
       "matchPlatformShortname": "gbc",
-      "filename": "mount_niitaka.jpg"
+      "filename": "gbc.png"
     },
     {
       "matchPlatformShortname": "gc",
-      "filename": "mount_niitaka.jpg"
+      "filename": "gc.png"
     },
     {
       "matchPlatformShortname": "intellivision",
@@ -162,27 +163,27 @@
     },
     {
       "matchPlatformShortname": "3ds",
-      "filename": "mount_niitaka.jpg"
+      "filename": "3ds.png"
     },
     {
       "matchPlatformShortname": "n64",
-      "filename": "mount_niitaka.jpg"
+      "filename": "n64.png"
     },
     {
       "matchPlatformShortname": "nds",
-      "filename": "mount_niitaka.jpg"
+      "filename": "nds.png"
     },
     {
       "matchPlatformShortname": "nes",
-      "filename": "mount_niitaka.jpg"
+      "filename": "nes.png"
     },
     {
       "matchPlatformShortname": "switch",
-      "filename": "mount_niitaka.jpg"
+      "filename": "switch.png"
     },
     {
       "matchPlatformShortname": "wii",
-      "filename": "mount_niitaka.jpg"
+      "filename": "wii.png"
     },
     {
       "matchPlatformShortname": "odyssey2",
@@ -202,7 +203,7 @@
     },
     {
       "matchPlatformShortname": "pico8",
-      "filename": "mount_niitaka.jpg"
+      "filename": "pico8.png"
     },
     {
       "matchPlatformShortname": "palm",
@@ -214,7 +215,7 @@
     },
     {
       "matchPlatformShortname": "psp",
-      "filename": "mount_niitaka.jpg"
+      "filename": "psp.png"
     },
     {
       "matchPlatformShortname": "pokemini",
@@ -242,7 +243,7 @@
     },
     {
       "matchPlatformShortname": "genesis",
-      "filename": "mount_niitaka.jpg"
+      "filename": "genesis.png"
     },
     {
       "matchPlatformShortname": "master",
@@ -254,7 +255,7 @@
     },
     {
       "matchPlatformShortname": "saturn",
-      "filename": "mount_niitaka.jpg"
+      "filename": "saturn.png"
     },
     {
       "matchPlatformShortname": "x68000",
@@ -262,11 +263,11 @@
     },
     {
       "matchPlatformShortname": "psx",
-      "filename": "mount_niitaka.jpg"
+      "filename": "ps1.png"
     },
     {
       "matchPlatformShortname": "ps2",
-      "filename": "mount_niitaka.jpg"
+      "filename": "ps2.png"
     },
     {
       "matchPlatformShortname": "supergrafx",
@@ -274,7 +275,7 @@
     },
     {
       "matchPlatformShortname": "snes",
-      "filename": "mount_niitaka.jpg"
+      "filename": "snes.png"
     },
     {
       "matchPlatformShortname": "tic80",
