@@ -385,6 +385,18 @@
       "filename": "atari800.jpg"
     },
     {
+      "matchPlatformShortname": "famicom",
+      "filename": "famicom.jpg"
+    },
+    {
+      "matchPlatformShortname": "superfamicom",
+      "filename": "superfamicom.jpg"
+    },
+    {
+      "matchPlatformShortname": "msu1",
+      "filename": "msu1.jpg"
+    },
+    {
       "matchPlatformShortname": "pspminis",
       "filename": "pspminis.jpg"
     },
