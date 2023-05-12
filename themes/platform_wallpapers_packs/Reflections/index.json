@@ -1,0 +1,173 @@
+{
+  "name": "Platform wallpapers pack template",
+  "description": "A platform wallpapers pack featuring an 80's style grid theme with a simple logo reflection.",
+  "authors": ["Galvy"],
+  "sources": ["https://nooxy.org", "https://github.com/magneticchen/Daijishou", "https://www.ysnp.gov.tw/"],
+  "previewThumbnailFilename": "Galvy_icon.jpg",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default_reflect.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "ps_vita_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "fbalpha",
+      "filename": "finalburn_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "finalburn_neo.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gameboy_reflect"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gamecube_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "sfc",
+      "filename": "superfamicom_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "famicom",
+      "filename": "famicom_reflect.jpg"
+    },
+    {
+     "matchPlatformShortname": "pcenginecd",
+      "filename": "pcenginecdrom_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcengine",
+      "filename": "pcengine_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "sega_32x_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "sega_cd_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "sega_gamegear_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "sega_genesis_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "sega_master_reflect.jpg"
+    },
+    {
+       "matchPlatformShortname": "megadrive",
+       "filename": "sega_megadrive_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "sega_saturn_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "ps1_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "pcesupergrafx_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16_reflect.jpg"
+   
+    }
+  ]
+}
