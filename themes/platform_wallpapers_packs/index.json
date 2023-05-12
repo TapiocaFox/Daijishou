@@ -369,6 +369,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "philgoodink"
+      ],
+      "platformWallpapersPackDescription": "4:3 version of POP! A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "POP! mini",
+      "platformWallpapersPackPreviewThumbnailPath": "POP! mini/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "POP! mini"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "UnBurn"
       ],
       "platformWallpapersPackDescription": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 60 wallpapers.",
