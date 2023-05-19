@@ -1,4 +1,4 @@
-name: Update Indices
+name: Indices
 
 on:
   push:
