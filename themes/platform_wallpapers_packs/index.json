@@ -58,7 +58,7 @@
       "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
-      "platformWallpapersPackDescription": "Elevate your space with a vibrant and modern wallpaper featuring a minimalist design. The wallpaper showcases colorful images that represent the diverse array of games available on your chosen gaming system. Designed to complement a 4:3 screen aspect ratio, this wallpaper will add a touch of style to your gaming setup, while also reflecting your unique gaming interests.",
+      "platformWallpapersPackDescription": "Elevate your gaming device with a vibrant and modern wallpaper featuring a minimalist design. The wallpaper showcases colorful images that represent the diverse array of games available on your chosen gaming system. Designed to complement a 4:3 screen aspect ratio, this wallpaper will add a touch of style to your gaming setup, while also reflecting your unique gaming interests.",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Arrow",
       "platformWallpapersPackPreviewThumbnailPath": "Arrow/previewthumbnail.jpg",
@@ -148,6 +148,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "lipheson"
+      ],
+      "platformWallpapersPackDescription": "A retro gaming theme that brings back the nostalgia of classic video games from the 80s and 90s.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Daijish\u014d Box",
+      "platformWallpapersPackPreviewThumbnailPath": "Daijisho Box/Thumbnails.png",
+      "platformWallpapersPackRootPath": "Daijisho Box"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "dre10g"
       ],
       "platformWallpapersPackDescription": "An elegant dark wallpaper pack with outlines of the original hardware and acompanied by that platform's logo.",
@@ -155,16 +165,6 @@
       "platformWallpapersPackName": "Dre-LogoHardware",
       "platformWallpapersPackPreviewThumbnailPath": "Dre-LogoHardware/thumbnail.png",
       "platformWallpapersPackRootPath": "Dre-LogoHardware"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "DrOctoroc"
-      ],
-      "platformWallpapersPackDescription": "The pack contains 3d models for each devices. Originated from DrOctoroc on deviantart.com. Mentioned by MonkoftheFunk in Discord.",
-      "platformWallpapersPackIsNSFW": false,
-      "platformWallpapersPackName": "DrOctoroc",
-      "platformWallpapersPackPreviewThumbnailPath": "droctoroc/droctoroc.gif",
-      "platformWallpapersPackRootPath": "droctoroc"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -190,7 +190,7 @@
       "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
-      "platformWallpapersPackDescription": "Elevate your gaming device with a strikingly vibrant wallpaper featuring a modern design, accentuated by the iconic Daijishou logo as a tribute to its esteemed creator. This eye-catching wallpaper is thoughtfully crafted with high-quality images that represent the diverse array of games available on your chosen gaming system, adding a touch of style to your setup. Tested on a 4:3 screen for optimal viewing, this wallpaper is designed to captivate and inspire. ",
+      "platformWallpapersPackDescription": "Enhance your gaming device with a strikingly vibrant wallpaper featuring a modern design, accentuated by the iconic Daijishou logo as a tribute to its esteemed creator. This eye-catching wallpaper is thoughtfully crafted with high-quality images that represent the diverse array of games available on your chosen gaming system, adding a touch of style to your setup. Tested on a 4:3 screen for optimal viewing, this wallpaper is designed to captivate and inspire. ",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Eclipse",
       "platformWallpapersPackPreviewThumbnailPath": "Eclipse/previewthumbnail.jpg",
@@ -250,7 +250,7 @@
       "platformWallpapersPackAuthors": [
         "\u3066Rey\u591c"
       ],
-      "platformWallpapersPackDescription": "An angled and minimal design, featuring system logos. Widescreen and smallsceen compatible. Includes a downloadable system wallpaper for the various menus in Daijish\u014d (wallpaper.png).",
+      "platformWallpapersPackDescription": "An angled and minimal design, featuring system logos. Widescreen and smallsceen compatible. Wallpaper for Daijish\u014d menus available here: https://shorturl.at/opsHZ",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Geometry",
       "platformWallpapersPackPreviewThumbnailPath": "geometry/thumbnail.png",
@@ -260,7 +260,7 @@
       "platformWallpapersPackAuthors": [
         "\u3066Rey\u591c"
       ],
-      "platformWallpapersPackDescription": "A dark version of 'Geometry'.",
+      "platformWallpapersPackDescription": "A dark version of 'Geometry'. Wallpaper for Daijish\u014d menus available here: https://shorturl.at/knsVY",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Geometry Dark",
       "platformWallpapersPackPreviewThumbnailPath": "geometry dark/thumbnail-dark.png",
@@ -270,7 +270,7 @@
       "platformWallpapersPackAuthors": [
         "\u3066Rey\u591c"
       ],
-      "platformWallpapersPackDescription": "A neon version of 'Geometry Dark'.",
+      "platformWallpapersPackDescription": "A neon version of 'Geometry Dark'. Wallpaper for Daijish\u014d menus available here: https://shorturl.at/iLU79",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Geometry Dark Neon",
       "platformWallpapersPackPreviewThumbnailPath": "geometry dark neon/thumbnail-neon.png",
@@ -295,6 +295,26 @@
       "platformWallpapersPackName": "Light Beam",
       "platformWallpapersPackPreviewThumbnailPath": "Light-Beam/Previewthumbnail.jpg",
       "platformWallpapersPackRootPath": "Light-Beam"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "BigShot"
+      ],
+      "platformWallpapersPackDescription": "A very lovely and lewd theme. Featuring babes from each dedicated console + with games logo and release date. Special thanks to Post Mortem for the help. Enjoy.",
+      "platformWallpapersPackIsNSFW": true,
+      "platformWallpapersPackName": "Lovely Lewds",
+      "platformWallpapersPackPreviewThumbnailPath": "Lovely Lewds/wallpaper.png",
+      "platformWallpapersPackRootPath": "Lovely Lewds"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "NikkitaFTW"
+      ],
+      "platformWallpapersPackDescription": "Minimalist design for Daijisho, optimized for 16:9 devices. Includes controllers of each system in a minimalistic background.For a clean and immersive experience, the -Hide Title- option is recommended",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Minimal Controllers",
+      "platformWallpapersPackPreviewThumbnailPath": "MinimalControllers/preview_thumbnail.png",
+      "platformWallpapersPackRootPath": "MinimalControllers"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -339,6 +359,26 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "philgoodink"
+      ],
+      "platformWallpapersPackDescription": "A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system (for the most part).",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "POP!",
+      "platformWallpapersPackPreviewThumbnailPath": "POP!/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "POP!"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "philgoodink"
+      ],
+      "platformWallpapersPackDescription": "4:3 version of POP! A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "POP! mini",
+      "platformWallpapersPackPreviewThumbnailPath": "POP! mini/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "POP! mini"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "UnBurn"
       ],
       "platformWallpapersPackDescription": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 60 wallpapers.",
@@ -346,6 +386,16 @@
       "platformWallpapersPackName": "Press Start",
       "platformWallpapersPackPreviewThumbnailPath": "Press-Start/thumbnail.png",
       "platformWallpapersPackRootPath": "Press-Start"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Galvy"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack featuring an 80's style grid theme with a simple logo reflection.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Reflections",
+      "platformWallpapersPackPreviewThumbnailPath": "Reflections/Galvy_icon.jpg",
+      "platformWallpapersPackRootPath": "Reflections"
     },
     {
       "platformWallpapersPackAuthors": [

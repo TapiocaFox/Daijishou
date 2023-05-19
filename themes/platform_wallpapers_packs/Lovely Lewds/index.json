@@ -1,0 +1,97 @@
+{
+  "name": "Lovely Lewds",
+  "description": "A very lovely and lewd theme. Featuring babes from each dedicated console + with games logo and release date. Special thanks to Post Mortem for the help. Enjoy.",
+  "authors": ["BigShot"],
+  "sources": ["google images", "https://www.deviantart.com/sakimichan", "https://www.artstation.com/prywinkoart", "https://twitter.com/kittew_art?lang=en", "https://twitter.com/logancure?lang=ar", "https://www.artstation.com/welcometoparadisearts"],
+  "previewThumbnailFilename": "wallpaper.png",
+
+  "isNSFW": true,
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "1default.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "ps1.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.png"
+    }
+  ]
+}

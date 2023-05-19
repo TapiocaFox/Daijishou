@@ -1,6 +1,6 @@
 {
   "name": "Arrow",
-  "description": "Elevate your space with a vibrant and modern wallpaper featuring a minimalist design. The wallpaper showcases colorful images that represent the diverse array of games available on your chosen gaming system. Designed to complement a 4:3 screen aspect ratio, this wallpaper will add a touch of style to your gaming setup, while also reflecting your unique gaming interests.",
+  "description": "Elevate your gaming device with a vibrant and modern wallpaper featuring a minimalist design. The wallpaper showcases colorful images that represent the diverse array of games available on your chosen gaming system. Designed to complement a 4:3 screen aspect ratio, this wallpaper will add a touch of style to your gaming setup, while also reflecting your unique gaming interests.",
   "authors": ["Post Mortem"],
   "sources": ["v2 Platform logos Profesionally Redrawn by Dan Patrick"],
   "previewThumbnailFilename": "previewthumbnail.jpg",
@@ -39,6 +39,10 @@
     {
       "matchPlatformShortname": "channelf",
       "filename": "channelf.jpg"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.jpg"
     },
     {
       "matchPlatformShortname": "cpc",
@@ -83,6 +87,10 @@
     {
       "matchPlatformShortname": "dreamcast",
       "filename": "dc.jpg"
+    },
+    {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.jpg"
     },
     {
       "matchPlatformShortname": "fbneo",

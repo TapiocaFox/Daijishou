@@ -1,0 +1,92 @@
+{
+  "name": "Daijishō Box",
+  "description": "A retro gaming theme that brings back the nostalgia of classic video games from the 80s and 90s.",
+  "authors": ["lipheson"],
+  "sources": ["Controller Sets: Dan Patrick", "Handheld Sets: Freepik"],
+  "previewThumbnailFilename": "Thumbnails.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "Missing.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "android",
+      "filename": "Android.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "Atari.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "Dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "Gameboy.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "GBA.png"
+    },
+    {
+	  "matchPlatformShortname": "gc",
+      "filename": "Gamecube.png"
+	},
+	{
+      "matchPlatformShortname": "gbc",
+      "filename": "Gameboy Color.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "N64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "NDS.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "Switch.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "Wii.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "Gamegear.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "Sega Genesis.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "Sega Saturn.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "Play Station.png"
+    },
+	{
+	  "matchPlatformShortname": "vita",
+      "filename": "PS Vita.png"
+	},	
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "PS2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "SNES.png"
+    }
+  ]
+}
