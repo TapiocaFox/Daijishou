@@ -18,7 +18,7 @@ Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisi
     <img src="https://img.shields.io/static/v1?label=&message=subscribe&style=flat&logo=youtube&logoColor=ffffff&color=FF0000&labelColor=cc0000">
 </a>
 <a href="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml" target="_blank">
-    <img src="https://github.com/magneticchen/Daijishou/actions/workflows/update_indices.yml/badge.svg">
+    <img src="https://github.com/magneticchen/Daijishou/actions/workflows/indices.yml/badge.svg">
 </a>
 <a href="https://github.com/magneticchen/Daijishou/releases" target="_blank">
     <img src="https://img.shields.io/github/v/release/magneticchen/Daijishou?logo=android">
