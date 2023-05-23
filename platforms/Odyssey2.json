@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "Magnavox Odyssey 2",
+        "uniqueId": "odyssey2",
         "shortname": "odyssey2",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

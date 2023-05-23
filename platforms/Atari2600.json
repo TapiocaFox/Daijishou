@@ -3,6 +3,7 @@
   "revisionNumber": 4,
   "platform": {
     "name": "Atari 2600",
+    "uniqueId": "atari2600",
     "shortname": "atari2600",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

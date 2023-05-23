@@ -3,6 +3,7 @@
     "revisionNumber": 3,
     "platform": {
         "name": "Famicom Disk System",
+        "uniqueId": "fds",
         "shortname": "fds",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

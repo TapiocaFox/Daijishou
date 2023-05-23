@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Intellivision",
+        "uniqueId": "intellivision",
         "shortname": "intellivision",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

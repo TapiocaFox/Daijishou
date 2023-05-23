@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "Cannonball OutRun Engine",
+        "uniqueId": "cannonball",
         "shortname": "cannonball",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

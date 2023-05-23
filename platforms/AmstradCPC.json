@@ -3,6 +3,7 @@
     "revisionNumber": 3,
     "platform": {
         "name": "Amstrad CPC",
+        "uniqueId": "cpc",
         "shortname": "cpc",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

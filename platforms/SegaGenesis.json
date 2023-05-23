@@ -3,6 +3,7 @@
   "revisionNumber": 5,
   "platform": {
     "name": "Sega Genesis",
+    "uniqueId": "genesis",
     "shortname": "genesis",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
   "revisionNumber": 2,
   "platform": {
     "name": "ColecoVision",
+    "uniqueId": "coleco",
     "shortname": "coleco",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

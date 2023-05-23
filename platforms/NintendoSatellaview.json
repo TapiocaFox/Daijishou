@@ -3,6 +3,7 @@
   "revisionNumber": 1,
   "platform": {
     "name": "Nintendo Satellaview",
+    "uniqueId": "satellaview",
     "shortname": "satellaview",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",

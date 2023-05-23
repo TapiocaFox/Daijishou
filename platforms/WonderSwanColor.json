@@ -3,6 +3,7 @@
   "revisionNumber": 2,
   "platform": {
     "name": "WonderSwan Color",
+    "uniqueId": "wsc",
     "shortname": "wsc",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

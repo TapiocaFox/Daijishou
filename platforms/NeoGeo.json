@@ -3,6 +3,7 @@
     "revisionNumber": 5,
     "platform": {
         "name": "Neo Geo",
+        "uniqueId": "neogeo",
         "shortname": "neogeo",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

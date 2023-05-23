@@ -3,6 +3,7 @@
   "revisionNumber": 3,
   "platform": {
     "name": "Nintendo Wii",
+    "uniqueId": "wii",
     "shortname": "wii",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

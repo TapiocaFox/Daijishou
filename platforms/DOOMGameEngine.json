@@ -3,6 +3,7 @@
   "revisionNumber": 1,
   "platform": {
     "name": "DOOM Game Engine",
+    "uniqueId": "doom",
     "shortname": "doom",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

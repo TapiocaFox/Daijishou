@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Sharp X68000",
+        "uniqueId": "x68000",
         "shortname": "x68000",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

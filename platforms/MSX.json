@@ -3,6 +3,7 @@
   "revisionNumber": 5,
   "platform": {
     "name": "MSX",
+    "uniqueId": "msx",
     "shortname": "msx",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

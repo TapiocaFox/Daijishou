@@ -3,6 +3,7 @@
   "revisionNumber": 2,
   "platform": {
     "name": "PC-88",
+    "uniqueId": "pc88",
     "shortname": "pc88",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

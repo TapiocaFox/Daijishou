@@ -3,6 +3,7 @@
     "revisionNumber": 6,
     "platform": {
         "name": "Nintendo Entertainment System",
+        "uniqueId": "nes",
         "shortname": "nes",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

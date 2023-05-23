@@ -3,6 +3,7 @@
     "revisionNumber": 3,
     "platform": {
         "name": "Fairchild Channel F",
+        "uniqueId": "channelf",
         "shortname": "channelf",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

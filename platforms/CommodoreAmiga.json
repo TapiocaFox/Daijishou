@@ -3,6 +3,7 @@
     "revisionNumber": 5,
     "platform": {
         "name": "Commodore Amiga",
+        "uniqueId": "amiga",
         "shortname": "amiga",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

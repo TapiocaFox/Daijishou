@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Pokemon Mini",
+        "uniqueId": "pokemini",
         "shortname": "pokemini",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

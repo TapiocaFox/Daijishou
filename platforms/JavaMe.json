@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "Java Me",
+        "uniqueId": "j2me",
         "shortname": "j2me",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

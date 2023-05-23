@@ -3,6 +3,7 @@
     "revisionNumber": 6,
     "platform": {
         "name": "Game Boy Advance",
+        "uniqueId": "gba",
         "shortname": "gba",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
     "revisionNumber": 6,
     "platform": {
         "name": "PlayStation Portable",
+        "uniqueId": "psp",
         "shortname": "psp",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

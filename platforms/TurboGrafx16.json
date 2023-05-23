@@ -3,6 +3,7 @@
     "revisionNumber": 5,
     "platform": {
         "name": "TurboGrafx-16",
+        "uniqueId": "tg16",
         "shortname": "tg16",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

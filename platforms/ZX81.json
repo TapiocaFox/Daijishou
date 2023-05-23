@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "ZX 81",
+        "uniqueId": "zx81",
         "shortname": "zx81",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

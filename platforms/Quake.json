@@ -3,6 +3,7 @@
   "revisionNumber": 1,
   "platform": {
     "name": "Quake Game Engine",
+    "uniqueId": "quake",
     "shortname": "quake",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

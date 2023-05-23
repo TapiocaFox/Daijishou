@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "DOS",
+        "uniqueId": "dos",
         "shortname": "dos",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

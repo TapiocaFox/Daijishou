@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Virtual Boy",
+        "uniqueId": "virtualboy",
         "shortname": "virtualboy",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

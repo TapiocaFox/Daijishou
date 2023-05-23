@@ -3,6 +3,7 @@
     "revisionNumber": 9,
     "platform": {
         "name": "Nintendo 64",
+        "uniqueId": "n64",
         "shortname": "n64",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

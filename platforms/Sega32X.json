@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Sega 32X",
+        "uniqueId": "sega32x",
         "shortname": "sega32x",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

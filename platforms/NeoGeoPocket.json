@@ -3,6 +3,7 @@
     "revisionNumber": 5,
     "platform": {
         "name": "NeoGeo Pocket",
+        "uniqueId": "ngp",
         "shortname": "ngp",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
   "revisionNumber": 2,
   "platform": {
     "name": "Philips CD-i",
+    "uniqueId": "cdi",
     "shortname": "cdi",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

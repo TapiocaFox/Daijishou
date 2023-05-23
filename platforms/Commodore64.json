@@ -3,6 +3,7 @@
     "revisionNumber": 4,
     "platform": {
         "name": "Commodore 64",
+        "uniqueId": "c64",
         "shortname": "c64",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

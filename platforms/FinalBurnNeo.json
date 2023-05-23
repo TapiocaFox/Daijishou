@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Arcade (FinalBurn Neo)",
+        "uniqueId": "fbneo",
         "shortname": "fbneo",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

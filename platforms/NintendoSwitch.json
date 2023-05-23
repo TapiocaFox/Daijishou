@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "Nintendo Switch",
+        "uniqueId": "switch",
         "shortname": "switch",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

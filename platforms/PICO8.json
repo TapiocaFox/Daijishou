@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "PICO-8",
+        "uniqueId": "pico8",
         "shortname": "pico8",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

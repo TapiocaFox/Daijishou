@@ -3,6 +3,7 @@
   "revisionNumber": 3,
   "platform": {
     "name": "Watara Supervision",
+    "uniqueId": "supervision",
     "shortname": "supervision",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

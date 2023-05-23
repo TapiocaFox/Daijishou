@@ -3,6 +3,7 @@
     "revisionNumber": 6,
     "platform": {
         "name": "Sega Game Gear",
+        "uniqueId": "gamegear",
         "shortname": "gamegear",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

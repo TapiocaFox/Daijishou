@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "Palm OS",
+        "uniqueId": "palm",
         "shortname": "palm",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

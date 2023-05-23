@@ -3,6 +3,7 @@
     "revisionNumber": 7,
     "platform": {
         "name": "Sega Master System",
+        "uniqueId": "master",
         "shortname": "master",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
   "revisionNumber": 2,
   "platform": {
     "name": "WonderSwan",
+    "uniqueId": "ws",
     "shortname": "ws",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

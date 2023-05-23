@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "RPG Maker",
+        "uniqueId": "rpgmaker",
         "shortname": "rpgmaker",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "CP System III",
+        "uniqueId": "cps3",
         "shortname": "cps3",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

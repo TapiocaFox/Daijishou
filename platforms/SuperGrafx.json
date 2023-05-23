@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "SuperGrafx",
+        "uniqueId": "supergrafx",
         "shortname": "supergrafx",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

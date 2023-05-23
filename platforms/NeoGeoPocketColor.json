@@ -3,6 +3,7 @@
     "revisionNumber": 3,
     "platform": {
         "name": "NeoGeo Pocket Color",
+        "uniqueId": "ngpc",
         "shortname": "ngpc",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

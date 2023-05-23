@@ -4,6 +4,7 @@
   "platform": {
     "name": "Super Nintendo Entertainment System",
     "shortname": "snes",
+    "uniqueId": "snes",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
     "scraperSourceList": [

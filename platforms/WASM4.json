@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "WASM-4",
+        "uniqueId": "wasm4",
         "shortname": "wasm4",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

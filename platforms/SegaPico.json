@@ -3,6 +3,7 @@
   "revisionNumber": 1,
   "platform": {
     "name": "Sega Pico",
+    "uniqueId": "pico",
     "shortname": "pico",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

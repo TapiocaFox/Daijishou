@@ -3,6 +3,7 @@
   "revisionNumber": 2,
   "platform": {
     "name": "Atari Jaguar",
+    "uniqueId": "jaguar",
     "shortname": "jaguar",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
     "revisionNumber": 3,
     "platform": {
         "name": "Sega CD",
+        "uniqueId": "segacd",
         "shortname": "segacd",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",

@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Vectrex",
+        "uniqueId": "vectrex",
         "shortname": "vectrex",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

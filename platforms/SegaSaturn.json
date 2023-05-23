@@ -3,6 +3,7 @@
    "revisionNumber": 3,
    "platform": {
      "name": "Sega Saturn",
+     "uniqueId": "saturn",
      "shortname": "saturn",
      "description": null,
      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",

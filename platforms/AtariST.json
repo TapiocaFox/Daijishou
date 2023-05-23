@@ -3,6 +3,7 @@
     "revisionNumber": 3,
     "platform": {
         "name": "Atari ST",
+        "uniqueId": "atarist",
         "shortname": "atarist",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Dreamcast",
+        "uniqueId": "dreamcast",
         "shortname": "dreamcast",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",

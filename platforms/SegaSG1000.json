@@ -3,6 +3,7 @@
     "revisionNumber": 4,
     "platform": {
         "name": "Sega SG-1000",
+        "uniqueId": "sg1000",
         "shortname": "sg1000",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

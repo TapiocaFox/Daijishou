@@ -3,6 +3,7 @@
     "revisionNumber": 2,
     "platform": {
         "name": "Game & Watch",
+        "uniqueId": "gw",
         "shortname": "gw",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
     "revisionNumber": 6,
     "platform": {
         "name": "Game Boy",
+        "uniqueId": "gb",
         "shortname": "gb",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

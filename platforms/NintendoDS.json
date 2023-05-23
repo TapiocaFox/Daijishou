@@ -3,6 +3,7 @@
     "revisionNumber": 4,
     "platform": {
         "name": "Nintendo DS",
+        "uniqueId": "nds",
         "shortname": "nds",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

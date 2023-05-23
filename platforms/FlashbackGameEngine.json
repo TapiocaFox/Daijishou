@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "Flashback Game Engine",
+        "uniqueId": "flashback",
         "shortname": "flashback",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

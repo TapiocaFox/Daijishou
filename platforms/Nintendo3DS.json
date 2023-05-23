@@ -3,6 +3,7 @@
   "revisionNumber": 2,
   "platform": {
     "name": "Nintendo 3DS",
+    "uniqueId": "3ds",
     "shortname": "3ds",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

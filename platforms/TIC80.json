@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "TIC-80",
+        "uniqueId": "tic80",
         "shortname": "tic80",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

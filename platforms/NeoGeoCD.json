@@ -3,6 +3,7 @@
     "revisionNumber": 4,
     "platform": {
         "name": "Neo Geo CD",
+        "uniqueId": "neogeocd",
         "shortname": "neogeocd",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

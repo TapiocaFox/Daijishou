@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "Sony PS Vita",
+        "uniqueId": "vita",
         "shortname": "vita",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

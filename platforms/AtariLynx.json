@@ -3,6 +3,7 @@
     "revisionNumber": 4,
     "platform": {
         "name": "Atari Lynx",
+        "uniqueId": "lynx",
         "shortname": "lynx",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

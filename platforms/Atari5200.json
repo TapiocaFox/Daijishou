@@ -3,6 +3,7 @@
     "revisionNumber": 3,
     "platform": {
         "name": "Atari 5200",
+        "uniqueId": "atari5200",
         "shortname": "atari5200",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "LowRes NX",
+        "uniqueId": "lowresnx",
         "shortname": "lowresnx",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

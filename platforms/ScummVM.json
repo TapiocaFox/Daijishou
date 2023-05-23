@@ -3,6 +3,7 @@
     "revisionNumber": 1,
     "platform": {
         "name": "ScummVM",
+        "uniqueId": "scummvm",
         "shortname": "scummvm",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",

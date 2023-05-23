@@ -3,6 +3,7 @@
     "revisionNumber": 6,
     "platform": {
         "name": "Game Boy Color",
+        "uniqueId": "gbc",
         "shortname": "gbc",
         "description": null,
         "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
