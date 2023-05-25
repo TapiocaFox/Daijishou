@@ -1,6 +1,6 @@
 {
-  "databaseVersion": 8,
-  "revisionNumber": 2,
+  "databaseVersion": 14,
+  "revisionNumber": 3,
   "platform": {
     "name": "PC-98",
     "uniqueId": "pc98",
@@ -25,6 +25,7 @@
   "playerList": [
     {
       "name": "pc98 - Retroarch 64 - np2kai",
+      "uniqueId": "pc98.ra64.np2kai",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/np2kai_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -34,6 +35,7 @@
     },
     {
       "name": "pc98 - Retroarch 64 - nekop2",
+      "uniqueId": "pc98.ra64.nekop2",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:cue|2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/nekop2_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -41,10 +43,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "pc98 - Retroarch 32 - np2kai",
+      "uniqueId": "pc98.ra32.np2kai",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/np2kai_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -54,6 +55,7 @@
     },
     {
       "name": "pc98 - Retroarch 32 - nekop2",
+      "uniqueId": "pc98.ra32.nekop2",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/nekop2_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -61,10 +63,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "pc98 - Retroarch - np2kai",
+      "uniqueId": "pc98.ra.np2kai",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, hdn, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|hdn|nhd|tfd|thd|xdf|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/np2kai_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -74,6 +75,7 @@
     },
     {
       "name": "pc98 - Retroarch - nekop2",
+      "uniqueId": "pc98.ra.nekop2",
       "description": "Supported extensions: 2hd, 88d, 98d, cmd, d88, d98, dup, fdd, fdi, hdd, hdi, hdm, nhd, tfd, thd, xdf, zip.",
       "acceptedFilenameRegex": "^(.*).(?:2hd|88d|98d|cmd|d88|d98|dup|fdd|fdi|hdd|hdi|hdm|nhd|tfd|thd|xdf|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/nekop2_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",

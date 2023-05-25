@@ -1,6 +1,6 @@
 {
-  "databaseVersion": 8,
-  "revisionNumber": 2,
+  "databaseVersion": 14,
+  "revisionNumber": 3,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "3ds",
@@ -26,6 +26,7 @@
   "playerList": [
     {
       "name": "3ds - org.citra.emu - antutu",
+      "uniqueId": "3ds.com.antutu.ABenchMark",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.antutu.ABenchMark/org.citra.emu.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n",
@@ -35,6 +36,7 @@
     },
     {
       "name": "3ds - org.citra.emu",
+      "uniqueId": "3ds.org.citra.emu",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.citra.emu/org.citra.emu.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n",
@@ -44,6 +46,7 @@
     },
     {
       "name": "3ds - org.citra.citra_emu",
+      "uniqueId": "3ds.org.citra.citra_emu",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.citra.citra_emu/org.citra.citra_emu.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n",
@@ -53,6 +56,7 @@
     },
     {
       "name": "3ds - RetroArch 64 - citra2018",
+      "uniqueId": "3ds.ra64.citra2018",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/citra2018_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -62,6 +66,7 @@
     },
     {
       "name": "3ds - RetroArch 64 - citra_canary",
+      "uniqueId": "3ds.ra64.citra_canary",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/citra_canary_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -71,6 +76,7 @@
     },
     {
       "name": "3ds - RetroArch 64 - citra",
+      "uniqueId": "3ds.ra64.citra",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/citra_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -78,10 +84,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "3ds - RetroArch 32 - citra2018",
+      "uniqueId": "3ds.ra32.citra2018",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/citra2018_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -91,6 +96,7 @@
     },
     {
       "name": "3ds - RetroArch 32 - citra_canary",
+      "uniqueId": "3ds.ra32.citra_canary",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/citra_canary_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -100,6 +106,7 @@
     },
     {
       "name": "3ds - RetroArch 32 - citra",
+      "uniqueId": "3ds.ra32.citra",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/citra_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -107,10 +114,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "3ds - RetroArch - citra2018",
+      "uniqueId": "3ds.ra.citra2018",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/citra2018_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -118,9 +124,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
     {
       "name": "3ds - RetroArch - citra_canary",
+      "uniqueId": "3ds.ra.citra_canary",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/citra_canary_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",
@@ -130,6 +136,7 @@
     },
     {
       "name": "3ds - RetroArch - citra",
+      "uniqueId": "3ds.ra.citra",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/citra_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top\n",

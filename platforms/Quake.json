@@ -1,6 +1,6 @@
 {
-  "databaseVersion": 8,
-  "revisionNumber": 1,
+  "databaseVersion": 14,
+  "revisionNumber": 2,
   "platform": {
     "name": "Quake Game Engine",
     "uniqueId": "quake",
@@ -22,6 +22,7 @@
   "playerList": [
     {
       "name": "quake - RetroArch 64 - tyrquake",
+      "uniqueId": "quake.ra64.tyrquake",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/tyrquake_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
@@ -29,10 +30,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "quake - RetroArch 32 - tyrquake",
+      "uniqueId": "quake.ra32.tyrquake",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/tyrquake_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
@@ -40,10 +40,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "quake - RetroArch - tyrquake",
+      "uniqueId": "quake.ra.tyrquake",
       "description": "Supported extensions: pak",
       "acceptedFilenameRegex": "^(.*)\\.(?:pak)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/tyrquake_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",

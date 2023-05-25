@@ -184,3 +184,6 @@ cython_debug/
 node_modules/
 .svelte-kit/
 package-lock.json
+
+# Daijishou
+curated/

@@ -1,6 +1,6 @@
 {
-  "databaseVersion": 8,
-  "revisionNumber": 4,
+  "databaseVersion": 14,
+  "revisionNumber": 5,
   "platform": {
     "name": "Atari 2600",
     "uniqueId": "atari2600",
@@ -27,6 +27,7 @@
   "playerList": [
     {
       "name": "atari2600 - com.explusalpha.A2600Emu",
+      "uniqueId": "atari2600.com.explusalpha.A2600Emu",
       "description": "Supported extensions: a26, bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin)$",
       "amStartArguments": "-n com.explusalpha.A2600Emu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
@@ -36,6 +37,7 @@
     },
     {
       "name": "atari2600 - com.androidemu.atari",
+      "uniqueId": "atari2600.com.androidemu.atari",
       "description": "Supported extensions: a26, bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin)$",
       "amStartArguments": "-n com.androidemu.atari/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
@@ -43,10 +45,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "atari2600 - RetroArch 64 - stella",
+      "uniqueId": "atari2600.ra64.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/stella_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -56,6 +57,7 @@
     },
     {
       "name": "atari2600 - RetroArch 64 - stella2014",
+      "uniqueId": "atari2600.ra64.stella2014",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/stella2014_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -63,10 +65,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "atari2600 - RetroArch 32 - stella",
+      "uniqueId": "atari2600.ra32.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/stella_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -76,6 +77,7 @@
     },
     {
       "name": "atari2600 - RetroArch 32 - stella2014",
+      "uniqueId": "atari2600.ra32.stella2014",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/stella2014_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -83,10 +85,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "atari2600 - RetroArch - stella2014",
+      "uniqueId": "atari2600.ra.stella2014",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/stella2014_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -96,6 +97,7 @@
     },
     {
       "name": "atari2600 - RetroArch - stella",
+      "uniqueId": "atari2600.ra.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/stella_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",

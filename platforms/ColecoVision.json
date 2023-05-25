@@ -1,6 +1,6 @@
 {
-  "databaseVersion": 8,
-  "revisionNumber": 2,
+  "databaseVersion": 14,
+  "revisionNumber": 3,
   "platform": {
     "name": "ColecoVision",
     "uniqueId": "coleco",
@@ -25,6 +25,7 @@
   "playerList": [
     {
       "name": "coleco - RetroArch 64 - bluemsx",
+      "uniqueId": "coleco.ra64.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/bluemsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
@@ -34,6 +35,7 @@
     },
     {
       "name": "coleco - RetroArch 64 - gearcoleco",
+      "uniqueId": "coleco.ra64.gearcoleco",
       "description": "Supported extensions: col, cv, bin, rom, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:col|cv|bin|rom|zip)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/gearcoleco_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
@@ -43,6 +45,7 @@
     },
     {
       "name": "coleco - RetroArch 32 - bluemsx",
+      "uniqueId": "coleco.ra32.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/bluemsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
@@ -52,6 +55,7 @@
     },
     {
       "name": "coleco - RetroArch 32 - gearcoleco",
+      "uniqueId": "coleco.ra32.gearcoleco",
       "description": "Supported extensions: col, cv, bin, rom, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:col|cv|bin|rom|zip)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/gearcoleco_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
@@ -61,6 +65,7 @@
     },
     {
       "name": "coleco - RetroArch - bluemsx",
+      "uniqueId": "coleco.ra.bluemsx",
       "description": "Supported extensions: cas, col, dsk, m3u, mx1, mx2, ri, rom, sc, sg, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cas|col|dsk|m3u|mx1|mx2|ri|rom|sc|sg|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/bluemsx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
@@ -70,6 +75,7 @@
     },
     {
       "name": "coleco - RetroArch - gearcoleco",
+      "uniqueId": "coleco.ra.gearcoleco",
       "description": "Supported extensions: col, cv, bin, rom, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:col|cv|bin|rom|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/gearcoleco_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
