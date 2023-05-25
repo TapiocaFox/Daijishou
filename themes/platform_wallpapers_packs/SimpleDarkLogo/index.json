@@ -62,7 +62,7 @@
     },
 	{
       "matchPlatformShortname": "cavestory",
-      "filename": "cavestory.png"
+      "filename": "cave.png"
     },
 	{
       "matchPlatformShortname": "cdi",
@@ -202,7 +202,7 @@
     },
 	{
       "matchPlatformShortname": "odyssey",
-      "filename": "odyssey2.png"
+      "filename": "oddysey2.png"
     },
 	{
       "matchPlatformShortname": "pico8",
