@@ -297,6 +297,14 @@
       "filename": "msu1.png"
     },
     {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "rpgmaker.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     }
