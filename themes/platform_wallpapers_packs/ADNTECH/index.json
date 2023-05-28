@@ -113,10 +113,6 @@
       "filename": "gw.png"
     },
     {
-      "matchPlatformShortname": "j2me",
-      "filename": "javame.png"
-    },
-    {
       "matchPlatformShortname": "gb",
       "filename": "gb.png"
     },
@@ -239,10 +235,6 @@
     {
       "matchPlatformShortname": "odyssey2",
       "filename": "odyssey2.png"
-    },
-    {
-      "matchPlatformShortname": "pokemini",
-      "filename": "pokemini.png"
     },
     {
       "matchPlatformShortname": "snes",
