@@ -349,10 +349,6 @@
       "filename": "sfc.png"
     },
     {
-      "matchPlatformShortname": "nfc",
-      "filename": "nfc.png"
-    },
-    {
       "matchPlatformShortname": "megadrive",
       "filename": "megadrive.png"
     },
