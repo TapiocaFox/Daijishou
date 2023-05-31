@@ -353,6 +353,62 @@
       "filename": "pce.png"
     },
     {
+      "matchPlatformShortname": "chip8",
+      "filename": "chip8.png"
+    },
+    {
+      "matchPlatformShortname": "flashback",
+      "filename": "flashback.png"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "filename": "j2me.png"
+    },
+    {
+      "matchPlatformShortname": "lowresnx",
+      "filename": "lowresnx.png"
+    },
+    {
+      "matchPlatformShortname": "megaduck",
+      "filename": "megaduck.png"
+    },
+    {
+      "matchPlatformShortname": "palm",
+      "filename": "palm.png"
+    },
+    {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc88.png"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "filename": "pc98.png"
+    },
+    {
+      "matchPlatformShortname": "pico",
+      "filename": "pico.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "quake",
+      "filename": "quake.png"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "filename": "tic80.png"
+    },
+    {
+      "matchPlatformShortname": "wasm4",
+      "filename": "wasm4.png"
+    },
+    {
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     }
