@@ -269,7 +269,7 @@
       "filename": "NintendoSwitch.json",
       "platformName": "Nintendo Switch",
       "platformShortname": "switch",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "NintendoWii.json",
