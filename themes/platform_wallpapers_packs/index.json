@@ -210,6 +210,16 @@
       "platformWallpapersPackAuthors": [
         "Jamesinorbit"
       ],
+      "platformWallpapersPackDescription": "My take on an artbook style theme. Dark and moody.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic ArtBook Noir",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicArtBookNoir/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicArtBookNoir"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
       "platformWallpapersPackDescription": "A mod of the classic Epic Noir theme in black, white and red",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Epic Retro Noir Blanche",
