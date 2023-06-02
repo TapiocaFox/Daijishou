@@ -451,6 +451,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Tecnos12"
+      ],
+      "platformWallpapersPackDescription": "A wallpaper pack based on colours and collages of in-game screenshots.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "RetroHue",
+      "platformWallpapersPackPreviewThumbnailPath": "RetroHue/Thumbnail.png",
+      "platformWallpapersPackRootPath": "RetroHue"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "DavirCrz"
       ],
       "platformWallpapersPackDescription": "This is an aspect to be able to represent in a good way the system according to appearance",
