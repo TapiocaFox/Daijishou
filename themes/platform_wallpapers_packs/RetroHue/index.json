@@ -1,0 +1,136 @@
+{
+  "name": "RetroHue",
+  "description": "A wallpaper pack based on colours and collages of in-game screenshots.",
+  "authors": ["Tecnos12"],
+  "sources": ["https://images.google.com", "https://www.retrogamer.net/", "https://www.nintendolife.com/", "https://commons.wikimedia.org/", "https://www.youtube.com/"],
+  "previewThumbnailFilename": "Thumbnail.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3DO.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "Atari-2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "Atari-5200.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "Atari-7800.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "CPS-I.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "CPS-II.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "CPS-III.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "Commodore 64.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "AMIGA.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "MS-DOS.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "Dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "Game Boy.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "Game Boy Advance.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "Game Boy Color.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "Gamecube.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "MAME.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "NEO-GEO.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "Nintendo 64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "Nintendo DS.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "NES.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "Wii.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "Playstation Portable.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "Game Gear.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "Mega Drive.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "Master System_.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "Sega Saturn.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "Playstation 1.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "Playstation 2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "SNES.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "PC-Engine.png"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "ZX Spectrum.png"
+    }
+  ]
+}
