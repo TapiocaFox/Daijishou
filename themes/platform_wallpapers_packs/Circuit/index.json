@@ -153,6 +153,10 @@
       "filename": "msx.jpg"
     },
     {
+      "matchPlatformShortname": "megaduck",
+      "filename": "megaduck.jpg"
+    },
+    {
       "matchPlatformShortname": "neogeo",
       "filename": "neogeo.jpg"
     },
