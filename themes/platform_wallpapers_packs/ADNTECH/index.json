@@ -51,7 +51,7 @@
     {
       "matchPlatformShortname": "atomiswave",
       "filename": "atomiswave.png"
-    },
+    
     {
       "matchPlatformShortname": "c64",
       "filename": "c64.png"
@@ -59,6 +59,13 @@
     {
       "matchPlatformShortname": "cannonball",
       "filename": "cannonball.png"
+    },
+    {
+
+      "matchPlatformShortname": "bbc",
+
+      "filename": "bbc.png"
+
     },
     {
       "matchPlatformShortname": "cpc",
