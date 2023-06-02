@@ -397,6 +397,10 @@
       "filename": "quake.png"
     },
     {
+      "matchPlatformShortname": "quake2",
+      "filename": "quake2.png"
+    },
+    {
       "matchPlatformShortname": "tic80",
       "filename": "tic80.png"
     },
