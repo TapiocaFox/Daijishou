@@ -5,8 +5,8 @@
   "sources": ["https://images.google.com", "https://www.retrogamer.net/", "https://www.nintendolife.com/", "https://commons.wikimedia.org/", "https://www.youtube.com/"],
   "previewThumbnailFilename": "Thumbnail.png",
 
-  "hasDefaultWallpaper": false,
-  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
