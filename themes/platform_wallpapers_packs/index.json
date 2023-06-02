@@ -3,6 +3,16 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "Cookie"
+      ],
+      "platformWallpapersPackDescription": "Little theme inspired by the Cirquit theme by Post Mortem, I wanted to do my own thing for my rg405M. This is my first theme, I hope you really like it. There are 88+ platforms in the future I will add more. Indexing by Post Mortem.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "ADNTECH",
+      "platformWallpapersPackPreviewThumbnailPath": "ADNTECH/previewthumbnail.png",
+      "platformWallpapersPackRootPath": "ADNTECH"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Aesthetic Minimalist",
         "Sarantula"
       ],
