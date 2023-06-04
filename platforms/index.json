@@ -212,6 +212,18 @@
       "revisionNumber": 6
     },
     {
+      "filename": "MagnavoxOdyssey2.json",
+      "platformName": "Magnavox Odyssey2",
+      "platformShortname": "videopac",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "MegaDuck.json",
+      "platformName": "Mega Duck",
+      "platformShortname": "megaduck",
+      "revisionNumber": 1
+    },
+    {
       "filename": "NeoGeo.json",
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
@@ -419,7 +431,7 @@
       "filename": "SonyPlayStation.json",
       "platformName": "Sony PlayStation",
       "platformShortname": "psx",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "SonyPlayStation2.json",
