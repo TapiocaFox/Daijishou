@@ -212,6 +212,12 @@
       "revisionNumber": 6
     },
     {
+      "filename": "MegaDuck.json",
+      "platformName": "Mega Duck",
+      "platformShortname": "megaduck",
+      "revisionNumber": 1
+    },
+    {
       "filename": "NeoGeo.json",
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
@@ -419,7 +425,7 @@
       "filename": "SonyPlayStation.json",
       "platformName": "Sony PlayStation",
       "platformShortname": "psx",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "SonyPlayStation2.json",
@@ -462,6 +468,12 @@
       "platformName": "Vectrex",
       "platformShortname": "vectrex",
       "revisionNumber": 3
+    },
+    {
+      "filename": "VideopacG7400.json",
+      "platformName": "Philips Videopac+",
+      "platformShortname": "g7400",
+      "revisionNumber": 1
     },
     {
       "filename": "VirtualBoy.json",
