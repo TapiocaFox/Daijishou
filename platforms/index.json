@@ -212,6 +212,12 @@
       "revisionNumber": 6
     },
     {
+      "filename": "MagnavoxOdyssey2.json",
+      "platformName": "Magnavox Odyssey2",
+      "platformShortname": "videopac",
+      "revisionNumber": 1
+    },
+    {
       "filename": "MegaDuck.json",
       "platformName": "Mega Duck",
       "platformShortname": "megaduck",
@@ -468,12 +474,6 @@
       "platformName": "Vectrex",
       "platformShortname": "vectrex",
       "revisionNumber": 3
-    },
-    {
-      "filename": "VideopacG7400.json",
-      "platformName": "Philips Videopac+",
-      "platformShortname": "g7400",
-      "revisionNumber": 1
     },
     {
       "filename": "VirtualBoy.json",
