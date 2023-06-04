@@ -2,9 +2,9 @@
   "databaseVersion": 14,
   "revisionNumber": 1,
   "platform": {
-    "name": "Philips Videopac+",
-    "uniqueId": "g7400",
-    "shortname": "g7400",
+    "name": "Magnavox Odyssey2",
+    "uniqueId": "videopac",
+    "shortname": "videopac",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
@@ -16,7 +16,7 @@
     "boxArtAspectRatioId": 2,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
-    "screenAspectRatioId": 0,
+    "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Magnavox Odyssey 2",
@@ -24,8 +24,8 @@
   },
   "playerList": [
     {
-      "name": "g7400 - RetroArch 64 - o2em",
-      "uniqueId": "g7400.ra64.o2em",
+      "name": "videopac - RetroArch 64 - o2em",
+      "uniqueId": "videopac.ra64.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/o2em_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -34,8 +34,8 @@
       "extra": ""
     },
     {
-      "name": "g7400 - RetroArch 32 - o2em",
-      "uniqueId": "g7400.ra32.o2em",
+      "name": "videopac - RetroArch 32 - o2em",
+      "uniqueId": "videopac.ra32.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/o2em_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -44,8 +44,8 @@
       "extra": ""
     },
     {
-      "name": "g7400 - RetroArch - o2em",
-      "uniqueId": "g7400.ra.o2em",
+      "name": "videopac - RetroArch - o2em",
+      "uniqueId": "videopac.ra.o2em",
       "description": "Supported extensions: bin.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/o2em_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
