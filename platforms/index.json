@@ -212,6 +212,12 @@
       "revisionNumber": 6
     },
     {
+      "filename": "MagnavoxOdyssey2.json",
+      "platformName": "Magnavox Odyssey 2",
+      "platformShortname": "odyssey2",
+      "revisionNumber": 2
+    },
+    {
       "filename": "MegaDuck.json",
       "platformName": "Mega Duck",
       "platformShortname": "megaduck",
@@ -284,12 +290,6 @@
       "revisionNumber": 4
     },
     {
-      "filename": "Odyssey2.json",
-      "platformName": "Magnavox Odyssey 2",
-      "platformShortname": "odyssey2",
-      "revisionNumber": 2
-    },
-    {
       "filename": "PC88.json",
       "platformName": "PC-88",
       "platformShortname": "pc88",
@@ -324,6 +324,12 @@
       "platformName": "Philips CD-i",
       "platformShortname": "cdi",
       "revisionNumber": 3
+    },
+    {
+      "filename": "PhilipsVideopacG7400.json",
+      "platformName": "Philips Videopac+ G7400",
+      "platformShortname": "g7400",
+      "revisionNumber": 1
     },
     {
       "filename": "PlayStationPortable.json",
