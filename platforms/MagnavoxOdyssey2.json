@@ -1,6 +1,7 @@
 {
   "databaseVersion": 14,
   "revisionNumber": 1,
+  "disableIndexing": true,
   "platform": {
     "name": "Magnavox Odyssey2",
     "uniqueId": "videopac",

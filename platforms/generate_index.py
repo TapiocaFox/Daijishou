@@ -35,8 +35,14 @@ for f in files:
                 print("  RevisionNumber: "+str(platformSharable['revisionNumber']))
                 print("  Scrapers: "+str(len(platformEntityPortable['scraperSourceList'])))
                 print("  Players: "+str(len(platformSharable['playerList'])))
-                print("")
+
                 revisionNumber = platformSharable['revisionNumber'] if('revisionNumber' in platformSharable) else None
+                disableIndexing = platformSharable['disableIndexing'] if('disableIndexing' in platformSharable) else False
+                if disableIndexing == True:
+                    print("  Indexing disabled.")
+                    continue
+                print("")
+
                 index['platformList'].append({
                     "filename": f,
                     "platformName": platformEntityPortable['name'],

@@ -212,12 +212,6 @@
       "revisionNumber": 6
     },
     {
-      "filename": "MagnavoxOdyssey2.json",
-      "platformName": "Magnavox Odyssey2",
-      "platformShortname": "videopac",
-      "revisionNumber": 1
-    },
-    {
       "filename": "MegaDuck.json",
       "platformName": "Mega Duck",
       "platformShortname": "megaduck",
