@@ -1,50 +1,54 @@
 {
-    "databaseVersion": 8,
-    "revisionNumber": 1,
-    "platform": {
-        "name": "ScummVM",
-        "shortname": "scummvm",
-        "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-        "scraperSourceList": [
-            "LIBRETRO:ScummVM"
-        ],
-        "boxArtAspectRatioId": 0,
-        "useCustomBoxArtAspectRatio": true,
-        "customBoxArtAspectRatio": "2:3",
-        "screenAspectRatioId": 3,
-        "useCustomScreenAspectRatio": false,
-        "customScreenAspectRatio": null,
-        "retroAchievementsAlias": null,
-        "extra": ""
+  "databaseVersion": 14,
+  "revisionNumber": 2,
+  "platform": {
+    "name": "ScummVM",
+    "uniqueId": "scummvm",
+    "shortname": "scummvm",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:ScummVM"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "2:3",
+    "screenAspectRatioId": 3,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "scummvm - RetroArch 64 - scummvm",
+      "uniqueId": "scummvm.ra64.scummvm",
+      "description": "Supported extensions: sh, svm, scummvm.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/scummvm_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     },
-    "playerList": [
-        {
-            "name": "scummvm - RetroArch 64 - scummvm",
-            "description": "Supported extensions: sh, svm, scummvm.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
-            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/scummvm_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-        {
-            "name": "scummvm - RetroArch 32 - scummvm",
-            "description": "Supported extensions: sh, svm, scummvm.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
-            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/scummvm_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-        {
-            "name": "scummvm - RetroArch - scummvm",
-            "description": "Supported extensions: sh, svm, scummvm.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
-            "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/scummvm_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        }
-    ]
+    {
+      "name": "scummvm - RetroArch 32 - scummvm",
+      "uniqueId": "scummvm.ra32.scummvm",
+      "description": "Supported extensions: sh, svm, scummvm.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/scummvm_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "scummvm - RetroArch - scummvm",
+      "uniqueId": "scummvm.ra.scummvm",
+      "description": "Supported extensions: sh, svm, scummvm.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:sh|svm|scummvm)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/scummvm_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
 }

@@ -1,0 +1,284 @@
+{
+  "name": "Geometry Dark",
+  "description": "A dark version of 'Geometry'. Wallpaper for Daijishō menus available here: https://shorturl.at/knsVY",
+  "authors": ["てRey夜"],
+  "sources": ["https://www.pngwing.com/", "https://logos.fandom.com/wiki/Logopedia"],
+  "previewThumbnailFilename": "thumbnail-dark.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default-dark.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do-dark.png"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "droid-dark.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "amstradcpc-dark.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600-dark.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200-dark.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800-dark.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "atarijaguar-dark.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx-dark.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist-dark.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave-dark.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1-dark.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2-dark.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3-dark.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "psvita-dark.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn-dark.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "colecovision-dark.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64-dark.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga-dark.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos-dark.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast-dark.png"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "fbneo-dark.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb-dark.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba-dark.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc-dark.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc-dark.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision-dark.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame-dark.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx-dark.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo-dark.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd-dark.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp-dark.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc-dark.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds-dark.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64-dark.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds-dark.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes-dark.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch-dark.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii-dark.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave-dark.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx-dark.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx-dark.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8-dark.png"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi-dark.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp-dark.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini-dark.png"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "easyrpg-dark.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm-dark.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "sega32x-dark.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd-dark.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear-dark.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis-dark.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master-dark.png"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000-dark.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn-dark.png"
+    },
+    {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000-dark.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx-dark.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2-dark.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx-dark.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes-dark.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16-dark.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tg16cd-dark.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy-dark.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision-dark.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "wswan-dark.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wswanc-dark.png"
+    },
+    {
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81-dark.png"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum-dark.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive-dark.png"
+    }
+  ]
+}

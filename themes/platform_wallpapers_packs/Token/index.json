@@ -1,0 +1,144 @@
+{
+  "name": "Token",
+  "description": "Minimal theme with a vibrant, colorful gradient. Icons used to represent each brand repectively with their logo & controller. Should be compatible with 4:3 and widescreen devices.",
+  "authors": ["Greg Chambon Jr. (OlGregDraws)"],
+  "sources": ["http://chamrocks.me/ Logos & Icons from their respected publishers. Controller Icons designed by Greg Chambon Jr."],
+  "previewThumbnailFilename": "previewthumbnail.jpg",
+
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": null,
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.jpg"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.jpg"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dc.jpg"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gw.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gba.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.jpg"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "rpgmaker.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.jpg"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.jpg"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "32x.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.jpg"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.jpg"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gg.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.jpg"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.jpg"
+    }
+  ]
+}

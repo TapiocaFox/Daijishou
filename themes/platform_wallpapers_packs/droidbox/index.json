@@ -1,8 +1,8 @@
 {
   "name": "DroidBox",
-  "description": "Theme designed by Super Retro City, remade by lukeskope and uploaded on his behalf.",
+  "description": "Theme designed by Super Retro City, remixed by lukeskope",
   "authors": ["Super Retro City (original), lukeskope (port)"],
-  "sources": ["https://github.com/KALEL1981/es-theme-nes-box"],
+  "sources": ["https://github.com/KALEL1981/es-theme-nes-box, https://forums.launchbox-app.com/files/file/3402-v2-platform-logos-professionally-redrawn-official-versions-new-bigbox-defaults"],
   "previewThumbnailFilename": "thumbnail.png",
 
   "hasDefaultWallpaper": true,
@@ -33,6 +33,10 @@
       "filename": "atari7800.png"
     },
     {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.png"
+    },
+    {
       "matchPlatformShortname": "atomiswave",
       "filename": "atomiswave.png"
     },
@@ -43,6 +47,14 @@
 	{
       "matchPlatformShortname": "arcade",
       "filename": "arcade.png"
+    },
+	{
+	  "matchPlatformShortname": "cdi",
+      "filename": "cdi.png"
+	},
+	{
+      "matchPlatformShortname": "cpc",
+      "filename": "cpc.png"
     },
     {
       "matchPlatformShortname": "capcom play",
@@ -72,6 +84,10 @@
       "matchPlatformShortname": "coleco",
       "filename": "coleco.png"
     },
+	{
+      "matchPlatformShortname": "dos",
+      "filename": "dos.png"
+    },
     {
       "matchPlatformShortname": "dreamcast",
       "filename": "dreamcast.png"
@@ -79,6 +95,10 @@
 	{
 	  "matchPlatformShortname": "dc",
       "filename": "dreamcast.png"
+    },
+	{
+	  "matchPlatformShortname": "fds",
+      "filename": "fds.png"
     },
 	{
       "matchPlatformShortname": "famicom",
@@ -121,6 +141,14 @@
       "filename": "gw.png"
     },
     {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "jaguar.png"
+    },
+	{
       "matchPlatformShortname": "lynx",
       "filename": "lynx.png"
     },
@@ -148,6 +176,10 @@
       "matchPlatformShortname": "megacd",
       "filename": "mcd.png"
     },
+	{
+      "matchPlatformShortname": "msx",
+      "filename": "msx.png"
+    },
     {
       "matchPlatformShortname": "n64",
       "filename": "n64.png"
@@ -165,7 +197,7 @@
       "filename": "neogeo.png"
     },
 	{
-      "matchPlatformShortname": "ngcd",
+      "matchPlatformShortname": "neogeocd",
       "filename": "ngcd.png"
     },
     {
@@ -180,9 +212,17 @@
       "matchPlatformShortname": "ngpc",
       "filename": "ngpc.png"
     },
+	{
+      "matchPlatformShortname": "odyssey2",
+      "filename": "odyssey2.png"
+    },
     {
       "matchPlatformShortname": "pcengine",
       "filename": "pcengine.png"
+    },
+	{
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
     },
     {
       "matchPlatformShortname": "ps2",
@@ -236,6 +276,10 @@
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     },
+	{
+      "matchPlatformShortname": "tic80",
+      "filename": "tic80.png"
+    },
     {
       "matchPlatformShortname": "vita",
       "filename": "vita.png"
@@ -255,6 +299,14 @@
 	{
       "matchPlatformShortname": "vectrex",
       "filename": "vectrex.png"
+    },
+	{
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.png"
+    },
+	{
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.png"
     }
   ]
 }

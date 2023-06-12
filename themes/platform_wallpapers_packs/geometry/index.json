@@ -1,0 +1,284 @@
+{
+  "name": "Geometry",
+  "description": "An angled and minimal design, featuring system logos. Widescreen and smallsceen compatible. Wallpaper for Daijishō menus available here: https://shorturl.at/opsHZ",
+  "authors": ["てRey夜"],
+  "sources": ["https://www.pngwing.com/", "https://logos.fandom.com/wiki/Logopedia"],
+  "previewThumbnailFilename": "thumbnail.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.png"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "droid.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "amstradcpc.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "atarijaguar.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "psvita.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "colecovision.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "c64.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "dos.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "Dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "filename": "fbneo.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gb.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "GBA.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gbc.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gc.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngp.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpc.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "NDS.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "atarilynx.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.png"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "filename": "pico8.png"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemini.png"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "easyrpg.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "sega32x.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master.png"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "x68000",
+      "filename": "x68000.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "psx.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "PS2.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tg16cd.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "wswan.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wswanc.png"
+    },
+    {
+      "matchPlatformShortname": "zx81",
+      "filename": "zx81.png"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.png"
+    }
+  ]
+}

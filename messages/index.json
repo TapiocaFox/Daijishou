@@ -14,7 +14,7 @@
     },
     {
       "title": "Upgrade available",
-      "message": "🚨 Version 313 (1.3.37) is now available.\nThe version added Spanish and fixed issues with files having \":\" in their filenames.\n You can either upgrade from google play store or checkout releases page on GitHub.",
+      "message": "🚨 Version 385 (1.4.53) is now available.\n You can either upgrade from google play store or checkout releases page on GitHub.",
       "acknowledgmentText": "Ok",
       "acknowledgmentLink": null,
       "cancelText": "GitHub",
@@ -22,7 +22,7 @@
       "neutralText": "Upgrade",
       "neutralLink": "https://play.google.com/store/apps/details?id=com.magneticchen.daijishou",
       "targetVersion": null,
-      "belowVersion": 313
+      "belowVersion": 385
     },
     {
       "title": "The Daijishou version you are using is defected",

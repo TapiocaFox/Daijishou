@@ -1,89 +1,90 @@
 {
-    "databaseVersion": 8,
-    "revisionNumber": 3,
-    "platform": {
-        "name": "Atomiswave",
-        "shortname": "atomiswave",
-        "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
-        "scraperSourceList": [
-          "LIBRETRO:Atomiswave",
-          "ARCADE_ITALIA:MAME",
-          "DSESS:GENRES:TAGS(scraperKeyword):http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=%7BscraperKeyword%7D&arcade_only=0&autosearch=1&dsess_selector=div.colonna_sinistra%3Anth-child%281%29+div.table_row%3Anth-child%286%29+span.dettaglio",
-          "LIBRETRO:Sega - Dreamcast",
-          "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=16&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
-          "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=16&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E",
-          "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=8&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fmsx%5C%2F.%2A%24&dsess_selector=div%23coreGameCover+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F"
-        ],
-        "boxArtAspectRatioId": 1,
-        "useCustomBoxArtAspectRatio": false,
-        "customBoxArtAspectRatio": null,
-        "screenAspectRatioId": 1,
-        "useCustomScreenAspectRatio": false,
-        "customScreenAspectRatio": null,
-        "retroAchievementsAlias": null,
-        "extra": ""
+  "databaseVersion": 14,
+  "revisionNumber": 4,
+  "platform": {
+    "name": "Atomiswave",
+    "uniqueId": "atomiswave",
+    "shortname": "atomiswave",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+    "scraperSourceList": [
+      "LIBRETRO:Atomiswave",
+      "ARCADE_ITALIA:MAME",
+      "DSESS:GENRES:TAGS(scraperKeyword):http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=%7BscraperKeyword%7D&arcade_only=0&autosearch=1&dsess_selector=div.colonna_sinistra%3Anth-child%281%29+div.table_row%3Anth-child%286%29+span.dettaglio",
+      "LIBRETRO:Sega - Dreamcast",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=16&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=16&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=8&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fmsx%5C%2F.%2A%24&dsess_selector=div%23coreGameCover+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F"
+    ],
+    "boxArtAspectRatioId": 1,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "atomiswave - io.recompiled.redream",
+      "uniqueId": "atomiswave.io.recompiled.redream",
+      "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+      "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     },
-    "playerList": [
-        {
-            "name": "atomiswave - io.recompiled.redream",
-            "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-        {
-            "name": "atomiswave - com.reicast.emulator",
-            "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n com.reicast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-        {
-            "name": "atomiswave - com.flycast.emulator",
-            "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n com.flycast.emulator/com.reicast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-
-
-        {
-            "name": "atomiswave - RetroArch 64 - flycast",
-            "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-
-
-        {
-            "name": "atomiswave - RetroArch 32 - flycast",
-            "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        },
-
-
-        {
-            "name": "atomiswave - RetroArch - flycast",
-            "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-            "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
-            "killPackageProcesses": true,
-            "killPackageProcessesWarning": true,
-            "extra": ""
-        }
-    ]
+    {
+      "name": "atomiswave - com.reicast.emulator",
+      "uniqueId": "atomiswave.com.reicast.emulator",
+      "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+      "amStartArguments": "-n com.reicast.emulator/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atomiswave - com.flycast.emulator",
+      "uniqueId": "atomiswave.com.flycast.emulator",
+      "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+      "amStartArguments": "-n com.flycast.emulator/com.reicast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atomiswave - RetroArch 64 - flycast",
+      "uniqueId": "atomiswave.ra64.flycast",
+      "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atomiswave - RetroArch 32 - flycast",
+      "uniqueId": "atomiswave.ra32.flycast",
+      "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atomiswave - RetroArch - flycast",
+      "uniqueId": "atomiswave.ra.flycast",
+      "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/flycast_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
 }

@@ -2,6 +2,8 @@
 
 DSESS uses search engine URL to obtain target sites. Then use the CSS selector syntax to acquire wanted sources from target sites.
 
+
+
 ## Preknowledges
 ### CSS selector
 Before further instruction. Make sure to view the [doc](https://jsoup.org/cookbook/extracting-data/selector-syntax) from Jsoup.
@@ -13,25 +15,18 @@ Your parameters have to be encoded as [URL Query encoding](https://www.url-encod
 ### Regex
 See https://regex101.com/.
 
+
+
 ## Overview
 DSESS has below format.
 
 `Headers` + `:` + `Template tags` + `:` + `DSESS URL`
 
+
 ## Headers
 `DSESS:` + scraper target
 
-`DSESS:BOX_ART`
-
-`DSESS:SNAPSHOT`
-
-`DSESS:TITLE`
-
-`DSESS:YOUTUBE`
-
-`DSESS:DESCRIPTION`
-
-`DSESS:GENRES`
+Avaliable headers: `DSESS:BOX_ART`, `DSESS:SNAPSHOT`, `DSESS:TITLE`, `DSESS:YOUTUBE`, `DSESS:DESCRIPTION`, `DSESS:GENRES`
 
 
 ## Template tags
@@ -58,11 +53,12 @@ Encoded as
 - localeCountry, like `US` `TW`
 - localeLanguageAndCountry, like `en-US` `zh-TW`
 
+
 ## DSESS URL
 DSESS URL contains **The body URL** and several **DSESS URL parameters**.
 DSESS defined parameters will be extracted and removed before HTTPS request.
 
-### 0. The body URL
+### 1. The body URL
 The body URL contains the search engine HTTPS URL with template tags. The template tags will apply to each URL parameter when each paramenter be obtained. For example:
 
 `https://www.google.com/search?q=%7BscraperKeyword%7D&hl=%7BlocaleLanguage%7D&tbm=isch`
@@ -75,62 +71,99 @@ You can see  `{scraperKeyword}` is encoded as `%7BscraperKeyword%7D`. So do `{lo
 All parameters **must be encode to URL query encoded string**. Concatenate by URL parameters rules.
 Same with following DSESS URL parameters. Also the DSESS URL parameters are processed with below order.
 
-### 1. Target site link selector parameter
-`dsess_target_site_selector=` + Target site `<a>` element CSS selector.
 
-For example: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9 a`.
 
-And don't forget to **encode the Regex to URL encoded query string** like others parameters.
+## DSESS URL - Select target site parameters
+### 1. Target site selector parameter
+**Usage:** `dsess_target_site_selector=` + Target site element CSS selector. (Where the selected element should contains `<a>` children.)
 
-Encoded as: `div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a`.
-
-It will matches all `<a>` elements available from search results from search engine. These `<a>` elements will be used by the next "**2. Target site Regex**" in next process.
+It will matches `<a>` elements available from search results from search engine. These `<a>` elements will be used by the next ***2. Target site label sub-selector*** to ***5. Target site Regex*** in next process.
 
 If `dsess_target_site_selector` is not present. All `<a>` element will be used.
 
+#### Example
+`div.col-xs-9.col-sm-9.col-md-9.col-lg-9`. Encoded as `div.col-xs-9.col-sm-9.col-md-9.col-lg-9`.
 
-### 2. Target site Regex parameter
-`dsess_target_site=` + Target site Regex.
+### 2. Target site label sub-selector parameter
+**Usage:** `dsess_target_site_label_subselector=` + Target site label CSS selector. 
 
-For example: `^https:\/\/www.romspedia.com\/roms\/.*$`.
+It is a sub-selector for the the elements selected from ***1. Target site selector***.
 
-And don't forget to **encode the Regex to URL encoded query string** like others parameters.
+It will select all elements filtered by ***1. Target site selector*** from search engine. And if select, The `.text()` from the element selected by ***2. Target site label sub-selector***  will be used by ***3. Target site label sub-selector matchers*** in next process.
 
-Encoded as: `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
+If `dsess_target_site_label_subselector` is not present. Process will jump from ***1. Target site selector*** to ***5. Target site Regex*** or ***4. Target site link sub-selector parameter*** if exists.
 
-It will matches all links filtered by **1. Target site link selector** from search engine. And if matched, the first matched by "**2. Target site Regex**"  will be used by "**2.selector parameter**" in next process.
+#### Example
+`span`. Encoded as `span`.
 
-If `dsess_target_site` is not present. The search engine site itself will be used by **3. Selector parameter**'s CSS selector.
+### 3. Target site label sub-selector matchers parameter
+**Usage:** `dsess_target_site_label_matchers=` + Target site label matchers.
 
+It will score all labels selected by ***2. Target site label sub-selector*** from search engine. The element's ***4. Target site link sub-selector*** selected link with highest score automatically scored by ***3. Target site label sub-selector matchers*** and matched by ***5. Target site Regex parameter*** will be used by ***In target site parameters: 1.selector*** in next process.
 
-### 3. Selector parameter
-`dsess_selector=` + CSS selector.
+If `dsess_target_site_label_matchers` is not present. All template tags will be used.
+
+#### Example
+`scraperKeyword, platformName`. Encoded as: `scraperKeyword%2C+platformName`.
+
+### 4. Target site link sub-selector parameter
+**Usage:** `dsess_target_site_link_subselector=` + Target site link CSS selector. 
+
+It is a sub-selector for the elements selected from ***1. Target site selector***.
+
+It will select links filtered by ***1. Target site selector*** from search engine. And if selected, the links will be used by ***5. Target site Regex*** in next process.
+
+If `dsess_target_site_link_subselector` is not present. All of the elements' sub-links selected from ***1. Target site selector*** will be used.
+
+#### Example
+`a`. Encoded as `a`.
+
+### 5. Target site Regex parameter
+**Usage:** `dsess_target_site=` + Target site Regex.
+
+It will matches all links filtered by ***1. Target site selector*** to ***4. Target site link sub-selector*** from search engine. And if matched, the first matched by ***5. Target site Regex***  will be used by ***In target site parameters: 1.selector*** in next process.
+
+If `dsess_target_site` is not present. The search engine site itself will be used by ***In target site parameters: 1.selector***'s CSS selector.
+
+#### Example
+`^https:\/\/www.romspedia.com\/roms\/.*$`. Encoded as `%5Ehttps%3A%5C%2F%5C%2Fwww.romspedia.com%5C%2Froms%5C%2F.%2A%24`.
+
+## DSESS URL - In target site parameters
+### 1. Selector parameter
+**Usage:** `dsess_selector=` + CSS selector.
 
 When target site is available, the selector parameter will be applied on target site.
 
+And don't forget to **encode the CSS selector to URL encoded query string** like others parameters.
 
-### 4. Attribute parameter
-`dsess_attribute=` + Attribute you want from the element selected by CSS selector.
+### 2. Attribute parameter
+**Usage:** `dsess_attribute=` + Attribute you want from the element selected by CSS selector.
 
 For example `href` for `<a>` element.
 If `dsess_attribute` is not present the doc's html() will be resolved.
 
-
-### 5. Extractor Regex parameter
-`dsess_extractor=` + Extractor Regex.
+### 3. Extractor Regex parameter
+**Usage:** `dsess_extractor=` + Extractor Regex.
 
 If `dsess_extractor` is not present the the plain text will be used. Else string extracted from Regex group 1 will be used.
 
+And don't forget to **encode the Regex to URL encoded query string** like others parameters.
 
-### 6. Replacer Regex parameter
-`dsess_replacer=` + Replacer Regex.
+### 4. Replacer Regex parameter
+**Usage:** `dsess_replacer=` + Replacer Regex.
 
-If `dsess_replacer` is not present the the original text will be used. Else string filter by it will be used in **7. Replacer value parameter**.
+If `dsess_replacer` is not present the the original text will be used. Else string filter by it will be used in ***4. Replacer value***.
 
-### 7. Replacer value parameter
-`dsess_replacer_value=` + Replacer value.
+And don't forget to **encode the Regex to URL encoded query string** like others parameters.
 
-If `dsess_replacer` is not present the the original text will be used. Else string filter by **6. Replacer Regex parameter** will be replaced with the replacer value.
+### 5. Replacer value parameter
+**Usage:** `dsess_replacer_value=` + Replacer value.
+
+If `dsess_replacer` is not present the the original text will be used. Else string filter by ***4. Replacer Regex*** will be replaced with the replacer value.
+
+And don't forget to **encode the Value to URL encoded query string** like others parameters.
+
+
 
 ## Example
 `DSESS:BOX_ART:TAGS(scraperKeyword):https://www.switchscores.com/games/search?search_keywords=%7BscraperKeyword%7D&dsess_target_site_selector=div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.switchscores%5C.com%5C%2Fgames%5C%2F.%2A%24&dsess_selector=div.col-md-8+%3E+img.img-responsive&dsess_attribute=src`
@@ -150,3 +183,5 @@ If `dsess_replacer` is not present the the original text will be used. Else stri
 `dsess_attribute=` `src`
 
 `dsess_extractor` is not used in this example
+
+You can try DSESS in [Daijishō Console](/docs/daijishou_console.md).

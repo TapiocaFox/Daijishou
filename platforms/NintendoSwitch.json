@@ -1,34 +1,46 @@
 {
-    "databaseVersion": 8,
-    "revisionNumber": 1,
-    "platform": {
-        "name": "Nintendo Switch",
-        "shortname": "switch",
-        "description": null,
-        "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-        "scraperSourceList": [
-          "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.switchscores.com/games/search?search_keywords=%7BscraperKeyword%7D&dsess_target_site_selector=div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.switchscores%5C.com%5C%2Fgames%5C%2F.%2A%24&dsess_selector=div.col-md-8+%3E+img.img-responsive&dsess_attribute=src",
-          "DSESS:SNAPSHOT:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=203&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fswitch%5C%2F.%2A%24&dsess_selector=div.col-md-8.col-lg-8+div.row+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F",
-          "RAW: Nintendo - Switch"
-        ],
-        "boxArtAspectRatioId": 0,
-        "useCustomBoxArtAspectRatio": false,
-        "customBoxArtAspectRatio": null,
-        "screenAspectRatioId": 0,
-        "useCustomScreenAspectRatio": true,
-        "customScreenAspectRatio": "1.85:1",
-        "retroAchievementsAlias": null,
-        "extra": ""
+  "databaseVersion": 14,
+  "revisionNumber": 3,
+  "platform": {
+    "name": "Nintendo Switch",
+    "uniqueId": "switch",
+    "shortname": "switch",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.switchscores.com/games/search?search_keywords=%7BscraperKeyword%7D&dsess_target_site_selector=div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.switchscores%5C.com%5C%2Fgames%5C%2F.%2A%24&dsess_selector=div.col-md-8+%3E+img.img-responsive&dsess_attribute=src",
+      "DSESS:SNAPSHOT:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=203&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fswitch%5C%2F.%2A%24&dsess_selector=div.col-md-8.col-lg-8+div.row+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F",
+      "RAW: Nintendo - Switch"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "1.85:1",
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "switch - Skyline",
+      "uniqueId": "switch.skyline.emu",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n skyline.emu/emu.skyline.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
     },
-    "playerList": [
-        {
-            "name": "switch - Skyline",
-            "description": "Supported extensions: nro, nso, nca, xci, nsp.",
-            "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
-            "amStartArguments": "-n skyline.emu/emu.skyline.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
-            "killPackageProcesses": false,
-            "killPackageProcessesWarning": false,
-            "extra": ""
-        }
-    ]
+    {
+      "name": "switch - Yuzu",
+      "uniqueId": "org.yuzu.yuzu_emu",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  ]
 }

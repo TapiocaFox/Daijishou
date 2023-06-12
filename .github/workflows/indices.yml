@@ -1,0 +1,46 @@
+name: Indices
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+  
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-indices:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v3
+
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: update platforms/index.js
+      run: cd platforms && python generate_index.py
+      
+    - name: update platform_wallpapers_packs/index.js
+      run: cd themes/platform_wallpapers_packs && python generate_index.py
+      
+    - name: update platform_thumbnails_packs/index.js
+      run: cd themes/platform_thumbnails_packs && python generate_index.py
+      
+    - name: commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff-index --quiet HEAD || (git commit -a -m "updated indices by GitHub Actions" --allow-empty)
+
+    - name: push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main 

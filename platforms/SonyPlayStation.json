@@ -1,8 +1,9 @@
 {
-  "databaseVersion": 8,
-  "revisionNumber": 2,
+  "databaseVersion": 14,
+  "revisionNumber": 6,
   "platform": {
     "name": "Sony PlayStation",
+    "uniqueId": "psx",
     "shortname": "psx",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
@@ -10,6 +11,8 @@
       "LIBRETRO:Sony - PlayStation",
       "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=10&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
       "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=10&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/psx?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/psx?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29",
       "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=6&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fmsx%5C%2F.%2A%24&dsess_selector=div%23coreGameCover+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F"
     ],
     "boxArtAspectRatioId": 0,
@@ -24,6 +27,17 @@
   "playerList": [
     {
       "name": "psx - Duckstation",
+      "uniqueId": "psx.com.github.stenzek.duckstation",
+      "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
+      "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
+      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.uri} \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n ",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "psx - Duckstation (Legacy)",
+      "uniqueId": "psx.com.github.stenzek.duckstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.path} \n  --ez resumeState 0 \n --activity-clear-task \n --activity-clear-top \n ",
@@ -33,6 +47,7 @@
     },
     {
       "name": "psx - FPse",
+      "uniqueId": "psx.com.emulator.fpse",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.emulator.fpse/.Main \n-a android.intent.action.VIEW\n  -d {file.path} \n --activity-clear-task \n --activity-clear-top \n ",
@@ -42,6 +57,7 @@
     },
     {
       "name": "psx - FPse64",
+      "uniqueId": "psx.com.emulator.fpse64",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.emulator.fpse64/.Main \n-a android.intent.action.VIEW\n  -d {file.path} \n --activity-clear-task \n --activity-clear-top \n ",
@@ -51,6 +67,7 @@
     },
     {
       "name": "psx - ePSXe",
+      "uniqueId": "psx.com.epsxe.ePSXe",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.epsxe.ePSXe/.ePSXe \n -a android.intent.action.MAIN \n -e com.epsxe.ePSXe.isoName {file.path} \n --activity-clear-task\n  --activity-clear-top",
@@ -58,10 +75,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "psx - Retroarch 64 - beetle psx hw",
+      "uniqueId": "psx.ra64.mednafen_psx_hw",
       "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": " -n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_psx_hw_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n -e QUITFOCUS\n --activity-clear-task\n --activity-clear-top",
@@ -71,6 +87,7 @@
     },
     {
       "name": "psx - Retroarch 64 - beetle psx",
+      "uniqueId": "psx.ra64.mednafen_psx",
       "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mednafen_psx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n -e QUITFOCUS \n --activity-clear-task\n --activity-clear-top",
@@ -80,6 +97,7 @@
     },
     {
       "name": "psx - RetroArch 64 - duckstation",
+      "uniqueId": "psx.ra64.duckstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/duckstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -89,6 +107,7 @@
     },
     {
       "name": "psx - RetroArch 64 - pcsx_rearmed",
+      "uniqueId": "psx.ra64.pcsx_rearmed",
       "description": "Supported extensions: bin, cbn, ccd, chd, cue, img, m3u, mdf, pbp, toc.",
       "acceptedFilenameRegex": "^(.*).(?:bin|cbn|ccd|chd|cue|img|m3u|mdf|pbp|toc)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/pcsx_rearmed_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -98,6 +117,7 @@
     },
     {
       "name": "psx - RetroArch 64 - swanstation",
+      "uniqueId": "psx.ra64.swanstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/swanstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -105,10 +125,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "psx - Retroarch 32 - beetle psx hw",
+      "uniqueId": "psx.ra32.mednafen_psx_hw",
       "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": " -n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_psx_hw_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n -e QUITFOCUS\n --activity-clear-task\n --activity-clear-top",
@@ -118,6 +137,7 @@
     },
     {
       "name": "psx - Retroarch 32 - beetle psx",
+      "uniqueId": "psx.ra32.mednafen_psx",
       "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/mednafen_psx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n -e QUITFOCUS \n --activity-clear-task\n --activity-clear-top",
@@ -127,6 +147,7 @@
     },
     {
       "name": "psx - RetroArch 32 - duckstation",
+      "uniqueId": "psx.ra32.duckstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/duckstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -136,6 +157,7 @@
     },
     {
       "name": "psx - RetroArch 32 - pcsx_rearmed",
+      "uniqueId": "psx.ra32.pcsx_rearmed",
       "description": "Supported extensions: bin, cbn, ccd, chd, cue, img, m3u, mdf, pbp, toc.",
       "acceptedFilenameRegex": "^(.*).(?:bin|cbn|ccd|chd|cue|img|m3u|mdf|pbp|toc)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/pcsx_rearmed_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -145,6 +167,7 @@
     },
     {
       "name": "psx - RetroArch 32 - swanstation",
+      "uniqueId": "psx.ra32.swanstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/swanstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -152,10 +175,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "psx - Retroarch - beetle psx hw",
+      "uniqueId": "psx.ra.mednafen_psx_hw",
       "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": " -n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/mednafen_psx_hw_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n -e QUITFOCUS\n --activity-clear-task\n --activity-clear-top",
@@ -165,6 +187,7 @@
     },
     {
       "name": "psx - Retroarch - beetle psx",
+      "uniqueId": "psx.ra.mednafen_psx",
       "description": "Supported extensions: cue, toc, m3u, ccd, exe, pbp, chd.",
       "acceptedFilenameRegex": "^(.*).(?:cue|toc|m3u|ccd|exe|pbp|chd)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/mednafen_psx_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n -e QUITFOCUS \n --activity-clear-task\n --activity-clear-top",
@@ -174,6 +197,7 @@
     },
     {
       "name": "psx - RetroArch - duckstation",
+      "uniqueId": "psx.ra.duckstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/duckstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -183,6 +207,7 @@
     },
     {
       "name": "psx - RetroArch - pcsx_rearmed",
+      "uniqueId": "psx.ra.pcsx_rearmed",
       "description": "Supported extensions: bin, cbn, ccd, chd, cue, img, m3u, mdf, pbp, toc.",
       "acceptedFilenameRegex": "^(.*).(?:bin|cbn|ccd|chd|cue|img|m3u|mdf|pbp|toc)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/pcsx_rearmed_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -192,6 +217,7 @@
     },
     {
       "name": "psx - RetroArch - swanstation",
+      "uniqueId": "psx.ra.swanstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/swanstation_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",

@@ -17,16 +17,12 @@
       "filename": "android.jpg"
     },
     {
-      "matchPlatformShortname": "arcade",
-      "filename": "arcade.jpg"
-    },
-    {
       "matchPlatformShortname": "fbneo",
-      "filename": "arcade.jpg"
+      "filename": "arcade-fbn.jpg"
     },
     {
       "matchPlatformShortname": "mame",
-      "filename": "arcade.jpg"
+      "filename": "arcade-mame.jpg"
     },
     {
       "matchPlatformShortname": "atari2600",
@@ -51,6 +47,10 @@
     {
       "matchPlatformShortname": "c64",
       "filename": "c64.jpg"
+    },
+    {
+      "matchPlatformShortname": "colecovision",
+      "filename": "colecovision.jpg"
     },
     {
       "matchPlatformShortname": "dreamcast",
@@ -141,6 +141,14 @@
       "filename": "sega32x.jpg"
     },
     {
+      "matchPlatformShortname": "ngage",
+      "filename": "ngage.jpg"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.jpg"
+    },
+    {
       "matchPlatformShortname": "segacd",
       "filename": "segacd.jpg"
     },
@@ -191,6 +199,10 @@
     {
       "matchPlatformShortname": "ws",
       "filename": "wonderswan.jpg"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zx-spectrum.jpg"
     },
     {
       "matchPlatformShortname": "wsc",

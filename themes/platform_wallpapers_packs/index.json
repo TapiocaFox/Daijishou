@@ -3,10 +3,21 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "Cookie"
+      ],
+      "platformWallpapersPackDescription": "Little theme inspired by the Cirquit theme by Post Mortem, I wanted to do my own thing for my rg405M. This is my first theme, I hope you really like it. There are 88+ platforms in the future I will add more. Indexing by Post Mortem.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "ADNTECH",
+      "platformWallpapersPackPreviewThumbnailPath": "ADNTECH/previewthumbnail.png",
+      "platformWallpapersPackRootPath": "ADNTECH"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Aesthetic Minimalist",
         "Sarantula"
       ],
       "platformWallpapersPackDescription": "Minimalist design for daijisho, optimized for 4:3 and 16:9 aspect ratio devices. Designed specifically for use with the Retroid Pocket 2+/3+. Contains most popular wallpapers with more to be added in the future.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Aesthetic Minimalist",
       "platformWallpapersPackPreviewThumbnailPath": "Aesthetic-Minimalist/preview_thumbnail.png",
       "platformWallpapersPackRootPath": "Aesthetic-Minimalist"
@@ -16,6 +27,7 @@
         "fagnerpc"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-NX on GitHub. Mentioned by oby2 in Discord.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Alekfull-NX",
       "platformWallpapersPackPreviewThumbnailPath": "alekfull-nx/thumbnail.png",
       "platformWallpapersPackRootPath": "alekfull-nx"
@@ -27,6 +39,7 @@
         "Eighttees Kid"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/ARTFLIX-NX-Recalbox on GitHub. Mentioned by DougRetroGames in Discord. Backported some images from Retro Devils and Eighttees Kid.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "ARTFLIX-NX-Recalbox",
       "platformWallpapersPackPreviewThumbnailPath": "alekfull-nx-recalbox/thumbnail.png",
       "platformWallpapersPackRootPath": "alekfull-nx-recalbox"
@@ -36,6 +49,7 @@
         "fagnerpc"
       ],
       "platformWallpapersPackDescription": "The pack contains characters, game contents and splendid wallpapers with brand logo for each devices. Originated from fagnerpc/Alekfull-SOLO on GitHub. Mentioned by DougRetroGames in Discord.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Alekfull-SOLO",
       "platformWallpapersPackPreviewThumbnailPath": "alekfull-solo/thumbnail.png",
       "platformWallpapersPackRootPath": "alekfull-solo"
@@ -45,6 +59,7 @@
         "alienanimal"
       ],
       "platformWallpapersPackDescription": "The pack contains the purple theme created by reddit user alienanimal.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "alienanimal_purple",
       "platformWallpapersPackPreviewThumbnailPath": "alienanimal-purple/thumbnail.jpg",
       "platformWallpapersPackRootPath": "alienanimal-purple"
@@ -53,7 +68,8 @@
       "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
-      "platformWallpapersPackDescription": "Colorful wallpaper with minimalist design, with images that represent the games that can be found on the choosen system. Tested on a 4:3 screen.",
+      "platformWallpapersPackDescription": "Elevate your gaming device with a vibrant and modern wallpaper featuring a minimalist design. The wallpaper showcases colorful images that represent the diverse array of games available on your chosen gaming system. Designed to complement a 4:3 screen aspect ratio, this wallpaper will add a touch of style to your gaming setup, while also reflecting your unique gaming interests.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Arrow",
       "platformWallpapersPackPreviewThumbnailPath": "Arrow/previewthumbnail.jpg",
       "platformWallpapersPackRootPath": "Arrow"
@@ -63,6 +79,7 @@
         "BrunoBelmonte"
       ],
       "platformWallpapersPackDescription": "BB-1 Dark, a platform wallpapers pack made by BrunoBelmonte. The wallpapers pack contains beautiful gameplay snapshots and titles for each platform.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "BB-1 Dark",
       "platformWallpapersPackPreviewThumbnailPath": "BB1-Dark/thumbnail.png",
       "platformWallpapersPackRootPath": "BB1-Dark"
@@ -72,6 +89,7 @@
         "BrunoBelmonte"
       ],
       "platformWallpapersPackDescription": "BB-1 Light, a platform wallpapers pack made by BrunoBelmonte. The wallpapers pack contains beautiful gameplay snapshots and titles for each platform.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "BB-1 Light",
       "platformWallpapersPackPreviewThumbnailPath": "BB1-Light/thumbnail.png",
       "platformWallpapersPackRootPath": "BB1-Light"
@@ -80,7 +98,8 @@
       "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
-      "platformWallpapersPackDescription": "Colorful wallpaper with simple design and the. The theme has been created with images of the hardware and logo of each platform. Compatible with 4:3 and widescreens.",
+      "platformWallpapersPackDescription": "The theme is meticulously crafted with high-quality images of the hardware and logos of various gaming platforms, giving your screen a modern and polished look. Compatible with both 4:3 and wide screens, this wallpaper is versatile and can seamlessly fit into any setup. For a clean and immersive experience, the -Hide Title- option is recommended to keep distractions at bay, allowing you to fully appreciate the aesthetic appeal of the wallpaper.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Circuit",
       "platformWallpapersPackPreviewThumbnailPath": "Circuit/previewthumbnail.jpg",
       "platformWallpapersPackRootPath": "Circuit"
@@ -90,6 +109,7 @@
         "jusuchin85"
       ],
       "platformWallpapersPackDescription": "This pack contains colorful representation for each system and the games that made that system famous. Designed by JamesHowlett in Discord.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Clean Colors",
       "platformWallpapersPackPreviewThumbnailPath": "clean-colors/Thumbnail.png",
       "platformWallpapersPackRootPath": "clean-colors"
@@ -99,6 +119,7 @@
         "evxcola"
       ],
       "platformWallpapersPackDescription": "A reimagining of fagnerpc's Alekfull-NX wallpapers now with better scaling for Daijishou, use of original promotional images, box art, concept art and renders to better suit each system's era.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Colafull-DX",
       "platformWallpapersPackPreviewThumbnailPath": "Colafull-DX/previewthumbnail.jpg",
       "platformWallpapersPackRootPath": "Colafull-DX"
@@ -108,7 +129,8 @@
         "viking",
         "iShade"
       ],
-      "platformWallpapersPackDescription": "The pack contains colorful yet simple wallpapers of physical looks for each devices. Originated from viking on launchbox. Modified by UsagiShade, indexing by magneticchen for Daijish\u014d.",
+      "platformWallpapersPackDescription": "The pack contains colorful yet simple wallpapers of physical looks for each devices. Originated from viking on launchbox. Modified by UsagiShade, indexing by TapiocaFox for Daijish\u014d.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "COLORFUL",
       "platformWallpapersPackPreviewThumbnailPath": "colorful/COLORFUL.jpg",
       "platformWallpapersPackRootPath": "colorful"
@@ -118,60 +140,168 @@
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "Mondrian inspired wallpaper pack by Jetup13",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "ColorfulGrid",
       "platformWallpapersPackPreviewThumbnailPath": "ColorfulGrid/base.png",
       "platformWallpapersPackRootPath": "ColorfulGrid"
     },
     {
       "platformWallpapersPackAuthors": [
+        "Daijish\u014d",
+        "TapiocaFox"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack consists images of waifus with coloured background. This pack will set all your wallpaper to waifus related to the platforms. :3",
+      "platformWallpapersPackIsNSFW": true,
+      "platformWallpapersPackName": "Colorful Waifus\u2122 (Beta)",
+      "platformWallpapersPackPreviewThumbnailPath": "ColorfulWaifus/preview.png",
+      "platformWallpapersPackRootPath": "ColorfulWaifus"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "lipheson"
+      ],
+      "platformWallpapersPackDescription": "A retro gaming theme that brings back the nostalgia of classic video games from the 80s and 90s.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Daijish\u014d Box",
+      "platformWallpapersPackPreviewThumbnailPath": "Daijisho Box/Thumbnails.png",
+      "platformWallpapersPackRootPath": "Daijisho Box"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "dre10g"
       ],
       "platformWallpapersPackDescription": "An elegant dark wallpaper pack with outlines of the original hardware and acompanied by that platform's logo.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Dre-LogoHardware",
       "platformWallpapersPackPreviewThumbnailPath": "Dre-LogoHardware/thumbnail.png",
       "platformWallpapersPackRootPath": "Dre-LogoHardware"
     },
     {
       "platformWallpapersPackAuthors": [
-        "DrOctoroc"
-      ],
-      "platformWallpapersPackDescription": "The pack contains 3d models for each devices. Originated from DrOctoroc on deviantart.com. Mentioned by MonkoftheFunk in Discord.",
-      "platformWallpapersPackName": "DrOctoroc",
-      "platformWallpapersPackPreviewThumbnailPath": "droctoroc/droctoroc.gif",
-      "platformWallpapersPackRootPath": "droctoroc"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "Super Retro City (original), lukeskope (port)"
       ],
-      "platformWallpapersPackDescription": "Theme designed by Super Retro City, remade by lukeskope and uploaded on his behalf.",
+      "platformWallpapersPackDescription": "Theme designed by Super Retro City, remixed by lukeskope",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "DroidBox",
       "platformWallpapersPackPreviewThumbnailPath": "droidbox/thumbnail.png",
       "platformWallpapersPackRootPath": "droidbox"
     },
     {
       "platformWallpapersPackAuthors": [
+        "omgitsdose"
+      ],
+      "platformWallpapersPackDescription": "A simple and modern wallpaper pack optimized for the Retroid Pocket 3/3+, oriiginally inspired by the Retro Mega Next theme for Pegasus. This wallpaper pack showcases hardware and system box cover art for most popular systems.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "DSE-Pocket",
+      "platformWallpapersPackPreviewThumbnailPath": "DSE-Pocket/thumbnail.png",
+      "platformWallpapersPackRootPath": "DSE-Pocket"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
-      "platformWallpapersPackDescription": "Colorful wallpaper with modern design and the Daijishou logo to honor it's creator. The theme has been created with images that represent games that can be found on the choosen system. Tested on 4:3 screen.",
+      "platformWallpapersPackDescription": "Enhance your gaming device with a strikingly vibrant wallpaper featuring a modern design, accentuated by the iconic Daijishou logo as a tribute to its esteemed creator. This eye-catching wallpaper is thoughtfully crafted with high-quality images that represent the diverse array of games available on your chosen gaming system, adding a touch of style to your setup. Tested on a 4:3 screen for optimal viewing, this wallpaper is designed to captivate and inspire. ",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Eclipse",
       "platformWallpapersPackPreviewThumbnailPath": "Eclipse/previewthumbnail.jpg",
       "platformWallpapersPackRootPath": "Eclipse"
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "My take on an artbook style theme. Dark and moody.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic ArtBook Noir",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicArtBookNoir/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicArtBookNoir"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "A mod of the classic Epic Noir theme in black, white and red",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Retro Noir Blanche",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicBlancheNoir/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicBlancheNoir"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "EpicNoir and Switch Emulationstation theme inspired wallpaper pack using screenshots of gameplay. Packed by Jetup13.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "EpicNX",
       "platformWallpapersPackPreviewThumbnailPath": "epicnx/thumb.png",
       "platformWallpapersPackRootPath": "epicnx"
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "A rework of the classic Epic Noir theme based on a collaboration between Chicuelo and C64-dev",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Retro Noir",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicRetroNoir/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicRetroNoir"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "A rework of the classic Epic Noir theme based on a collaboration between Chicuelo and C64-dev with details",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Retro Noir Detail",
+      "platformWallpapersPackPreviewThumbnailPath": "EpicRetroNoirDetail/thumbnail.png",
+      "platformWallpapersPackRootPath": "EpicRetroNoirDetail"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Post Mortem"
+      ],
+      "platformWallpapersPackDescription": "This vibrant and sleek theme features a consistent font type used for naming each platform and its specifications, creating a sense of synergy throughout the design. The images used are authentic representations of the original character design from each platform era. The theme is compatible with both 4:3 and Widescreen displays, and it is recommended to enable the -Hide Platform Title- option for an optimal viewing experience.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Fade",
+      "platformWallpapersPackPreviewThumbnailPath": "Fade/Previewthumbnail.png",
+      "platformWallpapersPackRootPath": "Fade"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "\u3066Rey\u591c"
+      ],
+      "platformWallpapersPackDescription": "An angled and minimal design, featuring system logos. Widescreen and smallsceen compatible. Wallpaper for Daijish\u014d menus available here: https://shorturl.at/opsHZ",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Geometry",
+      "platformWallpapersPackPreviewThumbnailPath": "geometry/thumbnail.png",
+      "platformWallpapersPackRootPath": "geometry"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "\u3066Rey\u591c"
+      ],
+      "platformWallpapersPackDescription": "A dark version of 'Geometry'. Wallpaper for Daijish\u014d menus available here: https://shorturl.at/knsVY",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Geometry Dark",
+      "platformWallpapersPackPreviewThumbnailPath": "geometry dark/thumbnail-dark.png",
+      "platformWallpapersPackRootPath": "geometry dark"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "\u3066Rey\u591c"
+      ],
+      "platformWallpapersPackDescription": "A neon version of 'Geometry Dark'. Wallpaper for Daijish\u014d menus available here: https://shorturl.at/iLU79",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Geometry Dark Neon",
+      "platformWallpapersPackPreviewThumbnailPath": "geometry dark neon/thumbnail-neon.png",
+      "platformWallpapersPackRootPath": "geometry dark neon"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Kenji cosplay studio"
       ],
       "platformWallpapersPackDescription": "The pack contains abstract, flat and colorful wallpapers with brand logo for nintendo devices. Originated from kenji-cosplay-studio on deviantart.com. Mentioned by Diabolus in Discord.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Kenji cosplay studio",
       "platformWallpapersPackPreviewThumbnailPath": "kenji-cosplay-studio/kenji-cosplay-studio.jpg",
       "platformWallpapersPackRootPath": "kenji-cosplay-studio"
@@ -180,53 +310,119 @@
       "platformWallpapersPackAuthors": [
         "Post Mortem"
       ],
-      "platformWallpapersPackDescription": "This wallpaper pack uses only images that really represent the games of each platforms, with a minimal but futuristic design. Tested on 4:3 screen.",
+      "platformWallpapersPackDescription": "This meticulously curated wallpaper pack features high-quality images that accurately depict the games available on each platform. The minimalist yet futuristic design exudes a sleek and polished look, adding a touch of sophistication to your setup. Carefully tested on a 4:3 screen, the wallpaper pack is optimized for optimal viewing experience, ensuring that every image is showcased in its full glory. With this wallpaper pack, you can showcase your appreciation for gaming while also staying on-trend with the latest design aesthetic.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Light Beam",
       "platformWallpapersPackPreviewThumbnailPath": "Light-Beam/Previewthumbnail.jpg",
       "platformWallpapersPackRootPath": "Light-Beam"
     },
     {
       "platformWallpapersPackAuthors": [
+        "BigShot"
+      ],
+      "platformWallpapersPackDescription": "A very lovely and lewd theme. Featuring babes from each dedicated console + with games logo and release date. Special thanks to Post Mortem for the help. Enjoy.",
+      "platformWallpapersPackIsNSFW": true,
+      "platformWallpapersPackName": "Lovely Lewds",
+      "platformWallpapersPackPreviewThumbnailPath": "Lovely Lewds/wallpaper.png",
+      "platformWallpapersPackRootPath": "Lovely Lewds"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "NikkitaFTW"
+      ],
+      "platformWallpapersPackDescription": "Minimalist design for Daijisho, optimized for 16:9 devices. Includes controllers of each system in a minimalistic background.For a clean and immersive experience, the -Hide Title- option is recommended",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Minimal Controllers",
+      "platformWallpapersPackPreviewThumbnailPath": "MinimalControllers/preview_thumbnail.png",
+      "platformWallpapersPackRootPath": "MinimalControllers"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jetup13"
+      ],
+      "platformWallpapersPackDescription": "Features gamings best girls with a dark gradient background.",
+      "platformWallpapersPackIsNSFW": true,
+      "platformWallpapersPackName": "ModernWaifu",
+      "platformWallpapersPackPreviewThumbnailPath": "ModernWaifu/logo.png",
+      "platformWallpapersPackRootPath": "ModernWaifu"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Daijish\u014d",
-        "magneticchen"
+        "TapiocaFox"
       ],
       "platformWallpapersPackDescription": "This pack will set all your wallpaper to mount niitaka. Niitaka (\u65b0\u9ad8) is the highest mountain in Taiwan at 3,952 m above sea level. \"Was\" the tallest mountain in the Japanese Empire.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Mount niitaka",
       "platformWallpapersPackPreviewThumbnailPath": "mount-niitaka/preview_thumbnail_2.jpg",
       "platformWallpapersPackRootPath": "mount-niitaka"
     },
     {
       "platformWallpapersPackAuthors": [
-        "lipheson"
-      ],
-      "platformWallpapersPackDescription": "A light-themed Alekfull-NX like wallpaper set. Currently contains mainly PS and Nintendo characters. This pack is made by lipheson on the Daijish\u014d discord.",
-      "platformWallpapersPackName": "My Eyes!!!",
-      "platformWallpapersPackPreviewThumbnailPath": "my-eyes/thumbnail.gif",
-      "platformWallpapersPackRootPath": "my-eyes"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "UnBurn"
       ],
       "platformWallpapersPackDescription": "An NES Cartridge inspired wallpaper, highlighting a particular game from that platform.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "NES Love Letter",
       "platformWallpapersPackPreviewThumbnailPath": "NES-love-letter/thumbnail.png",
       "platformWallpapersPackRootPath": "NES-love-letter"
     },
     {
       "platformWallpapersPackAuthors": [
+        "Gris"
+      ],
+      "platformWallpapersPackDescription": "A set of wallpapers containing pixel art-style consoles against a minimalist backdrop. Optimized for 4:3 and 16:9 aspect ratios. Icons sourced from YoshiPixel, Logos sourced from Dan Patrick. Special thanks to iShade, Post Mortem, Sarantula, Lan_DKZd and \u3066Rey\u3299. (LIMITED SUPPORT)",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Pixels",
+      "platformWallpapersPackPreviewThumbnailPath": "Pixels/preview_thumbnail_2.png",
+      "platformWallpapersPackRootPath": "Pixels"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "philgoodink"
+      ],
+      "platformWallpapersPackDescription": "A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system (for the most part).",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "POP!",
+      "platformWallpapersPackPreviewThumbnailPath": "POP!/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "POP!"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "philgoodink"
+      ],
+      "platformWallpapersPackDescription": "4:3 version of POP! A collection of colorful wallpapers that pairs with cover/concept/promotional art of the related system.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "POP! mini",
+      "platformWallpapersPackPreviewThumbnailPath": "POP! mini/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "POP! mini"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "UnBurn"
       ],
       "platformWallpapersPackDescription": "A collage of start and title screens from each platform, inviting the player to press start and begin their game. Includes over 60 wallpapers.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Press Start",
       "platformWallpapersPackPreviewThumbnailPath": "Press-Start/thumbnail.png",
       "platformWallpapersPackRootPath": "Press-Start"
     },
     {
       "platformWallpapersPackAuthors": [
+        "Galvy"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack featuring an 80's style grid theme with a simple logo reflection.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Reflections",
+      "platformWallpapersPackPreviewThumbnailPath": "Reflections/Galvy_icon.jpg",
+      "platformWallpapersPackRootPath": "Reflections"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "LuisMz"
       ],
       "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijish\u00f4 Launcher.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "RetroArtx",
       "platformWallpapersPackPreviewThumbnailPath": "retro-artx/thumbnail.jpg",
       "platformWallpapersPackRootPath": "retro-artx"
@@ -234,9 +430,10 @@
     {
       "platformWallpapersPackAuthors": [
         "Daijish\u014d",
-        "magneticchen"
+        "TapiocaFox"
       ],
       "platformWallpapersPackDescription": "A platform wallpapers pack template contains only single wallpaper of retro futuristic wallpaper.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Retro futuristic",
       "platformWallpapersPackPreviewThumbnailPath": "retro-futuristic/futuristic.jpg",
       "platformWallpapersPackRootPath": "retro-futuristic"
@@ -247,15 +444,27 @@
         "UnbelievableFlavour"
       ],
       "platformWallpapersPackDescription": "Clean and modern theme originally designed for Pegasus. Adapted for the Daijishou interface.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Retro Mega",
       "platformWallpapersPackPreviewThumbnailPath": "retro-mega/thumbnail.png",
       "platformWallpapersPackRootPath": "retro-mega"
     },
     {
       "platformWallpapersPackAuthors": [
+        "Tecnos12"
+      ],
+      "platformWallpapersPackDescription": "A wallpaper pack based on colours and collages of in-game screenshots.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "RetroHue",
+      "platformWallpapersPackPreviewThumbnailPath": "RetroHue/Thumbnail.png",
+      "platformWallpapersPackRootPath": "RetroHue"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "DavirCrz"
       ],
       "platformWallpapersPackDescription": "This is an aspect to be able to represent in a good way the system according to appearance",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "RetroX",
       "platformWallpapersPackPreviewThumbnailPath": "RetroX/previewthumbnail.png",
       "platformWallpapersPackRootPath": "RetroX"
@@ -265,25 +474,17 @@
         "Jetup13"
       ],
       "platformWallpapersPackDescription": "Remixed take on the Alekfull theme. Packed by Jetup13.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "SagaArk",
       "platformWallpapersPackPreviewThumbnailPath": "sagaark/icon.jpg",
       "platformWallpapersPackRootPath": "sagaark"
     },
     {
       "platformWallpapersPackAuthors": [
-        "Jetup13",
-        "KALEL1981"
-      ],
-      "platformWallpapersPackDescription": "The pack contains wallpapers of characters from systems with transparent backgrounds. Originated from launchbox theme. Created by Jetup13. Originated from NES-Box for ES by KALEL1981.",
-      "platformWallpapersPackName": "Saga Box",
-      "platformWallpapersPackPreviewThumbnailPath": "sagabox/mario.png",
-      "platformWallpapersPackRootPath": "sagabox"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "LanDKZd"
       ],
       "platformWallpapersPackDescription": "Just a simple dark theme with the platform logos",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "SimpleDarkLogo",
       "platformWallpapersPackPreviewThumbnailPath": "SimpleDarkLogo/thumbnail.png",
       "platformWallpapersPackRootPath": "SimpleDarkLogo"
@@ -293,25 +494,17 @@
         "LanDKZd"
       ],
       "platformWallpapersPackDescription": "Just a simple light theme with the platform logos",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "SimpleLightLogo",
       "platformWallpapersPackPreviewThumbnailPath": "SimpleLightLogo/thumbnail.png",
       "platformWallpapersPackRootPath": "SimpleLightLogo"
     },
     {
       "platformWallpapersPackAuthors": [
-        "MonkoftheFunk",
-        "oloff3"
-      ],
-      "platformWallpapersPackDescription": "The pack contains only green lines sketch of physical looks for each device's controllers. Originated from viking on launchbox. Discovered by Diabolus, modified by MonkoftheFunk, indexing by magneticchen for Daijish\u014d.",
-      "platformWallpapersPackName": "Super green",
-      "platformWallpapersPackPreviewThumbnailPath": "super-green/oloff3.gif",
-      "platformWallpapersPackRootPath": "super-green"
-    },
-    {
-      "platformWallpapersPackAuthors": [
         "Galvy"
       ],
       "platformWallpapersPackDescription": "A platform wallpapers pack with a techy vibrant look with the use of unique gaming wallpapers.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Tech Grid",
       "platformWallpapersPackPreviewThumbnailPath": "Tech Grid/Galvy_Icon.jpg",
       "platformWallpapersPackRootPath": "Tech Grid"
@@ -321,6 +514,7 @@
         "lucci06225"
       ],
       "platformWallpapersPackDescription": "Light theme with a fading closeup image of the original hardware acompanied by an image that represent a game found on each platform. Indexing by Post-Mortem.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Theme Lucci",
       "platformWallpapersPackPreviewThumbnailPath": "Theme Lucci/Lucci.jpg",
       "platformWallpapersPackRootPath": "Theme Lucci"
@@ -330,18 +524,20 @@
         "Retro Devils"
       ],
       "platformWallpapersPackDescription": "The pack contains red-themed backgrounds, devices and titles wallpapers for each platforms. It's a platform wallpapers pack for Daijish\u014d made by Retro Devils.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Theme 9000",
       "platformWallpapersPackPreviewThumbnailPath": "theme-9000/thumbnail.jpg",
       "platformWallpapersPackRootPath": "theme-9000"
     },
     {
       "platformWallpapersPackAuthors": [
-        "Jetup13"
+        "Greg Chambon Jr. (OlGregDraws)"
       ],
-      "platformWallpapersPackDescription": "The pack contains of wallpapers of systems with transparent backgrounds. Originated from launchbox theme. Packed by Jetup13.",
-      "platformWallpapersPackName": "Transparent Pack",
-      "platformWallpapersPackPreviewThumbnailPath": "transparent-pack/thumb.png",
-      "platformWallpapersPackRootPath": "transparent-pack"
+      "platformWallpapersPackDescription": "Minimal theme with a vibrant, colorful gradient. Icons used to represent each brand repectively with their logo & controller. Should be compatible with 4:3 and widescreen devices.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Token",
+      "platformWallpapersPackPreviewThumbnailPath": "Token/previewthumbnail.jpg",
+      "platformWallpapersPackRootPath": "Token"
     },
     {
       "platformWallpapersPackAuthors": [
@@ -350,19 +546,10 @@
         "Richard_75"
       ],
       "platformWallpapersPackDescription": "Theme designed by jimgray and uploaded on his behalf. Later modified and expanded by other authors, indexing by Post Mortem for Daijish\u014d.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Vivid",
       "platformWallpapersPackPreviewThumbnailPath": "Vivid/thumbnail.png",
       "platformWallpapersPackRootPath": "Vivid"
-    },
-    {
-      "platformWallpapersPackAuthors": [
-        "Daijish\u014d",
-        "magneticchen"
-      ],
-      "platformWallpapersPackDescription": "This pack will contains waifus for each platform :3. Aim to create :3 wallpaper set. If you have better material please submit!",
-      "platformWallpapersPackName": "Waifus :3",
-      "platformWallpapersPackPreviewThumbnailPath": "waifus/thumbnail.jpg",
-      "platformWallpapersPackRootPath": "waifus"
     }
   ]
 }

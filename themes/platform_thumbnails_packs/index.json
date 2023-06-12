@@ -1,0 +1,15 @@
+{
+  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/themes/platform_thumbnails_packs/",
+  "platformThumbnailsPackList": [
+    {
+      "platformThumbnailsPackAuthors": [
+        "viking",
+        "iShade"
+      ],
+      "platformThumbnailsPackDescription": "The pack contains colorful yet simple wallpapers of physical looks for each devices. Originated from viking on launchbox. Modified by UsagiShade, indexing by TapiocaFox for Daijish\u014d.",
+      "platformThumbnailsPackName": "COLORFUL",
+      "platformThumbnailsPackPreviewThumbnailPath": "colorful/COLORFUL.jpg",
+      "platformThumbnailsPackRootPath": "colorful"
+    }
+  ]
+}

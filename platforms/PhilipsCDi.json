@@ -1,8 +1,9 @@
 {
-  "databaseVersion": 8,
-  "revisionNumber": 2,
+  "databaseVersion": 14,
+  "revisionNumber": 3,
   "platform": {
     "name": "Philips CD-i",
+    "uniqueId": "cdi",
     "shortname": "cdi",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
@@ -23,6 +24,7 @@
   "playerList": [
     {
       "name": "cdi - Retroarch 64 - same_cdi",
+      "uniqueId": "cdi.ra64.same_cdi",
       "description": "Supported extensions: chd, iso",
       "acceptedFilenameRegex": "^(.*).(?:chd|iso)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.aarch64/cores/same_cdi_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -30,10 +32,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "cdi - Retroarch 32 - same_cdi",
+      "uniqueId": "cdi.ra32.same_cdi",
       "description": "Supported extensions: chd, iso",
       "acceptedFilenameRegex": "^(.*).(?:chd|iso)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch.ra32/cores/same_cdi_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -41,10 +42,9 @@
       "killPackageProcessesWarning": true,
       "extra": ""
     },
-
-
     {
       "name": "cdi - Retroarch - same_cdi",
+      "uniqueId": "cdi.ra.same_cdi",
       "description": "Supported extensions: chd, iso",
       "acceptedFilenameRegex": "^(.*).(?:chd|iso)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n-e ROM {file.path}\n -e LIBRETRO /data/data/com.retroarch/cores/same_cdi_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",

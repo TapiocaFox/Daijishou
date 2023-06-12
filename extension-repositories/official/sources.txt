@@ -1,0 +1,2 @@
+https://github.com/Daijishou/Dummy-Extension:release
+https://github.com/Daijishou/Dummy-Extension-2:release
