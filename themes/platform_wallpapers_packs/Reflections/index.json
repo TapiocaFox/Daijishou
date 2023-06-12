@@ -1,5 +1,5 @@
 {
-  "name": "Reflections",
+  "name": "Platform wallpapers pack template",
   "description": "A platform wallpapers pack featuring an 80's style grid theme with a simple logo reflection.",
   "authors": ["Galvy"],
   "sources": ["https://nooxy.org", "https://github.com/magneticchen/Daijishou", "https://www.ysnp.gov.tw/"],
@@ -58,7 +58,7 @@
     },
     {
       "matchPlatformShortname": "gb",
-      "filename": "gameboy_reflect.jpg"
+      "filename": "gameboy_reflect"
     },
     {
       "matchPlatformShortname": "gba",
@@ -167,7 +167,59 @@
     {
       "matchPlatformShortname": "tg16",
       "filename": "tg16_reflect.jpg"
-   
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "Atomis_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx2",
+      "filename": "mxs2_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "msdos",
+      "filename": "msdos_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "nec_pcfx_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "nec_super_grafx_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "neo_geo_pocket_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "neo_geo_pocket_color_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neo_geo_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scumm_vm_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "filename": "sega_naomi_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "naomi2",
+      "filename": "sega_naomi2_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy_reflect.jp
+
     }
   ]
 }
