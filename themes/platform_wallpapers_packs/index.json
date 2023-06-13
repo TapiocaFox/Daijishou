@@ -409,6 +409,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Galvy"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpapers pack featuring an 80's style grid theme with a simple logo reflection.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Platform wallpapers pack template",
+      "platformWallpapersPackPreviewThumbnailPath": "Reflections/Galvy_icon.jpg",
+      "platformWallpapersPackRootPath": "Reflections"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "LuisMz"
       ],
       "platformWallpapersPackDescription": "This pack contains images of the devices and minimalistic system logo, made for the Daijish\u00f4 Launcher.",
