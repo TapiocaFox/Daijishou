@@ -10,11 +10,11 @@
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
-      "filename": "3DO.png"
+      "filename": "3do.png"
     },
     {
       "matchPlatformShortname": "3ds",
-      "filename": "3DS.png"
+      "filename": "3ds.png"
     },
     {
       "matchPlatformShortname": "sega32x",
@@ -46,7 +46,7 @@
     },
     {
       "matchPlatformShortname": "atarist",
-      "filename": "atariST.png"
+      "filename": "atarist.png"
     },
     {
       "matchPlatformShortname": "atomiswave",
@@ -86,15 +86,15 @@
     },
     {
       "matchPlatformShortname": "cd32",
-      "filename": "CD32.png"
+      "filename": "cd32.png"
     },
     {
       "matchPlatformShortname": "channelf",
-      "filename": "channelF.png"
+      "filename": "channelf.png"
     },
     {
       "matchPlatformShortname": "doom",
-      "filename": "Doom.png"
+      "filename": "doom.png"
     },
     {
       "matchPlatformShortname": "dos",
@@ -150,7 +150,7 @@
     },
     {
       "matchPlatformShortname": "msx",
-      "filename": "MSX.png"
+      "filename": "msx.png"
     },
     {
       "matchPlatformShortname": "neogeo",
@@ -214,7 +214,7 @@
     },
     {
       "matchPlatformShortname": "master",
-      "filename": "Master.png"
+      "filename": "master.png"
     },
     {
       "matchPlatformShortname": "saturn",
@@ -230,7 +230,7 @@
     },
     {
       "matchPlatformShortname": "ps2",
-      "filename": "PS2.png"
+      "filename": "ps2.png"
     },
     {
       "matchPlatformShortname": "pico8",
@@ -420,5 +420,70 @@
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     }
+	 {
+      "matchPlatformShortname": "AA",
+      "filename": "AA.png"
+    },
+	 {
+      "matchPlatformShortname": "acornelectron",
+      "filename": "acornelectron.png"
+    },
+	 {
+      "matchPlatformShortname": "atari400",
+      "filename": "atari400.png"
+    },
+	 {
+      "matchPlatformShortname": "AV",
+      "filename": "AV.png"
+    },
+	 {
+      "matchPlatformShortname": "xegs",
+      "filename": "xegs.png"
+    },
+	 {
+      "matchPlatformShortname": "G7400",
+      "filename": "G7400.png"
+    },
+	{
+      "matchPlatformShortname": "gamepass",
+      "filename": "gamepass.png"
+    },
+	{
+      "matchPlatformShortname": "mbm",
+      "filename": "mbm.png"
+    },
+	{
+      "matchPlatformShortname": "PD",
+      "filename": "PD.png"
+    },
+	{
+      "matchPlatformShortname": "pocketstation",
+      "filename": "pocketstation.png"
+    },
+	{
+      "matchPlatformShortname": "ps3",
+      "filename": "ps3.png"
+    },
+	{
+      "matchPlatformShortname": "psn",
+      "filename": "psn.png"
+    },
+	{
+      "matchPlatformShortname": "Tgc",
+      "filename": "Tgc.png"
+    },
+	{
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
+    },
+	{
+      "matchPlatformShortname": "xbox360",
+      "filename": "xbox360.png"
+    },
+	{
+      "matchPlatformShortname": "xboxlive",
+      "filename": "xboxlive.png"
+    },
+	
   ]
 }
