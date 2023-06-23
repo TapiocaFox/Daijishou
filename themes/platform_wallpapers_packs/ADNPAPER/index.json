@@ -419,71 +419,70 @@
     {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
-    }
-	 {
+    },
+    {
       "matchPlatformShortname": "AA",
       "filename": "AA.png"
     },
-	 {
+    {
       "matchPlatformShortname": "acornelectron",
       "filename": "acornelectron.png"
     },
-	 {
+    {
       "matchPlatformShortname": "atari400",
       "filename": "atari400.png"
     },
-	 {
+    {
       "matchPlatformShortname": "AV",
       "filename": "AV.png"
     },
-	 {
+    {
       "matchPlatformShortname": "xegs",
       "filename": "xegs.png"
     },
-	 {
+    {
       "matchPlatformShortname": "G7400",
       "filename": "G7400.png"
     },
-	{
+    {
       "matchPlatformShortname": "gamepass",
       "filename": "gamepass.png"
     },
-	{
+    {
       "matchPlatformShortname": "mbm",
       "filename": "mbm.png"
     },
-	{
+    {
       "matchPlatformShortname": "PD",
       "filename": "PD.png"
     },
-	{
+    {
       "matchPlatformShortname": "pocketstation",
       "filename": "pocketstation.png"
     },
-	{
+    {
       "matchPlatformShortname": "ps3",
       "filename": "ps3.png"
     },
-	{
+    {
       "matchPlatformShortname": "psn",
       "filename": "psn.png"
     },
-	{
+    {
       "matchPlatformShortname": "Tgc",
       "filename": "Tgc.png"
     },
-	{
+    {
       "matchPlatformShortname": "xbox",
       "filename": "xbox.png"
     },
-	{
+    {
       "matchPlatformShortname": "xbox360",
       "filename": "xbox360.png"
     },
-	{
+    {
       "matchPlatformShortname": "xboxlive",
       "filename": "xboxlive.png"
-    },
-	
+    }
   ]
 }
