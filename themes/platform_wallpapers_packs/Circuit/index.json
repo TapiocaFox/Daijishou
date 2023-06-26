@@ -365,6 +365,10 @@
       "filename": "pce.jpg"
     },
     {
+      "matchPlatformShortname": "romhacks",
+      "filename": "romhacks.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
     }
