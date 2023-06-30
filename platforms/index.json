@@ -179,7 +179,7 @@
       "filename": "GameCube.json",
       "platformName": "GameCube",
       "platformShortname": "gc",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "Intellivision.json",
@@ -287,7 +287,7 @@
       "filename": "NintendoWii.json",
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "PC88.json",
