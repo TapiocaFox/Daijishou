@@ -1,0 +1,211 @@
+{
+  "name": "The MGI Theme",
+  "description": "The defining video game mascots of each era are back in this colorful and minimalist wallpaper theme!.",
+  "authors": ["Modern Game Icons"],
+  "sources": ["https://github.com/ModernGameIcons/Daijishou/tree/themes/platform_wallpapers_packs/The MGI Theme"
+
+  "hasDefaultWallpaper": false,
+  "defaultWallpaperFilename": "nothing",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3DO.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "CPC.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "5200.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "7800.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "Jaguar.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "Lynx.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "ST.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "CV.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "C64.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "Amiga.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "MSDOS.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "DC.png"
+    },
+    {
+      "matchPlatformShortname": "channelf",
+      "filename": "CF.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "G&W.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "GB.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "GBA.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "GBC.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "GCN.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "IV.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "Arcade.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "NG.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "NGCD.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "NGP.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "NGPC.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3DS.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "N64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "NDS.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "NES.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "Switch.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "Wii.png"
+    },
+    {
+      "matchPlatformShortname": "odyssey2",
+      "filename": "MO2.png"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "CDI.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "PSP.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "PM.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "SCUMMVM.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "32X.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "CD.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "GG.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "MD.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "MS.png"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "SG-1000.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "SS.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "PSX.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "PS2.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "SG.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "SNES.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "TG.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "TGCD.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "VB.png"
+    }
+  ]
+}
