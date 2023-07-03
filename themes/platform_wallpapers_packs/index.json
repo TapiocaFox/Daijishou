@@ -13,6 +13,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Modern Game Icons"
+      ],
+      "platformWallpapersPackDescription": "The defining video game mascots of each era are back in this colorful and minimalist wallpaper theme!",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "The MGI Theme",
+      "platformWallpapersPackPreviewThumbnailPath": "The MGI Theme/MGI.png",
+      "platformWallpapersPackRootPath": "The MGI Theme"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Cookie"
       ],
       "platformWallpapersPackDescription": "Little theme inspired by the Cirquit theme by Post Mortem, I wanted to do my own thing for my rg405M. This is my first theme, I hope you really like it. There are 88+ platforms in the future I will add more. Indexing by Post Mortem.",
