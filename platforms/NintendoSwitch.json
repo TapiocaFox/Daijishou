@@ -41,6 +41,16 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
+    },
+    {
+      "name": "switch - Yuzu - Early Access",
+      "uniqueId": "org.yuzu.yuzu_emu.ea",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
     }
   ]
 }
