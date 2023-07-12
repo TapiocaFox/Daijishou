@@ -2,7 +2,8 @@
   "name": "The MGI Theme",
   "description": "The defining video game mascots of each era are back in this colorful and minimalist wallpaper theme!.",
   "authors": ["Modern Game Icons"],
-  "sources": ["https://github.com/ModernGameIcons/Daijishou/tree/themes/platform_wallpapers_packs/The MGI Theme"
+  "sources": ["https://github.com/TapiocaFox/Daijishou/tree/main/themes/platform_wallpapers_packs/The%20MGI%20Theme"],
+  "previewThumbnailFilename": "MGI.png",
 
   "hasDefaultWallpaper": false,
   "defaultWallpaperFilename": "nothing",

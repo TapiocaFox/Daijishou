@@ -521,6 +521,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Modern Game Icons"
+      ],
+      "platformWallpapersPackDescription": "The defining video game mascots of each era are back in this colorful and minimalist wallpaper theme!.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "The MGI Theme",
+      "platformWallpapersPackPreviewThumbnailPath": "The MGI Theme/MGI.png",
+      "platformWallpapersPackRootPath": "The MGI Theme"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "lucci06225"
       ],
       "platformWallpapersPackDescription": "Light theme with a fading closeup image of the original hardware acompanied by an image that represent a game found on each platform. Indexing by Post-Mortem.",
