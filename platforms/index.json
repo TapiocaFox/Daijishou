@@ -53,7 +53,7 @@
       "filename": "Atomiswave.json",
       "platformName": "Atomiswave",
       "platformShortname": "atomiswave",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "CPS1.json",
@@ -125,7 +125,7 @@
       "filename": "Dreamcast.json",
       "platformName": "Dreamcast",
       "platformShortname": "dreamcast",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "FairchildChannelF.json",

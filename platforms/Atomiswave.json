@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Atomiswave",
     "uniqueId": "atomiswave",
@@ -31,7 +31,7 @@
       "uniqueId": "atomiswave.io.recompiled.redream",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-      "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Dreamcast",
     "uniqueId": "dreamcast",
@@ -28,7 +28,7 @@
       "uniqueId": "dreamcast.io.recompiled.redream",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, dat, elf, gdi, iso, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|dat|elf|gdi|iso|lst|m3u|zip)$",
-      "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "amStartArguments": "-n io.recompiled.redream/.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
