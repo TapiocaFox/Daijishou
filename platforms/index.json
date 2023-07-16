@@ -203,7 +203,7 @@
       "filename": "MAME.json",
       "platformName": "Arcade (MAME)",
       "platformShortname": "mame",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "MSX.json",

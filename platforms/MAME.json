@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Arcade (MAME)",
     "uniqueId": "mame",
@@ -66,16 +66,6 @@
     },
     {
       "name": "mame - RetroArch 64 - mame",
-      "uniqueId": "mame.ra64.mame",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch 64 - mamearcade",
       "uniqueId": "mame.ra64.mamearcade",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
@@ -95,41 +85,11 @@
       "extra": ""
     },
     {
-      "name": "mame - RetroArch 64 - mame2009",
-      "uniqueId": "mame.ra64.mame2009",
-      "description": "Supported extensions: 7z, chd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2009_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "mame - RetroArch 64 - mame2010",
       "uniqueId": "mame.ra64.mame2010",
       "description": "Supported extensions: 7z, chd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|zip)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2010_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch 64 - mame2015",
-      "uniqueId": "mame.ra64.mame2015",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2015_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch 64 - mame2016",
-      "uniqueId": "mame.ra64.mame2016",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mame2016_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -166,16 +126,6 @@
     },
     {
       "name": "mame - RetroArch 32 - mame",
-      "uniqueId": "mame.ra32.mame",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mame_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch 32 - mamearcade",
       "uniqueId": "mame.ra32.mamearcade",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
@@ -195,41 +145,11 @@
       "extra": ""
     },
     {
-      "name": "mame - RetroArch 32 - mame2009",
-      "uniqueId": "mame.ra32.mame2009",
-      "description": "Supported extensions: 7z, chd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mame2009_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "mame - RetroArch 32 - mame2010",
       "uniqueId": "mame.ra32.mame2010",
       "description": "Supported extensions: 7z, chd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|zip)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mame2010_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch 32 - mame2015",
-      "uniqueId": "mame.ra32.mame2015",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mame2015_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch 32 - mame2016",
-      "uniqueId": "mame.ra32.mame2016",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/mame2016_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -266,16 +186,6 @@
     },
     {
       "name": "mame - RetroArch - mame",
-      "uniqueId": "mame.ra.mame",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mame_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch - mamearcade",
       "uniqueId": "mame.ra.mamearcade",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
@@ -295,41 +205,11 @@
       "extra": ""
     },
     {
-      "name": "mame - RetroArch - mame2009",
-      "uniqueId": "mame.ra.mame2009",
-      "description": "Supported extensions: 7z, chd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|zip)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mame2009_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "mame - RetroArch - mame2010",
       "uniqueId": "mame.ra.mame2010",
       "description": "Supported extensions: 7z, chd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mame2010_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch - mame2015",
-      "uniqueId": "mame.ra.mame2015",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mame2015_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
-      "killPackageProcesses": true,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
-      "name": "mame - RetroArch - mame2016",
-      "uniqueId": "mame.ra.mame2016",
-      "description": "Supported extensions: 7z, chd, cmd, zip.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mame2016_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
