@@ -1,6 +1,6 @@
 {
   "name": "Pixels",
-  "description": "A set of wallpapers containing pixel art-style consoles against a minimalist backdrop. Optimized for 4:3 and 16:9 aspect ratios. Icons sourced from YoshiPixel, Logos sourced from Dan Patrick. Special thanks to iShade, Post Mortem, Sarantula, Lan_DKZd and てRey㊙. (LIMITED SUPPORT)",
+  "description": "A set of wallpapers containing pixel art-style consoles against a minimalist backdrop. Optimized for 4:3 and 16:9 aspect ratios. Use snes2 as shortname for euro edition snes wallpaper (you will need to redownload the theme). Icons sourced from YoshiPixel, Logos sourced from Dan Patrick. Special thanks to iShade, Post Mortem, Sarantula, Lan_DKZd and てRey㊙. (LIMITED SUPPORT)",
   "authors": ["Gris"],
   "sources": ["http://yspixel.jpn.org/icon/game/index.htm", "https://forums.launchbox-app.com/files/file/3402-v2-platform-logos-professionally-redrawn-official-versions-new-bigbox-defaults/?tab=reviews&sort=newest"],
   "previewThumbnailFilename": "preview_thumbnail_2.png",
