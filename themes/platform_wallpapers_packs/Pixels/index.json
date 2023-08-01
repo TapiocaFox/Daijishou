@@ -121,6 +121,10 @@
       "filename": "snes.png"
     },
     {
+      "matchPlatformShortname": "snes2",
+      "filename": "snes2.jpg"
+    },
+    {
       "matchPlatformShortname": "tg16",
       "filename": "tgfx16.png"
     },
