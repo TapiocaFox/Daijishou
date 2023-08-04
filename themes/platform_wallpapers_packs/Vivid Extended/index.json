@@ -1,7 +1,7 @@
 {
   "name": "Vivid Extended",
   "description": "Extended version of Vivid by jimgray, new platforms as well as year and maker have been added to the theme. This version has been created by RowdyR76, indexing by Post Mortem for Daijishō.",
-  "authors": ["jimgray","RowdyR76", "UnbelievableFlavour", "Richard_75","RowdyRomero"],
+  "authors": ["jimgray", "UnbelievableFlavour", "Richard_75","RowdyRomero"],
   "sources": ["https://discord.com/channels/965270127312535592/965270635926396978/1071883480620859402"],
   "previewThumbnailFilename": "thumbnail.png",
 
@@ -58,7 +58,7 @@
     },
     {
       "matchPlatformShortname": "cd32",
-      "filename": "segacd.png"
+      "filename": "amigacd32.png"
     },
     {
       "matchPlatformShortname": "cdi",
@@ -174,7 +174,7 @@
     },
     {
       "matchPlatformShortname": "sega32x",
-      "filename": "32xgenesis.png"
+      "filename": "32xmegadrive.png"
     },
     {
       "matchPlatformShortname": "segacd",
@@ -255,6 +255,118 @@
     {
       "matchPlatformShortname": "megacd",
       "filename": "megacd.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.png"
+    },
+    {
+      "matchPlatformShortname": "megaduck",
+      "filename": "megaduck.png"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "filename": "zxspectrum.png"
+    },
+    {
+      "matchPlatformShortname": "xbox",
+      "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "ps3",
+      "filename": "ps3-2.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2-2.png"
+    },
+    {
+      "matchPlatformShortname": "xbox360",
+      "filename": "xbox360.png"
+    },
+    {
+      "matchPlatformShortname": "ps4",
+      "filename": "ps4.png"
+    },
+    {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.png"
+    },
+    {
+      "matchPlatformShortname": "family",
+      "filename": "family.png"
+    },
+    {
+      "matchPlatformShortname": "vectrex",
+      "filename": "vectrex.png"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "filename": "commodore64.png"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "filename": "amiga.png"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "filename": "atarist.png"
+    },
+    {
+      "matchPlatformShortname": "pc88",
+      "filename": "pc8800.png"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "filename": "pc900.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "filename": "msx.png"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "filename": "amstradcpc.png"
+    },
+    {
+      "matchPlatformShortname": "x6800",
+      "filename": "x6800.png"
+    },
+    {
+      "matchPlatformShortname": "superfamicom",
+      "filename": "superfamicom.png"
+    },
+    {
+      "matchPlatformShortname": "satellaview",
+      "filename": "satellaview.png"
+    },
+    {
+      "matchPlatformShortname": "channelf",
+      "filename": "channelf.png"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "filename": "intellivision.png"
+    },
+    {
+      "matchPlatformShortname": "oddyssey2",
+      "filename": "oddyssey2.png"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "filename": "neogeocd.png"
+    },
+    {
+      "matchPlatformShortname": "wiiu",
+      "filename": "wiiu.png"
+    },
+    {
+      "matchPlatformShortname": "palmos",
+      "filename": "palmos.png"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "filename": "pokemonmini.png"
     },
     {
       "matchPlatformShortname": "naomi",
