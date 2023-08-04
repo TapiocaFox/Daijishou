@@ -1,0 +1,264 @@
+{
+  "name": "Vivid Extended",
+  "description": "Extended version of Vivid by jimgray, new platforms as well as year and maker have been added to the theme. This version has been created by RowdyR76, indexing by Post Mortem for Daijishō.",
+  "authors": ["jimgray","RowdyR76", "UnbelievableFlavour", "Richard_75","RowdyRomero"],
+  "sources": ["https://discord.com/channels/965270127312535592/965270635926396978/1071883480620859402"],
+  "previewThumbnailFilename": "thumbnail.png",
+
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "filename": "3do.png"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "filename": "3ds.png"
+    },
+    {
+      "matchPlatformShortname": "32x",
+      "filename": "32xgenesis.png"
+    },
+    {
+      "matchPlatformShortname": "arcade",
+      "filename": "arcade.png"
+    },
+    {
+      "matchPlatformShortname": "mvs",
+      "filename": "neogeomvs.png"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "filename": "atari2600.png"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "filename": "atari5200.png"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "filename": "atari7800.png"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "filename": "android.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.png"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "filename": "cps3.png"
+    },
+    {
+      "matchPlatformShortname": "cd32",
+      "filename": "segacd.png"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "filename": "cdi.png"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "filename": "coleco.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "filename": "dreamcast.png"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "filename": "msdos.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "filename": "gameboy.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "filename": "gameboyadvance.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "filename": "gameboycolor.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "filename": "gamecube.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "filename": "genesis.png"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "filename": "gamegear.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "filename": "jaguar.png"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "filename": "lynx.png"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "filename": "master.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "filename": "nds.png"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "filename": "neogeo.png"
+    },
+    {
+      "matchPlatformShortname": "cavestory",
+      "filename": "cavestory.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "ngage",
+      "filename": "ngage.png"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "filename": "ngpocket.png"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "filename": "ngpocketcolor.png"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "filename": "pcfx.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "filename": "ps2.png"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "filename": "psp.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "filename": "ps1.png"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "filename": "rpgmaker.png"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "filename": "saturn-us.png"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "filename": "scummvm.png"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "filename": "32xgenesis.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "filename": "segacd.png"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "filename": "sg1000.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "filename": "supervision.png"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "filename": "switch.png"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "filename": "tg16.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "filename": "tgcd.png"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "filename": "virtualboy.png"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "filename": "wii.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "wonderswan.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wonderswancolor.png"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "filename": "gameandwatch.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "filename": "mame.png"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "filename": "atomiswave.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "filename": "psvita.png"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "filename": "doom.png"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "filename": "cps1.png"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "filename": "cps2.png"
+    },
+    {
+      "matchPlatformShortname": "megadrive",
+      "filename": "megadrive.png"
+    },
+    {
+      "matchPlatformShortname": "megacd",
+      "filename": "megacd.png"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "filename": "naomi.png"
+    }
+  ]
+}
