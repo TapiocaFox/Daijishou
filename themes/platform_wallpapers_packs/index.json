@@ -570,6 +570,20 @@
       "platformWallpapersPackName": "Vivid",
       "platformWallpapersPackPreviewThumbnailPath": "Vivid/thumbnail.png",
       "platformWallpapersPackRootPath": "Vivid"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "jimgray",
+        "RowdyR76",
+        "UnbelievableFlavour",
+        "Richard_75",
+        "RowdyRomero"
+      ],
+      "platformWallpapersPackDescription": "Extended version of Vivid by jimgray, new platforms as well as year and maker have been added to the theme. This version has been created by RowdyR76, indexing by Post Mortem for Daijish\u014d.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Vivid Extended",
+      "platformWallpapersPackPreviewThumbnailPath": "Vivid Extended/thumbnail.png",
+      "platformWallpapersPackRootPath": "Vivid Extended"
     }
   ]
 }
