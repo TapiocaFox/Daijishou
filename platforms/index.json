@@ -215,7 +215,7 @@
       "filename": "MagnavoxOdyssey2.json",
       "platformName": "Magnavox Odyssey 2",
       "platformShortname": "odyssey2",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "MegaDuck.json",
@@ -311,7 +311,7 @@
       "filename": "PICO8.json",
       "platformName": "PICO-8",
       "platformShortname": "pico8",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "PalmOS.json",
@@ -323,13 +323,13 @@
       "filename": "PhilipsCDi.json",
       "platformName": "Philips CD-i",
       "platformShortname": "cdi",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "PhilipsVideopacG7400.json",
       "platformName": "Philips Videopac+ G7400",
       "platformShortname": "g7400",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "PlayStationPortable.json",
@@ -509,7 +509,7 @@
       "filename": "ZX81.json",
       "platformName": "ZX 81",
       "platformShortname": "zx81",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "ZXSpectrum.json",
