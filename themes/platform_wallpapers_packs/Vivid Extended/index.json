@@ -5,8 +5,8 @@
   "sources": ["https://discord.com/channels/965270127312535592/965270635926396978/1071883480620859402"],
   "previewThumbnailFilename": "thumbnail.png",
 
-  "hasDefaultWallpaper": false,
-  "defaultWallpaperFilename": "default.png",
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.jpg",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
