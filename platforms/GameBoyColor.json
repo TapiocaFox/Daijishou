@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Game Boy Color",
     "uniqueId": "gbc",
@@ -70,7 +70,7 @@
       "uniqueId": "gbc.com.fastemulator.gbc",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
-      "amStartArguments": "-n com.fastemulator.gbc/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "amStartArguments": "-n com.fastemulator.gbc/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
