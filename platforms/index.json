@@ -443,7 +443,7 @@
       "filename": "SuperGrafx.json",
       "platformName": "SuperGrafx",
       "platformShortname": "supergrafx",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SuperNintendoEntertainmentSystem.json",
@@ -461,13 +461,13 @@
       "filename": "TurboGrafx16.json",
       "platformName": "TurboGrafx-16",
       "platformShortname": "tg16",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "TurboGrafxCD.json",
       "platformName": "TurboGrafx-CD",
       "platformShortname": "tgcd",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "Vectrex.json",

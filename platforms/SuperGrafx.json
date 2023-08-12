@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "SuperGrafx",
     "uniqueId": "supergrafx",
@@ -22,11 +22,11 @@
   },
   "playerList": [
     {
-      "name": "supergrafx - com.explusalpha.PceEmu",
+      "name": "supergrafx - com.PceEmu",
       "uniqueId": "supergrafx.com.explusalpha.PceEmu",
       "description": "Support extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
-      "amStartArguments": "-n com.explusalpha.PceEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-n com.PceEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
