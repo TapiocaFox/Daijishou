@@ -305,6 +305,30 @@
       "filename": "gw.png"
     },
     {
+      "matchPlatformShortname": "famicom",
+      "filename": "famicom.png"
+    },
+    {
+      "matchPlatformShortname": "fds",
+      "filename": "fds.png"
+    },
+    {
+      "matchPlatformShortname": "odyssey2",
+      "filename": "odyssey2.png"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "filename": "supergrafx.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "filename": "ws.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "filename": "wsc.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.png"
     }
