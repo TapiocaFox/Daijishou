@@ -272,9 +272,21 @@
       "matchPlatformShortname": "zxspectrum",
       "filename": "zxspectrum.jpg"
     },
-        {
+    {
       "matchPlatformShortname": "pcfx",
       "filename": "pcfx.jpg"
+    },
+    {
+      "matchPlatformShortname": "satellaview",
+      "filename": "satellaview.jpg"
+    },
+    {
+      "matchPlatformShortname": "cd32",
+      "filename": "cd32.jpg"
+    },
+    {
+      "matchPlatformShortname": "megaduck",
+      "filename": "megaduck.jpg"
     },
     {
       "matchPlatformShortname": "tgcd",
