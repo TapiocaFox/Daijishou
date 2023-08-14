@@ -373,6 +373,10 @@
       "filename": "zx81.jpg"
     },
     {
+      "matchPlatformShortname": "nomad",
+      "filename": "nomad.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
     }
