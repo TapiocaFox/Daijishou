@@ -9,10 +9,6 @@
   "defaultWallpaperFilename": "imageviewer.jpg",
   "wallpaperList": [
     {
-      "matchPlatformShortname": "3do",
-      "filename": "3do.jpg"
-    },
-    {
       "matchPlatformShortname": "cpc",
       "filename": "amstradcpc.jpg"
     },
@@ -77,10 +73,6 @@
       "filename": "doom.jpg"
     },
     {
-      "matchPlatformShortname": "dos",
-      "filename": "dos.jpg"
-    },
-    {
       "matchPlatformShortname": "dreamcast",
       "filename": "dreamcast.jpg"
     },
@@ -122,7 +114,7 @@
     },
     {
       "matchPlatformShortname": "msx",
-      "filename": "msx.jpg"
+      "filename": "msx1.jpg"
     },
     {
       "matchPlatformShortname": "neogeo",
@@ -155,10 +147,6 @@
     {
       "matchPlatformShortname": "nes",
       "filename": "nes.jpg"
-    },
-    {
-      "matchPlatformShortname": "switch",
-      "filename": "switch.jpg"
     },
     {
       "matchPlatformShortname": "wii",
@@ -222,7 +210,7 @@
     },
     {
       "matchPlatformShortname": "master",
-      "filename": "master.jpg"
+      "filename": "mastersystem.jpg"
     },
     {
       "matchPlatformShortname": "sg1000",
@@ -278,11 +266,11 @@
     },
     {
       "matchPlatformShortname": "ws",
-      "filename": "wswan.jpg"
+      "filename": "wonderswan.jpg"
     },
     {
       "matchPlatformShortname": "wsc",
-      "filename": "wswanc.jpg"
+      "filename": "wonderswancolor.jpg"
     },
     {
       "matchPlatformShortname": "zx81",
