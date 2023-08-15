@@ -21,14 +21,6 @@
       "filename": "cpc.jpg"
     },
     {
-      "matchPlatformShortname": "atari400",
-      "filename": "atari400.jpg"
-    },
-    {
-      "matchPlatformShortname": "atari800",
-      "filename": "atari800.jpg"
-    },
-    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.jpg"
     },
@@ -61,14 +53,6 @@
       "filename": "amiga.jpg"
     },
     {
-      "matchPlatformShortname": "cdtv",
-      "filename": "cdtv.jpg"
-    },
-    {
-      "matchPlatformShortname": "cd32",
-      "filename": "cd32.jpg"
-    },
-    {
       "matchPlatformShortname": "dos",
       "filename": "dos.jpg"
     },
@@ -77,32 +61,12 @@
       "filename": "msx.jpg"
     },
     {
-      "matchPlatformShortname": "msx2",
-      "filename": "msx2.jpg"
-    },
-    {
-      "matchPlatformShortname": "x1",
-      "filename": "x1.jpg"
-    },
-    {
-      "matchPlatformShortname": "x68000",
-      "filename": "x68000.jpg"
-    },
-    {
       "matchPlatformShortname": "tg16",
       "filename": "tg16.jpg"
     },
     {
       "matchPlatformShortname": "tgcd",
       "filename": "tgcd.jpg"
-    },
-    {
-      "matchPlatformShortname": "pcengine",
-      "filename": "pcengine.jpg"
-    },
-    {
-      "matchPlatformShortname": "pcenginecd",
-      "filename": "pcenginecd.jpg"
     },
     {
       "matchPlatformShortname": "supergrafx",
@@ -127,22 +91,6 @@
     {
       "matchPlatformShortname": "c64",
       "filename": "c64.jpg"
-    },
-    {
-      "matchPlatformShortname": "c128",
-      "filename": "c128.jpg"
-    },
-    {
-      "matchPlatformShortname": "zx81",
-      "filename": "zx81.jpg"
-    },
-    {
-      "matchPlatformShortname": "zxspectrum",
-      "filename": "zxspectrum.jpg"
-    },
-    {
-      "matchPlatformShortname": "ti99",
-      "filename": "ti99.jpg"
     },
     {
       "matchPlatformShortname": "scummvm",
@@ -201,20 +149,12 @@
       "filename": "gb.jpg"
     },
     {
-      "matchPlatformShortname": "gw",
-      "filename": "gw.jpg"
-    },
-    {
       "matchPlatformShortname": "gbc",
       "filename": "gbc.jpg"
     },
     {
       "matchPlatformShortname": "gba",
       "filename": "gba.jpg"
-    },
-    {
-      "matchPlatformShortname": "vb",
-      "filename": "vb.jpg"
     },
     {
       "matchPlatformShortname": "pokemini",
@@ -233,14 +173,6 @@
       "filename": "nes.jpg"
     },
     {
-      "matchPlatformShortname": "famicom",
-      "filename": "famicom.jpg"
-    },
-    {
-      "matchPlatformShortname": "fds",
-      "filename": "fds.jpg"
-    },
-    {
       "matchPlatformShortname": "snes",
       "filename": "snes.jpg"
     },
@@ -249,20 +181,12 @@
       "filename": "sfc.jpg"
     },
     {
-      "matchPlatformShortname": "sgb",
-      "filename": "sgb.jpg"
-    },
-    {
       "matchPlatformShortname": "satellaview",
       "filename": "satellaview.jpg"
     },
     {
       "matchPlatformShortname": "n64",
       "filename": "n64.jpg"
-    },
-    {
-      "matchPlatformShortname": "n64dd",
-      "filename": "n64dd.jpg"
     },
     {
       "matchPlatformShortname": "gc",
@@ -279,10 +203,6 @@
     {
       "matchPlatformShortname": "master",
       "filename": "master.jpg"
-    },
-    {
-      "matchPlatformShortname": "gamegear",
-      "filename": "gamegear.jpg"
     },
     {
       "matchPlatformShortname": "megadrive",
@@ -317,14 +237,6 @@
       "filename": "fbn.jpg"
     },
     {
-      "matchPlatformShortname": "fbalpha",
-      "filename": "fba.jpg"
-    },
-    {
-      "matchPlatformShortname": "vmu",
-      "filename": "vmu.jpg"
-    },
-    {
       "matchPlatformShortname": "psx",
       "filename": "psx.jpg"
     },
@@ -335,10 +247,6 @@
     {
       "matchPlatformShortname": "psp",
       "filename": "psp.jpg"
-    },
-    {
-      "matchPlatformShortname": "pspminis",
-      "filename": "pspminis.jpg"
     },
     {
       "matchPlatformShortname": "j2me",
@@ -355,22 +263,6 @@
     {
       "matchPlatformShortname": "pico8",
       "filename": "pico8.jpg"
-    },
-    {
-      "matchPlatformShortname": "uzebox",
-      "filename": "uzebox.jpg"
-    },
-    {
-      "matchPlatformShortname": "supervision",
-      "filename": "supervision.jpg"
-    },
-    {
-      "matchPlatformShortname": "virtualboy",
-      "filename": "vb.jpg"
-    },
-    {
-      "matchPlatformShortname": "megaduck",
-      "filename": "megaduck.jpg"
     },
     {
       "matchPlatformShortname": "ws",
