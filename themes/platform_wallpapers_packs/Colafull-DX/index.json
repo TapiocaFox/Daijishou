@@ -153,24 +153,16 @@
       "filename": "tg16.jpg"
     },
     {
-      "matchPlatformShortname": "ngp",
-      "filename": "ngp.jpg"
-    },
-    {
       "matchPlatformShortname": "ngpc",
       "filename": "ngpc.jpg"
     },
     {
       "matchPlatformShortname": "gamegear",
-      "filename": "gamegear.jpg"
+      "filename": "gg.jpg"
     },
     {
       "matchPlatformShortname": "vb",
       "filename": "vb.jpg"
-    },
-    {
-      "matchPlatformShortname": "tgcd",
-      "filename": "tgcd.jpg"
     }
   ]
 }
