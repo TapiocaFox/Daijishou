@@ -6,7 +6,7 @@
   "previewThumbnailFilename": "thumbnail.jpg",
 
   "hasDefaultWallpaper": true,
-  "defaultWallpaperFilename": "default.jpg",
+  "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
