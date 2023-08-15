@@ -39,10 +39,6 @@
     {
       "matchPlatformShortname": "wii",
       "filename": "nintendo_wii.jpg"
-    },
-    {
-      "matchPlatformShortname": "pcfx",
-      "filename": "mount_niitaka.jpg"
     }
   ]
 }
