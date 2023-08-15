@@ -445,10 +445,6 @@
       "filename": "G7400.png"
     },
     {
-      "matchPlatformShortname": "gamepass",
-      "filename": "gamepass.png"
-    },
-    {
       "matchPlatformShortname": "mbm",
       "filename": "mbm.png"
     },
@@ -481,7 +477,7 @@
       "filename": "xbox360.png"
     },
     {
-      "matchPlatformShortname": "xboxlive",
+      "matchPlatformShortname": "gamepass",
       "filename": "xboxlive.png"
     }
   ]
