@@ -170,7 +170,7 @@
     },
 	{
       "matchPlatformShortname": "odyssey2",
-      "filename": "osyssey2.png"
+      "filename": "odyssey2.png"
     },
 	{
       "matchPlatformShortname": "openbor",
@@ -310,7 +310,7 @@
     },
     {
       "matchPlatformShortname": "tgcd",
-      "filename": "tg-cd.png"
+      "filename": "tg16-cd.png"
     },
     {
       "matchPlatformShortname": "pico8",
@@ -322,7 +322,7 @@
     },
     {
       "matchPlatformShortname": "virtualboy",
-      "filename": "vb.png"
+      "filename": "virtualboy.png"
     },
 	{
       "matchPlatformShortname": "wonderswan",
