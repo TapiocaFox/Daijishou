@@ -14,7 +14,7 @@
     },
     {
       "matchPlatformShortname": "android",
-      "filename": "android.jpg"
+      "filename": "android.png"
     },
     {
       "matchPlatformShortname": "cpc",
@@ -181,10 +181,6 @@
       "filename": "pcfx.jpg"
     },
     {
-      "matchPlatformShortname": "pico8",
-      "filename": "pico8.jpg"
-    },
-    {
       "matchPlatformShortname": "palm",
       "filename": "palm.jpg"
     },
@@ -222,7 +218,7 @@
     },
     {
       "matchPlatformShortname": "master",
-      "filename": "master.jpg"
+      "filename": "mastersystem.jpg"
     },
     {
       "matchPlatformShortname": "sg1000",
@@ -271,10 +267,6 @@
     {
       "matchPlatformShortname": "virtualboy",
       "filename": "virtualboy.jpg"
-    },
-    {
-      "matchPlatformShortname": "supervision",
-      "filename": "supervision.jpg"
     },
     {
       "matchPlatformShortname": "ws",
