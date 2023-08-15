@@ -18,18 +18,6 @@
       "filename": "android.png"
     },
     {
-      "matchPlatformShortname": "cpc",
-      "filename": "cpc.png"
-    },
-    {
-      "matchPlatformShortname": "atari400",
-      "filename": "atari400.png"
-    },
-    {
-      "matchPlatformShortname": "atari800",
-      "filename": "atari800.png"
-    },
-    {
       "matchPlatformShortname": "atari2600",
       "filename": "atari2600.png"
     },
@@ -62,14 +50,6 @@
       "filename": "amiga.png"
     },
     {
-      "matchPlatformShortname": "cdtv",
-      "filename": "cdtv.png"
-    },
-    {
-      "matchPlatformShortname": "cd32",
-      "filename": "cd32.png"
-    },
-    {
       "matchPlatformShortname": "dos",
       "filename": "dos.png"
     },
@@ -80,10 +60,6 @@
     {
       "matchPlatformShortname": "msx2",
       "filename": "msx2.png"
-    },
-    {
-      "matchPlatformShortname": "x1",
-      "filename": "x1.png"
     },
     {
       "matchPlatformShortname": "x68000",
@@ -148,10 +124,6 @@
     {
       "matchPlatformShortname": "zxspectrum",
       "filename": "zxspectrum.png"
-    },
-    {
-      "matchPlatformShortname": "ti99",
-      "filename": "ti99.png"
     },
     {
       "matchPlatformShortname": "scummvm",
@@ -262,20 +234,12 @@
       "filename": "sfc.png"
     },
     {
-      "matchPlatformShortname": "sgb",
-      "filename": "sgb.png"
-    },
-    {
       "matchPlatformShortname": "satellaview",
       "filename": "satellaview.png"
     },
     {
       "matchPlatformShortname": "n64",
       "filename": "n64.png"
-    },
-    {
-      "matchPlatformShortname": "n64dd",
-      "filename": "n64dd.png"
     },
     {
       "matchPlatformShortname": "gc",
@@ -288,14 +252,6 @@
     {
       "matchPlatformShortname": "switch",
       "filename": "switch2.png"
-    },
-    {
-      "matchPlatformShortname": "master",
-      "filename": "master.png"
-    },
-    {
-      "matchPlatformShortname": "gamegear",
-      "filename": "gamegear.png"
     },
     {
       "matchPlatformShortname": "megadrive",
@@ -330,14 +286,6 @@
       "filename": "fbn.png"
     },
     {
-      "matchPlatformShortname": "fbalpha",
-      "filename": "fba.png"
-    },
-    {
-      "matchPlatformShortname": "vmu",
-      "filename": "vmu.png"
-    },
-    {
       "matchPlatformShortname": "psx",
       "filename": "psx2.png"
     },
@@ -350,36 +298,16 @@
       "filename": "psp.png"
     },
     {
-      "matchPlatformShortname": "pspminis",
-      "filename": "pspminis.png"
-    },
-    {
       "matchPlatformShortname": "vita",
       "filename": "vita2.png"
-    },
-    {
-      "matchPlatformShortname": "j2me",
-      "filename": "j2me.png"
     },
     {
       "matchPlatformShortname": "tic80",
       "filename": "tic80.png"
     },
     {
-      "matchPlatformShortname": "lowresnx",
-      "filename": "lowresnx.png"
-    },
-    {
       "matchPlatformShortname": "pico8",
       "filename": "pico8.png"
-    },
-    {
-      "matchPlatformShortname": "uzebox",
-      "filename": "uzebox.png"
-    },
-    {
-      "matchPlatformShortname": "supervision",
-      "filename": "supervision.png"
     },
     {
       "matchPlatformShortname": "virtualboy",
