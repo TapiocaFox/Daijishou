@@ -33,6 +33,7 @@ jobs:
       run: cd themes/platform_thumbnails_packs && python generate_index.py
       
     - name: commit files
+      using: 'node16'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
