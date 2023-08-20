@@ -13,7 +13,7 @@
       "platformName": "Amstrad CPC",
       "platformShortname": "cpc",
       "platformUniqueId": "cpc",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "Atari2600.json",
