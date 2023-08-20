@@ -31,7 +31,7 @@ for f in files:
             try:
                 platformSharable = json.load(jsonFile)
                 platformEntityPortable = platformSharable['platform']
-                print(platformEntityPortable['name']+" ("+platformEntityPortable['shortname']+")")
+                print(platformEntityPortable['name']+" ("+platformEntityPortable['shortname']+")"+" (uniqueId: "+platformEntityPortable['uniqueId']+")")
                 print("  RevisionNumber: "+str(platformSharable['revisionNumber']))
                 print("  Scrapers: "+str(len(platformEntityPortable['scraperSourceList'])))
                 print("  Players: "+str(len(platformSharable['playerList'])))
@@ -47,6 +47,7 @@ for f in files:
                     "filename": f,
                     "platformName": platformEntityPortable['name'],
                     "platformShortname": platformEntityPortable['shortname'],
+                    "platformUniqueId": platformEntityPortable['uniqueId'],
                     'revisionNumber': revisionNumber
                 })
             except Exception as e:
