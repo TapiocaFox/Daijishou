@@ -1,375 +1,472 @@
 {
   "name": "Vivid Extended",
-  "description": "Extended version of Vivid by jimgray, new platforms as well as year and maker have been added to the theme. This version has been created by RowdyR76, indexing by Post Mortem for Daijishō.",
-  "authors": ["jimgray", "UnbelievableFlavour", "Richard_75","RowdyRomero"],
-  "sources": ["https://discord.com/channels/965270127312535592/965270635926396978/1071883480620859402"],
+  "description": "Extended version of Vivid by jimgray, new platforms as well as year and maker have been added to the theme. This version has been created by RowdyR76, indexing by Post Mortem for Daijish\u014d.",
+  "authors": [
+    "jimgray",
+    "UnbelievableFlavour",
+    "Richard_75",
+    "RowdyRomero"
+  ],
+  "sources": [
+    "https://discord.com/channels/965270127312535592/965270635926396978/1071883480620859402"
+  ],
   "previewThumbnailFilename": "thumbnail.png",
-
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.jpg",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
+      "matchPlatformUniqueId": "3do",
       "filename": "3do.png"
     },
     {
       "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
       "filename": "3ds.png"
     },
     {
       "matchPlatformShortname": "32x",
+      "matchPlatformUniqueId": "32x",
       "filename": "32xgenesis.png"
     },
     {
       "matchPlatformShortname": "arcade",
+      "matchPlatformUniqueId": "arcade",
       "filename": "arcade.png"
     },
     {
       "matchPlatformShortname": "mvs",
+      "matchPlatformUniqueId": "mvs",
       "filename": "neogeomvs.png"
     },
     {
       "matchPlatformShortname": "atari2600",
+      "matchPlatformUniqueId": "atari2600",
       "filename": "atari2600.png"
     },
     {
       "matchPlatformShortname": "atari5200",
+      "matchPlatformUniqueId": "atari5200",
       "filename": "atari5200.png"
     },
     {
       "matchPlatformShortname": "atari7800",
+      "matchPlatformUniqueId": "atari7800",
       "filename": "atari7800.png"
     },
     {
       "matchPlatformShortname": "android",
+      "matchPlatformUniqueId": "android",
       "filename": "android.png"
     },
     {
       "matchPlatformShortname": "cps1",
+      "matchPlatformUniqueId": "cps1",
       "filename": "cps1.png"
     },
     {
       "matchPlatformShortname": "cps2",
+      "matchPlatformUniqueId": "cps2",
       "filename": "cps2.png"
     },
     {
       "matchPlatformShortname": "cps3",
+      "matchPlatformUniqueId": "cps3",
       "filename": "cps3.png"
     },
     {
       "matchPlatformShortname": "cd32",
+      "matchPlatformUniqueId": "cd32",
       "filename": "amigacd32.png"
     },
     {
       "matchPlatformShortname": "cdi",
+      "matchPlatformUniqueId": "cdi",
       "filename": "cdi.png"
     },
     {
       "matchPlatformShortname": "coleco",
+      "matchPlatformUniqueId": "coleco",
       "filename": "coleco.png"
     },
     {
       "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
       "filename": "dreamcast.png"
     },
     {
       "matchPlatformShortname": "dos",
+      "matchPlatformUniqueId": "dos",
       "filename": "msdos.png"
     },
     {
       "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
       "filename": "gameboy.png"
     },
     {
       "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
       "filename": "gameboyadvance.png"
     },
     {
       "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
       "filename": "gameboycolor.png"
     },
     {
       "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
       "filename": "gamecube.png"
     },
     {
       "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
       "filename": "genesis.png"
     },
     {
       "matchPlatformShortname": "gamegear",
+      "matchPlatformUniqueId": "gamegear",
       "filename": "gamegear.png"
     },
     {
       "matchPlatformShortname": "jaguar",
+      "matchPlatformUniqueId": "jaguar",
       "filename": "jaguar.png"
     },
     {
       "matchPlatformShortname": "lynx",
+      "matchPlatformUniqueId": "lynx",
       "filename": "lynx.png"
     },
     {
       "matchPlatformShortname": "master",
+      "matchPlatformUniqueId": "master",
       "filename": "master.png"
     },
     {
       "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
       "filename": "n64.png"
     },
     {
       "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
       "filename": "nds.png"
     },
     {
       "matchPlatformShortname": "neogeo",
+      "matchPlatformUniqueId": "neogeo",
       "filename": "neogeo.png"
     },
     {
       "matchPlatformShortname": "cavestory",
+      "matchPlatformUniqueId": "cavestory",
       "filename": "cavestory.png"
     },
     {
       "matchPlatformShortname": "nes",
+      "matchPlatformUniqueId": "nes",
       "filename": "nes.png"
     },
     {
       "matchPlatformShortname": "ngage",
+      "matchPlatformUniqueId": "ngage",
       "filename": "ngage.png"
     },
     {
       "matchPlatformShortname": "ngp",
+      "matchPlatformUniqueId": "ngp",
       "filename": "ngpocket.png"
     },
     {
       "matchPlatformShortname": "ngpc",
+      "matchPlatformUniqueId": "ngpc",
       "filename": "ngpocketcolor.png"
     },
     {
       "matchPlatformShortname": "pcfx",
+      "matchPlatformUniqueId": "pcfx",
       "filename": "pcfx.png"
     },
     {
       "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
       "filename": "ps2.png"
     },
     {
       "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
       "filename": "psp.png"
     },
     {
       "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
       "filename": "ps1.png"
     },
     {
       "matchPlatformShortname": "rpgmaker",
+      "matchPlatformUniqueId": "rpgmaker",
       "filename": "rpgmaker.png"
     },
     {
       "matchPlatformShortname": "saturn",
+      "matchPlatformUniqueId": "saturn",
       "filename": "saturn-us.png"
     },
     {
       "matchPlatformShortname": "scummvm",
+      "matchPlatformUniqueId": "scummvm",
       "filename": "scummvm.png"
     },
     {
       "matchPlatformShortname": "sega32x",
+      "matchPlatformUniqueId": "sega32x",
       "filename": "32xmegadrive.png"
     },
     {
       "matchPlatformShortname": "segacd",
+      "matchPlatformUniqueId": "segacd",
       "filename": "segacd.png"
     },
     {
       "matchPlatformShortname": "sg1000",
+      "matchPlatformUniqueId": "sg1000",
       "filename": "sg1000.png"
     },
     {
       "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
       "filename": "snes.png"
     },
     {
       "matchPlatformShortname": "supervision",
+      "matchPlatformUniqueId": "supervision",
       "filename": "supervision.png"
     },
     {
       "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
       "filename": "switch.png"
     },
     {
       "matchPlatformShortname": "tg16",
+      "matchPlatformUniqueId": "tg16",
       "filename": "tg16.png"
     },
     {
       "matchPlatformShortname": "tgcd",
+      "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.png"
     },
     {
       "matchPlatformShortname": "virtualboy",
+      "matchPlatformUniqueId": "virtualboy",
       "filename": "virtualboy.png"
     },
     {
       "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
       "filename": "wii.png"
     },
     {
       "matchPlatformShortname": "ws",
+      "matchPlatformUniqueId": "ws",
       "filename": "wonderswan.png"
     },
     {
       "matchPlatformShortname": "wsc",
+      "matchPlatformUniqueId": "wsc",
       "filename": "wonderswancolor.png"
     },
     {
       "matchPlatformShortname": "gw",
+      "matchPlatformUniqueId": "gw",
       "filename": "gameandwatch.png"
     },
     {
       "matchPlatformShortname": "mame",
+      "matchPlatformUniqueId": "mame",
       "filename": "mame.png"
     },
     {
       "matchPlatformShortname": "atomiswave",
+      "matchPlatformUniqueId": "atomiswave",
       "filename": "atomiswave.png"
     },
     {
       "matchPlatformShortname": "vita",
+      "matchPlatformUniqueId": "vita",
       "filename": "psvita.png"
     },
     {
       "matchPlatformShortname": "doom",
+      "matchPlatformUniqueId": "doom",
       "filename": "doom.png"
     },
     {
       "matchPlatformShortname": "cps1",
+      "matchPlatformUniqueId": "cps1",
       "filename": "cps1.png"
     },
     {
       "matchPlatformShortname": "cps2",
+      "matchPlatformUniqueId": "cps2",
       "filename": "cps2.png"
     },
     {
       "matchPlatformShortname": "megadrive",
+      "matchPlatformUniqueId": "megadrive",
       "filename": "megadrive.png"
     },
     {
       "matchPlatformShortname": "megacd",
+      "matchPlatformUniqueId": "megacd",
       "filename": "megacd.png"
     },
     {
       "matchPlatformShortname": "supergrafx",
+      "matchPlatformUniqueId": "supergrafx",
       "filename": "supergrafx.png"
     },
     {
       "matchPlatformShortname": "megaduck",
+      "matchPlatformUniqueId": "megaduck",
       "filename": "megaduck.png"
     },
     {
       "matchPlatformShortname": "zxspectrum",
+      "matchPlatformUniqueId": "zxspectrum",
       "filename": "zxspectrum.png"
     },
     {
       "matchPlatformShortname": "xbox",
+      "matchPlatformUniqueId": "xbox",
       "filename": "xbox.png"
     },
     {
       "matchPlatformShortname": "ps3",
+      "matchPlatformUniqueId": "ps3",
       "filename": "ps3-2.png"
     },
     {
       "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
       "filename": "ps2-2.png"
     },
     {
       "matchPlatformShortname": "xbox360",
+      "matchPlatformUniqueId": "xbox360",
       "filename": "xbox360.png"
     },
     {
       "matchPlatformShortname": "ps4",
+      "matchPlatformUniqueId": "ps4",
       "filename": "ps4.png"
     },
     {
       "matchPlatformShortname": "fds",
+      "matchPlatformUniqueId": "fds",
       "filename": "fds.png"
     },
     {
       "matchPlatformShortname": "family",
+      "matchPlatformUniqueId": "family",
       "filename": "family.png"
     },
     {
       "matchPlatformShortname": "vectrex",
+      "matchPlatformUniqueId": "vectrex",
       "filename": "vectrex.png"
     },
     {
       "matchPlatformShortname": "c64",
+      "matchPlatformUniqueId": "c64",
       "filename": "commodore64.png"
     },
     {
       "matchPlatformShortname": "amiga",
+      "matchPlatformUniqueId": "amiga",
       "filename": "amiga.png"
     },
     {
       "matchPlatformShortname": "atarist",
+      "matchPlatformUniqueId": "atarist",
       "filename": "atarist.png"
     },
     {
       "matchPlatformShortname": "pc88",
+      "matchPlatformUniqueId": "pc88",
       "filename": "pc8800.png"
     },
     {
       "matchPlatformShortname": "pc98",
+      "matchPlatformUniqueId": "pc98",
       "filename": "pc900.png"
     },
     {
       "matchPlatformShortname": "msx",
+      "matchPlatformUniqueId": "msx",
       "filename": "msx.png"
     },
     {
       "matchPlatformShortname": "cpc",
+      "matchPlatformUniqueId": "cpc",
       "filename": "amstradcpc.png"
     },
     {
       "matchPlatformShortname": "x6800",
+      "matchPlatformUniqueId": "x6800",
       "filename": "x6800.png"
     },
     {
       "matchPlatformShortname": "superfamicom",
+      "matchPlatformUniqueId": "superfamicom",
       "filename": "superfamicom.png"
     },
     {
       "matchPlatformShortname": "satellaview",
+      "matchPlatformUniqueId": "satellaview",
       "filename": "satellaview.png"
     },
     {
       "matchPlatformShortname": "channelf",
+      "matchPlatformUniqueId": "channelf",
       "filename": "channelf.png"
     },
     {
       "matchPlatformShortname": "intellivision",
+      "matchPlatformUniqueId": "intellivision",
       "filename": "intellivision.png"
     },
     {
       "matchPlatformShortname": "oddyssey2",
+      "matchPlatformUniqueId": "oddyssey2",
       "filename": "oddyssey2.png"
     },
     {
       "matchPlatformShortname": "neogeocd",
+      "matchPlatformUniqueId": "neogeocd",
       "filename": "neogeocd.png"
     },
     {
       "matchPlatformShortname": "wiiu",
+      "matchPlatformUniqueId": "wiiu",
       "filename": "wiiu.png"
     },
     {
       "matchPlatformShortname": "palmos",
+      "matchPlatformUniqueId": "palmos",
       "filename": "palmos.png"
     },
     {
       "matchPlatformShortname": "pokemini",
+      "matchPlatformUniqueId": "pokemini",
       "filename": "pokemonmini.png"
     },
     {
       "matchPlatformShortname": "naomi",
+      "matchPlatformUniqueId": "naomi",
       "filename": "naomi.png"
     }
   ]

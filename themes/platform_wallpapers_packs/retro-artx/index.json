@@ -1,107 +1,134 @@
 {
   "name": "RetroArtx",
-  "description": "This pack contains images of the devices and minimalistic system logo, made for the Daijishô Launcher.",
-  "authors": ["LuisMz"],
-  "sources": ["https://t.me/daijishou"],
+  "description": "This pack contains images of the devices and minimalistic system logo, made for the Daijish\u00f4 Launcher.",
+  "authors": [
+    "LuisMz"
+  ],
+  "sources": [
+    "https://t.me/daijishou"
+  ],
   "previewThumbnailFilename": "thumbnail.jpg",
-
   "hasDefaultWallpaper": false,
   "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
       "matchPlatformShortname": "atari2600",
+      "matchPlatformUniqueId": "atari2600",
       "filename": "ATARI2600.jpg"
     },
     {
       "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
       "filename": "DREAMCAST.jpg"
     },
     {
       "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
       "filename": "GB.jpg"
     },
     {
       "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
       "filename": "GBA.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
       "filename": "GBC.jpg"
     },
     {
       "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
       "filename": "GC.jpg"
     },
     {
       "matchPlatformShortname": "mame",
+      "matchPlatformUniqueId": "mame",
       "filename": "MAME.jpg"
     },
     {
       "matchPlatformShortname": "neogeo",
+      "matchPlatformUniqueId": "neogeo",
       "filename": "NEOGEO.jpg"
     },
     {
       "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
       "filename": "N64.jpg"
     },
     {
       "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
       "filename": "NDS.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
       "filename": "3DS.jpg"
     },
     {
       "matchPlatformShortname": "nes",
+      "matchPlatformUniqueId": "nes",
       "filename": "NES.jpg"
     },
     {
       "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
       "filename": "WII.jpg"
     },
     {
       "matchPlatformShortname": "sega32x",
+      "matchPlatformUniqueId": "sega32x",
       "filename": "GENESIS (SEGA32X).jpg"
     },
     {
       "matchPlatformShortname": "segacd",
+      "matchPlatformUniqueId": "segacd",
       "filename": "GENESIS (SEGACD).jpg"
     },
     {
       "matchPlatformShortname": "gamegear",
+      "matchPlatformUniqueId": "gamegear",
       "filename": "GAMEGEAR.jpg"
     },
     {
       "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
       "filename": "GENESIS.jpg"
     },
     {
       "matchPlatformShortname": "master",
+      "matchPlatformUniqueId": "master",
       "filename": "MASTER.jpg"
     },
     {
       "matchPlatformShortname": "saturn",
+      "matchPlatformUniqueId": "saturn",
       "filename": "SATURN.jpg"
     },
     {
       "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
       "filename": "PSX.jpg"
     },
     {
       "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
       "filename": "PS2.jpg"
     },
     {
       "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
       "filename": "PSP.jpg"
     },
     {
       "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
       "filename": "SNES.jpg"
     },
     {
       "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
       "filename": "SWITCH.jpg"
     }
   ]

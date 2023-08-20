@@ -1,155 +1,194 @@
 {
   "name": "Tech Grid",
   "description": "A platform wallpapers pack with a techy vibrant look with the use of unique gaming wallpapers.",
-  "authors": ["Galvy"],
-  "sources": ["https://github.com/magneticchen/Daijishou"],
+  "authors": [
+    "Galvy"
+  ],
+  "sources": [
+    "https://github.com/magneticchen/Daijishou"
+  ],
   "previewThumbnailFilename": "Galvy_Icon.jpg",
-
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "Galvy_default.jpg",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
+      "matchPlatformUniqueId": "3do",
       "filename": "Galvy_real_3do.jpg"
     },
     {
       "matchPlatformShortname": "android",
+      "matchPlatformUniqueId": "android",
       "filename": "Galvy_android.jpg"
     },
     {
       "matchPlatformShortname": "atari2600",
+      "matchPlatformUniqueId": "atari2600",
       "filename": "Galvy_atari2600.jpg"
     },
     {
       "matchPlatformShortname": "cps1",
+      "matchPlatformUniqueId": "cps1",
       "filename": "Galvy_capcom_ps1.jpg"
     },
     {
       "matchPlatformShortname": "cps2",
+      "matchPlatformUniqueId": "cps2",
       "filename": "Galvy_capcom_ps2.jpg"
     },
     {
       "matchPlatformShortname": "cps3",
+      "matchPlatformUniqueId": "cps3",
       "filename": "Galvy_capcom_ps3.jpg"
     },
     {
       "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
       "filename": "Galvy_dreamcast.jpg"
     },
     {
       "matchPlatformShortname": "fbneo",
+      "matchPlatformUniqueId": "fbneo",
       "filename": "Galvy_finalburn_neo.jpg"
     },
     {
       "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
       "filename": "Galvy_gameboy.jpg"
     },
     {
       "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
       "filename": "Galvy_gba.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
       "filename": "Galvy_gameboy_color.jpg"
     },
     {
       "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
       "filename": "Galvy_gamecube.jpg"
     },
     {
       "matchPlatformShortname": "mame",
+      "matchPlatformUniqueId": "mame",
       "filename": "Galvy_mame.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
       "filename": "Galvy_3ds.jpg"
     },
     {
       "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
       "filename": "Galvy_n64.jpg"
     },
     {
       "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
       "filename": "Galvy_nds.jpg"
     },
     {
       "matchPlatformShortname": "nes",
+      "matchPlatformUniqueId": "nes",
       "filename": "Galvy_nes.jpg"
     },
     {
       "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
       "filename": "Galvy_switch.jpg"
     },
     {
       "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
       "filename": "Galvy_wii.jpg"
     },
     {
       "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
       "filename": "Galvy_psp.jpg"
     },
     {
       "matchPlatformShortname": "gamegear",
+      "matchPlatformUniqueId": "gamegear",
       "filename": "Galvy_gamegear.jpg"
     },
     {
       "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
       "filename": "Galvy_sega.jpg"
     },
     {
       "matchPlatformShortname": "saturn",
+      "matchPlatformUniqueId": "saturn",
       "filename": "Galvy_segasaturn.jpg"
     },
     {
       "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
       "filename": "Galvy_psx.jpg"
     },
     {
       "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
       "filename": "Galvy_ps2.jpg"
     },
     {
       "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
       "filename": "Galvy_snes.jpg"
     },
     {
       "matchPlatformShortname": "tg16",
+      "matchPlatformUniqueId": "tg16",
       "filename": "Galvy_tg16.jpg"
     },
     {
       "matchPlatformShortname": "famicom",
+      "matchPlatformUniqueId": "famicom",
       "filename": "Galvy_famicom.jpg"
     },
     {
       "matchPlatformShortname": "vita",
+      "matchPlatformUniqueId": "vita",
       "filename": "Galvy_ps_vita.jpg"
     },
     {
       "matchPlatformShortname": "atari5200",
+      "matchPlatformUniqueId": "atari5200",
       "filename": "Galvy_atari5200.jpg"
     },
     {
       "matchPlatformShortname": "atari7800",
+      "matchPlatformUniqueId": "atari7800",
       "filename": "Galvy_atari7800.jpg"
     },
     {
       "matchPlatformShortname": "neogeo",
+      "matchPlatformUniqueId": "neogeo",
       "filename": "Galvy_neogeo.jpg"
     },
     {
       "matchPlatformShortname": "sega32x",
+      "matchPlatformUniqueId": "sega32x",
       "filename": "Galvy_sega32x.jpg"
     },
     {
       "matchPlatformShortname": "segacd",
+      "matchPlatformUniqueId": "segacd",
       "filename": "Galvy_segacd.jpg"
     },
     {
       "matchPlatformShortname": "master",
+      "matchPlatformUniqueId": "master",
       "filename": "Galvy_master.jpg"
     },
     {
       "matchPlatformShortname": "tgcd",
+      "matchPlatformUniqueId": "tgcd",
       "filename": "Galvy_tgcd.jpg"
     }
   ]

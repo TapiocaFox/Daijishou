@@ -1,143 +1,179 @@
 {
   "name": "Token",
   "description": "Minimal theme with a vibrant, colorful gradient. Icons used to represent each brand repectively with their logo & controller. Should be compatible with 4:3 and widescreen devices.",
-  "authors": ["Greg Chambon Jr. (OlGregDraws)"],
-  "sources": ["http://chamrocks.me/ Logos & Icons from their respected publishers. Controller Icons designed by Greg Chambon Jr."],
+  "authors": [
+    "Greg Chambon Jr. (OlGregDraws)"
+  ],
+  "sources": [
+    "http://chamrocks.me/ Logos & Icons from their respected publishers. Controller Icons designed by Greg Chambon Jr."
+  ],
   "previewThumbnailFilename": "previewthumbnail.jpg",
-
   "hasDefaultWallpaper": false,
   "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
       "matchPlatformShortname": "android",
+      "matchPlatformUniqueId": "android",
       "filename": "android.jpg"
     },
     {
       "matchPlatformShortname": "cps1",
+      "matchPlatformUniqueId": "cps1",
       "filename": "cps1.jpg"
     },
     {
       "matchPlatformShortname": "cps2",
+      "matchPlatformUniqueId": "cps2",
       "filename": "cps2.jpg"
     },
     {
       "matchPlatformShortname": "cps3",
+      "matchPlatformUniqueId": "cps3",
       "filename": "cps3.jpg"
     },
     {
       "matchPlatformShortname": "doom",
+      "matchPlatformUniqueId": "doom",
       "filename": "doom.jpg"
     },
     {
       "matchPlatformShortname": "dos",
+      "matchPlatformUniqueId": "dos",
       "filename": "dos.jpg"
     },
     {
       "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
       "filename": "dc.jpg"
     },
     {
       "matchPlatformShortname": "gw",
+      "matchPlatformUniqueId": "gw",
       "filename": "gw.jpg"
     },
     {
       "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
       "filename": "gb.jpg"
     },
     {
       "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
       "filename": "gba.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
       "filename": "gbc.jpg"
     },
     {
       "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
       "filename": "gc.jpg"
     },
     {
       "matchPlatformShortname": "rpgmaker",
+      "matchPlatformUniqueId": "rpgmaker",
       "filename": "rpgmaker.jpg"
     },
     {
       "matchPlatformShortname": "mame",
+      "matchPlatformUniqueId": "mame",
       "filename": "mame.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
       "filename": "3ds.jpg"
     },
     {
       "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
       "filename": "n64.jpg"
     },
     {
       "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
       "filename": "nds.jpg"
     },
     {
       "matchPlatformShortname": "nes",
+      "matchPlatformUniqueId": "nes",
       "filename": "nes.jpg"
     },
     {
       "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
       "filename": "switch.jpg"
     },
     {
       "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
       "filename": "wii.jpg"
     },
     {
       "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
       "filename": "psp.jpg"
     },
     {
       "matchPlatformShortname": "scummvm",
+      "matchPlatformUniqueId": "scummvm",
       "filename": "scummvm.jpg"
     },
     {
       "matchPlatformShortname": "sega32x",
+      "matchPlatformUniqueId": "sega32x",
       "filename": "32x.jpg"
     },
     {
       "matchPlatformShortname": "segacd",
+      "matchPlatformUniqueId": "segacd",
       "filename": "segacd.jpg"
     },
     {
       "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
       "filename": "genesis.jpg"
     },
     {
       "matchPlatformShortname": "master",
+      "matchPlatformUniqueId": "master",
       "filename": "master.jpg"
     },
     {
       "matchPlatformShortname": "saturn",
+      "matchPlatformUniqueId": "saturn",
       "filename": "saturn.jpg"
     },
     {
       "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
       "filename": "psx.jpg"
     },
     {
       "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
       "filename": "ps2.jpg"
     },
     {
       "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
       "filename": "snes.jpg"
     },
     {
       "matchPlatformShortname": "gamegear",
+      "matchPlatformUniqueId": "gamegear",
       "filename": "gg.jpg"
     },
     {
       "matchPlatformShortname": "virtualboy",
+      "matchPlatformUniqueId": "virtualboy",
       "filename": "virtualboy.jpg"
     },
     {
       "matchPlatformShortname": "sg1000",
+      "matchPlatformUniqueId": "sg1000",
       "filename": "sg1000.jpg"
     }
   ]

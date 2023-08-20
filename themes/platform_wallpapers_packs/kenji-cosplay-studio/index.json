@@ -1,43 +1,54 @@
 {
   "name": "Kenji cosplay studio",
   "description": "The pack contains abstract, flat and colorful wallpapers with brand logo for nintendo devices. Originated from kenji-cosplay-studio on deviantart.com. Mentioned by Diabolus in Discord.",
-  "authors": ["Kenji cosplay studio"],
-  "sources": ["https://www.deviantart.com/kenji-cosplay-studio/gallery/79180746/backgrounds"],
+  "authors": [
+    "Kenji cosplay studio"
+  ],
+  "sources": [
+    "https://www.deviantart.com/kenji-cosplay-studio/gallery/79180746/backgrounds"
+  ],
   "previewThumbnailFilename": "kenji-cosplay-studio.jpg",
-
   "hasDefaultWallpaper": false,
   "defaultWallpaperFilename": null,
   "wallpaperList": [
     {
       "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
       "filename": "game_boy_advance.jpg"
     },
     {
       "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
       "filename": "game_boy_color.jpg"
     },
     {
       "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
       "filename": "nintendo_gamecube.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
       "filename": "nintendo_3ds.jpg"
     },
     {
       "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
       "filename": "nintendo_64.jpg"
     },
     {
       "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
       "filename": "nintendo_ds.jpg"
     },
     {
       "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
       "filename": "nintendo_switch.jpg"
     },
     {
       "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
       "filename": "nintendo_wii.jpg"
     }
   ]

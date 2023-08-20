@@ -1,92 +1,120 @@
 {
   "name": "Lovely Lewds",
   "description": "A very lovely and lewd theme. Featuring babes from each dedicated console + with games logo and release date. Special thanks to Post Mortem for the help. Enjoy.",
-  "authors": ["BigShot"],
-  "sources": ["google images", "https://www.deviantart.com/sakimichan", "https://www.artstation.com/prywinkoart", "https://twitter.com/kittew_art?lang=en", "https://twitter.com/logancure?lang=ar", "https://www.artstation.com/welcometoparadisearts"],
+  "authors": [
+    "BigShot"
+  ],
+  "sources": [
+    "google images",
+    "https://www.deviantart.com/sakimichan",
+    "https://www.artstation.com/prywinkoart",
+    "https://twitter.com/kittew_art?lang=en",
+    "https://twitter.com/logancure?lang=ar",
+    "https://www.artstation.com/welcometoparadisearts"
+  ],
   "previewThumbnailFilename": "wallpaper.png",
-
   "isNSFW": true,
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "1default.png",
   "wallpaperList": [
     {
       "matchPlatformShortname": "android",
+      "matchPlatformUniqueId": "android",
       "filename": "android.png"
     },
     {
       "matchPlatformShortname": "dos",
+      "matchPlatformUniqueId": "dos",
       "filename": "dos.png"
     },
     {
       "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
       "filename": "dreamcast.png"
     },
     {
       "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
       "filename": "gb.png"
     },
     {
       "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
       "filename": "gba.png"
     },
     {
       "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
       "filename": "gbc.png"
     },
     {
       "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
       "filename": "gc.png"
     },
     {
       "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
       "filename": "3ds.png"
     },
     {
       "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
       "filename": "n64.png"
     },
     {
       "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
       "filename": "nds.png"
     },
     {
       "matchPlatformShortname": "nes",
+      "matchPlatformUniqueId": "nes",
       "filename": "nes.png"
     },
     {
       "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
       "filename": "switch.png"
     },
     {
       "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
       "filename": "wii.png"
     },
     {
       "matchPlatformShortname": "pico8",
+      "matchPlatformUniqueId": "pico8",
       "filename": "pico8.png"
     },
     {
       "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
       "filename": "psp.png"
     },
     {
       "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
       "filename": "genesis.png"
     },
     {
       "matchPlatformShortname": "saturn",
+      "matchPlatformUniqueId": "saturn",
       "filename": "saturn.png"
     },
     {
       "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
       "filename": "ps1.png"
     },
     {
       "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
       "filename": "ps2.png"
     },
     {
       "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
       "filename": "snes.png"
     }
   ]

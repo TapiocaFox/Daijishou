@@ -1,91 +1,115 @@
 {
-  "name": "Daijishō Box",
+  "name": "Daijish\u014d Box",
   "description": "A retro gaming theme that brings back the nostalgia of classic video games from the 80s and 90s.",
-  "authors": ["lipheson"],
-  "sources": ["Controller Sets: Dan Patrick", "Handheld Sets: Freepik"],
+  "authors": [
+    "lipheson"
+  ],
+  "sources": [
+    "Controller Sets: Dan Patrick",
+    "Handheld Sets: Freepik"
+  ],
   "previewThumbnailFilename": "Thumbnails.png",
-
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "Missing.png",
   "wallpaperList": [
     {
       "matchPlatformShortname": "android",
+      "matchPlatformUniqueId": "android",
       "filename": "Android.png"
     },
     {
       "matchPlatformShortname": "atari2600",
+      "matchPlatformUniqueId": "atari2600",
       "filename": "Atari.png"
     },
     {
       "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
       "filename": "Dreamcast.png"
     },
     {
       "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
       "filename": "Gameboy.png"
     },
     {
       "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
       "filename": "GBA.png"
     },
     {
-	  "matchPlatformShortname": "gc",
+      "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
       "filename": "Gamecube.png"
-	},
-	{
+    },
+    {
       "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
       "filename": "Gameboy Color.png"
     },
     {
       "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
       "filename": "3DS.png"
     },
     {
       "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
       "filename": "N64.png"
     },
     {
       "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
       "filename": "NDS.png"
     },
     {
       "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
       "filename": "Switch.png"
     },
     {
       "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
       "filename": "Wii.png"
     },
     {
       "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
       "filename": "PSP.png"
     },
     {
       "matchPlatformShortname": "gamegear",
+      "matchPlatformUniqueId": "gamegear",
       "filename": "Gamegear.png"
     },
     {
       "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
       "filename": "Sega Genesis.png"
     },
     {
       "matchPlatformShortname": "saturn",
+      "matchPlatformUniqueId": "saturn",
       "filename": "Sega Saturn.png"
     },
     {
       "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
       "filename": "Play Station.png"
     },
-	{
-	  "matchPlatformShortname": "vita",
+    {
+      "matchPlatformShortname": "vita",
+      "matchPlatformUniqueId": "vita",
       "filename": "PS Vita.png"
-	},	
+    },
     {
       "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
       "filename": "PS2.png"
     },
     {
       "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
       "filename": "SNES.png"
     }
   ]

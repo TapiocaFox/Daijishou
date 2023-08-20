@@ -6,134 +6,86 @@ def sortDictionaryKeysByListOfStrings(dictionary, listOfStrings):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-p", "--path", default=".")
-parser.add_argument("-rev", "--increase_revisions", default=False)
+parser.add_argument("-i", "--index", default="../../platforms/index.json")
+# parser.add_argument("-rev", "--increase_revisions", default=False)
 args = parser.parse_args()
 
 # Constants
 jsonRegex = re.compile("^(?!(?:\._|\.).*).*\.json$")
-retroArch64AmStartRegex = re.compile("^.*\-n\s+com\.retroarch\.aarch64/.*/cores/(.*)\.so[\n\r\s]+.*$", re.M|re.S)
-retroArch32AmStartRegex = re.compile("^.*\-n\s+com\.retroarch\.ra32/.*/cores/(.*)\.so[\n\r\s]+.*$", re.M|re.S)
-retroArchAmStartRegex = re.compile("^.*\-n\s+com\.retroarch/.*/cores/(.*)\.so[\n\r\s]+.*$", re.M|re.S)
-standaloneAmStartRegex = re.compile("^.*\-n\s+([^/]+)/.*$", re.M|re.S)
-platformSharableKeysOrder = [
-    "databaseVersion",
-    "revisionNumber",
-    "platform",
-    "playerList",
+platformWallpapersPackIndexWallpaperListItemJson = [
+    "matchPlatformShortname",
+    "matchPlatformUniqueId",
+    "filename"
 ]
-platformEntityPortableKeysOrder = [
+platformWallpapersPackIndexJson = [
     "name",
-    "uniqueId",
-    "shortname",
     "description",
-    "acceptedFilenameRegex",
-    "scraperSourceList",
-    "boxArtAspectRatioId",
-    "useCustomBoxArtAspectRatio",
-    "customBoxArtAspectRatio",
-    "screenAspectRatioId",
-    "useCustomScreenAspectRatio",
-    "customScreenAspectRatio",
-    "retroAchievementsAlias",
-    "extra",
-]
-
-playerEntityPortableKeysOrder = [
-    "name",
-    "uniqueId",
-    "description",
-    "acceptedFilenameRegex",
-    "amStartArguments",
-    "killPackageProcesses",
-    "killPackageProcessesWarning",
-    "extra"
+    "authors",
+    "sources",
+    "previewThumbnailFilename",
+    "isNSFW",
+    "hasDefaultWallpaper",
+    "defaultWallpaperFilename",
+    "wallpaperList",
 ]
 
 indexFilename = "index.json"
-databaseVersion = 14
 basePath = args.path
-increaseRevisionNumber = args.increase_revisions
+indexPath = args.index
 curatedDirectory = os.path.join(basePath, "./curated")
+shortnameToUniqueId = {}
+with open(indexPath) as jsonFile:
+    platformList = json.load(jsonFile)['platformList']
+    for platform in platformList:
+        shortnameToUniqueId[platform['platformShortname']] = platform['platformUniqueId']
 
 if not os.path.exists(curatedDirectory):
     os.mkdir(curatedDirectory)
 
 print("Directory '%s' created for curator." %curatedDirectory)
 
-files = [f for f in os.listdir(basePath) if os.path.isfile(f)]
+dirs = [f for f in os.listdir(basePath) if os.path.isdir(f)]
+# files = []
+# for dir in dirs:
+#     fileList = os.listdir(os.path.join(basePath, dir))
+#     for file in fileList:
+#         if "index.json" in file:
+#             files.append(os.path.join(basePath, dir, file))
+#             print(file)
 
-for f in files:
-    if jsonRegex.match(f) and f != indexFilename:
-        with open(f) as jsonFile:
-            try:
-                platformSharable = json.load(jsonFile)
-                platformEntityPortable = platformSharable['platform']
-                playerEntityPortableList = platformSharable['playerList']
-                print(platformEntityPortable['name']+" ("+platformEntityPortable['shortname']+")")
-                print("  RevisionNumber: "+str(platformSharable['revisionNumber']))
-                print("  Scrapers: "+str(len(platformEntityPortable['scraperSourceList'])))
-                print("  Players: "+str(len(platformSharable['playerList'])))
-                print("")
+for dir in dirs:
+    files = os.listdir(os.path.join(basePath, dir))
+    for f in files:
+        # print(f)
+        if "index.json" == f:
+            with open(os.path.join(basePath, dir, "index.json")) as jsonFile:
+                try:
+                    platformWallpapersPackIndex = json.load(jsonFile)
+                    # print(str(platformWallpapersPackIndex))
+                    # print(str(jsonFile))
+                    print(platformWallpapersPackIndex['name'])
+                    print(platformWallpapersPackIndex['description'])
+                    print("Authors: "+str(platformWallpapersPackIndex['authors']))
+                    print("")
 
+                    wallpaperList = []
+                    for wallpaper in platformWallpapersPackIndex['wallpaperList']:
+                        try:
+                            wallpaper["matchPlatformUniqueId"] = shortnameToUniqueId[wallpaper["matchPlatformShortname"]]
+                        except Exception as e:
+                            wallpaper["matchPlatformUniqueId"] = wallpaper["matchPlatformShortname"]
+                        wallpaper = sortDictionaryKeysByListOfStrings(wallpaper, platformWallpapersPackIndexWallpaperListItemJson)
+                        wallpaperList.append(wallpaper)
+                    platformWallpapersPackIndex['wallpaperList'] = wallpaperList
+                    # Write file
+                    curatedSubDirectory = os.path.join(os.path.join(curatedDirectory, dir))
+                    platformWallpapersPackIndex = sortDictionaryKeysByListOfStrings(platformWallpapersPackIndex, platformWallpapersPackIndexJson)
+                    if not os.path.exists(curatedSubDirectory):
+                        os.mkdir(curatedSubDirectory)
+                    with open(os.path.join(curatedSubDirectory, "index.json"), 'w') as outfile:
+                        json.dump(platformWallpapersPackIndex, outfile, indent=2, sort_keys=False)
 
-                 # Platform
-                uniqueId = platformEntityPortable['uniqueId']
-                if uniqueId == None:
-                    uniqueId = platformEntityPortable['shortname']
-                platformSharable['platform'] = sortDictionaryKeysByListOfStrings(platformEntityPortable, platformEntityPortableKeysOrder)
-
-
-                # Players
-                standalonePlayers = []
-                retroArch64Players = []
-                retroArch32Players = []
-                retroArchPlayers = []
-                for playerEntityPortable in playerEntityPortableList:
-                    amStartArguments = playerEntityPortable['amStartArguments']
-                    retroArch64AmStartMatches = retroArch64AmStartRegex.match(amStartArguments)
-                    retroArch32AmStartMatches = retroArch32AmStartRegex.match(amStartArguments)
-                    retroArchAmStartMatches = retroArchAmStartRegex.match(amStartArguments)
-                    standaloneAmStartMatches = standaloneAmStartRegex.match(amStartArguments)
-
-                    if retroArch64AmStartMatches:
-                        retroArchLibraryName = retroArch64AmStartMatches[1].replace("_libretro_android", "")
-                        playerEntityPortable['uniqueId'] = uniqueId+".ra64."+retroArchLibraryName
-                        playerEntityPortable = sortDictionaryKeysByListOfStrings(playerEntityPortable, playerEntityPortableKeysOrder)
-                        retroArch64Players.append(playerEntityPortable)
-
-                    elif retroArch32AmStartMatches:
-                        retroArchLibraryName = retroArch32AmStartMatches[1].replace("_libretro_android", "")
-                        playerEntityPortable['uniqueId'] = uniqueId+".ra32."+retroArchLibraryName
-                        playerEntityPortable = sortDictionaryKeysByListOfStrings(playerEntityPortable, playerEntityPortableKeysOrder)
-                        retroArch64Players.append(playerEntityPortable)
-
-                    elif retroArchAmStartMatches:
-                        retroArchLibraryName = retroArchAmStartMatches[1].replace("_libretro_android", "")
-                        playerEntityPortable['uniqueId'] = uniqueId+".ra."+retroArchLibraryName
-                        playerEntityPortable = sortDictionaryKeysByListOfStrings(playerEntityPortable, playerEntityPortableKeysOrder)
-                        retroArch64Players.append(playerEntityPortable)
-                    elif standaloneAmStartMatches:
-                        standalonePackageName = standaloneAmStartMatches[1]
-                        playerEntityPortable['uniqueId'] = uniqueId+"."+standalonePackageName
-                        playerEntityPortable = sortDictionaryKeysByListOfStrings(playerEntityPortable, playerEntityPortableKeysOrder)
-                        standalonePlayers.append(playerEntityPortable)
-
-                platformSharable['playerList'] = standalonePlayers+retroArch64Players+retroArch32Players+retroArchPlayers
-                                    
-
-                # Entire
-                revisionNumber = platformSharable['revisionNumber'] if('revisionNumber' in platformSharable) else 0
-                if increaseRevisionNumber:
-                    revisionNumber += 1
-                platformSharable['revisionNumber'] = revisionNumber
-                platformSharable['databaseVersion'] = databaseVersion
-                platformSharable = sortDictionaryKeysByListOfStrings(platformSharable, platformSharableKeysOrder)
-
-                # Write file
-                with open(os.path.join(curatedDirectory, f), 'w') as outfile:
-                    json.dump(platformSharable, outfile, indent=2, sort_keys=False)
-
-            except Exception as e:
-                traceback.print_exc()
-                print(e)
-                print(f)
+                except Exception as e:
+                    traceback.print_exc()
+                    print(e)
+                    print(f)
