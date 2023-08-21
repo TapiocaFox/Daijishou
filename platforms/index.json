@@ -548,6 +548,13 @@
       "revisionNumber": 6
     },
     {
+      "filename": "Uzebox.json",
+      "platformName": "Uzebox",
+      "platformShortname": "uzebox",
+      "platformUniqueId": "uzebox",
+      "revisionNumber": 1
+    },
+    {
       "filename": "Vectrex.json",
       "platformName": "Vectrex",
       "platformShortname": "vectrex",
