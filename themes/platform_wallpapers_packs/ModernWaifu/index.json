@@ -388,6 +388,16 @@
       "filename": "pico8.png"
     },
     {
+      "matchPlatformShortname": "wasm4",
+      "matchPlatformUniqueId": "wasm4",
+      "filename": "wasm4.png"
+    },
+    {
+      "matchPlatformShortname": "uzebox",
+      "matchPlatformUniqueId": "uzebox",
+      "filename": "uzebox.png"
+    },
+    {
       "matchPlatformShortname": "virtualboy",
       "matchPlatformUniqueId": "virtualboy",
       "filename": "vb.png"
