@@ -29,7 +29,7 @@
       "uniqueId": "mame.com.seleuco.mame4droid",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
-      "amStartArguments": "-n com.seleuco.mame4droid/.MAME4droid\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.seleuco.mame4droid/.MAME4droid\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
