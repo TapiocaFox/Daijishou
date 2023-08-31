@@ -16,6 +16,13 @@
       "revisionNumber": 5
     },
     {
+      "filename": "Arduboy.json",
+      "platformName": "Arduboy",
+      "platformShortname": "arduboy",
+      "platformUniqueId": "arduboy",
+      "revisionNumber": 1
+    },
+    {
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600",
