@@ -393,6 +393,16 @@
       "filename": "wasm4.png"
     },
     {
+      "matchPlatformShortname": "arduboy",
+      "matchPlatformUniqueId": "arduboy",
+      "filename": "arduboy.png"
+    },
+    {
+      "matchPlatformShortname": "msu1",
+      "matchPlatformUniqueId": "msu1",
+      "filename": "msu1.png"
+    },
+    {
       "matchPlatformShortname": "uzebox",
       "matchPlatformUniqueId": "uzebox",
       "filename": "uzebox.png"
