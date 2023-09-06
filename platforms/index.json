@@ -1,5 +1,5 @@
 {
-  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
+  "baseUri": "https://github.com/TapiocaFox/Daijishou/tree/main/platforms/",
   "platformList": [
     {
       "filename": "3DO.json",
