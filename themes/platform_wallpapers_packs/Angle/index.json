@@ -1,0 +1,100 @@
+{
+  "name": "Angle",
+  "description": "Minimalistic theme with original platform logos, dark color and images that truly represent the games that can be played on each platform. Compatible with both 4:3 and wide screens. For a clean and immersive experience, the -Hide Title- option is recommended.",
+  "authors": [
+    "Post Mortem"
+  ],
+  "sources": [
+    "Platform logos Profesionally Redrawn by Dan Patrick"
+  ],
+  "previewThumbnailFilename": "previewthumbnail.png",
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.png",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "android",
+      "matchPlatformUniqueId": "android",
+      "filename": "android.png"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
+      "filename": "dc.png"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "matchPlatformUniqueId": "fbneo",
+      "filename": "fbneo.png"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
+      "filename": "gb.png"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
+      "filename": "gba.png"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
+      "filename": "gbc.png"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
+      "filename": "gc.png"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "matchPlatformUniqueId": "msx",
+      "filename": "msx.png"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
+      "filename": "n64.png"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
+      "filename": "nds.png"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "matchPlatformUniqueId": "nes",
+      "filename": "nes.png"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "matchPlatformUniqueId": "segacd",
+      "filename": "segacd.png"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
+      "filename": "genesis.png"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
+      "filename": "psx.png"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
+      "filename": "ps2.png"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
+      "filename": "snes.png"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "matchPlatformUniqueId": "tgcd",
+      "filename": "tgcd.png"
+    }
+  ]
+}

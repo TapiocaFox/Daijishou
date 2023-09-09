@@ -6,7 +6,7 @@
       "platformName": "3DO",
       "platformShortname": "3do",
       "platformUniqueId": "3do",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "AmstradCPC.json",
@@ -14,6 +14,13 @@
       "platformShortname": "cpc",
       "platformUniqueId": "cpc",
       "revisionNumber": 5
+    },
+    {
+      "filename": "Arduboy.json",
+      "platformName": "Arduboy",
+      "platformShortname": "arduboy",
+      "platformUniqueId": "arduboy",
+      "revisionNumber": 1
     },
     {
       "filename": "Atari2600.json",
@@ -363,7 +370,7 @@
       "platformName": "PICO-8",
       "platformShortname": "pico8",
       "platformUniqueId": "pico8",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "PalmOS.json",
@@ -546,6 +553,13 @@
       "platformShortname": "tgcd",
       "platformUniqueId": "tgcd",
       "revisionNumber": 6
+    },
+    {
+      "filename": "Uzebox.json",
+      "platformName": "Uzebox",
+      "platformShortname": "uzebox",
+      "platformUniqueId": "uzebox",
+      "revisionNumber": 1
     },
     {
       "filename": "Vectrex.json",
