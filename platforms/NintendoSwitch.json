@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -28,6 +28,16 @@
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n skyline.emu/emu.skyline.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+        {
+      "name": "switch - Strato",
+      "uniqueId": "switch.strato.yosho",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n strato.yosho/strato.yosho.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
