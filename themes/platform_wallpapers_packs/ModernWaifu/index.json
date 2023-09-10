@@ -318,6 +318,11 @@
       "filename": "switch2.png"
     },
     {
+      "matchPlatformShortname": "gamegear",
+      "matchPlatformUniqueId": "gamegear",
+      "filename": "gamegear.png"
+    },
+    {
       "matchPlatformShortname": "megadrive",
       "matchPlatformUniqueId": "megadrive",
       "filename": "megadrive.png"
