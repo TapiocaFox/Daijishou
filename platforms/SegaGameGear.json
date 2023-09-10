@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Sega Game Gear",
     "uniqueId": "gamegear",
@@ -31,6 +31,16 @@
       "description": "Supported extensions: bin, bms, col, gg, rom, sg, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|bms|col|gg|rom|sg|sms)$",
       "amStartArguments": "-n com.androidemu.gg/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gamegear - MasterGear",
+      "uniqueId": "gamegear.com.fms.mg",
+      "description": "Supported extensions: gg, sms.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gg|sms)$",
+      "amStartArguments": "-n com.fms.mg/com.fms.emulib.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

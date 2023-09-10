@@ -454,7 +454,7 @@
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
       "platformUniqueId": "gamegear",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "SegaGenesis.json",
