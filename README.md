@@ -9,7 +9,7 @@ Daijishō is a retro launcher that lets you manage your retro games libraries. D
 "Wat? What does 'Daijishō' even mean?", you ask? "Daijishō" (aka "だいじしょう") actually stands for ["台字章"](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D) in kanji, which was a pattern widely used in Taiwan during the Japanese period. Anyway, happy gaming.
 
 ### About this Repository
-Daijishō is currently **closed-source**. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
+Daijishō is currently **closed-source**. This repo is for assets and served as a main page. Nonetheless, I do have some prerequisites for open-sourcing it. You can still report issues or submit suggestions here. And Daijishō will always be free!
 
 <a href="https://discord.com/invite/nJbxdT3QQE" target="_blank">
     <img src="https://img.shields.io/discord/965270127312535592?label=&logo=discord&logoColor=ffffff&color=5865F2&labelColor=404EED">
