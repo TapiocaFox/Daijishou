@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Sega Game Gear",
     "uniqueId": "gamegear",
@@ -40,7 +40,7 @@
       "uniqueId": "gamegear.com.fms.mg",
       "description": "Supported extensions: gg, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gg|sms)$",
-      "amStartArguments": "-n com.fms.mg/com.fms.emulib.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.fms.mg/com.fms.emulib.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
