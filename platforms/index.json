@@ -335,7 +335,7 @@
       "platformName": "Nintendo Switch",
       "platformShortname": "switch",
       "platformUniqueId": "switch",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "NintendoWii.json",
