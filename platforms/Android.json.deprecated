@@ -2,6 +2,7 @@
     "databaseVersion": 8,
     "platform": {
         "name": "Android (Beware, it is deprecated)",
+        "uniqueId": "android",
         "shortname": "android",
         "description": null,
         "acceptedFilenameRegex": "^.*$",
