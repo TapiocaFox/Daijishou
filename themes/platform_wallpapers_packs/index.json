@@ -167,6 +167,17 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit",
+        "Viking"
+      ],
+      "platformWallpapersPackDescription": "Vikings theme work on launchbox. Modified and ported by jamesinorbit for Daijish\u014d..",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Colorfully",
+      "platformWallpapersPackPreviewThumbnailPath": "Colorfully/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "Colorfully"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Daijish\u014d",
         "TapiocaFox"
       ],
