@@ -84,6 +84,16 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+      "name": "gc - Dolphin Ishiiruka",
+      "uniqueId": "gc.org.dolphin.ishiirukadark",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     }
   ]
 }
