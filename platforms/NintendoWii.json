@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Nintendo Wii",
     "uniqueId": "wii",
@@ -84,6 +84,16 @@
       "amStartArguments": "-n org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin Ishiiruka",
+      "uniqueId": "wii.org.dolphin.ishiirukadark",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
       "extra": ""
     }
   ]
