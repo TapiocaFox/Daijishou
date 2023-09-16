@@ -464,6 +464,13 @@
       "revisionNumber": 7
     },
     {
+      "filename": "SegaGenesisMSU.json",
+      "platformName": "Sega Genesis - MSU",
+      "platformShortname": "genesismsu",
+      "platformUniqueId": "genesismsu",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SegaMasterSystem.json",
       "platformName": "Sega Master System",
       "platformShortname": "master",
@@ -532,6 +539,13 @@
       "platformShortname": "snes",
       "platformUniqueId": "snes",
       "revisionNumber": 8
+    },
+    {
+      "filename": "SuperNintendoEntertainmentSystemMSU1.json",
+      "platformName": "Super Nintendo Entertainment System - MSU-1",
+      "platformShortname": "snesmsu1",
+      "platformUniqueId": "snesmsu1",
+      "revisionNumber": 1
     },
     {
       "filename": "TIC80.json",
