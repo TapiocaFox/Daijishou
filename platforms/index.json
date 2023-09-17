@@ -135,6 +135,20 @@
       "revisionNumber": 6
     },
     {
+      "filename": "CommodorePET.json",
+      "platformName": "Commodore - PET",
+      "platformShortname": "pet",
+      "platformUniqueId": "pet",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "CommodorePlus4.json",
+      "platformName": "Commodore - PLUS/4",
+      "platformShortname": "plus4",
+      "platformUniqueId": "plus4",
+      "revisionNumber": 1
+    },
+    {
       "filename": "DOOMGameEngine.json",
       "platformName": "DOOM Game Engine",
       "platformShortname": "doom",
@@ -504,6 +518,13 @@
       "platformShortname": "saturn",
       "platformUniqueId": "saturn",
       "revisionNumber": 4
+    },
+    {
+      "filename": "SharpX1.json",
+      "platformName": "Sharp X1",
+      "platformShortname": "x1",
+      "platformUniqueId": "x1",
+      "revisionNumber": 1
     },
     {
       "filename": "SharpX68000.json",
