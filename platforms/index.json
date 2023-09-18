@@ -76,21 +76,21 @@
       "platformName": "CP System I",
       "platformShortname": "cps1",
       "platformUniqueId": "cps1",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "CPS2.json",
       "platformName": "CP System II",
       "platformShortname": "cps2",
       "platformUniqueId": "cps2",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "CPS3.json",
       "platformName": "CP System III",
       "platformShortname": "cps3",
       "platformUniqueId": "cps3",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "CannonballOutRunEngine.json",
@@ -188,7 +188,7 @@
       "platformName": "Arcade (FinalBurn Neo)",
       "platformShortname": "fbneo",
       "platformUniqueId": "fbneo",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "FlashbackGameEngine.json",
@@ -286,7 +286,7 @@
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
       "platformUniqueId": "neogeo",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "NeoGeoCD.json",
