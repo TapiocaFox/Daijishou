@@ -78,6 +78,11 @@
       "filename": "msx2.png"
     },
     {
+      "matchPlatformShortname": "x1",
+      "matchPlatformUniqueId": "x",
+      "filename": "x1.png"
+    },
+    {
       "matchPlatformShortname": "x68000",
       "matchPlatformUniqueId": "x68000",
       "filename": "x68000.png"
@@ -146,6 +151,16 @@
       "matchPlatformShortname": "c128",
       "matchPlatformUniqueId": "c128",
       "filename": "c128.png"
+    },
+    {
+      "matchPlatformShortname": "pet",
+      "matchPlatformUniqueId": "pet",
+      "filename": "pet.png"
+    },
+    {
+      "matchPlatformShortname": "plus4",
+      "matchPlatformUniqueId": "plus4",
+      "filename": "plus4.png"
     },
     {
       "matchPlatformShortname": "zx81",
@@ -408,6 +423,11 @@
       "filename": "msu1.png"
     },
     {
+      "matchPlatformShortname": "snesmsu1",
+      "matchPlatformUniqueId": "snesmsu1",
+      "filename": "msu1.png"
+    },
+    {
       "matchPlatformShortname": "uzebox",
       "matchPlatformUniqueId": "uzebox",
       "filename": "uzebox.png"
@@ -431,6 +451,11 @@
       "matchPlatformShortname": "wsc",
       "matchPlatformUniqueId": "wsc",
       "filename": "wsc.png"
+    },
+    {
+      "matchPlatformShortname": "videos",
+      "matchPlatformUniqueId": "videos",
+      "filename": "videos.png"
     }
   ]
 }
