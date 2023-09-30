@@ -338,6 +338,11 @@
       "filename": "gamegear.png"
     },
     {
+      "matchPlatformShortname": "master",
+      "matchPlatformUniqueId": "master",
+      "filename": "master.png"
+    },
+    {
       "matchPlatformShortname": "megadrive",
       "matchPlatformUniqueId": "megadrive",
       "filename": "megadrive.png"
