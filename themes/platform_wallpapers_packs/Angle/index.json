@@ -91,6 +91,21 @@
       "matchPlatformUniqueId": "snes",
       "filename": "snes.png"
     },
+        {
+      "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
+      "filename": "3ds.png"
+    },
+        {
+      "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
+      "filename": "psp.png"
+    },
+        {
+      "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
+      "filename": "wii.png"
+    },
     {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
