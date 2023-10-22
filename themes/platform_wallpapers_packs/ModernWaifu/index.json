@@ -398,6 +398,11 @@
       "filename": "psp.png"
     },
     {
+      "matchPlatformShortname": "pspminis",
+      "matchPlatformUniqueId": "pspminis",
+      "filename": "pspminis.png"
+    },
+    {
       "matchPlatformShortname": "vita",
       "matchPlatformUniqueId": "vita",
       "filename": "vita2.png"
