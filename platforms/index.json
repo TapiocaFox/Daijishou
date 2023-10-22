@@ -415,6 +415,13 @@
       "revisionNumber": 8
     },
     {
+      "filename": "PlayStationPortableMinis.json",
+      "platformName": "PlayStation Portable Minis",
+      "platformShortname": "pspminis",
+      "platformUniqueId": "pspminis",
+      "revisionNumber": 1
+    },
+    {
       "filename": "PokemonMini.json",
       "platformName": "Pokemon Mini",
       "platformShortname": "pokemini",
