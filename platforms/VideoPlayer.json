@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Video Player",
     "uniqueId": "videos",
@@ -19,6 +19,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "videos - VLC for Android",
+      "uniqueId": "ffmpeg.org.videolan.vlc",
+      "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
+      "amStartArguments": "-n org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity\n -a android.intent.action.VIEW\n -d {file.path} \n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "videos - RetroArch 64 - ffmpeg",
       "uniqueId": "ffmpeg.ra64.ffmpeg",
