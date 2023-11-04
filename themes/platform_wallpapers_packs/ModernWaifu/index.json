@@ -328,6 +328,11 @@
       "filename": "wii.png"
     },
     {
+      "matchPlatformShortname": "wiiware",
+      "matchPlatformUniqueId": "wiiware",
+      "filename": "wiiware.png"
+    },
+    {
       "matchPlatformShortname": "switch",
       "matchPlatformUniqueId": "switch",
       "filename": "switch2.png"

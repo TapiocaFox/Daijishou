@@ -359,6 +359,13 @@
       "revisionNumber": 6
     },
     {
+      "filename": "NintendoWiiWare.json",
+      "platformName": "Nintendo WiiWare",
+      "platformShortname": "wiiware",
+      "platformUniqueId": "wiiware",
+      "revisionNumber": 1
+    },
+    {
       "filename": "PC88.json",
       "platformName": "PC-88",
       "platformShortname": "pc88",
