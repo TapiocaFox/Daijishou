@@ -1,6 +1,6 @@
 {
   "name": "Colorfully",
-  "description": "Vikings theme work on launchbox. Modified and ported by jamesinorbit for Daijishō..",
+  "description": "Vikings theme work on launchbox. Modified and ported / updates by jamesinorbit for Daijishō..",
   "authors": ["Jamesinorbit", "Viking"],
   "sources": ["https://forums.launchbox-app.com/files/file/1958-colorful-platform-video-set/"],
   "previewThumbnailFilename": "thumbnail.jpg",
@@ -21,6 +21,96 @@
       "matchPlatformShortname": "cpc",
       "matchPlatformUniqueId": "cpc",
       "filename": "cpc.jpg"
+    },
+    {
+      "matchPlatformShortname": "arduboy",
+      "matchPlatformUniqueId": "arduboy",
+      "filename": "arduboy.jpg"
+    },
+    {
+      "matchPlatformShortname": "chip8",
+      "matchPlatformUniqueId": "chip8",
+      "filename": "chip8.jpg"
+    },
+    {
+      "matchPlatformShortname": "pet",
+      "matchPlatformUniqueId": "pet",
+      "filename": "pet.jpg"
+    },
+    {
+      "matchPlatformShortname": "plus4",
+      "matchPlatformUniqueId": "plus4",
+      "filename": "plus4.jpg"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "matchPlatformUniqueId": "j2me",
+      "filename": "j2me.jpg"
+    },
+    {
+      "matchPlatformShortname": "lowresnx",
+      "matchPlatformUniqueId": "lowresnx",
+      "filename": "lowresnx.jpg"
+    },
+    {
+      "matchPlatformShortname": "megaduck",
+      "matchPlatformUniqueId": "megaduck",
+      "filename": "megaduck.jpg"
+    },
+    {
+      "matchPlatformShortname": "satellaview",
+      "matchPlatformUniqueId": "satellaview",
+      "filename": "satellaview.jpg"
+    },
+    {
+      "matchPlatformShortname": "palm",
+      "matchPlatformUniqueId": "palm",
+      "filename": "palm.jpg"
+    },
+    {
+      "matchPlatformShortname": "g7400",
+      "matchPlatformUniqueId": "g7400",
+      "filename": "g7400.jpg"
+    },
+    {
+      "matchPlatformShortname": "genesismsu",
+      "matchPlatformUniqueId": "genesismsu",
+      "filename": "genesismsu.jpg"
+    },
+    {
+      "matchPlatformShortname": "pico",
+      "matchPlatformUniqueId": "pico",
+      "filename": "pico.jpg"
+    },
+    {
+      "matchPlatformShortname": "x1",
+      "matchPlatformUniqueId": "x1",
+      "filename": "x1.jpg"
+    },
+    {
+      "matchPlatformShortname": "snesmsu1",
+      "matchPlatformUniqueId": "snesmsu1",
+      "filename": "snesmsu1.jpg"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "matchPlatformUniqueId": "tic80",
+      "filename": "tic80.jpg"
+    },
+    {
+      "matchPlatformShortname": "uzebox",
+      "matchPlatformUniqueId": "uzebox",
+      "filename": "uzebox.jpg"
+    },
+    {
+      "matchPlatformShortname": "videos",
+      "matchPlatformUniqueId": "videos",
+      "filename": "videos.jpg"
+    },
+    {
+      "matchPlatformShortname": "wasm4",
+      "matchPlatformUniqueId": "wasm4",
+      "filename": "wasm4.jpg"
     },
     {
       "matchPlatformShortname": "atari2600",
@@ -81,11 +171,6 @@
       "matchPlatformShortname": "cavestory",
       "matchPlatformUniqueId": "cavestory",
       "filename": "cavestory.jpg"
-    },
-    {
-      "matchPlatformShortname": "chip8",
-      "matchPlatformUniqueId": "chip8",
-      "filename": "default.jpg"
     },
     {
       "matchPlatformShortname": "coleco",
@@ -166,11 +251,6 @@
       "matchPlatformShortname": "intellivision",
       "matchPlatformUniqueId": "intellivision",
       "filename": "intellivision.jpg"
-    },
-    {
-      "matchPlatformShortname": "j2me",
-      "matchPlatformUniqueId": "j2me",
-      "filename": "default.jpg"
     },
     {
       "matchPlatformShortname": "mame",
@@ -258,11 +338,6 @@
       "filename": "pico8.jpg"
     },
     {
-      "matchPlatformShortname": "palm",
-      "matchPlatformUniqueId": "palm",
-      "filename": "default.jpg"
-    },
-    {
       "matchPlatformShortname": "cdi",
       "matchPlatformUniqueId": "cdi",
       "filename": "cdi.jpg"
@@ -348,11 +423,6 @@
       "filename": "snes.jpg"
     },
     {
-      "matchPlatformShortname": "tic80",
-      "matchPlatformUniqueId": "tic80",
-      "filename": "default.jpg"
-    },
-    {
       "matchPlatformShortname": "tg16",
       "matchPlatformUniqueId": "tg16",
       "filename": "tg16.jpg"
@@ -371,11 +441,6 @@
       "matchPlatformShortname": "virtualboy",
       "matchPlatformUniqueId": "virtualboy",
       "filename": "virtualboy.jpg"
-    },
-    {
-      "matchPlatformShortname": "wasm4",
-      "matchPlatformUniqueId": "wasm4",
-      "filename": "default.jpg"
     },
     {
       "matchPlatformShortname": "supervision",
