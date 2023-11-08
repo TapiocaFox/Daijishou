@@ -13,6 +13,16 @@
       "filename": "3do.jpg"
     },
     {
+      "matchPlatformShortname": "wiiware",
+      "matchPlatformUniqueId": "wiiware",
+      "filename": "wiiware.jpg"
+    },
+    {
+      "matchPlatformShortname": "pspminis",
+      "matchPlatformUniqueId": "pspminis",
+      "filename": "pspminis.jpg"
+    },
+    {
       "matchPlatformShortname": "android",
       "matchPlatformUniqueId": "android",
       "filename": "android.jpg"
