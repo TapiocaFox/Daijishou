@@ -293,7 +293,7 @@
       "platformName": "Neo Geo CD",
       "platformShortname": "neogeocd",
       "platformUniqueId": "neogeocd",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "NeoGeoPocket.json",

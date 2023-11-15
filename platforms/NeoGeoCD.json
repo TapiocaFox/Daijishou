@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "Neo Geo CD",
     "uniqueId": "neogeocd",
@@ -25,7 +25,7 @@
     "screenAspectRatioId": 2,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Arcade",
+    "retroAchievementsAlias": "Neo Geo CD",
     "extra": ""
   },
   "playerList": [
