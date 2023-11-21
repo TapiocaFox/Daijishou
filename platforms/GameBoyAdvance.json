@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Game Boy Advance",
     "uniqueId": "gba",
@@ -39,8 +39,18 @@
       "name": "gba - Pizza Boy GBA Pro",
       "uniqueId": "gba.it.dbtecno.pizzaboygbapro",
       "description": "Supported extensions: gb, gbc, gbs.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
       "amStartArguments": "-n it.dbtecno.pizzaboygbapro/it.dbtecno.pizzaboygbapro.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gba - SkyEmu",
+      "uniqueId": "gba.com.sky.SkyEmu",
+      "description": "Supported extensions: gba.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gba|zip)$",
+      "amStartArguments": "-n com.sky.SkyEmu/.EnhancedNativeActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Game Boy Color",
     "uniqueId": "gbc",
@@ -41,6 +41,16 @@
       "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
       "amStartArguments": "-n it.dbtecno.pizzaboypro/it.dbtecno.pizzaboypro.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - SkyEmu",
+      "uniqueId": "gbc.com.sky.SkyEmu",
+      "description": "Supported extensions: gb, gbc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip)$",
+      "amStartArguments": "-n com.sky.SkyEmu/.EnhancedNativeActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
