@@ -271,6 +271,26 @@
       "matchPlatformUniqueId": "3do",
       "filename": "3do.png"
     },
+        {
+      "matchPlatformShortname": "amiga",
+      "matchPlatformUniqueId": "amiga",
+      "filename": "amiga.png"
+    },
+    {
+      "matchPlatformShortname": "cd32",
+      "matchPlatformUniqueId": "cd32",
+      "filename": "cd32.png"
+    },
+    {
+      "matchPlatformShortname": "naomi",
+      "matchPlatformUniqueId": "naomi",
+      "filename": "naomi.png"
+    },
+    {
+      "matchPlatformShortname": "cps",
+      "matchPlatformUniqueId": "cps",
+      "filename": "cps.png"
+    },
     {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
