@@ -217,8 +217,8 @@
       "filename": "tg16.png"
     },
     {
-      "matchPlatformShortname": "32x",
-      "matchPlatformUniqueId": "32x",
+      "matchPlatformShortname": "sega32x",
+      "matchPlatformUniqueId": "sega32x",
       "filename": "32x.png"
     },
     {
