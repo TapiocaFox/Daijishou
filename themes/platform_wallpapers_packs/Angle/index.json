@@ -327,6 +327,31 @@
       "filename": "coleco.png"
     },
     {
+      "matchPlatformShortname": "atarist",
+      "matchPlatformUniqueId": "atarist",
+      "filename": "atarist.png"
+    },
+    {
+      "matchPlatformShortname": "channelf",
+      "matchPlatformUniqueId": "channelf",
+      "filename": "channelf.png"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "matchPlatformUniqueId": "jaguar",
+      "filename": "jaguar.png"
+    },
+    {
+      "matchPlatformShortname": "vectrex",
+      "matchPlatformUniqueId": "vectrex",
+      "filename": "vectrex.png"
+    },
+    {
+      "matchPlatformShortname": "vita",
+      "matchPlatformUniqueId": "vita",
+      "filename": "vita.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.png"
