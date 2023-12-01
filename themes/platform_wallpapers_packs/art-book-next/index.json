@@ -478,16 +478,6 @@
       "filename": "zxspectrum.jpg"
     },
     {
-      "matchPlatformShortname": "amiga500",
-      "matchPlatformUniqueId": "amiga500",
-      "filename": "amiga500.jpg"
-    },
-    {
-      "matchPlatformShortname": "amiga1200",
-      "matchPlatformUniqueId": "amiga1200",
-      "filename": "amiga1200.jpg"
-    },
-    {
       "matchPlatformShortname": "amigacd32",
       "matchPlatformUniqueId": "amigacd32",
       "filename": "amigacd32.jpg"
