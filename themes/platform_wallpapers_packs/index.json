@@ -96,6 +96,17 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit",
+        "anthonycaccese"
+      ],
+      "platformWallpapersPackDescription": "An EmulationStation theme, initially created by anthonycaccese for JELOS. Ported and updated for Daijish\u014d by Jamesinorbit",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Art-Book-Next-Fade",
+      "platformWallpapersPackPreviewThumbnailPath": "art-book-next-fade/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "art-book-next-fade"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "BrunoBelmonte"
       ],
       "platformWallpapersPackDescription": "BB-1 Dark, a platform wallpapers pack made by BrunoBelmonte. The wallpapers pack contains beautiful gameplay snapshots and titles for each platform.",
