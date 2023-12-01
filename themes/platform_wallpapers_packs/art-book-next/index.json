@@ -1,7 +1,6 @@
 {
   "name": "Art-Book-Next",
-  "description": "An EmulationStation theme, initially created by anthonycaccese for JELOS. Ported and updated for 
-Daijishō by Jamesinorbit",
+  "description": "An EmulationStation theme, initially created by anthonycaccese for JELOS. Ported and updated for Daijishō by Jamesinorbit",
   "authors": ["Jamesinorbit", "anthonycaccese"],
   "sources": ["https://github.com/anthonycaccese/art-book-next-es"],
   "previewThumbnailFilename": "thumbnail.jpg",
