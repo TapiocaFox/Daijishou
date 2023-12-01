@@ -101,6 +101,17 @@
       ],
       "platformWallpapersPackDescription": "An EmulationStation theme, initially created by anthonycaccese for JELOS. Ported and updated for Daijish\u014d by Jamesinorbit",
       "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Art-Book-Next",
+      "platformWallpapersPackPreviewThumbnailPath": "art-book-next/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "art-book-next"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit",
+        "anthonycaccese"
+      ],
+      "platformWallpapersPackDescription": "An EmulationStation theme, initially created by anthonycaccese for JELOS. Ported and updated for Daijish\u014d by Jamesinorbit",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Art-Book-Next-Fade",
       "platformWallpapersPackPreviewThumbnailPath": "art-book-next-fade/thumbnail.jpg",
       "platformWallpapersPackRootPath": "art-book-next-fade"
