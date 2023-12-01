@@ -188,6 +188,11 @@
       "filename": "cannonball.png"
     },
     {
+      "matchPlatformShortname": "cavestory",
+      "matchPlatformUniqueId": "cavestory",
+      "filename": "cavestory.png"
+    },
+    {
       "matchPlatformShortname": "mame",
       "matchPlatformUniqueId": "mame",
       "filename": "mame.png"
