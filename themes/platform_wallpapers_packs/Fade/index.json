@@ -372,9 +372,9 @@
       "filename": "zxspectrum.png"
     },
     {
-      "matchPlatformShortname": "msu1",
-      "matchPlatformUniqueId": "msu1",
-      "filename": "msu1.png"
+      "matchPlatformShortname": "snesmsu1",
+      "matchPlatformUniqueId": "snesmsu1",
+      "filename": "snesmsu1.png"
     },
     {
       "matchPlatformShortname": "rpgmaker",
