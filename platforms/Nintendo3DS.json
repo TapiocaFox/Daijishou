@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "3ds",
@@ -29,7 +29,7 @@
       "uniqueId": "3ds.org.citra.nightly",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n org.citra.citra_emu/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -e SelectedGame {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
+      "amStartArguments": "-n org.citra.citra_emu/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -39,7 +39,7 @@
       "uniqueId": "3ds.org.citra.canary",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
-      "amStartArguments": "-n org.citra.citra_emu.canary/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -e SelectedGame {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
+      "amStartArguments": "-n org.citra.citra_emu.canary/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
