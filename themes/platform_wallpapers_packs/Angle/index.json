@@ -17,6 +17,11 @@
       "filename": "android.png"
     },
     {
+      "matchPlatformShortname": "cavestory",
+      "matchPlatformUniqueId": "cavestory",
+      "filename": "cavestory.png"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "matchPlatformUniqueId": "dreamcast",
       "filename": "dc.png"
