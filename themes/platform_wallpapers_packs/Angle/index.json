@@ -22,6 +22,11 @@
       "filename": "cavestory.png"
     },
     {
+      "matchPlatformShortname": "cloudgaming",
+      "matchPlatformUniqueId": "cloudgaming",
+      "filename": "cloudgaming.png"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "matchPlatformUniqueId": "dreamcast",
       "filename": "dc.png"
