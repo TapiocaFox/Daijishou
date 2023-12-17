@@ -328,7 +328,7 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
@@ -629,7 +629,7 @@
       "platformName": "Virtual Boy",
       "platformShortname": "virtualboy",
       "platformUniqueId": "virtualboy",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "WASM4.json",

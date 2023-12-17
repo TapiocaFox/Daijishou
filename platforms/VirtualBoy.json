@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Virtual Boy",
     "uniqueId": "virtualboy",
@@ -23,6 +23,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "virtualboy - vvs",
+      "uniqueId": "com.simongellis.vvb",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:vb|zip)$",
+      "amStartArguments": "-n com.simongellis.vvb/com.simongellis.vvb.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
     {
       "name": "virtualboy - RetroArch 64 - mednafen_vb",
       "uniqueId": "virtualboy.ra64.mednafen_vb",

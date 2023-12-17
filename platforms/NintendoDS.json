@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -41,6 +41,16 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
       "amStartArguments": "-a me.magnum.melonds.LAUNCH_ROM\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - NooDS",
+      "uniqueId": "nds.com.hydra.noods.FileBrowser",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds)$",
+      "amStartArguments": "-n com.hydra.noods/.FileBrowser\n -e LaunchPath {file.path}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
