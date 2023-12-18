@@ -317,6 +317,11 @@
       "filename": "snes.jpg"
     },
     {
+      "matchPlatformShortname": "snesmsu1",
+      "matchPlatformUniqueId": "snesmsu1",
+      "filename": "snesmsu1.jpg"
+    },
+    {
       "matchPlatformShortname": "satellaview",
       "matchPlatformUniqueId": "satellaview",
       "filename": "satellaview.jpg"
