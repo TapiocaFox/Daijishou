@@ -575,6 +575,17 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit",
+        "anthonycaccese"
+      ],
+      "platformWallpapersPackDescription": "An EmulationStation theme, initially created by anthonycaccese for micro handhelds. Modified and ported / updates by jamesinorbit for Daijish\u014d..",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "TFT Grid Next",
+      "platformWallpapersPackPreviewThumbnailPath": "tft-grid-next/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "tft-grid-next"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Modern Game Icons"
       ],
       "platformWallpapersPackDescription": "The defining video game mascots of each era are back in this colorful and minimalist wallpaper theme!.",
