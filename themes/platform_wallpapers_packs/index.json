@@ -578,11 +578,44 @@
         "Jamesinorbit",
         "anthonycaccese"
       ],
+      "platformWallpapersPackDescription": "A mod of a EmulationStation theme by anthonycaccese. Ported and updated for Daijisho by Jamesinorbit. Perfect for OLED displays or if you like it simple.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "TFT Black Next",
+      "platformWallpapersPackPreviewThumbnailPath": "tft-black-next/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "tft-black-next"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit",
+        "anthonycaccese"
+      ],
+      "platformWallpapersPackDescription": "A mod of a EmulationStation theme by anthonycaccese. Ported and updated for Daijisho by Jamesinorbit. Designed for 4:3 640x480.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "TFT Black Next 640",
+      "platformWallpapersPackPreviewThumbnailPath": "tft-black-next-640/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "tft-black-next-640"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit",
+        "anthonycaccese"
+      ],
       "platformWallpapersPackDescription": "An EmulationStation theme, initially created by anthonycaccese for micro handhelds. Modified and ported / updates by jamesinorbit for Daijish\u014d..",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "TFT Grid Next",
       "platformWallpapersPackPreviewThumbnailPath": "tft-grid-next/thumbnail.jpg",
       "platformWallpapersPackRootPath": "tft-grid-next"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Jamesinorbit",
+        "anthonycaccese"
+      ],
+      "platformWallpapersPackDescription": "An EmulationStation theme, initially created by anthonycaccese for micro handhelds. Modified and ported / updates by jamesinorbit for Daijish\u014d. This version is for 4:3 640x480 devices.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "TFT Grid Next 640",
+      "platformWallpapersPackPreviewThumbnailPath": "tft-grid-next-640/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "tft-grid-next-640"
     },
     {
       "platformWallpapersPackAuthors": [
