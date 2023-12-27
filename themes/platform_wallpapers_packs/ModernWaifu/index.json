@@ -473,6 +473,11 @@
       "filename": "wsc.png"
     },
     {
+      "matchPlatformShortname": "moonlight",
+      "matchPlatformUniqueId": "moonlight",
+      "filename": "moonlight.png"
+    },
+    {
       "matchPlatformShortname": "videos",
       "matchPlatformUniqueId": "videos",
       "filename": "videos.png"
