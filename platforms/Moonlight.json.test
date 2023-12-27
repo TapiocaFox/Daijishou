@@ -1,0 +1,32 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "Moonlight Streaming",
+    "uniqueId": "moonlight",
+    "shortname": "moonlight",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "moonlight",
+      "uniqueId": "moonlight.com.limelight",
+      "description": "Supported extensions: moonlight",
+      "acceptedFilenameRegex": "^(.*)\\.(?:moonlight)$",
+      "amStartArguments": "-n com.limelight/com.limelight.ShortcutTrampoline\n --user 0\n --es UUID UUIDHERE\n --es Name PCNAMEHERE\n --es AppId {tags.moonlight_id}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
