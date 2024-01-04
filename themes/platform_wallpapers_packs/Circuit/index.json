@@ -312,6 +312,11 @@
       "filename": "pokemini.jpg"
     },
     {
+      "matchPlatformShortname": "quake",
+      "matchPlatformUniqueId": "quake",
+      "filename": "quake.jpg"
+    },
+    {
       "matchPlatformShortname": "snes",
       "matchPlatformUniqueId": "snes",
       "filename": "snes.jpg"
