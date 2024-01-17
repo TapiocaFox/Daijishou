@@ -1,7 +1,7 @@
 {
   "name": "Simplified Black OLED",
   "description": "Pending.",
-  "authors": ["mrhotpie",],
+  "authors": ["mrhotpie"],
   "sources": ["https://github.com/magneticchen/Daijishou"],
   "previewThumbnailFilename": "preview_thumbnail_2.jpg",
   "hasDefaultWallpaper": false,
