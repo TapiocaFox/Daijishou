@@ -1,11 +1,11 @@
 {
-  "name": "Simplified Black OLED",
-  "description": "Pending.",
+  "name": "Simplified - Black OLED",
+  "description": "A high-contrast, low-clutter pack designed with True Dark Mode and OLED screens in mind.  From the original creator of Unified.",
   "authors": ["mrhotpie"],
   "sources": ["https://github.com/magneticchen/Daijishou"],
-  "previewThumbnailFilename": "preview_thumbnail_2.jpg",
-  "hasDefaultWallpaper": false,
-  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "previewThumbnailFilename": "preview.png",
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
