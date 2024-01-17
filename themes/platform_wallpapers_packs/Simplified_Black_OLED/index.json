@@ -1,12 +1,8 @@
 {
   "name": "Simplified Black OLED",
   "description": "Pending.",
-  "authors": [
-    "mrhotpie",
-  ],
-  "sources": [
-    "https://github.com/magneticchen/Daijishou"
-  ],
+  "authors": ["mrhotpie",],
+  "sources": ["https://github.com/magneticchen/Daijishou"],
   "previewThumbnailFilename": "preview_thumbnail_2.jpg",
   "hasDefaultWallpaper": false,
   "defaultWallpaperFilename": "mount_niitaka.jpg",
