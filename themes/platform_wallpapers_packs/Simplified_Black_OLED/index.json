@@ -17,9 +17,19 @@
       "matchPlatformUniqueId": "android",
       "filename": "android.png"
     },
-     {
+    {
       "matchPlatformShortname": "arcade",
       "matchPlatformUniqueId": "arcade",
+      "filename": "arcade.png"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "matchPlatformUniqueId": "mame",
+      "filename": "arcade.png"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "matchPlatformUniqueId": "fbneo",
       "filename": "arcade.png"
     },
     {
@@ -98,9 +108,9 @@
       "filename": "neogeo.png"
     },
     {
-      "matchPlatformShortname": "ngp",
-      "matchPlatformUniqueId": "ngp",
-      "filename": "ngp.png"
+      "matchPlatformShortname": "ngpc",
+      "matchPlatformUniqueId": "ngpc",
+      "filename": "ngpc.png"
     },
     {
       "matchPlatformShortname": "3ds",
