@@ -108,6 +108,11 @@
       "filename": "neogeo.png"
     },
     {
+      "matchPlatformShortname": "ngp",
+      "matchPlatformUniqueId": "ngp",
+      "filename": "ngpc.png"
+    },
+    {
       "matchPlatformShortname": "ngpc",
       "matchPlatformUniqueId": "ngpc",
       "filename": "ngpc.png"
@@ -216,6 +221,16 @@
       "matchPlatformShortname": "vectrex",
       "matchPlatformUniqueId": "vectrex",
       "filename": "vectrex.png"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "matchPlatformUniqueId": "ws",
+      "filename": "wsc.png"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "matchPlatformUniqueId": "wsc",
+      "filename": "wsc.png"
     },
     {
       "matchPlatformShortname": "supervision",
