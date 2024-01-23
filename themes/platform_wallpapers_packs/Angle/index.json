@@ -422,6 +422,16 @@
       "filename": "quake2.png"
     },
     {
+      "matchPlatformShortname": "cannonball",
+      "matchPlatformUniqueId": "cannonball",
+      "filename": "cannonball.png"
+    },
+    {
+      "matchPlatformShortname": "flashback",
+      "matchPlatformUniqueId": "flashback",
+      "filename": "flashback.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.png"
