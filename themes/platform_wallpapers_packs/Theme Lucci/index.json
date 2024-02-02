@@ -14,12 +14,22 @@
     {
       "matchPlatformShortname": "amiga",
       "matchPlatformUniqueId": "amiga",
+      "filename": "amiga-500.jpg"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "matchPlatformUniqueId": "amiga",
       "filename": "amiga.jpg"
     },
     {
       "matchPlatformShortname": "android",
       "matchPlatformUniqueId": "android",
       "filename": "android.jpg"
+    },
+    {
+      "matchPlatformShortname": "arcade",
+      "matchPlatformUniqueId": "arcade",
+      "filename": "arcade.jpg"
     },
     {
       "matchPlatformShortname": "fbneo",
@@ -44,7 +54,7 @@
     {
       "matchPlatformShortname": "jaguar",
       "matchPlatformUniqueId": "jaguar",
-      "filename": "atari-jaguar.jpg"
+      "filename": "atari-jaguard.jpg"
     },
     {
       "matchPlatformShortname": "lynx",
@@ -122,6 +132,11 @@
       "filename": "msx.jpg"
     },
     {
+      "matchPlatformShortname": "naomi",
+      "matchPlatformUniqueId": "naomi",
+      "filename": "naomi.jpg"
+    },
+    {
       "matchPlatformShortname": "neogeo",
       "matchPlatformUniqueId": "neogeo",
       "filename": "neogeo.jpg"
@@ -129,7 +144,7 @@
     {
       "matchPlatformShortname": "ngpc",
       "matchPlatformUniqueId": "ngpc",
-      "filename": "ngpc.jpg"
+      "filename": "ngp.jpg"
     },
     {
       "matchPlatformShortname": "3ds",
