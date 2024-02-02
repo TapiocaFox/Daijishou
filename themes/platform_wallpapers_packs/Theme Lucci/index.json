@@ -147,6 +147,11 @@
       "filename": "ngp.jpg"
     },
     {
+      "matchPlatformShortname": "ngp",
+      "matchPlatformUniqueId": "ngp",
+      "filename": "ngp.jpg"
+    },
+    {
       "matchPlatformShortname": "3ds",
       "matchPlatformUniqueId": "3ds",
       "filename": "n3ds.jpg"
