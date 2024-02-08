@@ -258,7 +258,7 @@
       "platformName": "Arcade (MAME)",
       "platformShortname": "mame",
       "platformUniqueId": "mame",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "MSX.json",
