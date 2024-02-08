@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Sega Saturn",
     "uniqueId": "saturn",
@@ -63,6 +63,16 @@
       "amStartArguments": "-n org.uoyabause.android/org.uoyabause.android.Yabause\n -a android.intent.action.VIEW\n -e org.uoyabause.android.FileNameEx {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - Saturn.EMU",
+      "uniqueId": "saturn.com.explusalpha.SaturnEmu",
+      "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|toc)$",
+      "amStartArguments": "-n com.explusalpha.SaturnEmu/com.imagine.BaseActivity\n  -d {file.path}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
       "extra": ""
     },
     {
