@@ -1,0 +1,42 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "Magic DosBox",
+    "uniqueId": "magicdosbox",
+    "shortname": "magicdosbox",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "Magic DosBox Lite",
+      "uniqueId": "bruenor.magicbox.lite",
+      "description": "Supported extensions: magicdos",
+      "acceptedFilenameRegex": "^(.*)\\.(?:magicdos)$",
+      "amStartArguments": "-n bruenor.magicbox.free/bruenor.magicbox.free.uiGameStarterActivity\n -e intent_msg1 {tags.game_id}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "Magic DosBox",
+      "uniqueId": "bruenor.magicbox",
+      "description": "Supported extensions: magicdos",
+      "acceptedFilenameRegex": "^(.*)\\.(?:magicdos)$",
+      "amStartArguments": "-n bruenor.magicbox.free/bruenor.magicbox.free.uiGameStarterActivity\n -e intent_msg1 {tags.game_id}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
