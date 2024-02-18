@@ -286,7 +286,7 @@
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
       "platformUniqueId": "neogeo",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "NeoGeoCD.json",
