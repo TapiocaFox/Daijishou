@@ -50,8 +50,8 @@
       "uniqueId": "nds.me.magnum.melonds.nightly",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
-      "amStartArguments": "-a me.magnum.melonds.LAUNCH_ROM\n-n me.magnum.melonds.nightly/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
-      "killPackageProcesses": false,
+      "amStartArguments": "-a me.magnum.melonds.nightly.LAUNCH_ROM\n-n me.magnum.melonds.nightly/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": false,
       "extra": ""
     },
