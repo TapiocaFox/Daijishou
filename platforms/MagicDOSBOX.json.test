@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Magic DosBox",
     "uniqueId": "magicdosbox",
@@ -33,7 +33,7 @@
       "uniqueId": "bruenor.magicbox",
       "description": "Supported extensions: magicdos",
       "acceptedFilenameRegex": "^(.*)\\.(?:magicdos)$",
-      "amStartArguments": "-n bruenor.magicbox.free/bruenor.magicbox.free.uiGameStarterActivity\n -e intent_msg1 {tags.game_id}",
+      "amStartArguments": "-n bruenor.magicbox/bruenor.magicbox.uiGameStarterActivity\n -e intent_msg1 {tags.game_id}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "ZX Spectrum",
     "uniqueId": "zxspectrum",
@@ -26,7 +26,7 @@
   },
   "playerList": [
     {
-      "name": "zxspectrum - RetroArch 64 - fuse_libretro_android",
+      "name": "zxspectrum - RetroArch 64 - fuse",
       "uniqueId": "zxspectrum.ra64.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
@@ -36,7 +36,7 @@
       "extra": ""
     },
     {
-      "name": "zxspectrum - RetroArch 32 - fuse_libretro_android",
+      "name": "zxspectrum - RetroArch 32 - fuse",
       "uniqueId": "zxspectrum.ra32.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
@@ -46,7 +46,7 @@
       "extra": ""
     },
     {
-      "name": "zxspectrum - RetroArch - fuse_libretro_android",
+      "name": "zxspectrum - RetroArch - fuse",
       "uniqueId": "zxspectrum.ra.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
