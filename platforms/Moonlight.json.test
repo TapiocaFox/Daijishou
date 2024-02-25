@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Moonlight Streaming",
     "uniqueId": "moonlight",
@@ -23,7 +23,7 @@
       "uniqueId": "moonlight.com.limelight",
       "description": "Supported extensions: moonlight",
       "acceptedFilenameRegex": "^(.*)\\.(?:moonlight)$",
-      "amStartArguments": "-n com.limelight/com.limelight.ShortcutTrampoline\n --user 0\n --es UUID UUIDHERE\n --es Name PCNAMEHERE\n --es AppId {tags.moonlight_id}",
+      "amStartArguments": "-n com.limelight/com.limelight.ShortcutTrampoline\n --es UUID UUIDHERE\n --es AppId {tags.moonlight_id}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
