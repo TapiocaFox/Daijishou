@@ -391,7 +391,7 @@
       "platformName": "PICO-8",
       "platformShortname": "pico8",
       "platformUniqueId": "pico8",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "PalmOS.json",
@@ -510,7 +510,7 @@
       "platformName": "Sega NAOMI",
       "platformShortname": "naomi",
       "platformUniqueId": "naomi",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "SegaPico.json",

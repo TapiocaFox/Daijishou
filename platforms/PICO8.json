@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "PICO-8",
     "uniqueId": "pico8",
@@ -20,6 +20,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "pico8 - RetroArch 64 - fake08",
+      "uniqueId": "pico8.ra64.fake08",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/fake08_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "pico8 - RetroArch 64 - fake08-arm64",
       "uniqueId": "pico8.ra64.libfake08-arm64",
@@ -41,6 +51,16 @@
       "extra": ""
     },
     {
+      "name": "pico8 - RetroArch 32 - fake08",
+      "uniqueId": "pico8.ra32.fake08",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/fake08_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "pico8 - RetroArch 32 - fake08-arm32",
       "uniqueId": "pico8.com.retroarch.ra32",
       "description": "Supported extensions: p8, png.",
@@ -56,6 +76,16 @@
       "description": "Supported extensions: p8, png.",
       "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/retro8_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "pico8 - RetroArch - fake08",
+      "uniqueId": "pico8.ra.fake08",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/fake08_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
