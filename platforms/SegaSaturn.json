@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "Sega Saturn",
     "uniqueId": "saturn",
@@ -30,7 +30,7 @@
       "uniqueId": "saturn.org.devmiyax.yabasanshioro2.pro",
       "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|toc|zip)$",
-      "amStartArguments": "-n org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause\n -a android.intent.action.MAIN\n -e org.uoyabause.android.FileNameEx {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "amStartArguments": "-n org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause\n -a android.intent.action.MAIN\n -e org.uoyabause.android.FileNameUri {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -40,7 +40,7 @@
       "uniqueId": "saturn.org.devmiyax.yabasanshioro2",
       "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, toc, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|toc|zip)$",
-      "amStartArguments": "-n org.devmiyax.yabasanshioro2/org.uoyabause.android.Yabause\n -a android.intent.action.MAIN\n -e org.uoyabause.android.FileNameEx {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "amStartArguments": "-n org.devmiyax.yabasanshioro2/org.uoyabause.android.Yabause\n -a android.intent.action.MAIN\n -e org.uoyabause.android.FileNameUri {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
