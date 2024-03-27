@@ -314,7 +314,7 @@
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "Nintendo64.json",
@@ -349,7 +349,7 @@
       "platformName": "Nintendo Switch",
       "platformShortname": "switch",
       "platformUniqueId": "switch",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "NintendoWii.json",
@@ -559,7 +559,7 @@
       "platformName": "Sony PlayStation 2",
       "platformShortname": "ps2",
       "platformUniqueId": "ps2",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "SuperGrafx.json",
