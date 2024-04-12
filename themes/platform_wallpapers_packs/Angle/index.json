@@ -452,6 +452,26 @@
       "filename": "rpgmaker.png"
     },
     {
+      "matchPlatformShortname": "arduboy",
+      "matchPlatformUniqueId": "arduboy",
+      "filename": "arduboy.png"
+    },
+    {
+      "matchPlatformShortname": "videopac",
+      "matchPlatformUniqueId": "videopac",
+      "filename": "videopac.png"
+    },
+    {
+      "matchPlatformShortname": "chip8",
+      "matchPlatformUniqueId": "chip8",
+      "filename": "chip8.png"
+    },
+    {
+      "matchPlatformShortname": "megaduck",
+      "matchPlatformUniqueId": "megaduck",
+      "filename": "megaduck.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.png"
