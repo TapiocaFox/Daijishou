@@ -472,6 +472,11 @@
       "filename": "megaduck.png"
     },
     {
+      "matchPlatformShortname": "x1",
+      "matchPlatformUniqueId": "x1",
+      "filename": "x1.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.png"
