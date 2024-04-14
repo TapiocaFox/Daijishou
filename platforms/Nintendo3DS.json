@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "3ds",
@@ -50,6 +50,16 @@
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.gamerytb.lemonade.canary/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "3ds - Lime 3DS",
+      "uniqueId": "3ds.io.github.lime3ds.android",
+      "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
+      "amStartArguments": "-n io.github.lime3ds.android/.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
