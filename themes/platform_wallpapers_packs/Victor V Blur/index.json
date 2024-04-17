@@ -6,9 +6,9 @@
   ],
   "sources": [
   ],
-  "previewThumbnailFilename": "preview_thumbnail_2.jpg",
+  "previewThumbnailFilename": "preview.jpg",
   "hasDefaultWallpaper": true,
-  "defaultWallpaperFilename": "mount_niitaka.jpg",
+  "defaultWallpaperFilename": "default.jpg",
   "wallpaperList": [
     {
       "matchPlatformShortname": "3do",
