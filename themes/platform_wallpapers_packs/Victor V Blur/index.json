@@ -396,6 +396,16 @@
       "filename": "mount_niitaka.jpg"
     },
     {
+      "matchPlatformShortname": "mariohacks",
+      "matchPlatformUniqueId": "mariohacks",
+      "filename": "mariohacks.jpg"
+    },
+    {
+      "matchPlatformShortname": "kirbyhacks",
+      "matchPlatformUniqueId": "kirbyhacks",
+      "filename": "kirbyhacks.jpg"
+    },
+    {
       "matchPlatformShortname": "zxspectrum",
       "matchPlatformUniqueId": "zxspectrum",
       "filename": "mount_niitaka.jpg"
