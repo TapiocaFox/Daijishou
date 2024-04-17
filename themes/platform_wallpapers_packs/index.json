@@ -699,12 +699,16 @@
       "platformWallpapersPackPreviewThumbnailPath": "Vivid/thumbnail.png",
       "platformWallpapersPackRootPath": "Vivid"
     },
+    ],
+      "platformWallpapersPackDescription": "A platform wallpaper pack that contains several characters on top of each other with 16:9 and 4:3 support. Indexing by Post Mortem.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Victor V Blur",
+      "platformWallpapersPackPreviewThumbnailPath": "Victor V Blur/preview.jpg",
+      "platformWallpapersPackRootPath": "Victor V Blur"
+    },
     {
       "platformWallpapersPackAuthors": [
-        "jimgray",
-        "UnbelievableFlavour",
-        "Richard_75",
-        "RowdyRomero"
+        "Victor V"
       ],
       "platformWallpapersPackDescription": "Extended version of Vivid by jimgray, new platforms as well as year and maker have been added to the theme. This version has been created by RowdyR76, indexing by Post Mortem for Daijish\u014d.",
       "platformWallpapersPackIsNSFW": false,
