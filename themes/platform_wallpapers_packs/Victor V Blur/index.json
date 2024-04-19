@@ -406,6 +406,21 @@
       "filename": "kirbyhacks.jpg"
     },
     {
+      "matchPlatformShortname": "pokemonhacks",
+      "matchPlatformUniqueId": "pokemonhacks",
+      "filename": "pokemonhacks.jpg"
+    },
+    {
+      "matchPlatformShortname": "zeldahacks",
+      "matchPlatformUniqueId": "zeldahacks",
+      "filename": "zeldahacks.jpg"
+    },
+    {
+      "matchPlatformShortname": "sonichacks",
+      "matchPlatformUniqueId": "sonichacks",
+      "filename": "sonichacks.jpg"
+    },
+    {
       "matchPlatformShortname": "zxspectrum",
       "matchPlatformUniqueId": "zxspectrum",
       "filename": "mount_niitaka.jpg"
