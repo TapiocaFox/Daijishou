@@ -689,6 +689,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Victor V"
+      ],
+      "platformWallpapersPackDescription": "A platform wallpaper pack that contains several characters on top of each other with 16:9 and 4:3 support. Indexing by Post Mortem.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Victor V Blur",
+      "platformWallpapersPackPreviewThumbnailPath": "Victor V Blur/preview.jpg",
+      "platformWallpapersPackRootPath": "Victor V Blur"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "jimgray",
         "UnbelievableFlavour",
         "Richard_75"
