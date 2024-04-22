@@ -548,6 +548,13 @@
       "revisionNumber": 3
     },
     {
+      "filename": "SonyPSVita.json",
+      "platformName": "Sony PS Vita",
+      "platformShortname": "vita",
+      "platformUniqueId": "vita",
+      "revisionNumber": 3
+    },
+    {
       "filename": "SonyPlayStation.json",
       "platformName": "Sony PlayStation",
       "platformShortname": "psx",
