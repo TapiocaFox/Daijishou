@@ -357,6 +357,11 @@
       "filename": "cd32.jpg"
     },
     {
+      "matchPlatformShortname": "vectrex",
+      "matchPlatformUniqueId": "vectrex",
+      "filename": "vectrex.jpg"
+    },
+    {
       "matchPlatformShortname": "megaduck",
       "matchPlatformUniqueId": "megaduck",
       "filename": "megaduck.jpg"
