@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -67,7 +67,7 @@
       "uniqueId": "org.suyu.suyu_emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
-      "amStartArguments": "-n org.suyu.suyu_emu.relWithDebInfo/org.suyu.suyu_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "amStartArguments": "-n dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
