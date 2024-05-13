@@ -327,6 +327,11 @@
       "filename": "pcfx.png"
     },
     {
+      "matchPlatformShortname": "pcengine",
+      "matchPlatformUniqueId": "pcengine",
+      "filename": "pcengine.png"
+    },
+    {
       "matchPlatformShortname": "fds",
       "matchPlatformUniqueId": "fds",
       "filename": "fds.png"
