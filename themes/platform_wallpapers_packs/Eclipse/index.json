@@ -332,6 +332,11 @@
       "filename": "pcfx.jpg"
     },
     {
+      "matchPlatformShortname": "pico8",
+      "matchPlatformUniqueId": "pico8",
+      "filename": "pico8.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.jpg"
