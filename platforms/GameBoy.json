@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "Game Boy",
     "uniqueId": "gb",
@@ -26,7 +26,7 @@
   },
   "playerList": [
     {
-      "name": "gb - Pizza Boy Basic",
+      "name": "gb - Pizza Boy C Basic",
       "uniqueId": "gb.it.dbtecno.pizzaboy",
       "description": "Supported extensions: gb, gbc, gbs.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
@@ -36,7 +36,7 @@
       "extra": ""
     },
     {
-      "name": "gb - Pizza Boy Pro",
+      "name": "gb - Pizza Boy C Pro",
       "uniqueId": "gb.it.dbtecno.pizzaboypro",
       "description": "Supported extensions: gb, gbc, gbs.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",

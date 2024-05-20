@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Game Boy Advance",
     "uniqueId": "gba",
@@ -28,7 +28,7 @@
     {
       "name": "gba - Pizza Boy GBA Basic",
       "uniqueId": "gba.it.dbtecno.pizzaboygba",
-      "description": "Supported extensions: bin, gba, zip, 7z.",
+      "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
       "amStartArguments": "-n it.dbtecno.pizzaboygba/it.dbtecno.pizzaboygba.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
@@ -36,9 +36,9 @@
       "extra": ""
     },
     {
-      "name": "gba - Pizza Boy GBA Pro",
+      "name": "gba - Pizza Boy A Pro",
       "uniqueId": "gba.it.dbtecno.pizzaboygbapro",
-      "description": "Supported extensions: gb, gbc, gbs.",
+      "description": "Supported extensions: gba, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|gba|zip|7z)$",
       "amStartArguments": "-n it.dbtecno.pizzaboygbapro/it.dbtecno.pizzaboygbapro.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,

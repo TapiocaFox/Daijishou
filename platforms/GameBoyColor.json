@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "Game Boy Color",
     "uniqueId": "gbc",
@@ -26,7 +26,7 @@
   },
   "playerList": [
     {
-      "name": "gbc - Pizza Boy Basic",
+      "name": "gbc - Pizza Boy C Basic",
       "uniqueId": "gbc.it.dbtecno.pizzaboy",
       "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
@@ -36,7 +36,7 @@
       "extra": ""
     },
     {
-      "name": "gbc - Pizza Boy Pro",
+      "name": "gbc - Pizza Boy C Pro",
       "uniqueId": "gbc.it.dbtecno.pizzaboypro",
       "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
@@ -66,7 +66,7 @@
       "extra": ""
     },
     {
-      "name": "gb - com.fastemulator.gbcfree",
+      "name": "gbc - com.fastemulator.gbcfree",
       "uniqueId": "gbc.com.fastemulator.gbcfree",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
@@ -76,7 +76,7 @@
       "extra": ""
     },
     {
-      "name": "gb - com.fastemulator.gbc",
+      "name": "gbc - com.fastemulator.gbc",
       "uniqueId": "gbc.com.fastemulator.gbc",
       "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
