@@ -461,7 +461,7 @@
       "platformName": "ScummVM",
       "platformShortname": "scummvm",
       "platformUniqueId": "scummvm",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Sega32X.json",
