@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Atari Lynx",
     "uniqueId": "lynx",
@@ -25,6 +25,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "lynx - com.explusalpha.LynxEmu",
+      "uniqueId": "lynx.com.explusalpha.LynxEmu",
+      "description": "Supported extensions: lnx, o, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:lnx|o|zip|7z)$",
+      "amStartArguments": "-n com.explusalpha.LynxEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n   -t application/zip",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "lynx - RetroArch 64 - mednafen_lynx",
       "uniqueId": "lynx.ra64.mednafen_lynx",

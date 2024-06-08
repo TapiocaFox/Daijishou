@@ -55,7 +55,7 @@
       "platformName": "Atari Lynx",
       "platformShortname": "lynx",
       "platformUniqueId": "lynx",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "AtariST.json",
