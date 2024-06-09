@@ -657,14 +657,14 @@
       "platformName": "WonderSwan",
       "platformShortname": "ws",
       "platformUniqueId": "ws",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "WonderSwanColor.json",
       "platformName": "WonderSwan Color",
       "platformShortname": "wsc",
       "platformUniqueId": "wsc",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "ZX81.json",

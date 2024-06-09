@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "WonderSwan Color",
     "uniqueId": "wsc",
@@ -23,6 +23,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "wsc - com.explusalpha.SwanEmu",
+      "uniqueId": "wsc.com.explusalpha.SwanEmu",
+      "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
+      "amStartArguments": "-n com.explusalpha.SwanEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n   -t application/zip",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "wsc - Retroarch 64 - Beetle Cygne",
       "uniqueId": "wsc.ra64.mednafen_wswan",
