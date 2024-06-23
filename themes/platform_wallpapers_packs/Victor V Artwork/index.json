@@ -16,12 +16,22 @@
     {
       "matchPlatformShortname": "3do",
       "matchPlatformUniqueId": "3do",
-      "filename": "mount_niitaka.jpg"
+      "filename": "3DO.jpg"
     },
     {
       "matchPlatformShortname": "android",
       "matchPlatformUniqueId": "android",
-      "filename": "mount_niitaka.jpg"
+      "filename": "ANDROID.jpg"
+    },
+    {
+      "matchPlatformShortname": "arcade",
+      "matchPlatformUniqueId": "arcade",
+      "filename": "ARCADE.jpg"
+    },
+    {
+      "matchPlatformShortname": "arduboy",
+      "matchPlatformUniqueId": "arduboy",
+      "filename": "ARDUBOY.jpg"
     },
     {
       "matchPlatformShortname": "cpc",
@@ -106,7 +116,7 @@
     {
       "matchPlatformShortname": "amiga",
       "matchPlatformUniqueId": "amiga",
-      "filename": "mount_niitaka.jpg"
+      "filename": "AMIGA.jpg"
     },
     {
       "matchPlatformShortname": "doom",
@@ -206,7 +216,7 @@
     {
       "matchPlatformShortname": "3ds",
       "matchPlatformUniqueId": "3ds",
-      "filename": "mount_niitaka.jpg"
+      "filename": "3DS.jpg"
     },
     {
       "matchPlatformShortname": "n64",
