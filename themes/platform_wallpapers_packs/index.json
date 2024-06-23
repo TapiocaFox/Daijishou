@@ -691,6 +691,16 @@
       "platformWallpapersPackAuthors": [
         "Victor V"
       ],
+      "platformWallpapersPackDescription": "a wallpaper pack that uses artwork from each console era, contains 90 platform wallpaper and 4:3 support. Indexing by Post Mortem.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Victor V - Artwork",
+      "platformWallpapersPackPreviewThumbnailPath": "Victor V Artwork/preview_thumbnail_2.jpg",
+      "platformWallpapersPackRootPath": "Victor V Artwork"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Victor V"
+      ],
       "platformWallpapersPackDescription": "A platform wallpaper pack that contains several characters on top of each other with 16:9 and 4:3 support. Indexing by Post Mortem.",
       "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "Victor V Blur",
