@@ -1,0 +1,407 @@
+{
+  "name": "Victor V - Artwork",
+  "description": "a wallpaper pack that uses artwork from each console era, contains 90 platform wallpaper and 4:3 support.",
+  "authors": [
+    "Victor V",
+  ],
+  "sources": [
+    "https://nooxy.org",
+    "https://github.com/magneticchen/Daijishou",
+    "https://www.ysnp.gov.tw/"
+  ],
+  "previewThumbnailFilename": "preview_thumbnail_2.jpg",
+  "hasDefaultWallpaper": true,
+  "defaultWallpaperFilename": "default.jpg",
+  "wallpaperList": [
+    {
+      "matchPlatformShortname": "3do",
+      "matchPlatformUniqueId": "3do",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "android",
+      "matchPlatformUniqueId": "android",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "cpc",
+      "matchPlatformUniqueId": "cpc",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari2600",
+      "matchPlatformUniqueId": "atari2600",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari5200",
+      "matchPlatformUniqueId": "atari5200",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "atari7800",
+      "matchPlatformUniqueId": "atari7800",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "jaguar",
+      "matchPlatformUniqueId": "jaguar",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "lynx",
+      "matchPlatformUniqueId": "lynx",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "atarist",
+      "matchPlatformUniqueId": "atarist",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "atomiswave",
+      "matchPlatformUniqueId": "atomiswave",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps1",
+      "matchPlatformUniqueId": "cps1",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps2",
+      "matchPlatformUniqueId": "cps2",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "cps3",
+      "matchPlatformUniqueId": "cps3",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "cannonball",
+      "matchPlatformUniqueId": "cannonball",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "cavestory",
+      "matchPlatformUniqueId": "cavestory",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "chip8",
+      "matchPlatformUniqueId": "chip8",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "coleco",
+      "matchPlatformUniqueId": "coleco",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "c64",
+      "matchPlatformUniqueId": "c64",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "amiga",
+      "matchPlatformUniqueId": "amiga",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "doom",
+      "matchPlatformUniqueId": "doom",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "dos",
+      "matchPlatformUniqueId": "dos",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "dreamcast",
+      "matchPlatformUniqueId": "dreamcast",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "channelf",
+      "matchPlatformUniqueId": "channelf",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "fbneo",
+      "matchPlatformUniqueId": "fbneo",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "flashback",
+      "matchPlatformUniqueId": "flashback",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "gw",
+      "matchPlatformUniqueId": "gw",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "gb",
+      "matchPlatformUniqueId": "gb",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "gba",
+      "matchPlatformUniqueId": "gba",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "gbc",
+      "matchPlatformUniqueId": "gbc",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "gc",
+      "matchPlatformUniqueId": "gc",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "intellivision",
+      "matchPlatformUniqueId": "intellivision",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "j2me",
+      "matchPlatformUniqueId": "j2me",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "mame",
+      "matchPlatformUniqueId": "mame",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "msx",
+      "matchPlatformUniqueId": "msx",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeo",
+      "matchPlatformUniqueId": "neogeo",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "neogeocd",
+      "matchPlatformUniqueId": "neogeocd",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngp",
+      "matchPlatformUniqueId": "ngp",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "ngpc",
+      "matchPlatformUniqueId": "ngpc",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "3ds",
+      "matchPlatformUniqueId": "3ds",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "n64",
+      "matchPlatformUniqueId": "n64",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "nds",
+      "matchPlatformUniqueId": "nds",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "nes",
+      "matchPlatformUniqueId": "nes",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "switch",
+      "matchPlatformUniqueId": "switch",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "wii",
+      "matchPlatformUniqueId": "wii",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "odyssey2",
+      "matchPlatformUniqueId": "odyssey2",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "pc88",
+      "matchPlatformUniqueId": "pc88",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "matchPlatformUniqueId": "pc98",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "pcfx",
+      "matchPlatformUniqueId": "pcfx",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "pico8",
+      "matchPlatformUniqueId": "pico8",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "palm",
+      "matchPlatformUniqueId": "palm",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "cdi",
+      "matchPlatformUniqueId": "cdi",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "psp",
+      "matchPlatformUniqueId": "psp",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "pokemini",
+      "matchPlatformUniqueId": "pokemini",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "rpgmaker",
+      "matchPlatformUniqueId": "rpgmaker",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "scummvm",
+      "matchPlatformUniqueId": "scummvm",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "sega32x",
+      "matchPlatformUniqueId": "sega32x",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "segacd",
+      "matchPlatformUniqueId": "segacd",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "gamegear",
+      "matchPlatformUniqueId": "gamegear",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "genesis",
+      "matchPlatformUniqueId": "genesis",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "master",
+      "matchPlatformUniqueId": "master",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "sg1000",
+      "matchPlatformUniqueId": "sg1000",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "saturn",
+      "matchPlatformUniqueId": "saturn",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "x68000",
+      "matchPlatformUniqueId": "x68000",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "psx",
+      "matchPlatformUniqueId": "psx",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps2",
+      "matchPlatformUniqueId": "ps2",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "supergrafx",
+      "matchPlatformUniqueId": "supergrafx",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "snes",
+      "matchPlatformUniqueId": "snes",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "tic80",
+      "matchPlatformUniqueId": "tic80",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "tg16",
+      "matchPlatformUniqueId": "tg16",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "tgcd",
+      "matchPlatformUniqueId": "tgcd",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "vectrex",
+      "matchPlatformUniqueId": "vectrex",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "virtualboy",
+      "matchPlatformUniqueId": "virtualboy",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "wasm4",
+      "matchPlatformUniqueId": "wasm4",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "supervision",
+      "matchPlatformUniqueId": "supervision",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "ws",
+      "matchPlatformUniqueId": "ws",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "wsc",
+      "matchPlatformUniqueId": "wsc",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "zx81",
+      "matchPlatformUniqueId": "zx81",
+      "filename": "mount_niitaka.jpg"
+    },
+    {
+      "matchPlatformShortname": "zxspectrum",
+      "matchPlatformUniqueId": "zxspectrum",
+      "filename": "mount_niitaka.jpg"
+    }
+  ]
+}
