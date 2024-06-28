@@ -1,0 +1,32 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "Nokia N-Gage",
+    "uniqueId": "ngage",
+    "shortname": "ngage",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "1.48:1",
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "11:13",
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+     {
+      "name": "ngage - eka2l1",
+      "uniqueId": "com.github.eka2l1",
+      "description": "Supported extensions: json",
+      "acceptedFilenameRegex": "^(.*)\\.(?:json)$",
+      "amStartArguments": "-n com.github.eka2l1/.emu.EmulatorActivity\n -a android.intent.action.VIEW\n --activity-clear-task\n  --activity-clear-top\n -d {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

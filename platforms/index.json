@@ -310,6 +310,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "Ngage.json",
+      "platformName": "Nokia N-Gage",
+      "platformShortname": "ngage",
+      "platformUniqueId": "ngage",
+      "revisionNumber": 1
+    },
+    {
       "filename": "Nintendo3DS.json",
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",

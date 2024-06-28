@@ -483,6 +483,11 @@
       "filename": "moonlight.png"
     },
     {
+      "matchPlatformShortname": "ngage",
+      "matchPlatformUniqueId": "ngage",
+      "filename": "ngage.png"
+    },
+    {
       "matchPlatformShortname": "videos",
       "matchPlatformUniqueId": "videos",
       "filename": "videos.png"
