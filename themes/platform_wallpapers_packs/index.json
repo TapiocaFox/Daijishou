@@ -7,6 +7,16 @@
       ],
       "platformWallpapersPackDescription": "Minimal text-based theme loosely inspired by my 'Sheezie2Clean' theme for Batocera. Designed for devices with 16:9 aspect ratio. V2 has added artwork on the bottom bar. Indexing by Post Mortem.",
       "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "2Clean Dai Black",
+      "platformWallpapersPackPreviewThumbnailPath": "2Clean Dai Black/thumbnail.jpg",
+      "platformWallpapersPackRootPath": "2Clean Dai Black"
+    },
+    {
+      "platformWallpapersPackAuthors": [
+        "Sheezie"
+      ],
+      "platformWallpapersPackDescription": "Minimal text-based theme loosely inspired by my 'Sheezie2Clean' theme for Batocera. Designed for devices with 16:9 aspect ratio. V2 has added artwork on the bottom bar. Indexing by Post Mortem.",
+      "platformWallpapersPackIsNSFW": false,
       "platformWallpapersPackName": "2Clean Dai White",
       "platformWallpapersPackPreviewThumbnailPath": "2Clean Dai White/thumbnail.jpg",
       "platformWallpapersPackRootPath": "2Clean Dai White"
