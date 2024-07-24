@@ -481,6 +481,11 @@
       "matchPlatformUniqueId": "x1",
       "filename": "x1.png"
     },
+       {
+      "matchPlatformShortname": "wiiu",
+      "matchPlatformUniqueId": "wiiu",
+      "filename": "wiiu.png"
+    },
     {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
