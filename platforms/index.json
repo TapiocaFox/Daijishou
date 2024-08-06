@@ -69,7 +69,7 @@
       "platformName": "Atomiswave",
       "platformShortname": "atomiswave",
       "platformUniqueId": "atomiswave",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "CPS1.json",
@@ -167,7 +167,7 @@
       "platformName": "Dreamcast",
       "platformShortname": "dreamcast",
       "platformUniqueId": "dreamcast",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "FairchildChannelF.json",
@@ -517,7 +517,7 @@
       "platformName": "Sega NAOMI",
       "platformShortname": "naomi",
       "platformUniqueId": "naomi",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "SegaPico.json",
