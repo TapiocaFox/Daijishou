@@ -426,14 +426,14 @@
       "platformName": "PlayStation Portable",
       "platformShortname": "psp",
       "platformUniqueId": "psp",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "PlayStationPortableMinis.json",
       "platformName": "PlayStation Portable Minis",
       "platformShortname": "pspminis",
       "platformUniqueId": "pspminis",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "PokemonMini.json",
