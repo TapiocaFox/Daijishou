@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "Atomiswave",
     "uniqueId": "atomiswave",
@@ -51,7 +51,7 @@
       "uniqueId": "atomiswave.com.flycast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
-      "amStartArguments": "-n com.flycast.emulator/com.reicast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
