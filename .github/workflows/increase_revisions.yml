@@ -1,5 +1,7 @@
 name: Indices
-  
+
+on: workflow_dispatch
+
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
