@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Game Boy Advance",
+    "retroAchievementsSystemId": 5,
     "extra": ""
   },
   "playerList": [
