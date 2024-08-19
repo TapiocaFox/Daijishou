@@ -496,14 +496,14 @@
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
       "platformUniqueId": "genesis",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "SegaGenesisMSU.json",
       "platformName": "Sega Genesis - MSU",
       "platformShortname": "genesismsu",
       "platformUniqueId": "genesismsu",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "SegaMasterSystem.json",
