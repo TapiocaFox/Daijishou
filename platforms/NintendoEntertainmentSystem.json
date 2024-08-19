@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "NES",
+    "retroAchievementsSystemId": 7,
     "extra": ""
   },
   "playerList": [
