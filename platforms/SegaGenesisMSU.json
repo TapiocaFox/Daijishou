@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Sega Genesis - MSU",
     "uniqueId": "genesismsu",
@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Mega Drive",
+    "retroAchievementsSystemId": 1,
     "extra": ""
   },
   "playerList": [
