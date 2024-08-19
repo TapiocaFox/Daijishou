@@ -35,6 +35,7 @@ platformEntityPortableKeysOrder = [
     "useCustomScreenAspectRatio",
     "customScreenAspectRatio",
     "retroAchievementsAlias",
+    "retroAchievementsSystemId",
     "extra",
 ]
 
