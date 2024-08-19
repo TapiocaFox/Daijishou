@@ -18,7 +18,8 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Philips CD-i",
+    "retroAchievementsSystemId": 42,
     "extra": ""
   },
   "playerList": [

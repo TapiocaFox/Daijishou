@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Atari 2600",
+    "retroAchievementsSystemId": 25,
     "extra": ""
   },
   "playerList": [

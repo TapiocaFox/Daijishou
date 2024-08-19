@@ -19,7 +19,8 @@
     "screenAspectRatioId": 2,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Sega Pico",
+    "retroAchievementsSystemId": 68,
     "extra": ""
   },
   "playerList": [

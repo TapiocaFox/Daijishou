@@ -1,0 +1,23 @@
+{
+    "databaseVersion": 14,
+    "revisionNumber": 1,
+    "platform": {
+      "name": "Super Cassette Vision",
+      "uniqueId": "supercassette",
+      "shortname": "supercassette",
+      "description": null,
+      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+      "scraperSourceList": [],
+      "boxArtAspectRatioId": 0,
+      "useCustomBoxArtAspectRatio": false,
+      "customBoxArtAspectRatio": null,
+      "screenAspectRatioId": 0,
+      "useCustomScreenAspectRatio": false,
+      "customScreenAspectRatio": null,
+      "retroAchievementsAlias": "Super Cassette Vision",
+      "retroAchievementsSystemId": 55,
+      "extra": ""
+    },
+    "playerList": [
+    ]
+  }

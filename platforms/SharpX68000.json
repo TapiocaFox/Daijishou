@@ -19,7 +19,8 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Sharp X68000",
+    "retroAchievementsSystemId": 52,
     "extra": ""
   },
   "playerList": [

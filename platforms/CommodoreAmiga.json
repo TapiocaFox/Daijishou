@@ -25,7 +25,8 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "5:4",
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Amiga",
+    "retroAchievementsSystemId": 35,
     "extra": ""
   },
   "playerList": [

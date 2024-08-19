@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 3,
   "platform": {
-    "name": "PC-98",
+    "name": "NEC PC-98",
     "uniqueId": "pc98",
     "shortname": "pc98",
     "description": null,
@@ -20,6 +20,7 @@
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "8:5",
     "retroAchievementsAlias": null,
+    "retroAchievementsSystemId": 48,
     "extra": ""
   },
   "playerList": [

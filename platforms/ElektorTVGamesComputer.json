@@ -1,0 +1,23 @@
+{
+    "databaseVersion": 14,
+    "revisionNumber": 1,
+    "platform": {
+      "name": "Elektor TV Games Computer",
+      "uniqueId": "elektor",
+      "shortname": "elektor",
+      "description": null,
+      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+      "scraperSourceList": [],
+      "boxArtAspectRatioId": 0,
+      "useCustomBoxArtAspectRatio": false,
+      "customBoxArtAspectRatio": null,
+      "screenAspectRatioId": 0,
+      "useCustomScreenAspectRatio": false,
+      "customScreenAspectRatio": null,
+      "retroAchievementsAlias": "Elektor TV Games Computer",
+      "retroAchievementsSystemId": 75,
+      "extra": ""
+    },
+    "playerList": [
+    ]
+  }

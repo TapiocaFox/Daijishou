@@ -26,6 +26,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Neo Geo CD",
+    "retroAchievementsSystemId": 56,
     "extra": ""
   },
   "playerList": [

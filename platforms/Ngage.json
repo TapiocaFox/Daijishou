@@ -14,7 +14,8 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "11:13",
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Nokia N-Gage",
+    "retroAchievementsSystemId": 61,
     "extra": ""
   },
   "playerList": [

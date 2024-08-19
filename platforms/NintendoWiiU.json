@@ -1,0 +1,101 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "Nintendo Wii U",
+    "uniqueId": "wiiu",
+    "shortname": "wiiu",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Nintendo - Wii",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=9&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=38&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=9&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=38&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=82&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fmsx%5C%2F.%2A%24&dsess_selector=div%23coreGameCover+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=132&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fmsx%5C%2F.%2A%24&dsess_selector=div%23coreGameCover+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "retroAchievementsSystemId": 20,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "gc - Dolphin handheld",
+      "uniqueId": "wii.org.dolphinemu.handheld",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin org.mm.jr fork",
+      "uniqueId": "wii.org.mm.jr",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin org.mm.j fork",
+      "uniqueId": "wii.org.mm.j",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin mmjr",
+      "uniqueId": "wii.org.dolphinemu.mmjr",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "wii - org.dolphinemu.dolphinemu",
+      "uniqueId": "wii.org.dolphinemu.dolphinemu",
+      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin mmjr3",
+      "uniqueId": "wii.org.dolphinemu.mmjr3",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin Ishiiruka",
+      "uniqueId": "wii.org.dolphin.ishiirukadark",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

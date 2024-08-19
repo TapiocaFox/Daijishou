@@ -20,7 +20,8 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Nintendo 3DS",
+    "retroAchievementsSystemId": 62,
     "extra": ""
   },
   "playerList": [

@@ -23,6 +23,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "MSX",
+    "retroAchievementsSystemId": 29,
     "extra": ""
   },
   "playerList": [

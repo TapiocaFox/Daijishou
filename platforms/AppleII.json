@@ -1,0 +1,23 @@
+{
+    "databaseVersion": 14,
+    "revisionNumber": 1,
+    "platform": {
+      "name": "Apple II",
+      "uniqueId": "appleii",
+      "shortname": "appleii",
+      "description": null,
+      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+      "scraperSourceList": [],
+      "boxArtAspectRatioId": 0,
+      "useCustomBoxArtAspectRatio": false,
+      "customBoxArtAspectRatio": null,
+      "screenAspectRatioId": 0,
+      "useCustomScreenAspectRatio": false,
+      "customScreenAspectRatio": null,
+      "retroAchievementsAlias": "Apple II",
+      "retroAchievementsSystemId": 38,
+      "extra": ""
+    },
+    "playerList": [
+    ]
+  }

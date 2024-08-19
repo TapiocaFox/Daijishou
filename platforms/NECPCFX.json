@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 4,
   "platform": {
-    "name": "PC-FX",
+    "name": "NEC PC-FX",
     "uniqueId": "pcfx",
     "shortname": "pcfx",
     "description": null,
@@ -20,6 +20,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "PC-FX",
+    "retroAchievementsSystemId": 49,
     "extra": ""
   },
   "playerList": [

@@ -20,6 +20,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Magnavox Odyssey 2",
+    "retroAchievementsSystemId": 23,
     "extra": ""
   },
   "playerList": [

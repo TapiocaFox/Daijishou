@@ -15,6 +15,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Arduboy",
+    "retroAchievementsSystemId": 71,
     "extra": ""
   },
   "playerList": [

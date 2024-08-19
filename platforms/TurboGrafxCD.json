@@ -21,7 +21,8 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "PC Engine",
+    "retroAchievementsAlias": "PC Engine CD/TurboGrafx-CD",
+    "retroAchievementsSystemId": 76,
     "extra": ""
   },
   "playerList": [

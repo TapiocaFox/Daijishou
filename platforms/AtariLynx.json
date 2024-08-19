@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Atari Lynx",
+    "retroAchievementsSystemId": 13,
     "extra": ""
   },
   "playerList": [

@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Nintendo DS",
+    "retroAchievementsSystemId": 18,
     "extra": ""
   },
   "playerList": [

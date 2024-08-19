@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 7,
   "platform": {
-    "name": "Sega NAOMI",
+    "name": "Sega Naomi",
     "uniqueId": "naomi",
     "shortname": "naomi",
     "description": null,
@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Arcade",
+    "retroAchievementsSystemId": 27,
     "extra": ""
   },
   "playerList": [

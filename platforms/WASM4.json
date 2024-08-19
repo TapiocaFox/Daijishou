@@ -17,6 +17,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "WASM-4",
+    "retroAchievementsSystemId": 72,
     "extra": ""
   },
   "playerList": [

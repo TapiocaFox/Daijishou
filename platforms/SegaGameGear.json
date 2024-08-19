@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "10:9",
     "retroAchievementsAlias": "Game Gear",
+    "retroAchievementsSystemId": 15,
     "extra": ""
   },
   "playerList": [

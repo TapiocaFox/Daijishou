@@ -17,6 +17,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Uzebox",
+    "retroAchievementsSystemId": 80,
     "extra": ""
   },
   "playerList": [

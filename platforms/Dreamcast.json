@@ -20,6 +20,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Dreamcast",
+    "retroAchievementsSystemId": 40,
     "extra": ""
   },
   "playerList": [

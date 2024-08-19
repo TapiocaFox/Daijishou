@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 3,
   "platform": {
-    "name": "PC-88",
+    "name": "NEC PC-88",
     "uniqueId": "pc88",
     "shortname": "pc88",
     "description": null,
@@ -20,6 +20,7 @@
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "16:5",
     "retroAchievementsAlias": "PC-8000/8800",
+    "retroAchievementsSystemId": 47,
     "extra": ""
   },
   "playerList": [

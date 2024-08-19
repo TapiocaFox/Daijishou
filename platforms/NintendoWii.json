@@ -23,6 +23,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": null,
+    "retroAchievementsSystemId": 19,
     "extra": ""
   },
   "playerList": [

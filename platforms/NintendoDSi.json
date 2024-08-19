@@ -1,0 +1,180 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 9,
+  "platform": {
+    "name": "Nintendo DSi",
+    "uniqueId": "ndsi",
+    "shortname": "ndsi",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Nintendo - Nintendo DS",
+      "LIBRETRO:Nintendo - Nintendo DSi",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=8&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=8&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=44&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fmsx%5C%2F.%2A%24&dsess_selector=div%23coreGameCover+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://romspure.cc/roms/nintendo-ds?search=%7BscraperKeyword%7D&dsess_target_site_selector=tbody+tr+td+a.text-body&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fromspure%5C.cc%5C%2Froms%5C%2Fnintendo-ds%5C%2F.%2A%24&dsess_selector=main%23primary+div.row+div.col-12.col-sm-4+img&dsess_attribute=src"
+    ],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "8:7",
+    "screenAspectRatioId": 5,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": "Nintendo DSi",
+    "retroAchievementsSystemId": 78,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "ndsi - Drastic",
+      "uniqueId": "ndsi.com.dsemu.drastic",
+      "description": "Supported extensions: bin, nds, rar, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|rar|zip|7z)$",
+      "amStartArguments": "-n com.dsemu.drastic/.DraSticActivity\n-d {file.uri}\n--activity-clear-task\n--activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - MelonDS",
+      "uniqueId": "ndsi.me.magnum.melonds",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melonds.LAUNCH_ROM\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - MelonDS Nightly",
+      "uniqueId": "ndsi.me.magnum.melonds.nightly",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melonds.nightly.LAUNCH_ROM\n-n me.magnum.melonds.nightly/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - NooDS",
+      "uniqueId": "ndsi.com.hydra.noods.FileBrowser",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds)$",
+      "amStartArguments": "-n com.hydra.noods/.FileBrowser\n -e LaunchPath {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 64 - melonds",
+      "uniqueId": "ndsi.ra64.melonds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/melonds_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 64 - melonds ds",
+      "uniqueId": "ndsi.ra64.melondsds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/melondsds_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 64 - desmume",
+      "uniqueId": "ndsi.ra64.desmume",
+      "description": "Supported extensions: bin, nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/desmume_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 64 - desmume2015",
+      "uniqueId": "ndsi.ra64.desmume2015",
+      "description": "Supported extensions: bin, nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/desmume2015_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 32 - melonds",
+      "uniqueId": "ndsi.ra32.melonds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/melonds_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 32 - desmume",
+      "uniqueId": "ndsi.ra32.desmume",
+      "description": "Supported extensions: bin, nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/desmume_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch 32 - desmume2015",
+      "uniqueId": "ndsi.ra32.desmume2015",
+      "description": "Supported extensions: bin, nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/desmume2015_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch - melonds",
+      "uniqueId": "ndsi.ra.melonds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/melonds_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch - melonds ds",
+      "uniqueId": "ndsi.ra.melonds",
+      "description": "Supported extensions: nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/melondsds_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch - desmume",
+      "uniqueId": "ndsi.ra.desmume",
+      "description": "Supported extensions: bin, nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/desmume_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - RetroArch - desmume2015",
+      "uniqueId": "ndsi.ra.desmume2015",
+      "description": "Supported extensions: bin, nds.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/desmume2015_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

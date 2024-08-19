@@ -16,6 +16,20 @@
       "revisionNumber": 5
     },
     {
+      "filename": "AppleII.json",
+      "platformName": "Apple II",
+      "platformShortname": "appleii",
+      "platformUniqueId": "appleii",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "Arcadia2001.json",
+      "platformName": "Arcadia 2001",
+      "platformShortname": "arcadia",
+      "platformUniqueId": "arcadia",
+      "revisionNumber": 1
+    },
+    {
       "filename": "Arduboy.json",
       "platformName": "Arduboy",
       "platformShortname": "arduboy",
@@ -48,6 +62,13 @@
       "platformName": "Atari Jaguar",
       "platformShortname": "jaguar",
       "platformUniqueId": "jaguar",
+      "revisionNumber": 3
+    },
+    {
+      "filename": "AtariJaguarCD.json",
+      "platformName": "Atari Jaguar CD",
+      "platformShortname": "jaguarcd",
+      "platformUniqueId": "jaguarcd",
       "revisionNumber": 3
     },
     {
@@ -98,6 +119,13 @@
       "platformShortname": "cannonball",
       "platformUniqueId": "cannonball",
       "revisionNumber": 2
+    },
+    {
+      "filename": "CassetteVision.json",
+      "platformName": "Cassette Vision",
+      "platformShortname": "cassette",
+      "platformUniqueId": "cassette",
+      "revisionNumber": 1
     },
     {
       "filename": "CaveStoryGameEngine.json",
@@ -170,6 +198,20 @@
       "revisionNumber": 6
     },
     {
+      "filename": "ElektorTVGamesComputer.json",
+      "platformName": "Elektor TV Games Computer",
+      "platformShortname": "elektor",
+      "platformUniqueId": "elektor",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "FMTowns.json",
+      "platformName": "FM Towns",
+      "platformShortname": "fmtowns",
+      "platformUniqueId": "fmtowns",
+      "revisionNumber": 1
+    },
+    {
       "filename": "FairchildChannelF.json",
       "platformName": "Fairchild Channel F",
       "platformShortname": "channelf",
@@ -240,6 +282,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "IntertonVC4000.json",
+      "platformName": "Interton VC 4000",
+      "platformShortname": "vc4000",
+      "platformUniqueId": "vc4000",
+      "revisionNumber": 1
+    },
+    {
       "filename": "JavaMe.json",
       "platformName": "Java Me",
       "platformShortname": "j2me",
@@ -280,6 +329,34 @@
       "platformShortname": "megaduck",
       "platformUniqueId": "megaduck",
       "revisionNumber": 1
+    },
+    {
+      "filename": "NECPC60.json",
+      "platformName": "NEC PC-60",
+      "platformShortname": "pc60",
+      "platformUniqueId": "pc60",
+      "revisionNumber": 3
+    },
+    {
+      "filename": "NECPC88.json",
+      "platformName": "NEC PC-88",
+      "platformShortname": "pc88",
+      "platformUniqueId": "pc88",
+      "revisionNumber": 3
+    },
+    {
+      "filename": "NECPC98.json",
+      "platformName": "NEC PC-98",
+      "platformShortname": "pc98",
+      "platformUniqueId": "pc98",
+      "revisionNumber": 3
+    },
+    {
+      "filename": "NECPCFX.json",
+      "platformName": "NEC PC-FX",
+      "platformShortname": "pcfx",
+      "platformUniqueId": "pcfx",
+      "revisionNumber": 4
     },
     {
       "filename": "NeoGeo.json",
@@ -338,6 +415,13 @@
       "revisionNumber": 9
     },
     {
+      "filename": "NintendoDSi.json",
+      "platformName": "Nintendo DSi",
+      "platformShortname": "ndsi",
+      "platformUniqueId": "ndsi",
+      "revisionNumber": 9
+    },
+    {
       "filename": "NintendoEntertainmentSystem.json",
       "platformName": "Nintendo Entertainment System",
       "platformShortname": "nes",
@@ -366,6 +450,13 @@
       "revisionNumber": 6
     },
     {
+      "filename": "NintendoWiiU.json",
+      "platformName": "Nintendo Wii U",
+      "platformShortname": "wiiu",
+      "platformUniqueId": "wiiu",
+      "revisionNumber": 1
+    },
+    {
       "filename": "NintendoWiiWare.json",
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
@@ -373,25 +464,11 @@
       "revisionNumber": 1
     },
     {
-      "filename": "PC88.json",
-      "platformName": "PC-88",
-      "platformShortname": "pc88",
-      "platformUniqueId": "pc88",
-      "revisionNumber": 3
-    },
-    {
-      "filename": "PC98.json",
-      "platformName": "PC-98",
-      "platformShortname": "pc98",
-      "platformUniqueId": "pc98",
-      "revisionNumber": 3
-    },
-    {
-      "filename": "PCFX.json",
-      "platformName": "PC-FX",
-      "platformShortname": "pcfx",
-      "platformUniqueId": "pcfx",
-      "revisionNumber": 4
+      "filename": "Oric.json",
+      "platformName": "Oric",
+      "platformShortname": "oric",
+      "platformUniqueId": "oric",
+      "revisionNumber": 1
     },
     {
       "filename": "PICO8.json",
@@ -513,8 +590,8 @@
       "revisionNumber": 8
     },
     {
-      "filename": "SegaNAOMI.json",
-      "platformName": "Sega NAOMI",
+      "filename": "SegaNaomi.json",
+      "platformName": "Sega Naomi",
       "platformShortname": "naomi",
       "platformUniqueId": "naomi",
       "revisionNumber": 7
@@ -576,6 +653,13 @@
       "revisionNumber": 7
     },
     {
+      "filename": "SuperCassetteVision.json",
+      "platformName": "Super Cassette Vision",
+      "platformShortname": "supercassette",
+      "platformUniqueId": "supercassette",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SuperGrafx.json",
       "platformName": "SuperGrafx",
       "platformShortname": "supergrafx",
@@ -597,11 +681,25 @@
       "revisionNumber": 1
     },
     {
+      "filename": "TI83.json",
+      "platformName": "TI-83",
+      "platformShortname": "ti83",
+      "platformUniqueId": "ti83",
+      "revisionNumber": 1
+    },
+    {
       "filename": "TIC80.json",
       "platformName": "TIC-80",
       "platformShortname": "tic80",
       "platformUniqueId": "tic80",
       "revisionNumber": 2
+    },
+    {
+      "filename": "ThomsonTO8.json",
+      "platformName": "Thomson TO8",
+      "platformShortname": "to8",
+      "platformUniqueId": "to8",
+      "revisionNumber": 1
     },
     {
       "filename": "TurboGrafx16.json",
@@ -622,6 +720,13 @@
       "platformName": "Uzebox",
       "platformShortname": "uzebox",
       "platformUniqueId": "uzebox",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "VIC20.json",
+      "platformName": "VIC-20",
+      "platformShortname": "vic20",
+      "platformUniqueId": "vic20",
       "revisionNumber": 1
     },
     {
@@ -674,6 +779,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "Xbox.json",
+      "platformName": "Xbox",
+      "platformShortname": "xbox",
+      "platformUniqueId": "xbox",
+      "revisionNumber": 1
+    },
+    {
       "filename": "ZX81.json",
       "platformName": "ZX 81",
       "platformShortname": "zx81",
@@ -686,6 +798,20 @@
       "platformShortname": "zxspectrum",
       "platformUniqueId": "zxspectrum",
       "revisionNumber": 5
+    },
+    {
+      "filename": "Zeebo copy.json",
+      "platformName": "Zeebo",
+      "platformShortname": "zeebo",
+      "platformUniqueId": "zeebo",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "Zeebo.json",
+      "platformName": "Zeebo",
+      "platformShortname": "zeebo",
+      "platformUniqueId": "zeebo",
+      "revisionNumber": 1
     }
   ]
 }

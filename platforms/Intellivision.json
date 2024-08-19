@@ -19,7 +19,8 @@
     "screenAspectRatioId": 3,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Intellivision",
+    "retroAchievementsSystemId": 45,
     "extra": ""
   },
   "playerList": [

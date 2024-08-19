@@ -21,7 +21,8 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsAlias": "Atari 5200",
+    "retroAchievementsSystemId": 50,
     "extra": ""
   },
   "playerList": [

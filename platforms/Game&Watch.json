@@ -20,7 +20,8 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Arcade",
+    "retroAchievementsAlias": "Game & Watch",
+    "retroAchievementsSystemId": 60,
     "extra": ""
   },
   "playerList": [

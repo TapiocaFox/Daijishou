@@ -1,0 +1,23 @@
+{
+    "databaseVersion": 14,
+    "revisionNumber": 1,
+    "platform": {
+      "name": "Xbox",
+      "uniqueId": "xbox",
+      "shortname": "xbox",
+      "description": null,
+      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+      "scraperSourceList": [],
+      "boxArtAspectRatioId": 0,
+      "useCustomBoxArtAspectRatio": false,
+      "customBoxArtAspectRatio": null,
+      "screenAspectRatioId": 0,
+      "useCustomScreenAspectRatio": false,
+      "customScreenAspectRatio": null,
+      "retroAchievementsAlias": "Xbox",
+      "retroAchievementsSystemId": 22,
+      "extra": ""
+    },
+    "playerList": [
+    ]
+  }

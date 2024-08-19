@@ -20,6 +20,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Atari Jaguar",
+    "retroAchievementsSystemId": 17,
     "extra": ""
   },
   "playerList": [

@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Amstrad CPC",
+    "retroAchievementsSystemId": 37,
     "extra": ""
   },
   "playerList": [

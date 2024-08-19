@@ -20,6 +20,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "WonderSwan",
+    "retroAchievementsSystemId": 53,
     "extra": ""
   },
   "playerList": [

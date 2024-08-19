@@ -1,0 +1,23 @@
+{
+    "databaseVersion": 14,
+    "revisionNumber": 1,
+    "platform": {
+      "name": "TI-83",
+      "uniqueId": "ti83",
+      "shortname": "ti83",
+      "description": null,
+      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+      "scraperSourceList": [],
+      "boxArtAspectRatioId": 0,
+      "useCustomBoxArtAspectRatio": false,
+      "customBoxArtAspectRatio": null,
+      "screenAspectRatioId": 0,
+      "useCustomScreenAspectRatio": false,
+      "customScreenAspectRatio": null,
+      "retroAchievementsAlias": "TI-83",
+      "retroAchievementsSystemId": 79,
+      "extra": ""
+    },
+    "playerList": [
+    ]
+  }
