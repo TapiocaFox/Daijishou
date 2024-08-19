@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Game Boy",
+    "retroAchievementsSystemId": 4,
     "extra": ""
   },
   "playerList": [
