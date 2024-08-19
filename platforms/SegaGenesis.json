@@ -22,6 +22,7 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsAlias": "Mega Drive",
+    "retroAchievementsSystemId": 1,
     "extra": ""
   },
   "playerList": [
