@@ -590,7 +590,7 @@
       "revisionNumber": 8
     },
     {
-      "filename": "SegaNaomi.json",
+      "filename": "SegaNAOMI.json",
       "platformName": "Sega Naomi",
       "platformShortname": "naomi",
       "platformUniqueId": "naomi",
@@ -741,7 +741,7 @@
       "platformName": "Video Player",
       "platformShortname": "videos",
       "platformUniqueId": "videos",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "VirtualBoy.json",
