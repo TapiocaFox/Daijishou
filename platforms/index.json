@@ -20,7 +20,7 @@
       "platformName": "Apple II",
       "platformShortname": "appleii",
       "platformUniqueId": "appleii",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Arcadia2001.json",
@@ -153,7 +153,7 @@
       "platformName": "Commodore 64",
       "platformShortname": "c64",
       "platformUniqueId": "c64",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "CommodoreAmiga.json",
@@ -286,7 +286,7 @@
       "platformName": "Interton VC 4000",
       "platformShortname": "vc4000",
       "platformUniqueId": "vc4000",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "JavaMe.json",
@@ -391,7 +391,7 @@
       "platformName": "Nokia N-Gage",
       "platformShortname": "ngage",
       "platformUniqueId": "ngage",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Nintendo3DS.json",
@@ -727,7 +727,7 @@
       "platformName": "VIC-20",
       "platformShortname": "vic20",
       "platformUniqueId": "vic20",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Vectrex.json",

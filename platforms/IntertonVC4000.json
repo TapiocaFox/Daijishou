@@ -1,6 +1,6 @@
 {
     "databaseVersion": 14,
-    "revisionNumber": 1,
+    "revisionNumber": 2,
     "platform": {
       "name": "Interton VC 4000",
       "uniqueId": "vc4000",
@@ -19,5 +19,25 @@
       "extra": ""
     },
     "playerList": [
-    ]
-  }
+    {
+      "name": "vc4000 - RetroArch 64 - mess",
+      "uniqueId": "vc4000.ra64.mess",
+      "description": "Supported extensions: cmd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cmd)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/mamemess_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "vc4000 - RetroArch - mess",
+      "uniqueId": "vc4000.ra.mess",
+      "description": "Supported extensions: cmd.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cmd)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/mamemess_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
