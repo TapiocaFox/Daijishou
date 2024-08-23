@@ -765,6 +765,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "Windows.json",
+      "platformName": "Windows",
+      "platformShortname": "windows",
+      "platformUniqueId": "windows",
+      "revisionNumber": 1
+    },
+    {
       "filename": "WonderSwan.json",
       "platformName": "WonderSwan",
       "platformShortname": "ws",
