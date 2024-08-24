@@ -27,7 +27,7 @@
       "platformName": "Arcadia 2001",
       "platformShortname": "arcadia",
       "platformUniqueId": "arcadia",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Arduboy.json",
@@ -286,7 +286,7 @@
       "platformName": "Interton VC 4000",
       "platformShortname": "vc4000",
       "platformUniqueId": "vc4000",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "JavaMe.json",
