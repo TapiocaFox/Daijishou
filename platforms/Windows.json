@@ -31,6 +31,16 @@
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
+    },
+    {
+      "name": "windows - Winlator CMod Proot",
+      "uniqueId": "windows.winlator.cmodproot",
+      "description": "Supported extensions: desktop",
+      "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
+      "amStartArguments": "-n com.cmodded.winlator/com.winlator.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
     }
   ]
 }
