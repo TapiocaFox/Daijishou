@@ -232,6 +232,16 @@
       "filename": "psp.jpg"
     },
     {
+      "matchPlatformShortname": "pc88",
+      "matchPlatformUniqueId": "pc88",
+      "filename": "pc88.jpg"
+    },
+    {
+      "matchPlatformShortname": "pc98",
+      "matchPlatformUniqueId": "pc98",
+      "filename": "pc98.jpg"
+    },
+    {
       "matchPlatformShortname": "scummvm",
       "matchPlatformUniqueId": "scummvm",
       "filename": "scummvm.jpg"
