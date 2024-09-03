@@ -29,7 +29,7 @@
     {
       "matchPlatformShortname": "dreamcast",
       "matchPlatformUniqueId": "dreamcast",
-      "filename": "dc.png"
+      "filename": "dreamcast.png"
     },
     {
       "matchPlatformShortname": "fbneo",
@@ -89,7 +89,7 @@
     {
       "matchPlatformShortname": "psx",
       "matchPlatformUniqueId": "psx",
-      "filename": "psx.png"
+      "filename": "ps1.png"
     },
     {
       "matchPlatformShortname": "ps2",
@@ -219,7 +219,7 @@
     {
       "matchPlatformShortname": "virtualboy",
       "matchPlatformUniqueId": "virtualboy",
-      "filename": "virtualboy.png"
+      "filename": "vb.png"
     },
     {
       "matchPlatformShortname": "tg16",
@@ -229,7 +229,7 @@
     {
       "matchPlatformShortname": "sega32x",
       "matchPlatformUniqueId": "sega32x",
-      "filename": "32x.png"
+      "filename": "sega32x.png"
     },
     {
       "matchPlatformShortname": "saturn",
@@ -249,12 +249,12 @@
     {
       "matchPlatformShortname": "master",
       "matchPlatformUniqueId": "master",
-      "filename": "master.png"
+      "filename": "mastersystem.png"
     },
     {
       "matchPlatformShortname": "lynx",
       "matchPlatformUniqueId": "lynx",
-      "filename": "lynx.png"
+      "filename": "atarilynx.png"
     },
     {
       "matchPlatformShortname": "intellivision",
@@ -339,7 +339,7 @@
     {
       "matchPlatformShortname": "coleco",
       "matchPlatformUniqueId": "coleco",
-      "filename": "coleco.png"
+      "filename": "colecovision.png"
     },
     {
       "matchPlatformShortname": "atarist",
@@ -364,7 +364,7 @@
     {
       "matchPlatformShortname": "vita",
       "matchPlatformUniqueId": "vita",
-      "filename": "vita.png"
+      "filename": "psvita.png"
     },
     {
       "matchPlatformShortname": "tic80",
