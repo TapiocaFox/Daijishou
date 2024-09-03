@@ -229,12 +229,17 @@
     {
       "matchPlatformShortname": "sega32x",
       "matchPlatformUniqueId": "sega32x",
-      "filename": "sega32x.png"
+      "filename": "sega32X.png"
     },
     {
       "matchPlatformShortname": "saturn",
       "matchPlatformUniqueId": "saturn",
       "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "videos",
+      "matchPlatformUniqueId": "videos",
+      "filename": "video.png"
     },
     {
       "matchPlatformShortname": "ngpc",
