@@ -297,6 +297,11 @@
       "filename": "naomi.png"
     },
     {
+      "matchPlatformShortname": "ngage",
+      "matchPlatformUniqueId": "ngage",
+      "filename": "ngage.png"
+    },
+    {
       "matchPlatformShortname": "cps",
       "matchPlatformUniqueId": "cps",
       "filename": "cps.png"
@@ -481,10 +486,15 @@
       "matchPlatformUniqueId": "x1",
       "filename": "x1.png"
     },
-       {
+    {
       "matchPlatformShortname": "wiiu",
       "matchPlatformUniqueId": "wiiu",
       "filename": "wiiu.png"
+    },
+    {
+      "matchPlatformShortname": "windows",
+      "matchPlatformUniqueId": "windows",
+      "filename": "windows.png"
     },
     {
       "matchPlatformShortname": "tgcd",
