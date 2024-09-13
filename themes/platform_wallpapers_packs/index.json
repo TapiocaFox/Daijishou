@@ -322,6 +322,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Lipheson"
+      ],
+      "platformWallpapersPackDescription": "Epic wallpaper pack, optimized for 16:9 devices. Includes cover art from related platforms. Indexing by Post Mortem",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Epic Arcade",
+      "platformWallpapersPackPreviewThumbnailPath": "Epic_Arcade/preview.png",
+      "platformWallpapersPackRootPath": "Epic_Arcade"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Jamesinorbit"
       ],
       "platformWallpapersPackDescription": "My take on an artbook style theme. Dark and moody.",

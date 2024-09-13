@@ -20,14 +20,14 @@
       "platformName": "Apple II",
       "platformShortname": "appleii",
       "platformUniqueId": "appleii",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Arcadia2001.json",
       "platformName": "Arcadia 2001",
       "platformShortname": "arcadia",
       "platformUniqueId": "arcadia",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Arduboy.json",
@@ -153,7 +153,7 @@
       "platformName": "Commodore 64",
       "platformShortname": "c64",
       "platformUniqueId": "c64",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "CommodoreAmiga.json",
@@ -286,7 +286,7 @@
       "platformName": "Interton VC 4000",
       "platformShortname": "vc4000",
       "platformUniqueId": "vc4000",
-      "revisionNumber": 1
+      "revisionNumber": 3
     },
     {
       "filename": "JavaMe.json",
@@ -391,7 +391,7 @@
       "platformName": "Nokia N-Gage",
       "platformShortname": "ngage",
       "platformUniqueId": "ngage",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Nintendo3DS.json",
@@ -636,7 +636,7 @@
       "platformName": "Sony PS Vita",
       "platformShortname": "vita",
       "platformUniqueId": "vita",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "SonyPlayStation.json",
@@ -727,7 +727,7 @@
       "platformName": "VIC-20",
       "platformShortname": "vic20",
       "platformUniqueId": "vic20",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Vectrex.json",
@@ -765,6 +765,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "Windows.json",
+      "platformName": "Windows",
+      "platformShortname": "windows",
+      "platformUniqueId": "windows",
+      "revisionNumber": 2
+    },
+    {
       "filename": "WonderSwan.json",
       "platformName": "WonderSwan",
       "platformShortname": "ws",
@@ -798,13 +805,6 @@
       "platformShortname": "zxspectrum",
       "platformUniqueId": "zxspectrum",
       "revisionNumber": 5
-    },
-    {
-      "filename": "Zeebo copy.json",
-      "platformName": "Zeebo",
-      "platformShortname": "zeebo",
-      "platformUniqueId": "zeebo",
-      "revisionNumber": 1
     },
     {
       "filename": "Zeebo.json",

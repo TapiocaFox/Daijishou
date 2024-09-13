@@ -492,6 +492,11 @@
       "filename": "nomad.jpg"
     },
     {
+      "matchPlatformShortname": "windows9x",
+      "matchPlatformUniqueId": "windows9x",
+      "filename": "windows9x.jpg"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.jpg"

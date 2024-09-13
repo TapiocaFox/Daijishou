@@ -1,13 +1,13 @@
 {
-  "name": "Angle",
-  "description": "Embrace a contemporary aesthetic with authentic platform logos and the original motherboards of each system showcased behind sleek, transparent black plastic. Captivating images vividly depict the essence of the games available on each platform. Designed to seamlessly adapt to both 4:3 and wide screens, it offers an uncluttered and immersive experience. To maximize the visual immersion, i recommend enabling the -Hide Title- option in Daijisho's appereance settings.",
+  "name": "Epic Arcade",
+  "description": "Epic wallpaper pack, optimized for 16:9 devices. Includes cover art from related platforms. Indexing by Post Mortem",
   "authors": [
-    "Post Mortem"
+    "Lipheson"
   ],
   "sources": [
-    "Platform logos Profesionally Redrawn by Dan Patrick, https://commons.m.wikimedia.org/wiki/User:Evan-Amos"
+    "Daijisho"
   ],
-  "previewThumbnailFilename": "previewthumbnail.png",
+  "previewThumbnailFilename": "preview.png",
   "hasDefaultWallpaper": true,
   "defaultWallpaperFilename": "default.png",
   "wallpaperList": [
@@ -29,7 +29,7 @@
     {
       "matchPlatformShortname": "dreamcast",
       "matchPlatformUniqueId": "dreamcast",
-      "filename": "dc.png"
+      "filename": "dreamcast.png"
     },
     {
       "matchPlatformShortname": "fbneo",
@@ -89,7 +89,7 @@
     {
       "matchPlatformShortname": "psx",
       "matchPlatformUniqueId": "psx",
-      "filename": "psx.png"
+      "filename": "ps1.png"
     },
     {
       "matchPlatformShortname": "ps2",
@@ -184,7 +184,7 @@
     {
       "matchPlatformShortname": "neogeocd",
       "matchPlatformUniqueId": "neogeocd",
-      "filename": "neogeocd.png"
+      "filename": "negeocd.png"
     },
     {
       "matchPlatformShortname": "pc",
@@ -219,7 +219,7 @@
     {
       "matchPlatformShortname": "virtualboy",
       "matchPlatformUniqueId": "virtualboy",
-      "filename": "virtualboy.png"
+      "filename": "vb.png"
     },
     {
       "matchPlatformShortname": "tg16",
@@ -229,12 +229,17 @@
     {
       "matchPlatformShortname": "sega32x",
       "matchPlatformUniqueId": "sega32x",
-      "filename": "32x.png"
+      "filename": "sega32X.png"
     },
     {
       "matchPlatformShortname": "saturn",
       "matchPlatformUniqueId": "saturn",
       "filename": "saturn.png"
+    },
+    {
+      "matchPlatformShortname": "videos",
+      "matchPlatformUniqueId": "videos",
+      "filename": "video.png"
     },
     {
       "matchPlatformShortname": "ngpc",
@@ -249,12 +254,12 @@
     {
       "matchPlatformShortname": "master",
       "matchPlatformUniqueId": "master",
-      "filename": "master.png"
+      "filename": "mastersystem.png"
     },
     {
       "matchPlatformShortname": "lynx",
       "matchPlatformUniqueId": "lynx",
-      "filename": "lynx.png"
+      "filename": "atarilynx.png"
     },
     {
       "matchPlatformShortname": "intellivision",
@@ -295,11 +300,6 @@
       "matchPlatformShortname": "naomi",
       "matchPlatformUniqueId": "naomi",
       "filename": "naomi.png"
-    },
-    {
-      "matchPlatformShortname": "ngage",
-      "matchPlatformUniqueId": "ngage",
-      "filename": "ngage.png"
     },
     {
       "matchPlatformShortname": "cps",
@@ -344,7 +344,7 @@
     {
       "matchPlatformShortname": "coleco",
       "matchPlatformUniqueId": "coleco",
-      "filename": "coleco.png"
+      "filename": "colecovision.png"
     },
     {
       "matchPlatformShortname": "atarist",
@@ -369,7 +369,7 @@
     {
       "matchPlatformShortname": "vita",
       "matchPlatformUniqueId": "vita",
-      "filename": "vita.png"
+      "filename": "psvita.png"
     },
     {
       "matchPlatformShortname": "tic80",
@@ -486,15 +486,10 @@
       "matchPlatformUniqueId": "x1",
       "filename": "x1.png"
     },
-    {
+       {
       "matchPlatformShortname": "wiiu",
       "matchPlatformUniqueId": "wiiu",
       "filename": "wiiu.png"
-    },
-    {
-      "matchPlatformShortname": "windows",
-      "matchPlatformUniqueId": "windows",
-      "filename": "windows.png"
     },
     {
       "matchPlatformShortname": "tgcd",
