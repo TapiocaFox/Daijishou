@@ -103,7 +103,9 @@ for f in files:
                         platformSharable['platform']['retroAchievementsConsoleIdList'] = []
                         print(f"    retroAchievementsConsoleIdList not found. Initialized as empty list.")
 
-                del platformSharable['platform']['retroAchievementsAlias']
+                if platformEntityPortable.get('retroAchievementsAlias') is not None:
+                    del platformSharable['platform']['retroAchievementsAlias']
+
                 platformSharable['platform'] = sortDictionaryKeysByListOfStrings(platformEntityPortable, platformEntityPortableKeysOrder)
 
                 # Players
