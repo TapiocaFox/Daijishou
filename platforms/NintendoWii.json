@@ -23,7 +23,8 @@
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
     "retroAchievementsConsoleIdList": [
-      19
+      19,
+      20
     ],
     "extra": ""
   },
