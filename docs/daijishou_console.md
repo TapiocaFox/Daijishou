@@ -16,8 +16,10 @@ Type `\help` in your the logger.
 
 ### Notes
  - `\prefs` let you view and modify preferences.
+ - For example `\prefs set bool hide_platforms_page_subtitle true`
  - `\am_start` command can be used by emulator dev to check if Daijishō can launch items via Daijishō to emulator app.
  - `\dsess` command can be used to check whether the site can be used by Daijishō [DSESS](\docs\DSESS.md) scraper. Usage: `\dsess "Your DSESS:... String Here"`.
+
 
 ## Hidden Preferences For `\prefs` Command
 
