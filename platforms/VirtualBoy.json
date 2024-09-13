@@ -19,14 +19,15 @@
     "screenAspectRatioId": 3,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Virtual Boy",
-    "retroAchievementsSystemId": 28,
+    "retroAchievementsConsoleIdList": [
+      28
+    ],
     "extra": ""
   },
   "playerList": [
     {
       "name": "virtualboy - vvs",
-      "uniqueId": "com.simongellis.vvb",
+      "uniqueId": "virtualboy.com.simongellis.vvb",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:vb|zip)$",
       "amStartArguments": "-n com.simongellis.vvb/com.simongellis.vvb.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",

@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "PlayStation 2",
-    "retroAchievementsSystemId": 21,
+    "retroAchievementsConsoleIdList": [
+      21
+    ],
     "extra": ""
   },
   "playerList": [

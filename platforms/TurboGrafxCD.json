@@ -21,14 +21,15 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "PC Engine CD/TurboGrafx-CD",
-    "retroAchievementsSystemId": 76,
+    "retroAchievementsConsoleIdList": [
+      76
+    ],
     "extra": ""
   },
   "playerList": [
     {
       "name": "tgcd - com.PceEmu",
-      "uniqueId": "tgcd.com.explusalpha.PceEmu",
+      "uniqueId": "tgcd.com.PceEmu",
       "description": "Support extensions: ccd, chd, cue, m3u, pce, sgx, toc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc)$",
       "amStartArguments": "-n com.PceEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",

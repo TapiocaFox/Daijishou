@@ -16,13 +16,13 @@
     "screenAspectRatioId": 3,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [
-     {
+    {
       "name": "scummvm - scummvm debug build",
-      "uniqueId": "org.scummvm.scummvm.debug",
+      "uniqueId": "scummvm.org.scummvm.scummvm.debug",
       "description": "Supported extensions: dpt",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
       "amStartArguments": "-n org.scummvm.scummvm.debug/org.scummvm.scummvm.SplashActivity\n -a android.intent.action.MAIN\n -c android.intent.category.LAUNCHER\n -d {tags.scummvm_id}",

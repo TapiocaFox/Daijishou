@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "PC-FX",
-    "retroAchievementsSystemId": 49,
+    "retroAchievementsConsoleIdList": [
+      49
+    ],
     "extra": ""
   },
   "playerList": [

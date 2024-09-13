@@ -21,8 +21,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Saturn",
-    "retroAchievementsSystemId": 39,
+    "retroAchievementsConsoleIdList": [
+      39
+    ],
     "extra": ""
   },
   "playerList": [

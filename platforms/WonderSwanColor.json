@@ -19,7 +19,7 @@
     "screenAspectRatioId": 3,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "WonderSwan",
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [

@@ -7,21 +7,20 @@
     "shortname": "videos",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-    "scraperSourceList": [
-    ],
+    "scraperSourceList": [],
     "boxArtAspectRatioId": 2,
     "useCustomBoxArtAspectRatio": false,
     "customBoxArtAspectRatio": null,
     "screenAspectRatioId": 3,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [
     {
       "name": "videos - VLC for Android",
-      "uniqueId": "ffmpeg.org.videolan.vlc",
+      "uniqueId": "videos.org.videolan.vlc",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
       "amStartArguments": "-n org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity\n -a android.intent.action.VIEW\n -d {file.path} \n --activity-clear-task\n  --activity-clear-top",
@@ -31,7 +30,7 @@
     },
     {
       "name": "videos - mpv-android",
-      "uniqueId": "ffmpeg.is.xyz.mpv",
+      "uniqueId": "videos.is.xyz.mpv",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
       "amStartArguments": "-n is.xyz.mpv/is.xyz.mpv.MPVActivity\n -a android.intent.action.VIEW\n -d {file.uri} \n --activity-clear-task\n  --activity-clear-top",
@@ -41,7 +40,7 @@
     },
     {
       "name": "videos - MXPlayer (Ad-sipported)",
-      "uniqueId": "ffmpeg.com.mxtech.videoplayer.ad",
+      "uniqueId": "videos.com.mxtech.videoplayer.ad",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
       "amStartArguments": "-n com.mxtech.videoplayer.ad/.ActivityScreen\n -a android.intent.action.VIEW\n -d {file.path} \n --activity-clear-task\n  --activity-clear-top",
@@ -51,7 +50,7 @@
     },
     {
       "name": "videos - MXPlayer Pro",
-      "uniqueId": "ffmpeg.com.mxtech.videoplayer.pro",
+      "uniqueId": "videos.com.mxtech.videoplayer.pro",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
       "amStartArguments": "-n com.mxtech.videoplayer.pro/.ActivityScreen\n -a android.intent.action.VIEW\n -d {file.path} \n --activity-clear-task\n  --activity-clear-top",
@@ -61,7 +60,7 @@
     },
     {
       "name": "videos - RetroArch 64 - ffmpeg",
-      "uniqueId": "ffmpeg.ra64.ffmpeg",
+      "uniqueId": "videos.ra64.ffmpeg",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/ffmpeg_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -71,7 +70,7 @@
     },
     {
       "name": "videos - RetroArch 32 - ffmpeg",
-      "uniqueId": "ffmpeg.ra32.ffmpeg",
+      "uniqueId": "videos.ra32.ffmpeg",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/ffmpeg_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -81,7 +80,7 @@
     },
     {
       "name": "videos - RetroArch - ffmpeg",
-      "uniqueId": "ffmpeg.ra.ffmpeg",
+      "uniqueId": "videos.ra.ffmpeg",
       "description": "Supported extensions: mkv, mpeg, mpg, avi, mp4, mov.",
       "acceptedFilenameRegex": "^(.*)\\.(?:mp4|avi|mpg|mpeg|mov|mkv|webm|m4a)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/ffmpeg_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",

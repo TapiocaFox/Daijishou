@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "3DO Interactive Multiplayer",
-    "retroAchievementsSystemId": 43,
+    "retroAchievementsConsoleIdList": [
+      43
+    ],
     "extra": ""
   },
   "playerList": [

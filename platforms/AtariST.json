@@ -21,8 +21,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Atari ST",
-    "retroAchievementsSystemId": 36,
+    "retroAchievementsConsoleIdList": [
+      36
+    ],
     "extra": ""
   },
   "playerList": [

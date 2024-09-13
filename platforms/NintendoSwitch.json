@@ -18,7 +18,7 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "1.85:1",
-    "retroAchievementsAlias": null,
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [
@@ -32,7 +32,7 @@
       "killPackageProcessesWarning": false,
       "extra": ""
     },
-        {
+    {
       "name": "switch - Strato",
       "uniqueId": "switch.strato.yosho",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
@@ -44,7 +44,7 @@
     },
     {
       "name": "switch - Yuzu",
-      "uniqueId": "org.yuzu.yuzu_emu",
+      "uniqueId": "switch.org.yuzu.yuzu_emu",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
@@ -54,7 +54,7 @@
     },
     {
       "name": "switch - Yuzu (early access)",
-      "uniqueId": "org.yuzu.yuzu_emu_ea",
+      "uniqueId": "switch.org.yuzu.yuzu_emu.ea",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
@@ -64,7 +64,7 @@
     },
     {
       "name": "switch - Suyu",
-      "uniqueId": "org.suyu.suyu_emu",
+      "uniqueId": "switch.dev.suyu.suyu_emu.relWithDebInfo",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
@@ -74,7 +74,7 @@
     },
     {
       "name": "switch - Sudachi",
-      "uniqueId": "org.sudachi.sudachi",
+      "uniqueId": "switch.org.sudachi.sudachi_emu.ea",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n org.sudachi.sudachi_emu.ea/org.sudachi.sudachi_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",

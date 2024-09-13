@@ -21,8 +21,9 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Arcade",
-    "retroAchievementsSystemId": 27,
+    "retroAchievementsConsoleIdList": [
+      27
+    ],
     "extra": ""
   },
   "playerList": [
@@ -38,7 +39,7 @@
     },
     {
       "name": "naomi - com.flycast.emulator (dev build)",
-      "uniqueId": "naomi.com.flycast.emulator.dev",
+      "uniqueId": "naomi.com.flycast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",

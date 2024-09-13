@@ -19,8 +19,9 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "2:1",
-    "retroAchievementsAlias": "Fairchild Channel F",
-    "retroAchievementsSystemId": 57,
+    "retroAchievementsConsoleIdList": [
+      57
+    ],
     "extra": ""
   },
   "playerList": [

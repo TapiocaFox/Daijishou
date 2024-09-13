@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "32X",
-    "retroAchievementsSystemId": 10,
+    "retroAchievementsConsoleIdList": [
+      10
+    ],
     "extra": ""
   },
   "playerList": [

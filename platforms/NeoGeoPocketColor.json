@@ -19,7 +19,7 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Neo Geo Pocket",
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [

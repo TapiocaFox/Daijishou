@@ -22,7 +22,7 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [
@@ -58,7 +58,7 @@
     },
     {
       "name": "atomiswave - com.flycast.emulator (dev build)",
-      "uniqueId": "atomiswave.com.flycast.emulator.dev",
+      "uniqueId": "atomiswave.com.flycast.emulator",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",

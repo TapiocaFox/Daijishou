@@ -20,8 +20,9 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Arcade",
-    "retroAchievementsSystemId": 27,
+    "retroAchievementsConsoleIdList": [
+      27
+    ],
     "extra": ""
   },
   "playerList": [
@@ -37,7 +38,7 @@
     },
     {
       "name": "mame - com.seleuco.mame4droid 2024",
-      "uniqueId": "mame.com.seleuco.mame4droid2024",
+      "uniqueId": "mame.com.seleuco.mame4d2024",
       "description": "Supported extensions: 7z, chd, cmd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|cmd|zip)$",
       "amStartArguments": "-n com.seleuco.mame4d2024/com.seleuco.mame4droid.MAME4droid\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top",

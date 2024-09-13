@@ -1,23 +1,23 @@
 {
-    "databaseVersion": 14,
-    "revisionNumber": 1,
-    "platform": {
-      "name": "VIC-20",
-      "uniqueId": "vic20",
-      "shortname": "vic20",
-      "description": null,
-      "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
-      "scraperSourceList": [],
-      "boxArtAspectRatioId": 0,
-      "useCustomBoxArtAspectRatio": false,
-      "customBoxArtAspectRatio": null,
-      "screenAspectRatioId": 0,
-      "useCustomScreenAspectRatio": false,
-      "customScreenAspectRatio": null,
-      "retroAchievementsAlias": "VIC-20",
-      "retroAchievementsSystemId": 34,
-      "extra": ""
-    },
-    "playerList": [
-    ]
-  }
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "VIC-20",
+    "uniqueId": "vic20",
+    "shortname": "vic20",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 0,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [
+      34
+    ],
+    "extra": ""
+  },
+  "playerList": []
+}

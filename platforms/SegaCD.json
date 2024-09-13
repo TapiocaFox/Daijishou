@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Sega CD",
-    "retroAchievementsSystemId": 9,
+    "retroAchievementsConsoleIdList": [
+      9
+    ],
     "extra": ""
   },
   "playerList": [

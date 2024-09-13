@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "SG-1000",
-    "retroAchievementsSystemId": 33,
+    "retroAchievementsConsoleIdList": [
+      33
+    ],
     "extra": ""
   },
   "playerList": [

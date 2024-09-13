@@ -21,8 +21,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "GameCube",
-    "retroAchievementsSystemId": 16,
+    "retroAchievementsConsoleIdList": [
+      16
+    ],
     "extra": ""
   },
   "playerList": [

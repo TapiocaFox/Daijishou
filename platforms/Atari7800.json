@@ -21,8 +21,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Atari 7800",
-    "retroAchievementsSystemId": 51,
+    "retroAchievementsConsoleIdList": [
+      51
+    ],
     "extra": ""
   },
   "playerList": [

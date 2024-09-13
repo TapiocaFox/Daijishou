@@ -19,8 +19,9 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "546:683",
-    "retroAchievementsAlias": "Vectrex",
-    "retroAchievementsSystemId": 46,
+    "retroAchievementsConsoleIdList": [
+      46
+    ],
     "extra": ""
   },
   "playerList": [

@@ -19,8 +19,9 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "ColecoVision",
-    "retroAchievementsSystemId": 44,
+    "retroAchievementsConsoleIdList": [
+      44
+    ],
     "extra": ""
   },
   "playerList": [

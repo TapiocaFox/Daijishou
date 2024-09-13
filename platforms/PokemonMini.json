@@ -19,8 +19,9 @@
     "screenAspectRatioId": 3,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Pokemon Mini",
-    "retroAchievementsSystemId": 24,
+    "retroAchievementsConsoleIdList": [
+      24
+    ],
     "extra": ""
   },
   "playerList": [

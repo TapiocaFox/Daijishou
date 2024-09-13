@@ -14,14 +14,15 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "11:13",
-    "retroAchievementsAlias": "Nokia N-Gage",
-    "retroAchievementsSystemId": 61,
+    "retroAchievementsConsoleIdList": [
+      61
+    ],
     "extra": ""
   },
   "playerList": [
-     {
+    {
       "name": "ngage - eka2l1",
-      "uniqueId": "com.github.eka2l1",
+      "uniqueId": "ngage.com.github.eka2l1",
       "description": "Supported extensions: json",
       "acceptedFilenameRegex": "^(.*)\\.(?:json)$",
       "amStartArguments": "-n com.github.eka2l1/.emu.EmulatorActivity\n -a android.intent.action.VIEW\n --activity-clear-task\n  --activity-clear-top\n -d {file.uri}",

@@ -20,13 +20,13 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [
     {
       "name": "plus4 - RetroArch 64 - vice xplus4",
-      "uniqueId": "plus4.ra64.xplus4",
+      "uniqueId": "plus4.ra64.vice_xplus4",
       "description": "Supported extensions: bin, crt, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, lnx, p00, prg, t64, tap, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|crt|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|lnx|p00|prg|t64|tap|x64|x6z|zip)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/vice_xplus4_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -36,7 +36,7 @@
     },
     {
       "name": "plus4 - RetroArch 32 - vice xplus4",
-      "uniqueId": "plus4.ra32.xplus4",
+      "uniqueId": "plus4.ra32.vice_xplus4",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.ra32/cores/vice_xplus4_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.ra32\n  -e APK /data/app/com.retroarch.ra32-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.ra32/files\n  --activity-clear-task\n  --activity-clear-top",
@@ -46,7 +46,7 @@
     },
     {
       "name": "plus4 - RetroArch 32 - vice xplus4",
-      "uniqueId": "plus4.ra.xplus4",
+      "uniqueId": "plus4.ra.vice_xplus4",
       "description": "Supported extensions: bin, cmd, crt, d2m, d4m, d64, d6z, d71, d7z, d80, d81, d82, d8z, g41, g4z, g64, g6z, gz, m3u, nbz, nib, p00, prg, t64, tap, vfl, vsf, x64, x6z, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|cmd|crt|d2m|d4m|d64|d6z|d71|d7z|d80|d81|d82|d8z|g41|g4z|g64|g6z|gz|m3u|nbz|nib|p00|prg|t64|tap|vfl|vsf|x64|x6z|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/vice_xplus4_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",

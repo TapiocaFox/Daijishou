@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Dreamcast",
-    "retroAchievementsSystemId": 40,
+    "retroAchievementsConsoleIdList": [
+      40
+    ],
     "extra": ""
   },
   "playerList": [
@@ -56,7 +57,7 @@
     },
     {
       "name": "dreamcast - com.flycast.emulator (dev build)",
-      "uniqueId": "dreamcast.com.flycast.emulator.dev",
+      "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",

@@ -19,7 +19,7 @@
     "screenAspectRatioId": 4,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "PlayStation Portable",
+    "retroAchievementsConsoleIdList": [],
     "extra": ""
   },
   "playerList": [

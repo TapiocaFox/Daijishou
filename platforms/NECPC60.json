@@ -19,10 +19,10 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "16:5",
-    "retroAchievementsAlias": "PC-6000",
-    "retroAchievementsSystemId": 67,
+    "retroAchievementsConsoleIdList": [
+      67
+    ],
     "extra": ""
   },
-  "playerList": [
-  ]
+  "playerList": []
 }

@@ -21,8 +21,9 @@
     "screenAspectRatioId": 5,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Nintendo DSi",
-    "retroAchievementsSystemId": 78,
+    "retroAchievementsConsoleIdList": [
+      78
+    ],
     "extra": ""
   },
   "playerList": [
@@ -58,7 +59,7 @@
     },
     {
       "name": "ndsi - NooDS",
-      "uniqueId": "ndsi.com.hydra.noods.FileBrowser",
+      "uniqueId": "ndsi.com.hydra.noods",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds)$",
       "amStartArguments": "-n com.hydra.noods/.FileBrowser\n -e LaunchPath {file.path}",
@@ -148,7 +149,7 @@
     },
     {
       "name": "ndsi - RetroArch - melonds ds",
-      "uniqueId": "ndsi.ra.melonds",
+      "uniqueId": "ndsi.ra.melondsds",
       "description": "Supported extensions: nds.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nds|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/melondsds_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",

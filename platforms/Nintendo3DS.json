@@ -20,14 +20,15 @@
     "screenAspectRatioId": 0,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Nintendo 3DS",
-    "retroAchievementsSystemId": 62,
+    "retroAchievementsConsoleIdList": [
+      62
+    ],
     "extra": ""
   },
   "playerList": [
     {
       "name": "3ds - Citra Nightly",
-      "uniqueId": "3ds.org.citra.nightly",
+      "uniqueId": "3ds.org.citra.citra_emu",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.citra.citra_emu/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
@@ -37,7 +38,7 @@
     },
     {
       "name": "3ds - Citra Canary",
-      "uniqueId": "3ds.org.citra.canary",
+      "uniqueId": "3ds.org.citra.citra_emu.canary",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.citra.citra_emu.canary/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
@@ -47,7 +48,7 @@
     },
     {
       "name": "3ds - Lemonade Alpha",
-      "uniqueId": "3ds.oorg.gamerytb.lemonade.canary",
+      "uniqueId": "3ds.org.gamerytb.lemonade.canary",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n org.gamerytb.lemonade.canary/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
@@ -87,7 +88,7 @@
     },
     {
       "name": "3ds - org.citra.emu - storage access antutu",
-      "uniqueId": "3ds.com.antutu.SAABenchMark",
+      "uniqueId": "3ds.com.antutu.ABenchMark",
       "description": "Supported extensions: 3ds, 3dsx, app, axf, cci, cxi, elf.",
       "acceptedFilenameRegex": "^(.*)\\.(?:3ds|3dsx|app|axf|cci|cxi|elf)$",
       "amStartArguments": "-n com.antutu.ABenchMark/org.citra.emu.ui.EmulationActivity\n  -a android.intent.action.VIEW\n  -e GamePath {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",

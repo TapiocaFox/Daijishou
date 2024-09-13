@@ -19,8 +19,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": true,
     "customScreenAspectRatio": "16:5",
-    "retroAchievementsAlias": "PC-8000/8800",
-    "retroAchievementsSystemId": 47,
+    "retroAchievementsConsoleIdList": [
+      47
+    ],
     "extra": ""
   },
   "playerList": [

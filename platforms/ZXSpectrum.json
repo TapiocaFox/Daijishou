@@ -21,8 +21,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "ZX Spectrum",
-    "retroAchievementsSystemId": 59,
+    "retroAchievementsConsoleIdList": [
+      59
+    ],
     "extra": ""
   },
   "playerList": [

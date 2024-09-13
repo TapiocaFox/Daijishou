@@ -17,8 +17,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Mega Duck",
-    "retroAchievementsSystemId": 69,
+    "retroAchievementsConsoleIdList": [
+      69
+    ],
     "extra": ""
   },
   "playerList": [

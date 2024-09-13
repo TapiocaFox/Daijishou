@@ -21,8 +21,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "Nintendo 64",
-    "retroAchievementsSystemId": 2,
+    "retroAchievementsConsoleIdList": [
+      2
+    ],
     "extra": ""
   },
   "playerList": [

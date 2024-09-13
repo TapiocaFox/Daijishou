@@ -16,8 +16,9 @@
     "screenAspectRatioId": 6,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": "TIC-80",
-    "retroAchievementsSystemId": 65,
+    "retroAchievementsConsoleIdList": [
+      65
+    ],
     "extra": ""
   },
   "playerList": [
