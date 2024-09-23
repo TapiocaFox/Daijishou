@@ -23,6 +23,11 @@
       "filename": "android.png"
     },
     {
+      "matchPlatformShortname": "appleii",
+      "matchPlatformUniqueId": "appleii",
+      "filename": "appleii.png"
+    },
+    {
       "matchPlatformShortname": "atari2600",
       "matchPlatformUniqueId": "atari2600",
       "filename": "atari2600.png"
@@ -341,6 +346,11 @@
       "matchPlatformShortname": "wiiware",
       "matchPlatformUniqueId": "wiiware",
       "filename": "wiiware.png"
+    },
+    {
+      "matchPlatformShortname": "wiiu",
+      "matchPlatformUniqueId": "wiiu",
+      "filename": "wiiu.png"
     },
     {
       "matchPlatformShortname": "switch",
