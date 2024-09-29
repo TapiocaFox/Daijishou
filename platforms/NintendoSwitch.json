@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -73,7 +73,17 @@
       "extra": ""
     },
     {
-      "name": "switch - Sudachi",
+      "name": "switch - Sudachi (Mainline)",
+      "uniqueId": "switch.org.sudachi.sudachi_emu",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n org.sudachi.sudachi_emu/org.sudachi.sudachi_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "switch - Sudachi (Early Access)",
       "uniqueId": "switch.org.sudachi.sudachi_emu.ea",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
