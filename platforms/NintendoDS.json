@@ -29,16 +29,6 @@
   },
   "playerList": [
     {
-      "name": "nds - Drastic",
-      "uniqueId": "nds.com.dsemu.drastic",
-      "description": "Supported extensions: bin, nds, rar, zip, 7z.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|rar|zip|7z)$",
-      "amStartArguments": "-n com.dsemu.drastic/.DraSticActivity\n-d {file.uri}\n--activity-clear-task\n--activity-clear-top",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
-      "extra": ""
-    },
-    {
       "name": "nds - MelonDS",
       "uniqueId": "nds.me.magnum.melonds",
       "description": null,
@@ -46,6 +36,16 @@
       "amStartArguments": "-a me.magnum.melonds.LAUNCH_ROM\n-n me.magnum.melonds/.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - Drastic",
+      "uniqueId": "nds.com.dsemu.drastic",
+      "description": "Supported extensions: bin, nds, rar, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|nds|rar|zip|7z)$",
+      "amStartArguments": "-n com.dsemu.drastic/.DraSticActivity\n-d {file.uri}\n--activity-clear-task\n--activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
