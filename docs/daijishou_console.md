@@ -33,6 +33,6 @@ Type `\help` in your the logger.
 | `use_lightweight_backup` | Boolean | Skip backups like images if `true`.|
 | `use_nsfw` | Boolean | Set `true` to allow adult content.|
 | `scale_ui` | String | Scale your UI. For example `1.25`.|
-| `genres_widget_nav_aspect_ratio` | String | Aspect ratio for genres widget page box arts. For example `2:3`.|
+| `category_widget_nav_aspect_ratio` | String | Aspect ratio for category widget page box arts. For example `2:3`.|
 
 
