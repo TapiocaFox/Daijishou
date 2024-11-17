@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "PICO-8",
     "uniqueId": "pico8",
@@ -20,6 +20,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "pico8 - Infinity P8 Player",
+      "uniqueId": "pico8.me.dt2dev.infinity",
+      "description": "Supported extensions: p8, png.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:p8|png)$",
+      "amStartArguments": "-n me.dt2dev.infinity/me.dt2dev.infinity.SchemeActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "pico8 - RetroArch 64 - fake08",
       "uniqueId": "pico8.ra64.fake08",
