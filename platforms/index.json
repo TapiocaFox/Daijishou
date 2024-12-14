@@ -293,7 +293,7 @@
       "platformName": "Java Me",
       "platformShortname": "j2me",
       "platformUniqueId": "j2me",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "LowResNX.json",

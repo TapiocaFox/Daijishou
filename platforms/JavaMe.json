@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Java Me",
     "uniqueId": "j2me",
@@ -26,6 +26,16 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:java|jar)$",
       "amStartArguments": "-n ru.playsoftware.j2meloader/ru.playsoftware.j2meloader.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "j2me - jl-mod",
+      "uniqueId": "j2me.ru.woesss.j2meloader",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:java|jar)$",
+      "amStartArguments": "-n ru.woesss.j2meloader/ru.playsoftware.j2meloader.MainActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
