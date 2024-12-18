@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -38,6 +38,16 @@
       "description": "Supported extensions: desktop",
       "acceptedFilenameRegex": "^(.*)\\.(?:desktop)$",
       "amStartArguments": "-n com.cmodded.winlator/com.winlator.XServerDisplayActivity\n  -e shortcut_path {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - MiceWine",
+      "uniqueId": "windows.micewine.emu",
+      "description": "Supported extensions: lnk",
+      "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
+      "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
