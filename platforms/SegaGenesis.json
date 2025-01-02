@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Sega Genesis",
     "uniqueId": "genesis",
@@ -43,6 +43,16 @@
       "description": "Supported extensions: 32x, 68k, bin, chd, cue, gen, gg, iso, md, mdx, sg, smd, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|md|mdx|sg|smd|sms)$",
       "amStartArguments": "-n com.androidemu.gens/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "genesis - Pizza Boy SC Pro",
+      "uniqueId": "genesis.it.dbtecno.pizzaboyscpro",
+      "description": "Supported extensions: md, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:md|zip)$",
+      "amStartArguments": "-n it.dbtecno.pizzaboyscpro/.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

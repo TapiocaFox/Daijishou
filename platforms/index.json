@@ -34,14 +34,14 @@
       "platformName": "Arduboy",
       "platformShortname": "arduboy",
       "platformUniqueId": "arduboy",
-      "revisionNumber": 1
+      "revisionNumber": 2
     },
     {
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600",
       "platformUniqueId": "atari2600",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "Atari5200.json",
@@ -76,7 +76,7 @@
       "platformName": "Atari Lynx",
       "platformShortname": "lynx",
       "platformUniqueId": "lynx",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "AtariST.json",
@@ -132,7 +132,7 @@
       "platformName": "Cave Story Game Engine",
       "platformShortname": "cavestory",
       "platformUniqueId": "cavestory",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Chip8.json",
@@ -545,7 +545,7 @@
       "platformName": "ScummVM",
       "platformShortname": "scummvm",
       "platformUniqueId": "scummvm",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "Sega32X.json",
@@ -566,14 +566,14 @@
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
       "platformUniqueId": "gamegear",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
       "platformUniqueId": "genesis",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "SegaGenesisMSU.json",
@@ -587,7 +587,7 @@
       "platformName": "Sega Master System",
       "platformShortname": "master",
       "platformUniqueId": "master",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "SegaNAOMI.json",

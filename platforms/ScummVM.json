@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "ScummVM",
     "uniqueId": "scummvm",
@@ -20,6 +20,16 @@
     "extra": ""
   },
   "playerList": [
+    {
+      "name": "scummvm - scummvm",
+      "uniqueId": "scummvm.org.scummvm.scummvm",
+      "description": "Supported extensions: dpt",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
+      "amStartArguments": "-n org.scummvm.scummvm/org.scummvm.scummvm.SplashActivity\n -a android.intent.action.MAIN\n -c android.intent.category.LAUNCHER\n -d {tags.scummvm_id}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "scummvm - scummvm debug build",
       "uniqueId": "scummvm.org.scummvm.scummvm.debug",

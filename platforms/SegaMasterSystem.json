@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Sega Master System",
     "uniqueId": "master",
@@ -33,6 +33,16 @@
       "description": "Support extensions: 32x, 68k, bin, bms, chd, cue, gen, gg, iso, m3u, md, mdx, pco, sg, sgd, smd, sms.",
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|bms|chd|cue|gen|gg|iso|m3u|md|mdx|pco|sg|sgd|smd|sms)$",
       "amStartArguments": "-n com.explusalpha.MdEmu/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "master - Pizza Boy SC Pro",
+      "uniqueId": "master.it.dbtecno.pizzaboyscpro",
+      "description": "Supported extensions: sms, zip",
+      "acceptedFilenameRegex": "^(.*)\\.(?:sms|zip)$",
+      "amStartArguments": "-n it.dbtecno.pizzaboyscpro/.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
