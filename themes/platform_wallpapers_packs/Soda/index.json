@@ -149,7 +149,7 @@
     {
       "matchPlatformShortname": "megacd",
       "matchPlatformUniqueId": "megacd",
-      "filename": "megacd.png"
+      "filename": "segacd.png"
     },
     {
       "matchPlatformShortname": "atomiswave",
@@ -219,7 +219,7 @@
     {
       "matchPlatformShortname": "virtualboy",
       "matchPlatformUniqueId": "virtualboy",
-      "filename": "virtualboy.png"
+      "filename": "vb.png"
     },
     {
       "matchPlatformShortname": "tg16",
@@ -249,7 +249,7 @@
     {
       "matchPlatformShortname": "master",
       "matchPlatformUniqueId": "master",
-      "filename": "master.png"
+      "filename": "sms.png"
     },
     {
       "matchPlatformShortname": "lynx",
@@ -264,7 +264,7 @@
     {
       "matchPlatformShortname": "gamegear",
       "matchPlatformUniqueId": "gamegear",
-      "filename": "gamegear.png"
+      "filename": "gg.png"
     },
     {
       "matchPlatformShortname": "cdi",
