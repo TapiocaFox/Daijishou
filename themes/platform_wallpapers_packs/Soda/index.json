@@ -497,6 +497,11 @@
       "filename": "wiiu.png"
     },
     {
+      "matchPlatformShortname": "wiiware",
+      "matchPlatformUniqueId": "wiiware",
+      "filename": "wiiware.png"
+    },
+    {
       "matchPlatformShortname": "windows",
       "matchPlatformUniqueId": "windows",
       "filename": "windows.png"
