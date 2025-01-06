@@ -407,6 +407,11 @@
       "filename": "supervision.png"
     },
     {
+      "matchPlatformShortname": "superfamicom",
+      "matchPlatformUniqueId": "superfamicom",
+      "filename": "superfamicom.png"
+    },
+    {
       "matchPlatformShortname": "pc98",
       "matchPlatformUniqueId": "pc98",
       "filename": "pc98.png"
