@@ -487,6 +487,11 @@
       "filename": "chip8.png"
     },
     {
+      "matchPlatformShortname": "lowresnx",
+      "matchPlatformUniqueId": "lowresnx",
+      "filename": "lowresnx.png"
+    },
+    {
       "matchPlatformShortname": "megaduck",
       "matchPlatformUniqueId": "megaduck",
       "filename": "megaduck.png"
