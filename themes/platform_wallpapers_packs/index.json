@@ -634,6 +634,16 @@
     },
     {
       "platformWallpapersPackAuthors": [
+        "Jamesinorbit"
+      ],
+      "platformWallpapersPackDescription": "Description missing, indexing by Postmortem.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "Soda",
+      "platformWallpapersPackPreviewThumbnailPath": "Soda/previewthumbnail.png",
+      "platformWallpapersPackRootPath": "Soda"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Galvy"
       ],
       "platformWallpapersPackDescription": "A platform wallpapers pack with a techy vibrant look with the use of unique gaming wallpapers.",
