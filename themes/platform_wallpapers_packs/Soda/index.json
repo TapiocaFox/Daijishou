@@ -512,6 +512,11 @@
       "filename": "windows.png"
     },
     {
+      "matchPlatformShortname": "zx81",
+      "matchPlatformUniqueId": "zx81",
+      "filename": "zx81.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.png"
