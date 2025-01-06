@@ -487,6 +487,11 @@
       "filename": "x1.png"
     },
     {
+      "matchPlatformShortname": "wasm4",
+      "matchPlatformUniqueId": "wasm4",
+      "filename": "wasm4.png"
+    },
+    {
       "matchPlatformShortname": "wiiu",
       "matchPlatformUniqueId": "wiiu",
       "filename": "wiiu.png"
