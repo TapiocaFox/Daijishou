@@ -417,6 +417,11 @@
       "filename": "wsc.png"
     },
     {
+      "matchPlatformShortname": "wiiware",
+      "matchPlatformUniqueId": "wiiware",
+      "filename": "wiiware.png"
+    },
+    {
       "matchPlatformShortname": "vectrex",
       "matchPlatformUniqueId": "vectrex",
       "filename": "vectrex.png"
