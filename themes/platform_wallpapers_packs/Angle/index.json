@@ -97,6 +97,11 @@
       "filename": "ps2.png"
     },
     {
+      "matchPlatformShortname": "pc88",
+      "matchPlatformUniqueId": "pc88",
+      "filename": "pc88.png"
+    },
+    {
       "matchPlatformShortname": "snes",
       "matchPlatformUniqueId": "snes",
       "filename": "snes.png"
