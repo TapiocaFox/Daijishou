@@ -128,11 +128,11 @@ Daijishō evolved a lot in 2022. Including UI improvements, retro achievements, 
 [@MonkoftheFunk](https://www.github.com/MonkoftheFunk) Who helped with Daijishō wallpaper gallery.
 
 ### Donation
- - [PayPal](https://paypal.me/magneticchen)
+<!--  - [PayPal](https://paypal.me/magneticchen) -->
 
 > I am taking a break from the project
 
-<!-- [Patreon](https://www.patreon.com/magneticchen) -->
+<!-- [Patreon](https://www.patreon.com/TapiocaFox) -->
 
 # Copyright
-Copyright©2023 TapiocaFox. Designed in Taiwan.
+Copyright©2025 TapiocaFox. Designed in Taiwan.
