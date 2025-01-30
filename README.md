@@ -132,7 +132,7 @@ Daijishō evolved a lot in 2022. Including UI improvements, retro achievements, 
 
 > I am taking a break from the project
 
-<!-- [Patreon](https://www.patreon.com/TapiocaFox) -->
+<!-- [Patreon](https://www.patreon.com/magneticchen) -->
 
 # Copyright
 Copyright©2025 TapiocaFox. Designed in Taiwan.
