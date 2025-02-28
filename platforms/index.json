@@ -93,6 +93,13 @@
       "revisionNumber": 7
     },
     {
+      "filename": "BBCMicro.json",
+      "platformName": "Acorn Computers BBC Micro",
+      "platformShortname": "bbcmicro",
+      "platformUniqueId": "bbcmicro",
+      "revisionNumber": 1
+    },
+    {
       "filename": "CPS1.json",
       "platformName": "CP System I",
       "platformShortname": "cps1",
