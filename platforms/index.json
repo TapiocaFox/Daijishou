@@ -405,7 +405,7 @@
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "Nintendo64.json",
@@ -461,7 +461,7 @@
       "platformName": "Nintendo Wii U",
       "platformShortname": "wiiu",
       "platformUniqueId": "wiiu",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "NintendoWiiWare.json",

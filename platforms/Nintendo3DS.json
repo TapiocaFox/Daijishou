@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "3ds",
@@ -26,6 +26,16 @@
     "extra": ""
   },
   "playerList": [
+     {
+      "name": "3ds - azahar",
+      "uniqueId": "3ds.azahar",
+      "description": "Supported extensions: cci, cxi.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cci|cxi)$",
+      "amStartArguments": "-n io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
     {
       "name": "3ds - Borked 3DS",
       "uniqueId": "3ds.io.github.borked3ds.android",

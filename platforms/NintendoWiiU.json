@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Nintendo Wii U",
     "uniqueId": "wiiu",
@@ -34,7 +34,7 @@
       "uniqueId": "wiiu.info.cemu.Cemu",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:wua|wux|rpx)$",
-      "amStartArguments": "-n info.cemu.Cemu/.emulation.EmulationActivity\n -d {file.uri}\n --activity-clear-task\n  --activity-clear-top\n",
+      "amStartArguments": "-n info.cemu.cemu/.emulation.EmulationActivity\n -d {file.uri}\n --activity-clear-task\n  --activity-clear-top\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
