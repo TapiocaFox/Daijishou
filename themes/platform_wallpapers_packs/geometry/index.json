@@ -351,6 +351,11 @@
       "matchPlatformShortname": "megadrive",
       "matchPlatformUniqueId": "megadrive",
       "filename": "megadrive.png"
+    },
+    {
+      "matchPlatformShortname": "ps3",
+      "matchPlatformUniqueId": "ps3",
+      "filename": "ps3.png"
     }
   ]
 }
