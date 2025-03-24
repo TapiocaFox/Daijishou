@@ -91,6 +91,16 @@
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
+    },
+    {
+      "name": "switch - Citron",
+      "uniqueId": "switch.org.citron.citron_emu",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n org.citron.citron_emu/org.citron.citron_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
     }
   ]
 }
