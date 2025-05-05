@@ -3,6 +3,15 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "JamesHowlett"
+      ],
+      "platformWallpapersPackDescription": "Desaturated backgrounds make the foreground jump off the page. Highlights stats for each system. Optimized for 16:9, but should also work well for other aspect ratios too.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "0nionsAreGood",
+      "platformWallpapersPackPreviewThumbnailPath": "0nionsAreGood/thumbnail.png",
+      "platformWallpapersPackRootPath": "0nionsAreGood"
+    },    {
+      "platformWallpapersPackAuthors": [
         "Sheezie"
       ],
       "platformWallpapersPackDescription": "Minimal text-based theme loosely inspired by my 'Sheezie2Clean' theme for Batocera. Designed for devices with 16:9 aspect ratio. V2 has added artwork on the bottom bar. Indexing by Post Mortem.",
