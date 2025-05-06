@@ -3,6 +3,16 @@
   "platformWallpapersPackList": [
     {
       "platformWallpapersPackAuthors": [
+        "JamesHowlett"
+      ],
+      "platformWallpapersPackDescription": "This theme highlights each platform's stats. It uses very low-saturation backgrounds to make the foreground really pop. Optimized for 16:9 screens, but it should work well on other screens too. Like my other theme, 'Clean Colors,' it uses colors to help differentiate systems.",
+      "platformWallpapersPackIsNSFW": false,
+      "platformWallpapersPackName": "0nionsAreGood",
+      "platformWallpapersPackPreviewThumbnailPath": "0nionsAreGood/thumbnail.png",
+      "platformWallpapersPackRootPath": "0nionsAreGood"
+    },
+    {
+      "platformWallpapersPackAuthors": [
         "Sheezie"
       ],
       "platformWallpapersPackDescription": "Minimal text-based theme loosely inspired by my 'Sheezie2Clean' theme for Batocera. Designed for devices with 16:9 aspect ratio. V2 has added artwork on the bottom bar. Indexing by Post Mortem.",
