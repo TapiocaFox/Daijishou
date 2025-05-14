@@ -297,6 +297,11 @@
       "filename": "ps2.jpg"
     },
     {
+      "matchPlatformShortname": "ps3",
+      "matchPlatformUniqueId": "ps3",
+      "filename": "ps3.jpg"
+    },
+    {
       "matchPlatformShortname": "pico8",
       "matchPlatformUniqueId": "pico8",
       "filename": "pico8.jpg"
@@ -490,6 +495,11 @@
       "matchPlatformShortname": "nomad",
       "matchPlatformUniqueId": "nomad",
       "filename": "nomad.jpg"
+    },
+    {
+      "matchPlatformShortname": "windows",
+      "matchPlatformUniqueId": "windows",
+      "filename": "windows.jpg"
     },
     {
       "matchPlatformShortname": "windows9x",
