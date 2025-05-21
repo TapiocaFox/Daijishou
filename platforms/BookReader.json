@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Book Reader",
     "uniqueId": "ebook",
@@ -20,6 +20,16 @@
   "playerList": [
     {
       "name": "ebook - Librera Reader",
+      "uniqueId": "ebook.com.foobnix.pdf.reader",
+      "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
+      "amStartArguments": "-n com.foobnix.pdf.reader/com.foobnix.OpenerActivity\n -d {file.path}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ebook - Librera Reader Pro",
       "uniqueId": "ebook.com.foobnix.pro.pdf.reader",
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
