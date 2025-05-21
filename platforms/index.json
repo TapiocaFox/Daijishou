@@ -100,6 +100,13 @@
       "revisionNumber": 1
     },
     {
+      "filename": "BookReader.json",
+      "platformName": "Book Reader",
+      "platformShortname": "ebook",
+      "platformUniqueId": "ebook",
+      "revisionNumber": 1
+    },
+    {
       "filename": "CPS1.json",
       "platformName": "CP System I",
       "platformShortname": "cps1",

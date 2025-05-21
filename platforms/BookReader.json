@@ -1,0 +1,32 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "Book Reader",
+    "uniqueId": "ebook",
+    "shortname": "ebook",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 3,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsConsoleIdList": [],
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "ebook - Librera Reader",
+      "uniqueId": "ebook.com.foobnix.pro.pdf.reader",
+      "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
+      "amStartArguments": "-n com.foobnix.pro.pdf.reader/com.foobnix.OpenerActivity\n -d {file.path}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}
