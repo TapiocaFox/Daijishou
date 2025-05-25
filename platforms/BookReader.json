@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Book Reader",
     "uniqueId": "ebook",
@@ -34,6 +34,36 @@
       "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
       "amStartArguments": "-n com.foobnix.pro.pdf.reader/com.foobnix.OpenerActivity\n -d {file.path}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ebook - ReadEra",
+      "uniqueId": "ebook.org.readera",
+      "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
+      "amStartArguments": "-n org.readera/org.readera.read.ReadActivity\n -d {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ebook - Book Reader",
+      "uniqueId": "ebook.com.github.axet.bookreader",
+      "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
+      "amStartArguments": "-n com.github.axet.bookreader/.activities.MainActivity\n -c android.intent.category.DEFAULT\n -a android.intent.action.VIEW\n -t {file.mime}\n -d {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ebook - KOReader",
+      "uniqueId": "ebook.org.koreader.launcher",
+      "description": "Supported extensions: azw, azw3, cbz, cbr, djvu, doc, docx, epub, epub3, fb2, html, mobi, opds, pdf, rtf, and txt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:azw|azw3|cbz|cbr|djvu|doc|docx|epub|epub3|fb2|html|mobi|opds|pdf|rtf|txt)$",
+      "amStartArguments": "-n org.koreader.launcher/.MainActivity\n -c android.intent.category.DEFAULT\n -a android.intent.action.VIEW\n -t {file.mime}\n -d {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
