@@ -501,6 +501,16 @@
       "matchPlatformShortname": "videos",
       "matchPlatformUniqueId": "videos",
       "filename": "videos.png"
+    },
+    {
+      "matchPlatformShortname": "windows",
+      "matchPlatformUniqueId": "windows",
+      "filename": "windows.png"
+    },
+    {
+      "matchPlatformShortname": "ebook",
+      "matchPlatformUniqueId": "ebook",
+      "filename": "ebook.png"
     }
   ]
 }
