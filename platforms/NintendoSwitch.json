@@ -4,22 +4,21 @@
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
-    "shortname": "switch",
+    "shortname": "ns",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
-      "DSESS:BOX_ART:TAGS(scraperKeyword):https://www.switchscores.com/games/search?search_keywords=%7BscraperKeyword%7D&dsess_target_site_selector=div.col-xs-9.col-sm-9.col-md-9.col-lg-9+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.switchscores%5C.com%5C%2Fgames%5C%2F.%2A%24&dsess_selector=div.col-md-8+%3E+img.img-responsive&dsess_attribute=src",
-      "DSESS:SNAPSHOT:TAGS(scraperKeyword):https://www.mobygames.com/search/quick?q=%7BscraperKeyword%7D&p=203&search=Go&sFilter=1&sG=on&dsess_target_site_selector=div.searchTitle+a&dsess_target_site=%5Ehttps%3A%5C%2F%5C%2Fwww%5C.mobygames%5C.com%5C%2Fgame%5C%2Fswitch%5C%2F.%2A%24&dsess_selector=div.col-md-8.col-lg-8+div.row+img&dsess_attribute=src&dsess_replacer=%5C%2Fs%5C%2F&dsess_replacer_value=%2Fl%2F",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=4971&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=4971&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E",
       "RAW: Nintendo - Switch"
     ],
-    "boxArtAspectRatioId": 0,
-    "useCustomBoxArtAspectRatio": false,
-    "customBoxArtAspectRatio": null,
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "3:5",
     "screenAspectRatioId": 0,
-    "useCustomScreenAspectRatio": true,
-    "customScreenAspectRatio": "1.85:1",
-    "retroAchievementsConsoleIdList": [],
-    "extra": ""
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null
   },
   "playerList": [
     {
