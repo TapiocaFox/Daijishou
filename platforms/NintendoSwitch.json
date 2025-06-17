@@ -1,10 +1,10 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
-    "shortname": "ns",
+    "shortname": "switch",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
