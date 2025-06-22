@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Nintendo DSi",
     "uniqueId": "ndsi",
@@ -54,6 +54,16 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
       "amStartArguments": "-a me.magnum.melonds.nightly.LAUNCH_ROM\n-n me.magnum.melonds.nightly/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - MelonDS Dev (Dual Screen Fork)",
+      "uniqueId": "ndsi.me.magnum.melonds.dev",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melonds.dev.LAUNCH_ROM\n-n me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": false,
       "extra": ""
