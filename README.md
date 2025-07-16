@@ -123,7 +123,7 @@ Daijishō evolved a lot in 2022. Including UI improvements, retro achievements, 
 
 [@Post-Mortem](https://www.github.com/Post-Mortem) Who creates and mantains themes.
 
-[@official-wizard](https://www.github.com/official-wizard) Who created RetroAchievements API in Kotlin.
+[@official-wizard](https://www.github.com/official-wizard) Who created RetroAchievements API in Kotlin and help standardizing the Daijishou Application codebase.
 
 [@MonkoftheFunk](https://www.github.com/MonkoftheFunk) Who helped with Daijishō wallpaper gallery.
 
