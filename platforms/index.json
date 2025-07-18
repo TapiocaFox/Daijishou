@@ -807,6 +807,13 @@
       "revisionNumber": 1
     },
     {
+      "filename": "XboxGamePass.json",
+      "platformName": "XBox Game Pass",
+      "platformShortname": "xcloud",
+      "platformUniqueId": "xcloud",
+      "revisionNumber": 1
+    },
+    {
       "filename": "ZX81.json",
       "platformName": "ZX 81",
       "platformShortname": "zx81",
