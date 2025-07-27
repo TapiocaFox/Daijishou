@@ -511,6 +511,11 @@
       "matchPlatformShortname": "ebook",
       "matchPlatformUniqueId": "ebook",
       "filename": "ebook.png"
+    },
+    {
+      "matchPlatformShortname": "xcloud",
+      "matchPlatformUniqueId": "xcloud",
+      "filename": "xcloud.png"
     }
   ]
 }

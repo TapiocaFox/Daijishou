@@ -277,6 +277,11 @@
       "matchPlatformShortname": "virtualboy",
       "matchPlatformUniqueId": "virtualboy",
       "filename": "virtualboy_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "xcloud",
+      "matchPlatformUniqueId": "xcloud",
+      "filename": "xcloud_reflect.jpg"
     }
   ]
 }
