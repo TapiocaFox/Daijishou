@@ -282,6 +282,21 @@
       "matchPlatformShortname": "xcloud",
       "matchPlatformUniqueId": "xcloud",
       "filename": "xcloud_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "wiiu",
+      "matchPlatformUniqueId": "wiiu",
+      "filename": "wiiu_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "ps3",
+      "matchPlatformUniqueId": "ps3",
+      "filename": "ps3_reflect.jpg"
+    },
+    {
+      "matchPlatformShortname": "windows",
+      "matchPlatformUniqueId": "windows",
+      "filename": "windows_reflect.jpg"
     }
   ]
 }
