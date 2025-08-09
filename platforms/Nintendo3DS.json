@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Nintendo 3DS",
     "uniqueId": "3ds",
@@ -28,8 +28,8 @@
      {
       "name": "3ds - azahar",
       "uniqueId": "3ds.azahar",
-      "description": "Supported extensions: cci, cxi.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:cci|cxi)$",
+      "description": "Supported extensions: cci, cxi, zcci, zcxi.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cci|cxi|zcci|zcxi)$",
       "amStartArguments": "-n io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  --activity-clear-task\n  --activity-clear-top\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
