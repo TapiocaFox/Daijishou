@@ -272,7 +272,7 @@
       "platformName": "Game Boy Advance",
       "platformShortname": "gba",
       "platformUniqueId": "gba",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "GameBoyColor.json",
@@ -286,7 +286,7 @@
       "platformName": "GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "Intellivision.json",
@@ -461,7 +461,7 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "NintendoWiiU.json",
@@ -475,7 +475,7 @@
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Oric.json",
