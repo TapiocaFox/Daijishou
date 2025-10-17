@@ -667,6 +667,13 @@
       "revisionNumber": 8
     },
     {
+      "filename": "Steam.json",
+      "platformName": "Steam",
+      "platformShortname": "steam",
+      "platformUniqueId": "steam",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SuperCassetteVision.json",
       "platformName": "Super Cassette Vision",
       "platformShortname": "supercassette",
