@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Steam",
     "uniqueId": "steam",
@@ -27,6 +27,16 @@
       "description": "GameHub Lite",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
       "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - GameNative",
+      "uniqueId": "steam.app.gamenative",
+      "description": "GameNative",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
