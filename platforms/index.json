@@ -454,7 +454,7 @@
       "platformName": "Nintendo Switch",
       "platformShortname": "switch",
       "platformUniqueId": "switch",
-      "revisionNumber": 15
+      "revisionNumber": 17
     },
     {
       "filename": "NintendoWii.json",
@@ -665,6 +665,13 @@
       "platformShortname": "ps2",
       "platformUniqueId": "ps2",
       "revisionNumber": 8
+    },
+    {
+      "filename": "SonyPlayStation3.json",
+      "platformName": "Sony PlayStation 3",
+      "platformShortname": "ps3",
+      "platformUniqueId": "ps3",
+      "revisionNumber": 1
     },
     {
       "filename": "Steam.json",

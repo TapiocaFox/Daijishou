@@ -1,0 +1,47 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "Sony PlayStation 3",
+    "uniqueId": "ps3",
+    "shortname": "ps3",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [
+      "LIBRETRO:Sony - PlayStation 3",
+	  "LIBRETRO:Sony - PlayStation 3 (PSN)",
+      "DSESS:BOX_ART:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=12&dsess_selector=img.card-img-top&dsess_attribute=src&dsess_replacer=images%5C%2F.%2A%5C%2Fboxart&dsess_replacer_value=images%2Foriginal%2Fboxart",
+      "DSESS:GENRES:TAGS(scraperKeyword):https://thegamesdb.net/search.php?name=%7BscraperKeyword%7D&platform_id%5B%5D=12&dsess_target_site_selector=div.col-6+a&dsess_target_site=.%2A%5C%2Fgame.%2A&dsess_selector=div.col-lg-8+div.card-body&dsess_extractor=.%2A%3Cp%3EGenre%5C%28s%5C%29%3A%28.%2A%29%3C%5C%2Fp%3E"
+    ],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": true,
+    "customBoxArtAspectRatio": "1:1.22",
+    "screenAspectRatioId": 0,
+    "useCustomScreenAspectRatio": true,
+    "customScreenAspectRatio": "16:9",
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "ps3 - aPS3e",
+      "uniqueId": "ps3.aenu.aps3e",
+      "description": "Supported extensions: iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e iso_uri {file.uri}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps3 - aPS3e (Folder Style)",
+      "uniqueId": "ps3.aenu.aps3e.folder",
+      "description": "Supported extensions: ps3.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
+      "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e game_dir {tags.ps3folder}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
+  ]
+}

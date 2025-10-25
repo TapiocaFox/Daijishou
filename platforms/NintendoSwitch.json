@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 17,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -117,6 +117,26 @@
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
       "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
       "amStartArguments": "-n org.citron.citron_emu/org.citron.citron_emu.activities.EmulationActivity\n  -a android.nfc.action.TECH_DISCOVERED\n  -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "switch - Kenji-NX",
+      "uniqueId": "switch.org.kenjinx.android",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n org.kenjinx.android/.MainActivity\n -a org.kenjinx.android.LAUNCH_GAME\n -e bootPath {file.uri}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "switch - Benji-SC",
+      "uniqueId": "switch.org.benjisc.android",
+      "description": "Supported extensions: nro, nso, nca, xci, nsp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "amStartArguments": "-n org.benjisc.android/org.kenjinx.android.MainActivity\n -a org.kenjinx.android.LAUNCH_GAME\n -e bootPath {file.uri}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
