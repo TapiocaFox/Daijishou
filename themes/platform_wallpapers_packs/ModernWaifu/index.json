@@ -418,6 +418,11 @@
       "filename": "ps2.png"
     },
     {
+      "matchPlatformShortname": "ps3",
+      "matchPlatformUniqueId": "ps3",
+      "filename": "ps3.png"
+    },
+    {
       "matchPlatformShortname": "psp",
       "matchPlatformUniqueId": "psp",
       "filename": "psp.png"
@@ -506,6 +511,11 @@
       "matchPlatformShortname": "windows",
       "matchPlatformUniqueId": "windows",
       "filename": "windows.png"
+    },
+    {
+      "matchPlatformShortname": "steam",
+      "matchPlatformUniqueId": "steam",
+      "filename": "steam.png"
     },
     {
       "matchPlatformShortname": "ebook",
