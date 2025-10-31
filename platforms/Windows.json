@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -57,6 +57,16 @@
       "description": "Supported extensions: lnk",
       "acceptedFilenameRegex": "^(.*)\\.(?:lnk)$",
       "amStartArguments": "-n com.micewine.emu/com.micewine.emu.activities.MainActivity\n -e exePath {file.path}\n  --activity-clear-task\n  --activity-clear-top\n  --activity-no-history",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games)",
+      "uniqueId": "windows.gamehub.lite.local",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
