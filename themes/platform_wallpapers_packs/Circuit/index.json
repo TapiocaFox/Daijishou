@@ -267,6 +267,11 @@
       "filename": "segacd.jpg"
     },
     {
+      "matchPlatformShortname": "steam",
+      "matchPlatformUniqueId": "steam",
+      "filename": "steam.jpg"
+    },
+    {
       "matchPlatformShortname": "genesis",
       "matchPlatformUniqueId": "genesis",
       "filename": "genesis.jpg"
