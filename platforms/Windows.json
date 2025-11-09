@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -67,6 +67,36 @@
       "description": "Supported extensions: localgameid",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
       "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games - Antutu)",
+      "uniqueId": "windows.gamehub.lite.local.antutu",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games - PUBG)",
+      "uniqueId": "windows.gamehub.lite.local.pubg",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - GameHub Lite (Local Games - Ludashi)",
+      "uniqueId": "windows.gamehub.lite.ludashi",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -345,6 +345,13 @@
       "revisionNumber": 1
     },
     {
+      "filename": "Moonlight.json",
+      "platformName": "Moonlight Streaming",
+      "platformShortname": "moonlight",
+      "platformUniqueId": "moonlight",
+      "revisionNumber": 3
+    },
+    {
       "filename": "NECPC60.json",
       "platformName": "NEC PC-60",
       "platformShortname": "pc60",
@@ -678,7 +685,7 @@
       "platformName": "Steam",
       "platformShortname": "steam",
       "platformUniqueId": "steam",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SuperCassetteVision.json",
@@ -797,7 +804,7 @@
       "platformName": "Windows",
       "platformShortname": "windows",
       "platformUniqueId": "windows",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "WonderSwan.json",
