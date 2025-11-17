@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "GameCube",
     "uniqueId": "gc",
@@ -70,7 +70,7 @@
       "name": "gc - org.dolphinemu.dolphinemu",
       "uniqueId": "gc.org.dolphinemu.dolphinemu",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz|m3u)$",
       "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
@@ -97,11 +97,21 @@
       "extra": ""
     },
     {
+      "name": "gc - Dolphin (Debug Build)",
+      "uniqueId": "gc.org.dolphinemu.dolphinemu.debug",
+      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz|m3u)$",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "gc - RetroArch 64 - dolphin",
       "uniqueId": "gc.ra64.dolphin",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|m3u|rvz|tgc|wad|wbfs|wia)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/dolphin_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch.aarch64/cores/dolphin_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch.aarch64\n  -e APK /data/app/com.retroarch.aarch64-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch.aarch64/files\n --activity-new-task\n --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -111,7 +121,7 @@
       "uniqueId": "gc.ra.dolphin",
       "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, m3u, rvz, tgc, wad, wbfs, wia",
       "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|m3u|rvz|tgc|wad|wbfs|wia)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/dolphin_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO /data/data/com.retroarch/cores/dolphin_libretro_android.so\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  -e IME com.android.inputmethod.latin/.LatinIME\n  -e DATADIR /data/data/com.retroarch\n  -e APK /data/app/com.retroarch-1/base.apk\n  -e SDCARD /storage/emulated/0\n  -e EXTERNAL /storage/emulated/0/Android/data/com.retroarch/files\n --activity-new-task\n --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

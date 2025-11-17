@@ -286,7 +286,7 @@
       "platformName": "GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 11
+      "revisionNumber": 12
     },
     {
       "filename": "Intellivision.json",
@@ -468,7 +468,7 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "NintendoWiiU.json",
@@ -482,7 +482,7 @@
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "Oric.json",
@@ -671,7 +671,7 @@
       "platformName": "Sony PlayStation 2",
       "platformShortname": "ps2",
       "platformUniqueId": "ps2",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "SonyPlayStation3.json",
