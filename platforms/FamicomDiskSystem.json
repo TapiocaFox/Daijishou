@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Famicom Disk System",
     "uniqueId": "fds",
@@ -18,7 +18,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsConsoleIdList": [],
+    "retroAchievementsConsoleIdList": [
+      81
+    ],
     "extra": ""
   },
   "playerList": [
