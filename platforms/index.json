@@ -237,7 +237,7 @@
       "platformName": "Famicom Disk System",
       "platformShortname": "fds",
       "platformUniqueId": "fds",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "FinalBurnNeo.json",
