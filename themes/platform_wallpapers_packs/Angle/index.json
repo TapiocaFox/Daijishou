@@ -152,6 +152,11 @@
       "filename": "satellaview.png"
     },
     {
+      "matchPlatformShortname": "steam",
+      "matchPlatformUniqueId": "steam",
+      "filename": "steam.png"
+    },
+    {
       "matchPlatformShortname": "scummvm",
       "matchPlatformUniqueId": "scummvm",
       "filename": "summvm.png"
