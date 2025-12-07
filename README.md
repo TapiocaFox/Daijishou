@@ -27,6 +27,9 @@ Daijishō is currently **closed-source**. This repo is for assets and served as 
     <img src="https://img.shields.io/static/v1?label=release+note&message=1.4&style=flat">
 </a>
 
+### The Team
+[@TapiocaFox](https://github.com/TapiocaFox) • [@Post-Mortem](https://github.com/Post-Mortem) • [@Jetup13](https://github.com/Jetup13) • [@official-wizard](https://github.com/official-wizard)
+
 # Make the Most of Daijishō
  1. ***Install preferred emulators***, apps first, then Daijishō will take care of the rest
  2. ***Setup hotkeys*** for better and intuitive navigation
@@ -135,4 +138,4 @@ Daijishō evolved a lot in 2022. Including UI improvements, retro achievements, 
 <!-- [Patreon](https://www.patreon.com/magneticchen) -->
 
 # Copyright
-Copyright©2025 TapiocaFox. Designed in Taiwan.
+`© 2025 [ TapiocaFox | ||`
