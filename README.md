@@ -122,7 +122,7 @@ Daijishō evolved a lot in 2022. Including UI improvements, retro achievements, 
  - [Daijishō (台字章) History Wikipedia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%B8%BD%E7%9D%A3%E5%BA%9C%E6%96%87%E5%AE%98%E6%9C%8D%E8%A3%9D)
 
 ### Special thanks
-[@MonkoftheFunk](https://www.github.com/MonkoftheFunk) Who helped with Daijishō wallpaper gallery.
+[@MonkoftheFunk](https://www.github.com/MonkoftheFunk) Who helped with the Daijishō wallpaper gallery.
 
 @iShade Who created a lots of conceptual art for Daijishō. And helped a lot with the early stage of Daijishō.
 
