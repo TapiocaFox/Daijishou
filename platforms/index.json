@@ -345,6 +345,13 @@
       "revisionNumber": 1
     },
     {
+      "filename": "MicrosoftXbox360.json",
+      "platformName": "Microsoft - XBox 360",
+      "platformShortname": "xbox360",
+      "platformUniqueId": "xbox360",
+      "revisionNumber": 1
+    },
+    {
       "filename": "Moonlight.json",
       "platformName": "Moonlight Streaming",
       "platformShortname": "moonlight",

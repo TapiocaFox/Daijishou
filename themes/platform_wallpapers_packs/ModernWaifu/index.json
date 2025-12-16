@@ -526,6 +526,11 @@
       "matchPlatformShortname": "xcloud",
       "matchPlatformUniqueId": "xcloud",
       "filename": "xcloud.png"
+    },
+    {
+      "matchPlatformShortname": "xbox360",
+      "matchPlatformUniqueId": "xbox360",
+      "filename": "xbox360.png"
     }
   ]
 }
