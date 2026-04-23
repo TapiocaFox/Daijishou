@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Sega Saturn",
     "uniqueId": "saturn",
@@ -105,6 +105,16 @@
       "extra": ""
     },
     {
+      "name": "saturn - RetroArch 64 - ymir",
+      "uniqueId": "saturn.ra64.ymir",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|iso|m3u|mds)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ymir\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "saturn - RetroArch 32 - beetle saturn",
       "uniqueId": "saturn.ra32.mednafen_saturn",
       "description": "Supported extensions: ccd, chd, cue, m3u, toc.",
@@ -160,6 +170,16 @@
       "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|ccd|chd|cue|iso|m3u|mds|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO yabause\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "saturn - RetroArch - ymir",
+      "uniqueId": "saturn.ra.ymir",
+      "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|iso|m3u|mds)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ymir\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
