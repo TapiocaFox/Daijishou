@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Sony PS Vita",
     "uniqueId": "vita",
@@ -24,6 +24,7 @@
   "playerList": [
     {
       "name": "vita - vita3k",
+	  "uniqueId": "vita.org.vita3k.emulator",
       "description": "Supported extensions: dpt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
       "amStartArguments": "-n org.vita3k.emulator/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
@@ -33,9 +34,20 @@
     },
     {
       "name": "vita - vita3k zx",
+	  "uniqueId": "vita.org.vita3k.emulator.ikhoeyZX",
       "description": "Supported extensions: dpt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
       "amStartArguments": "-n org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "vita - EmuCoreV",
+	  "uniqueId": "vita.com.sbro.emucorev",
+      "description": "Supported extensions: dpt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
+      "amStartArguments": "-n com.sbro.emucorev/.core.vita.Emulator\n -a com.sbro.emucorev.action.LAUNCH\n --es titleId {tags.vita_game_id}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
