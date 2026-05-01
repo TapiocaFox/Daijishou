@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -136,7 +136,17 @@
       "uniqueId": "windows.app.gamenative.amazon",
       "description": "GameNative",
       "acceptedFilenameRegex": "^(.*)\\.(?:amazon)$",
-      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.customgame}\n --es game_source AMAZON\n",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.amazon}\n --es game_source AMAZON\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+	{
+      "name": "windows - GameNative (Steam)",
+      "uniqueId": "windows.app.gamenative.steam",
+      "description": "GameNative",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.steamappid}\n --es game_source STEAM\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

@@ -685,7 +685,7 @@
       "platformName": "Steam",
       "platformShortname": "steam",
       "platformUniqueId": "steam",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "SuperGrafx.json",
@@ -790,7 +790,7 @@
       "platformName": "Windows",
       "platformShortname": "windows",
       "platformUniqueId": "windows",
-      "revisionNumber": 11
+      "revisionNumber": 12
     },
     {
       "filename": "WonderSwan.json",
