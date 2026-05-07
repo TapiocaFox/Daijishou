@@ -115,7 +115,7 @@
       "name": "windows - GameNative (EpicStore)",
       "uniqueId": "windows.app.gamenative.epic",
       "description": "GameNative",
-      "acceptedFilenameRegex": "^(.*)\\.(?:epicgame)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:epic)$",
       "amStartArguments": "-a app.gamenative.LAUNCH_GAME\n -n app.gamenative/.MainActivity\n --ei app_id {tags.epicgame}\n --es game_source EPIC\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
