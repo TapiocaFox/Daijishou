@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Windows",
     "uniqueId": "windows",
@@ -97,6 +97,16 @@
       "description": "Supported extensions: localgameid",
       "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
       "amStartArguments": "-a gamehub.lite.LAUNCH_GAME\n -n com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "windows - BannerHub (Normal - Local Games)",
+      "uniqueId": "windows.banner.hub.local",
+      "description": "Supported extensions: localgameid",
+      "acceptedFilenameRegex": "^(.*)\\.(?:localgameid)$",
+      "amStartArguments": "-a banner.hub.LAUNCH_GAME\n -n banner.hub/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es localGameId {tags.localgameid}\n --ez autoStartGame true",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
