@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Steam",
     "uniqueId": "steam",
@@ -67,6 +67,16 @@
       "description": "BannerHub",
       "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
       "amStartArguments": "-a banner.hub.LAUNCH_GAME\n -n banner.hub/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "steam - BannerHub Lite (Normal)",
+      "uniqueId": "steam.banner.hub.lite",
+      "description": "BannerHub Lite",
+      "acceptedFilenameRegex": "^(.*)\\.(?:steamappid)$",
+      "amStartArguments": "-a banner.hub.lite.LAUNCH_GAME\n -n banner.hub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity\n --es steamAppId {tags.steamappid}\n --ez autoStartGame true",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
