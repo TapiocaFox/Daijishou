@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -38,6 +38,16 @@
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xbla)$",
       "amStartArguments": "-n aenu.ax360e.free/aenu.ax360e.EmulatorActivity\n -a aenu.intent.action.AX360E\n -e game_uri {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - X360 Mobile",
+      "uniqueId": "xbox360.emu.x360.mobile",
+      "description": "",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xiso)$",
+      "amStartArguments": "-n emu.x360.mobile/.X360MobileGameLaunchActivity\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
