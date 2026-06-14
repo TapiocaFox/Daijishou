@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -46,7 +46,7 @@
       "name": "xbox360 - X360 Mobile",
       "uniqueId": "xbox360.emu.x360.mobile",
       "description": "",
-      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xiso)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|xex)$",
       "amStartArguments": "-n emu.x360.mobile/.X360MobileGameLaunchActivity\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
