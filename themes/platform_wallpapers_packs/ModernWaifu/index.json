@@ -551,6 +551,11 @@
       "matchPlatformShortname": "xbox",
       "matchPlatformUniqueId": "xbox",
       "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "ports",
+      "matchPlatformUniqueId": "ports",
+      "filename": "ports.png"
     }
   ]
 }
