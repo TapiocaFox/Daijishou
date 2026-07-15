@@ -1,0 +1,32 @@
+{
+  "databaseVersion": 14,
+  "revisionNumber": 1,
+  "platform": {
+    "name": "Flash Player",
+    "uniqueId": "flash",
+    "shortname": "flash",
+    "description": null,
+    "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
+    "scraperSourceList": [],
+    "boxArtAspectRatioId": 2,
+    "useCustomBoxArtAspectRatio": false,
+    "customBoxArtAspectRatio": null,
+    "screenAspectRatioId": 1,
+    "useCustomScreenAspectRatio": false,
+    "customScreenAspectRatio": null,
+    "retroAchievementsAlias": null,
+    "extra": ""
+  },
+  "playerList": [
+    {
+      "name": "flash - Swiff",
+      "uniqueId": "flash.io.navivani.swiff",
+      "description": "Supported extensions: swiffid.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:swiffid)$",
+      "amStartArguments": "-a android.intent.action.VIEW\n -n io.navivani.swiff/.MainActivity\n -d {file.uri}\n -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    }
+  ]
+}

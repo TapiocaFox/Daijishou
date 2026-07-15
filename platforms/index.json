@@ -240,6 +240,13 @@
       "revisionNumber": 10
     },
     {
+      "filename": "FlashPlayer.json",
+      "platformName": "Flash Player",
+      "platformShortname": "flash",
+      "platformUniqueId": "flash",
+      "revisionNumber": 1
+    },
+    {
       "filename": "FlashbackGameEngine.json",
       "platformName": "Flashback Game Engine",
       "platformShortname": "flashback",
