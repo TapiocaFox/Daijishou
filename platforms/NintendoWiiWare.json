@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Nintendo WiiWare",
     "uniqueId": "wiiware",
@@ -122,6 +122,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dolphin\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wiiware - DolphinCS",
+      "uniqueId": "wiiware.com.joeyos.dolphinemu",
+      "description": "DolphinCS (Custom Storage) fork. Supported extensions: wad.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:wad)$",
+      "amStartArguments": "-n com.joeyos.dolphinemu/org.dolphinemu.dolphinemu.ui.main.MainActivity\n -a android.intent.action.MAIN\n -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
