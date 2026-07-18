@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 1,
+  "revisionNumber": 2,
   "platform": {
     "name": "Flash Player",
     "uniqueId": "flash",
@@ -24,6 +24,36 @@
       "description": "Supported extensions: swiffid.",
       "acceptedFilenameRegex": "^(.*)\\.(?:swiffid)$",
       "amStartArguments": "-a android.intent.action.VIEW\n -n io.navivani.swiff/.MainActivity\n -d {file.uri}\n -t application/octet-stream",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "flash - Ruffle",
+      "uniqueId": "flash.rs.ruffle",
+      "description": "Supported extensions: swf",
+      "acceptedFilenameRegex": "^(.*)\\.(?:swf)$",
+      "amStartArguments": " -n rs.ruffle/.PlayerActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "flash - SWF Player",
+      "uniqueId": "flash.com.issess.flashplayer",
+      "description": "Supported extensions: swf",
+      "acceptedFilenameRegex": "^(.*)\\.(?:swf)$",
+      "amStartArguments": " -n com.issess.flashplayer/.player.FlashPlayerActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "flash - SWF Player Pro",
+      "uniqueId": "flash.com.issess.flashplayerpro",
+      "description": "Supported extensions: swf",
+      "acceptedFilenameRegex": "^(.*)\\.(?:swf)$",
+      "amStartArguments": " -n com.issess.flashplayerpro/com.issess.flashplayer.player.FlashPlayerActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task  --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
