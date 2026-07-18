@@ -454,7 +454,7 @@
       "platformName": "Nintendo - GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 18
+      "revisionNumber": 19
     },
     {
       "filename": "NintendoSatellaview.json",
@@ -475,7 +475,7 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 16
+      "revisionNumber": 17
     },
     {
       "filename": "NintendoWiiU.json",
@@ -489,7 +489,7 @@
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "PICO8.json",
@@ -734,7 +734,7 @@
       "platformName": "Triforce",
       "platformShortname": "triforce",
       "platformUniqueId": "triforce",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "TurboGrafx16.json",
