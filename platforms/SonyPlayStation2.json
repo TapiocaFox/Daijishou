@@ -67,7 +67,7 @@
       "uniqueId": "ps2.come.nanodata.armsx2",
       "description": "Supported extensions: iso, chd, gz.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin|ciso|img)$",
-      "amStartArguments": "-n come.nanodata.armsx2/kr.co.iefriends.pcsx2.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top\n ",
+      "amStartArguments": "-n come.nanodata.armsx2/com.armsx2.Main\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top\n ",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -87,7 +87,7 @@
       "uniqueId": "ps2.com.armsx2",
       "description": "Supported extensions: bin, iso, chd, gz.",
       "acceptedFilenameRegex": "^(.*).(?:iso|chd|gz|mdf|bin|ciso|img)$",
-      "amStartArguments": "-n com.armsx2/.Main\n -a android.intent.action.VIEW\n -d {file.uri}\n",
+      "amStartArguments": "-n com.armsx2/com.armsx2.Main\n -a android.intent.action.VIEW\n -d {file.uri}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
