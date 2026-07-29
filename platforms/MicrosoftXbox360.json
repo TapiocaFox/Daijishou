@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Microsoft - XBox 360",
     "uniqueId": "xbox360",
@@ -48,6 +48,16 @@
       "description": "",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso|xex)$",
       "amStartArguments": "-n emu.x360.mobile/.X360MobileGameLaunchActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - xendroid",
+      "uniqueId": "xbox360.xendroid.composee",
+      "description": "",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n xendroid.compose/.EmulatorHostActivity\n -e game_uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""
