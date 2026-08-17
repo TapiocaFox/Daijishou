@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Sony PlayStation 3",
     "uniqueId": "ps3",
@@ -37,6 +37,16 @@
       "description": "Supported extensions: ps3.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
       "amStartArguments": "-n aenu.aps3e/aenu.aps3e.EmulatorActivity\n -a aenu.intent.action.APS3E\n -e game_dir {tags.ps3folder}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps3 - ARMSX3",
+      "uniqueId": "ps3.com.armsx3",
+      "description": "Supported extensions: iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n ccom.armsx3/com.armsx2.Main\n -d {file.path}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
