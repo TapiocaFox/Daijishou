@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 5,
   "platform": {
     "name": "Sony PlayStation 3",
     "uniqueId": "ps3",
@@ -46,7 +46,7 @@
       "uniqueId": "ps3.com.armsx3",
       "description": "Supported extensions: iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
-      "amStartArguments": "-n ccom.armsx3/com.armsx2.Main\n -d {file.path}\n",
+      "amStartArguments": "-n com.armsx3/com.armsx2.Main\n -d {file.path}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
