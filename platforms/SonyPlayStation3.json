@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "Sony PlayStation 3",
     "uniqueId": "ps3",
@@ -53,10 +53,20 @@
     },
     {
       "name": "ps3 - ARMSX3 (Folder Style)",
-      "uniqueId": "ps3.com.armsx3",
-      "description": "Supported extensions: iso.",
+      "uniqueId": "ps3.com.armsx3.folder",
+      "description": "Supported extensions: folder path.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ps3folder)$",
       "amStartArguments": "-n com.armsx3/com.armsx2.Main\n -e path {tags.ps3folder}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps3 - ARMSX3 (Title ID)",
+      "uniqueId": "ps3.com.armsx3.titleid",
+      "description": "Supported extensions: title id.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ps3titleid)$",
+      "amStartArguments": "-n com.armsx3/com.armsx2.Main\n --es title_id {tags.ps3_title_id}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
