@@ -527,6 +527,21 @@
       "filename": "wiiu.jpg"
     },
     {
+      "matchPlatformShortname": "xbox",
+      "matchPlatformUniqueId": "xbox",
+      "filename": "xbox.png"
+    },
+    {
+      "matchPlatformShortname": "xbox360",
+      "matchPlatformUniqueId": "xbox360",
+      "filename": "xbox360.png"
+    },
+    {
+      "matchPlatformShortname": "xcloud",
+      "matchPlatformUniqueId": "xcloud",
+      "filename": "xcloud.png"
+    },
+    {
       "matchPlatformShortname": "tgcd",
       "matchPlatformUniqueId": "tgcd",
       "filename": "tgcd.jpg"
