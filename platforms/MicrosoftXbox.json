@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "Microsoft - Xbox",
     "uniqueId": "xbox",
@@ -29,7 +29,7 @@
       "uniqueId": "xbox.com.izzy2lost.x1box",
       "description": "Supported extensions: xiso, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:xiso|iso)$",
-      "amStartArguments": "-n com.izzy2lost.x1box/.LauncherActivity\n-d {file.uri}",
+      "amStartArguments": "-n com.izzy2lost.x1box/.LauncherActivity\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -39,7 +39,27 @@
       "uniqueId": "xbox.com.rfandango.haku_x",
       "description": "Supported extensions: xiso, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:xiso|iso)$",
-      "amStartArguments": "-n com.rfandango.haku_x/.LauncherActivity\n-d {file.uri}",
+      "amStartArguments": "-n com.rfandango.haku_x/.LauncherActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox - Xenra (Gold)",
+      "uniqueId": "xbox.ali.Xanite",
+      "description": "Supported extensions: xiso, iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:xiso|iso)$",
+      "amStartArguments": "-n Ali.Xanite/.LauncherActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox - Xenra (Green)",
+      "uniqueId": "xbox.ali.Xanite.green",
+      "description": "Supported extensions: xiso, iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:xiso|iso)$",
+      "amStartArguments": "-n Ali.Xanite.green/Ali.Xanite.LauncherActivity\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

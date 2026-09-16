@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Sony PS Vita",
     "uniqueId": "vita",
@@ -38,6 +38,16 @@
       "description": "Supported extensions: dpt.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
       "amStartArguments": "-n org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "vita - vita3k+",
+	  "uniqueId": "vita.org.vita3kplus.emulator",
+      "description": "Supported extensions: dpt.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dpt)$",
+      "amStartArguments": "-n org.vita3kplus.emulator/org.vita3k.emulator.Emulator\n --esa AppStartParameters -r,{tags.vita_game_id}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

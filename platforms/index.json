@@ -314,14 +314,14 @@
       "platformName": "Microsoft - Xbox",
       "platformShortname": "xbox",
       "platformUniqueId": "xbox",
-      "revisionNumber": 5
+      "revisionNumber": 6
     },
     {
       "filename": "MicrosoftXbox360.json",
       "platformName": "Microsoft - Xbox 360",
       "platformShortname": "xbox360",
       "platformUniqueId": "xbox360",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "Moonlight.json",
@@ -622,7 +622,7 @@
       "platformName": "Sega Model 3",
       "platformShortname": "model3",
       "platformUniqueId": "model3",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "SegaNAOMI.json",
@@ -671,7 +671,7 @@
       "platformName": "Sony PS Vita",
       "platformShortname": "vita",
       "platformUniqueId": "vita",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "SonyPlayStation.json",
@@ -685,14 +685,14 @@
       "platformName": "Sony PlayStation 2",
       "platformShortname": "ps2",
       "platformUniqueId": "ps2",
-      "revisionNumber": 19
+      "revisionNumber": 20
     },
     {
       "filename": "SonyPlayStation3.json",
       "platformName": "Sony PlayStation 3",
       "platformShortname": "ps3",
       "platformUniqueId": "ps3",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "Steam.json",

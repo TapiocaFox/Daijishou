@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Sega Model 3",
     "uniqueId": "model3",
@@ -33,6 +33,36 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:zip)$",
       "amStartArguments": "-n com.izzy2lost.super3/.MainActivity\n-d {file.uri}",
       "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps2 - RetroArch 64 - Supermodel",
+      "uniqueId": "ps2.ra64.supermodel",
+      "description": "Supported extensions: zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO supermodel\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps2 - RetroArch 32 - Supermodel",
+      "uniqueId": "ps2.ra32.supermodel",
+      "description": "Supported extensions: zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO supermodel\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps2 - RetroArch - Supermodel",
+      "uniqueId": "ps2.ra.supermodel",
+      "description": "Supported extensions: zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO supermodel\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

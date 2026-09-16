@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Microsoft - Xbox 360",
     "uniqueId": "xbox360",
@@ -70,6 +70,26 @@
       "amStartArguments": "-n xendroid.compose/.EmulatorHostActivity\n -e game_uri {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - Xenra (Gold)",
+      "uniqueId": "xbox360.ali.Xanite",
+      "description": "Supported extensions: .iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n Ali.Xanite/.LauncherActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - Xenra (Green)",
+      "uniqueId": "xbox360.ali.Xanite.green",
+      "description": "Supported extensions: .iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n Ali.Xanite.green/Ali.Xanite.LauncherActivity\n -d {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
       "extra": ""
     }
   ]

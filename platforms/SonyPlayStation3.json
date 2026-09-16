@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Sony PlayStation 3",
     "uniqueId": "ps3",
@@ -67,6 +67,26 @@
       "description": "Supported extensions: title id.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ps3titleid)$",
       "amStartArguments": "-n com.armsx3/com.armsx2.Main\n --es title_id {tags.ps3_title_id}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps3 - EmuCoreC",
+      "uniqueId": "ps3.com.sbro.emucorec",
+      "description": "Supported extensions: iso.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
+      "amStartArguments": "-n com.sbro.emucorec/.core.ps3.Emulator\n -d {file.path}\n",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ps3 - EmuCoreC (Title ID)",
+      "uniqueId": "ps3.com.sbro.emucorec.titleid",
+      "description": "Supported extensions: title id.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ps3titleid)$",
+      "amStartArguments": "-n com.sbro.emucorec/.core.ps3.Emulator\n -e titleID {tags.ps3_title_id}\n",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
