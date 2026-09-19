@@ -398,6 +398,11 @@
       "filename": "saturn.png"
     },
     {
+      "matchPlatformShortname": "stv",
+      "matchPlatformUniqueId": "stv",
+      "filename": "stv.png"
+    },
+    {
       "matchPlatformShortname": "dreamcast",
       "matchPlatformUniqueId": "dreamcast",
       "filename": "dreamcast.png"

@@ -653,6 +653,13 @@
       "revisionNumber": 14
     },
     {
+      "filename": "SegaTitanVideo.json",
+      "platformName": "Sega Titan Video",
+      "platformShortname": "stv",
+      "platformUniqueId": "stv",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SharpX1.json",
       "platformName": "Sharp X1",
       "platformShortname": "x1",
