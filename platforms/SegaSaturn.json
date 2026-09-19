@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "Sega Saturn",
     "uniqueId": "saturn",
@@ -105,7 +105,7 @@
       "extra": ""
     },
     {
-      "name": "saturn - RetroArch 64 - ymir",
+      "name": "saturn - RetroArch 64 - emir",
       "uniqueId": "saturn.ra64.ymir",
       "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|iso|m3u|mds)$",
@@ -175,7 +175,7 @@
       "extra": ""
     },
     {
-      "name": "saturn - RetroArch - ymir",
+      "name": "saturn - RetroArch - emir",
       "uniqueId": "saturn.ra.ymir",
       "description": "Supported extensions: bin, ccd, chd, cue, iso, m3u, mds, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|iso|m3u|mds)$",

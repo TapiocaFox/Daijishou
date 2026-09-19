@@ -650,7 +650,7 @@
       "platformName": "Sega Saturn",
       "platformShortname": "saturn",
       "platformUniqueId": "saturn",
-      "revisionNumber": 14
+      "revisionNumber": 15
     },
     {
       "filename": "SegaTitanVideo.json",
@@ -685,7 +685,7 @@
       "platformName": "Sony PlayStation",
       "platformShortname": "psx",
       "platformUniqueId": "psx",
-      "revisionNumber": 13
+      "revisionNumber": 14
     },
     {
       "filename": "SonyPlayStation2.json",
