@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
-    "name": "PlayStation Portable",
+    "name": "Sony PSP",
     "uniqueId": "psp",
     "shortname": "psp",
     "description": null,
@@ -48,6 +48,16 @@
       "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
       "amStartArguments": "-n org.ppsspp.ppsspplegacy/org.ppsspp.ppsspp.PpssppActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --activity-clear-task  --activity-clear-top  --activity-no-history",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "psp - EmuCoreA",
+      "uniqueId": "psp.com.sbro.emucorea",
+      "description": "Supported extensions: cso, chd, elf, iso, pbp, prx.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
+      "amStartArguments": "-n com.sbro.emucorea/.MainActivity\n -a com.sbro.emucorea.extra.GAME_PATH\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

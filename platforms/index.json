@@ -212,13 +212,6 @@
       "revisionNumber": 6
     },
     {
-      "filename": "Dreamcast.json",
-      "platformName": "Dreamcast",
-      "platformShortname": "dreamcast",
-      "platformUniqueId": "dreamcast",
-      "revisionNumber": 10
-    },
-    {
       "filename": "ElektorTVGamesComputer.json",
       "platformName": "Elektor TV Games Computer",
       "platformShortname": "elektor",
@@ -520,20 +513,6 @@
       "revisionNumber": 5
     },
     {
-      "filename": "PlayStationPortable.json",
-      "platformName": "PlayStation Portable",
-      "platformShortname": "psp",
-      "platformUniqueId": "psp",
-      "revisionNumber": 14
-    },
-    {
-      "filename": "PlayStationPortableMinis.json",
-      "platformName": "PlayStation Portable Minis",
-      "platformShortname": "pspminis",
-      "platformUniqueId": "pspminis",
-      "revisionNumber": 7
-    },
-    {
       "filename": "PokemonMini.json",
       "platformName": "Pokemon Mini",
       "platformShortname": "pokemini",
@@ -588,6 +567,13 @@
       "platformShortname": "segacd",
       "platformUniqueId": "segacd",
       "revisionNumber": 8
+    },
+    {
+      "filename": "SegaDreamcast.json",
+      "platformName": "Sega Dreamcast",
+      "platformShortname": "dreamcast",
+      "platformUniqueId": "dreamcast",
+      "revisionNumber": 11
     },
     {
       "filename": "SegaGameGear.json",
@@ -672,6 +658,20 @@
       "platformShortname": "x68000",
       "platformUniqueId": "x68000",
       "revisionNumber": 6
+    },
+    {
+      "filename": "SonyPSP.json",
+      "platformName": "Sony PSP",
+      "platformShortname": "psp",
+      "platformUniqueId": "psp",
+      "revisionNumber": 15
+    },
+    {
+      "filename": "SonyPSPMinis.json",
+      "platformName": "Sony PSP Minis",
+      "platformShortname": "pspminis",
+      "platformUniqueId": "pspminis",
+      "revisionNumber": 8
     },
     {
       "filename": "SonyPSVita.json",

@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
-    "name": "Dreamcast",
+    "name": "Sega Dreamcast",
     "uniqueId": "dreamcast",
     "shortname": "dreamcast",
     "description": null,
@@ -23,7 +23,7 @@
   },
   "playerList": [
     {
-      "name": "dreamcast - io.recompiled.redream",
+      "name": "dreamcast - Redream",
       "uniqueId": "dreamcast.io.recompiled.redream",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|m3u|zip)$",
@@ -33,7 +33,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - com.reicast.emulator",
+      "name": "dreamcast - Reicast",
       "uniqueId": "dreamcast.com.reicast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
@@ -43,7 +43,7 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - com.flycast.emulator",
+      "name": "dreamcast - Flycast",
       "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
@@ -53,11 +53,21 @@
       "extra": ""
     },
     {
-      "name": "dreamcast - com.flycast.emulator (dev build)",
+      "name": "dreamcast - Flycast (dev build)",
       "uniqueId": "dreamcast.com.flycast.emulator",
       "description": "Supported extensions: 7z, bin, cdi, chd, cue, elf, gdi, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|bin|cdi|chd|cue|elf|gdi|lst|zip)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n -a android.intent.action.VIEW\n -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "dreamcast - EmuCoreH",
+      "uniqueId": "dreamcast.com.sbro.emucoreh",
+      "description": "Supported extensions: cdi, chd, cue, gdi, m3u.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:cdi|chd|cue|gdi|m3u)$",
+      "amStartArguments": "-n com.sbro.emucoreh/.MainActivity\n -a com.sbro.emucoreh.extra.GAME_PATH\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
