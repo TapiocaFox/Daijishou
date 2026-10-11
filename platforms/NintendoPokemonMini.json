@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
-    "name": "Pokemon Mini",
+    "name": "Nintendo - Pokemon Mini",
     "uniqueId": "pokemini",
     "shortname": "pokemini",
     "description": null,

@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
-    "name": "Super Nintendo Entertainment System - MSU-1",
+    "name": "Nintendo - SNES MSU-1",
     "uniqueId": "snesmsu1",
     "shortname": "snesmsu1",
     "description": null,

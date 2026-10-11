@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
-    "name": "Triforce",
+    "name": "Arcade (Triforce)",
     "uniqueId": "triforce",
     "shortname": "triforce",
     "description": null,

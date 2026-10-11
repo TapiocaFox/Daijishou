@@ -37,6 +37,20 @@
       "revisionNumber": 9
     },
     {
+      "filename": "ArcadeNamco246256.json",
+      "platformName": "Arcade (Namco 246/256)",
+      "platformShortname": "namcops2",
+      "platformUniqueId": "namcops2",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "ArcadeTriforce.json",
+      "platformName": "Arcade (Triforce)",
+      "platformShortname": "triforce",
+      "platformUniqueId": "triforce",
+      "revisionNumber": 4
+    },
+    {
       "filename": "Arcadia2001.json",
       "platformName": "Arcadia 2001",
       "platformShortname": "arcadia",
@@ -398,7 +412,7 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 15
+      "revisionNumber": 16
     },
     {
       "filename": "NintendoDSi.json",
@@ -448,6 +462,27 @@
       "platformShortname": "gc",
       "platformUniqueId": "gc",
       "revisionNumber": 19
+    },
+    {
+      "filename": "NintendoPokemonMini.json",
+      "platformName": "Nintendo - Pokemon Mini",
+      "platformShortname": "pokemini",
+      "platformUniqueId": "pokemini",
+      "revisionNumber": 7
+    },
+    {
+      "filename": "NintendoSNES.json",
+      "platformName": "Nintendo - SNES",
+      "platformShortname": "snes",
+      "platformUniqueId": "snes",
+      "revisionNumber": 13
+    },
+    {
+      "filename": "NintendoSNESMSU1.json",
+      "platformName": "Nintendo - SNES MSU-1",
+      "platformShortname": "snesmsu1",
+      "platformUniqueId": "snesmsu1",
+      "revisionNumber": 7
     },
     {
       "filename": "NintendoSatellaview.json",
@@ -511,13 +546,6 @@
       "platformShortname": "g7400",
       "platformUniqueId": "g7400",
       "revisionNumber": 5
-    },
-    {
-      "filename": "PokemonMini.json",
-      "platformName": "Pokemon Mini",
-      "platformShortname": "pokemini",
-      "platformUniqueId": "pokemini",
-      "revisionNumber": 6
     },
     {
       "filename": "Ports.json",
@@ -716,31 +744,10 @@
       "revisionNumber": 6
     },
     {
-      "filename": "SuperNintendoEntertainmentSystem.json",
-      "platformName": "Super Nintendo Entertainment System",
-      "platformShortname": "snes",
-      "platformUniqueId": "snes",
-      "revisionNumber": 13
-    },
-    {
-      "filename": "SuperNintendoEntertainmentSystemMSU1.json",
-      "platformName": "Super Nintendo Entertainment System - MSU-1",
-      "platformShortname": "snesmsu1",
-      "platformUniqueId": "snesmsu1",
-      "revisionNumber": 6
-    },
-    {
       "filename": "TIC80.json",
       "platformName": "TIC-80",
       "platformShortname": "tic80",
       "platformUniqueId": "tic80",
-      "revisionNumber": 3
-    },
-    {
-      "filename": "Triforce.json",
-      "platformName": "Triforce",
-      "platformShortname": "triforce",
-      "platformUniqueId": "triforce",
       "revisionNumber": 3
     },
     {
