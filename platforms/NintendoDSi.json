@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "Nintendo DSi",
     "uniqueId": "ndsi",
@@ -71,6 +71,16 @@
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
       "amStartArguments": "-a me.magnum.melonds.dev.LAUNCH_ROM\n-n me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - SeedlessDS",
+      "uniqueId": "ndsi.com.seedlessds.app",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.seedlessds.app/.LaunchGame\n-e rom_path {file.path}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": false,
       "extra": ""

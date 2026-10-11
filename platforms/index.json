@@ -412,14 +412,14 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 16
+      "revisionNumber": 17
     },
     {
       "filename": "NintendoDSi.json",
       "platformName": "Nintendo DSi",
       "platformShortname": "ndsi",
       "platformUniqueId": "ndsi",
-      "revisionNumber": 14
+      "revisionNumber": 15
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
