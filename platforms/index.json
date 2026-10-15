@@ -499,6 +499,13 @@
       "revisionNumber": 22
     },
     {
+      "filename": "NintendoVirtualBoy.json",
+      "platformName": "Nintendo - Virtual Boy",
+      "platformShortname": "virtualboy",
+      "platformUniqueId": "virtualboy",
+      "revisionNumber": 8
+    },
+    {
       "filename": "NintendoWii.json",
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
@@ -791,13 +798,6 @@
       "platformShortname": "videos",
       "platformUniqueId": "videos",
       "revisionNumber": 9
-    },
-    {
-      "filename": "VirtualBoy.json",
-      "platformName": "Virtual Boy",
-      "platformShortname": "virtualboy",
-      "platformUniqueId": "virtualboy",
-      "revisionNumber": 7
     },
     {
       "filename": "WASM4.json",

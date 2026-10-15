@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
-    "name": "Virtual Boy",
+    "name": "Nintendo - Virtual Boy",
     "uniqueId": "virtualboy",
     "shortname": "virtualboy",
     "description": null,
@@ -43,6 +43,16 @@
       "extra": ""
     },
     {
+      "name": "virtualboy - RetroArch 64 - vboycolor",
+      "uniqueId": "virtualboy.ra64.vboycolor",
+      "description": "Supported extensions: bin, vb, vboy.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vboycolor\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "virtualboy - RetroArch 32 - mednafen_vb",
       "uniqueId": "virtualboy.ra32.mednafen_vb",
       "description": "Supported extensions: bin, vb, vboy.",
@@ -58,6 +68,16 @@
       "description": "Supported extensions: bin, vb, vboy.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_vb\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "virtualboy - RetroArch - vboycolor",
+      "uniqueId": "virtualboy.ra.vboycolor",
+      "description": "Supported extensions: bin, vb, vboy.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|vb|vboy|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO vboycolor\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
