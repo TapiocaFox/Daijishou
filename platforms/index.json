@@ -412,7 +412,7 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 17
+      "revisionNumber": 18
     },
     {
       "filename": "NintendoDSi.json",
@@ -475,14 +475,14 @@
       "platformName": "Nintendo - SNES",
       "platformShortname": "snes",
       "platformUniqueId": "snes",
-      "revisionNumber": 13
+      "revisionNumber": 14
     },
     {
       "filename": "NintendoSNESMSU1.json",
       "platformName": "Nintendo - SNES MSU-1",
       "platformShortname": "snesmsu1",
       "platformUniqueId": "snesmsu1",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "NintendoSatellaview.json",

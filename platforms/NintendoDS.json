@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 17,
+  "revisionNumber": 18,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -103,6 +103,16 @@
       "amStartArguments": "-n com.sky.SkyEmu/.EnhancedNativeActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - Pizza Boy Double Slice",
+      "uniqueId": "nds.com.pizzaemulators.pbds",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-n com.pizzaemulators.pbds/.MainActivity\n -e rom_uri {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {
