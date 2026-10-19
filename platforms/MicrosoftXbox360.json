@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Microsoft - Xbox 360",
     "uniqueId": "xbox360",
@@ -89,6 +89,26 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:iso)$",
       "amStartArguments": "-n Ali.Xanite.green/Ali.Xanite.LauncherActivity\n -d {file.uri}",
       "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - RetroArch 64 - Xenia Edge",
+      "uniqueId": "saturn.ra64.xenia_edge",
+      "description": "Supported extensions: iso, m3u, xex, zar, xcp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|m3u|xex|zar|xcp)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO xenia_edge\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox360 - RetroArch - Xenia Edge",
+      "uniqueId": "xbox360.ra.xenia_edge",
+      "description": "Supported extensions: iso, m3u, xex, zar, xcp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|m3u|xex|zar|xcp)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO xenia_edge\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
