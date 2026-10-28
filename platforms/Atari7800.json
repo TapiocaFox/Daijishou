@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Atari 7800",
     "uniqueId": "atari7800",
@@ -51,6 +51,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:a78|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO prosystem\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atari7800 - Omnidroid",
+      "uniqueId": "atari7800.com.omnidroid",
+      "description": "Supported extensions: a78, bin, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:a78|bin|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM atari7800",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

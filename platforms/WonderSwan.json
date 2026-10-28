@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "WonderSwan",
     "uniqueId": "ws",
@@ -58,6 +58,16 @@
       "description": "Supported extensions: ws, wsc, pc2, 7z, zip",
       "acceptedFilenameRegex": "^(.*)\\.(?:ws|wsc|pc2|7z|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_wswan\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "ws - Omnidroid",
+      "uniqueId": "ws.com.omnidroid",
+      "description": "Supported extensions: ws, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ws|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM ws",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

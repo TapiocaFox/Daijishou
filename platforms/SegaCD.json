@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 9,
   "platform": {
     "name": "Sega CD",
     "uniqueId": "segacd",
@@ -119,6 +119,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:32x|68k|bin|chd|cue|gen|gg|iso|m3u|md|pco|sgd|smd|sms|7z|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO picodrive\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "segacd - Omnidroid",
+      "uniqueId": "segacd.com.omnidroid",
+      "description": "Supported extensions: chd, cue, iso, bin, m3u.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:chd|cue|iso|bin|m3u)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM segacd",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

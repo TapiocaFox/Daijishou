@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 16,
+  "revisionNumber": 17,
   "platform": {
     "name": "Sega Game Gear",
     "uniqueId": "gamegear",
@@ -201,6 +201,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:sms|gg|sg|bin|rom|7z|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearsystem\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gamegear - Omnidroid",
+      "uniqueId": "gamegear.com.omnidroid",
+      "description": "Supported extensions: gg, bin, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gg|bin|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM gg",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

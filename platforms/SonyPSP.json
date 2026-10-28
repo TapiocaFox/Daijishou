@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Sony PSP",
     "uniqueId": "psp",
@@ -89,6 +89,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:cso|chd|elf|iso|pbp|prx)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO ppsspp\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "psp - Omnidroid",
+      "uniqueId": "psp.com.omnidroid",
+      "description": "Supported extensions: iso, cso, chd, pbp.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|cso|chd|pbp)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM psp",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

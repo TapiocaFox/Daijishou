@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 21,
+  "revisionNumber": 22,
   "platform": {
     "name": "Nintendo - Game Boy",
     "uniqueId": "gb",
@@ -362,7 +362,17 @@
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO skyemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
-	  "extra": ""
-     }
+      "extra": ""
+    },
+    {
+      "name": "gb - Omnidroid",
+      "uniqueId": "gb.com.omnidroid",
+      "description": "Supported extensions: gb, dmg, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gb|dmg|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM gb",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    }
   ]
 }

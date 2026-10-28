@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "DOS",
     "uniqueId": "dos",
@@ -111,6 +111,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|conf|cue|exe|iso)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO dosbox_core\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "dos - Omnidroid",
+      "uniqueId": "dos.com.omnidroid",
+      "description": "Supported extensions: exe, com, bat, conf, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:exe|com|bat|conf|zip)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM dos",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

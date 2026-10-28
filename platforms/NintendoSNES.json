@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 14,
+  "revisionNumber": 15,
   "platform": {
     "name": "Nintendo - SNES",
     "uniqueId": "snes",
@@ -611,6 +611,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mesen-s\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "snes - Omnidroid",
+      "uniqueId": "snes.com.omnidroid",
+      "description": "Supported extensions: smc, sfc, fig, swc, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:smc|sfc|fig|swc|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM snes",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
