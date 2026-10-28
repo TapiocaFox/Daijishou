@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 20,
+  "revisionNumber": 21,
   "platform": {
     "name": "Nintendo - Game Boy Color",
     "uniqueId": "gbc",
@@ -331,6 +331,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mgba\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - Omnidroid",
+      "uniqueId": "gbc.com.omnidroid",
+      "description": "Supported extensions: gbc, cgb, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:gbc|cgb|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM gbc",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 15,
-  "revisionNumber": 11,
+  "revisionNumber": 12,
   "platform": {
     "name": "TurboGrafx-16",
     "uniqueId": "tg16",
@@ -91,6 +91,16 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:ccd|chd|cue|m3u|pce|sgx|toc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO mednafen_pce\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "tg16 - Omnidroid",
+      "uniqueId": "tg16.com.omnidroid",
+      "description": "Supported extensions: pce, bin, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:pce|bin|zip|7z)$",
+      "amStartArguments": "-n com.omnidroid/com.omnidroid.app.shared.game.ExternalGameLauncherActivity\n -a android.intent.action.VIEW\n -c android.intent.category.DEFAULT\n -d {file.uri}\n -t application/octet-stream\n --es SYSTEM pc_engine",
+      "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
