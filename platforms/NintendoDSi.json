@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Nintendo DSi",
     "uniqueId": "ndsi",
@@ -66,11 +66,21 @@
       "extra": ""
     },
     {
-      "name": "ndsi - MelonDualDS",
+      "name": "ndsi - WatermelonDS",
       "uniqueId": "ndsi.me.magnum.melondualds",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
       "amStartArguments": "-a me.magnum.melonds.dev.LAUNCH_ROM\n-n me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "ndsi - WideMelon android",
+      "uniqueId": "ndsi.io.github.pruefsumme.widemelon",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melonds.dev.LAUNCH_ROM\n-n io.github.pruefsumme.widemelon/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": false,
       "extra": ""

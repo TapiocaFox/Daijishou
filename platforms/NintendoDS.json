@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 19,
+  "revisionNumber": 20,
   "platform": {
     "name": "Nintendo DS",
     "uniqueId": "nds",
@@ -66,11 +66,21 @@
       "extra": ""
     },
     {
-      "name": "nds - MelonDualDS",
+      "name": "nds - WatermelonDS",
       "uniqueId": "nds.me.magnum.melondualds",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
       "amStartArguments": "-a me.magnum.melonds.dev.LAUNCH_ROM\n-n me.magnum.melondualds/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
+      "name": "nds - WideMelon android",
+      "uniqueId": "nds.io.github.pruefsumme.widemelon",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:nds|zip|7z)$",
+      "amStartArguments": "-a me.magnum.melonds.dev.LAUNCH_ROM\n-n io.github.pruefsumme.widemelon/me.magnum.melonds.ui.emulator.EmulatorActivity\n-e uri {file.uri}",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": false,
       "extra": ""
