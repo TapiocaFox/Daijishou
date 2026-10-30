@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Atari 2600",
     "uniqueId": "atari2600",
@@ -75,6 +75,16 @@
       "extra": ""
     },
     {
+      "name": "atari2600 - RetroArch 64 - tia",
+      "uniqueId": "atari2600.ra64.tia",
+      "description": "Supported extensions: a26, bin, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tia\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "atari2600 - RetroArch 32 - stella",
       "uniqueId": "atari2600.ra32.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
@@ -105,6 +115,16 @@
       "extra": ""
     },
     {
+      "name": "atari2600 - RetroArch 32 - tia",
+      "uniqueId": "atari2600.ra32.tia",
+      "description": "Supported extensions: a26, bin, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tia\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "atari2600 - RetroArch - stella",
       "uniqueId": "atari2600.ra.stella",
       "description": "Supported extensions: a26, bin, zip, 7z.",
@@ -130,6 +150,16 @@
       "description": "Supported extensions: a26, bin, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO stella2023\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atari2600 - RetroArch - tia",
+      "uniqueId": "atari2600.ra.tia",
+      "description": "Supported extensions: a26, bin, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:a26|bin|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO tia\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

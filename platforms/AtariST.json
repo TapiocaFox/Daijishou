@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 9,
+  "revisionNumber": 10,
   "platform": {
     "name": "Atari ST",
     "uniqueId": "atarist",
@@ -35,6 +35,16 @@
       "extra": ""
     },
     {
+      "name": "atarist - RetroArch 64 - hatariB",
+      "uniqueId": "atarist.ra64.hatarib",
+      "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dim|ipf|m3u|msa|st|stx|zip)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO hatarib\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "atarist - RetroArch 32 - hatari",
       "uniqueId": "atarist.ra32.hatari",
       "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
@@ -45,11 +55,31 @@
       "extra": ""
     },
     {
+      "name": "atarist - RetroArch 32 - hatariB",
+      "uniqueId": "atarist.ra32.hatarib",
+      "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dim|ipf|m3u|msa|st|stx|zip)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO hatarib\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "atarist - RetroArch - hatari",
       "uniqueId": "atarist.ra.hatari",
       "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dim|ipf|m3u|msa|st|stx|zip)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO hatari\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atarist - RetroArch - hatariB",
+      "uniqueId": "atarist.ra.hatarib",
+      "description": "Supported extensions: dim, ipf, m3u, msa, st, stx, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:dim|ipf|m3u|msa|st|stx|zip)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO hatarib\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

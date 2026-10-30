@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 15,
+  "revisionNumber": 16,
   "platform": {
     "name": "Sony PlayStation",
     "uniqueId": "psx",
@@ -29,7 +29,7 @@
       "uniqueId": "psx.com.github.stenzek.duckstation",
       "description": "Supported extensions: bin, chd, cue, ecm, exe, img, iso, m3u, mds, pbp, psexe, psf.",
       "acceptedFilenameRegex": "^(.*).(?:bin|chd|cue|ecm|exe|img|iso|m3u|mds|pbp|psexe|psf)$",
-      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.uri}\n --activity-clear-task\n --activity-clear-top",
+      "amStartArguments": "-n com.github.stenzek.duckstation/.EmulationActivity\n-e bootPath {file.path}\n --activity-clear-task\n --activity-clear-top",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

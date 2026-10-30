@@ -69,7 +69,7 @@
       "platformName": "Atari 2600",
       "platformShortname": "atari2600",
       "platformUniqueId": "atari2600",
-      "revisionNumber": 12
+      "revisionNumber": 13
     },
     {
       "filename": "Atari5200.json",
@@ -104,14 +104,14 @@
       "platformName": "Atari Lynx",
       "platformShortname": "lynx",
       "platformUniqueId": "lynx",
-      "revisionNumber": 13
+      "revisionNumber": 14
     },
     {
       "filename": "AtariST.json",
       "platformName": "Atari ST",
       "platformShortname": "atarist",
       "platformUniqueId": "atarist",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "Atomiswave.json",
@@ -216,7 +216,7 @@
       "platformName": "DOOM Game Engine",
       "platformShortname": "doom",
       "platformUniqueId": "doom",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "DOS.json",
@@ -720,7 +720,7 @@
       "platformName": "Sony PlayStation",
       "platformShortname": "psx",
       "platformUniqueId": "psx",
-      "revisionNumber": 15
+      "revisionNumber": 16
     },
     {
       "filename": "SonyPlayStation2.json",

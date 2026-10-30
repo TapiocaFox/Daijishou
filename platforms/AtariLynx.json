@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Atari Lynx",
     "uniqueId": "lynx",
@@ -65,6 +65,16 @@
       "extra": ""
     },
     {
+      "name": "lynx - RetroArch 64 - Gearlynx",
+      "uniqueId": "lynx.ra64.gearlynx",
+      "description": "Supported extensions: lnx, o, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:lnx|o|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearlynx\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "lynx - RetroArch 32 - mednafen_lynx",
       "uniqueId": "lynx.ra32.mednafen_lynx",
       "description": "Supported extensions: lnx, o, zip, 7z.",
@@ -95,6 +105,16 @@
       "extra": ""
     },
     {
+      "name": "lynx - RetroArch 32 - Gearlynx",
+      "uniqueId": "lynx.ra32.gearlynx",
+      "description": "Supported extensions: lnx, o, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:lnx|o|zip|7z)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearlynx\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
       "name": "lynx - RetroArch - mednafen_lynx",
       "uniqueId": "lynx.ra.mednafen_lynx",
       "description": "Supported extensions: lnx, o, zip, 7z.",
@@ -120,6 +140,16 @@
       "description": "Supported extensions: lnx, o, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:lnx|o|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO holani\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "lynx - RetroArch - Gearlynx",
+      "uniqueId": "lynx.ra.gearlynx",
+      "description": "Supported extensions: lnx, o, zip, 7z.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:lnx|o|zip|7z)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO gearlynx\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
