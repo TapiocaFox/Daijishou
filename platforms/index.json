@@ -517,7 +517,7 @@
       "platformName": "Nintendo Wii U",
       "platformShortname": "wiiu",
       "platformUniqueId": "wiiu",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "NintendoWiiWare.json",

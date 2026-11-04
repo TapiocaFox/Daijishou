@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "Nintendo Wii U",
     "uniqueId": "wiiu",
@@ -32,6 +32,26 @@
       "acceptedFilenameRegex": "^(.*).(?:wua|wud|wux|rpx)$",
       "amStartArguments": "-n info.cemu.cemu/.emulation.EmulationActivity\n -d {file.uri}\n --activity-clear-task\n --activity-clear-top\n",
       "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wiiu - RetroArch 64 - cemu",
+      "uniqueId": "wiiu.ra64.cemu",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:wua|wud|wux|rpx|iso|elf|tmd)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO cemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wiiu - RetroArch - cemu",
+      "uniqueId": "wiiu.ra.cemu",
+      "description": null,
+      "acceptedFilenameRegex": "^(.*).(?:wua|wud|wux|rpx|iso|elf|tmd)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO cemu\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     }
