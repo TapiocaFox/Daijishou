@@ -147,6 +147,11 @@
       "filename": "switch.png"
     },
     {
+      "matchPlatformShortname": "switch2",
+      "matchPlatformUniqueId": "switch2",
+      "filename": "switch2.png"
+    },
+    {
       "matchPlatformShortname": "megadrive",
       "matchPlatformUniqueId": "megadrive",
       "filename": "megadrive.png"
