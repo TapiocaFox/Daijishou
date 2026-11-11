@@ -112,6 +112,16 @@
       "filename": "ps3.png"
     },
     {
+      "matchPlatformShortname": "ps4",
+      "matchPlatformUniqueId": "ps4",
+      "filename": "ps4.png"
+    },
+    {
+      "matchPlatformShortname": "ps5",
+      "matchPlatformUniqueId": "ps5",
+      "filename": "ps5.png"
+    },
+    {
       "matchPlatformShortname": "pc88",
       "matchPlatformUniqueId": "pc88",
       "filename": "pc88.png"
