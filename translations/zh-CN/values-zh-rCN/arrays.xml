@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="dark_mode_array">
+        <item>按照系统设置</item>
+        <item>深色主题</item>
+        <item>浅色主题</item>
+    </string-array>
+    <string-array name="home_page_id_display_name_array">
+        <item>游戏库</item>
+        <item>组件</item>
+        <item>应用</item>
+        <item>设置</item>
+    </string-array>
+    <string-array name="theme_color_display_array">
+        <item>紫色</item>
+        <item>黄色</item>
+        <item>红色</item>
+        <item>蓝色</item>
+        <item>粉色</item>
+        <item>蓝灰色</item>
+        <item>蓝灰色 (单调)</item>
+        <item>灰色</item>
+        <item>灰色 (单调)</item>
+        <item>绿色</item>
+        <item>超级绿色</item>
+    </string-array>
+</resources>
