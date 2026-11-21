@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 26,
+  "revisionNumber": 27,
   "platform": {
     "name": "Nintendo Switch",
     "uniqueId": "switch",
@@ -85,7 +85,7 @@
       "name": "switch - eden (Nightly New)",
       "uniqueId": "switch.dev.eden.eden_emulator.nightly",
       "description": "Supported extensions: nro, nso, nca, xci, nsp.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp)$",
+      "acceptedFilenameRegex": "^(.*)\\.(?:nro|nso|nca|xci|nsp|nsz|xcz)$",
       "amStartArguments": "-n dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity\n -a android.nfc.action.TECH_DISCOVERED\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
