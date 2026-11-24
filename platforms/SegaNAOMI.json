@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 12,
+  "revisionNumber": 13,
   "platform": {
     "name": "Sega Naomi",
     "uniqueId": "naomi",
@@ -41,6 +41,16 @@
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|lst|zip|dat)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n -a android.intent.action.VIEW\n -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "naomi - Hollycast",
+      "uniqueId": "naomi.com.hollycast.emu",
+      "description": "Supported extensions: 7z, dat, lst, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|dat|lst|zip)$",
+      "amStartArguments": "-n com.hollycast.emu/com.hollycast.emulator.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

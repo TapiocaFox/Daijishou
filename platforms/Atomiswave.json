@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 10,
+  "revisionNumber": 11,
   "platform": {
     "name": "Atomiswave",
     "uniqueId": "atomiswave",
@@ -60,6 +60,16 @@
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
       "amStartArguments": "-n com.flycast.emulator/com.flycast.emulator.MainActivity\n -a android.intent.action.VIEW\n -d {file.path}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "atomiswave - Hollycast",
+      "uniqueId": "atomiswave.com.hollycast.emu",
+      "description": "Supported extensions: 7z, chd, dat, lst, zip.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
+      "amStartArguments": "-n com.hollycast.emu/com.hollycast.emulator.MainActivity\n -a android.intent.action.VIEW\n -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""

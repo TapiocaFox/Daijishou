@@ -118,7 +118,7 @@
       "platformName": "Atomiswave",
       "platformShortname": "atomiswave",
       "platformUniqueId": "atomiswave",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "BBCMicro.json",
@@ -608,7 +608,7 @@
       "platformName": "Sega Dreamcast",
       "platformShortname": "dreamcast",
       "platformUniqueId": "dreamcast",
-      "revisionNumber": 12
+      "revisionNumber": 13
     },
     {
       "filename": "SegaGameGear.json",
@@ -650,7 +650,7 @@
       "platformName": "Sega Naomi",
       "platformShortname": "naomi",
       "platformUniqueId": "naomi",
-      "revisionNumber": 12
+      "revisionNumber": 13
     },
     {
       "filename": "SegaPico.json",
