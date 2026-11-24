@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "Microsoft - Xbox",
     "uniqueId": "xbox",
@@ -61,6 +61,26 @@
       "acceptedFilenameRegex": "^(.*)\\.(?:xiso|iso)$",
       "amStartArguments": "-n Ali.Xanite.green/Ali.Xanite.LauncherActivity\n -d {file.uri}",
       "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox - RetroArch 64 - hakuX-lr",
+      "uniqueId": "xbox.ra64.hakux",
+      "description": "Supported extensions: bin.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|chd)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO hakux-lr\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "xbox - RetroArch - hakuX-lr",
+      "uniqueId": "xbox.ra.hakux",
+      "description": "Supported extensions: bin.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:iso|chd)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n -e ROM {file.path}\n -e LIBRETRO hakux-lr\n -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg",
+      "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
     }

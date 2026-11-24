@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 2,
+  "revisionNumber": 3,
   "platform": {
     "name": "Flash Player",
     "uniqueId": "flash",
@@ -29,11 +29,21 @@
       "extra": ""
     },
     {
+      "name": "flash - ARMFlash",
+      "uniqueId": "flash.com.armsx.flasharm",
+      "description": "Supported extensions: armflash",
+      "acceptedFilenameRegex": "^(.*)\\.(?:armflash)$",
+      "amStartArguments": "-n com.armsx.flasharm/com.armsx.flashpoint.LinkActivit\n -a android.intent.action.VIEW\n -d {file.uri}\n",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": false,
+      "extra": ""
+    },
+    {
       "name": "flash - Ruffle",
       "uniqueId": "flash.rs.ruffle",
       "description": "Supported extensions: swf",
       "acceptedFilenameRegex": "^(.*)\\.(?:swf)$",
-      "amStartArguments": " -n rs.ruffle/.PlayerActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n",
+      "amStartArguments": "-n rs.ruffle/.PlayerActivity\n -a android.intent.action.VIEW\n -d {file.uri}\n",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
       "extra": ""

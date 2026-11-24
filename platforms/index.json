@@ -251,7 +251,7 @@
       "platformName": "Flash Player",
       "platformShortname": "flash",
       "platformUniqueId": "flash",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "FlashbackGameEngine.json",
@@ -321,7 +321,7 @@
       "platformName": "Microsoft - Xbox",
       "platformShortname": "xbox",
       "platformUniqueId": "xbox",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "MicrosoftXbox360.json",
